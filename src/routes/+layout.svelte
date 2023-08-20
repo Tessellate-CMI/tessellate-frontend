@@ -9,6 +9,7 @@
     <div class="flex-none gap-2">
         <button class="btn btn-ghost"><a href="/events">Events</a></button>
         <button class="btn btn-ghost"><a href="/stems/">Stems</a></button>
+        <button class="btn btn-ghost"><a href="/sponsors">Sponsors</a></button>
         <button class="btn btn-ghost"><a href="/about-us">About Us</a></button>
     </div>
     <a href="/profile">
@@ -27,6 +28,7 @@
         <span class="footer-title">Services</span>
         <a class="link-hover link" href="/stems">STEMS</a>
         <a class="link-hover link" href="/events">Events</a>
+        <a class="link-hover link" href="/sponsors">Sponsors</a>
         <a class="link-hover link" href="/about-us">About Us</a>
     </div>
 </footer>
