@@ -1,3 +1,11 @@
+<script>
+    import '../app.css'
+    import Navbar from './(app)/Navbar.svelte'
+    import Footer from './(app)/Footer.svelte'
+</script>
+
+<Navbar />
+
 <div class="hero min-h-screen bg-base-200">
     <div class="hero-content text-center">
         <div class="max-w-md">
@@ -16,3 +24,5 @@
         <p class="font-bold text-white">TITLE</p>
     </div>
 </div>
+
+<Footer />
