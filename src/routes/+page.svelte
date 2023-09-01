@@ -19,9 +19,39 @@
     </div>
 </div>
 
-<div class="flex w-full justify-center">
-    <div class="flex h-96 w-5/6 justify-center bg-primary">
-        <p class="font-bold text-white">TITLE</p>
+<!-- Info part below -->
+
+<div class="relative flex w-full justify-center py-6">
+    <!-- <div class="z-10 w-3/4 bg-primary"></div> -->
+    <div class="z-20 grid w-11/12 grid-cols-1 gap-4 md:grid-cols-2 lg:w-4/5 lg:grid-cols-2">
+        <!-- Image overlap thingy -->
+        <div class="flex items-center justify-center">
+            <div class="grid grid-flow-row grid-cols-11">
+                <div class="col-span-6 col-start-2 row-span-6 row-start-1 self-center">
+                    <img class="rounded-lg object-cover" src="images/concert.webp" alt="" />
+                </div>
+                <div class="col-span-7 col-end-12 row-span-3 row-start-6 self-center">
+                    <img class="rounded-lg object-cover" src="images/cehss.webp" alt="" />
+                </div>
+                <div class="col-span-7 col-start-1 row-span-3 row-start-7 mt-16 self-center">
+                    <img class="rounded-lg object-cover" src="images/cuber.webp" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Text Part -->
+        <div class="m-4 grid grid-cols-1 p-5">
+            <h1 class="mb-10 text-8xl font-extralight leading-none text-base-content">
+                About <br /> Tessellate
+            </h1>
+            <p class="text-xl leading-normal text-base-content">
+                Tessellate is the brainchild of students at Chennai Mathematical Institute, and
+                serves to both develop further interest in mathematics, and as a fun reprieve for
+                students to break from their rut and flex their creative and competitive muscles. It
+                all started when the student body of a small research institute tessellated
+                seemingly unrelated cultural and academic events in a seamless manner.
+            </p>
+        </div>
     </div>
 </div>
 
