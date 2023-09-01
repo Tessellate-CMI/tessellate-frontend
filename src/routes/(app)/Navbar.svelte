@@ -4,30 +4,19 @@
 
 <svelte:window bind:innerWidth />
 
-{#if innerWidth > 640}
-    <div class="navbar bg-base-100">
-        <div class="flex-1">
-            <a class="btn btn-ghost text-xl normal-case" href="/">Tessellate</a>
-        </div>
+<div class="navbar bg-base-100">
+    <div class="flex-1">
+        <a class="btn btn-ghost text-xl normal-case" href="/">Tessellate</a>
+    </div>
+
+    {#if innerWidth > 640}
         <div class="gap flex-none">
             <button class="btn btn-ghost"><a href="/events">Events</a></button>
             <button class="btn btn-ghost"><a href="/stems/">Stems</a></button>
             <button class="btn btn-ghost"><a href="/sponsors">Sponsors</a></button>
             <button class="btn btn-ghost"><a href="/about-us">About Us</a></button>
         </div>
-        <a href="/profile">
-            <span tabindex="-1" class="avatar btn btn-circle btn-ghost">
-                <div class="w-10 rounded-full">
-                    <img src="/stock_profile.jpg" alt="Profile" />
-                </div>
-            </span>
-        </a>
-    </div>
-{:else}
-    <div class="navbar bg-base-100">
-        <div class="flex-1">
-            <a class="btn btn-ghost text-xl normal-case" href="/">Tessellate</a>
-        </div>
+    {:else}
         <details class="dropdown dropdown-end">
             <summary class="btn btn-square btn-ghost">
                 <svg
@@ -53,12 +42,13 @@
                 <li><button class="btn btn-ghost"><a href="/about-us">About Us</a></button></li>
             </ul>
         </details>
-        <a href="/profile">
-            <span tabindex="-1" class="avatar btn btn-circle btn-ghost">
-                <div class="w-10 rounded-full">
-                    <img src="/stock_profile.jpg" alt="Profile" />
-                </div>
-            </span>
-        </a>
-    </div>
-{/if}
+    {/if}
+
+    <a href="/profile">
+        <span tabindex="-1" class="avatar btn btn-circle btn-ghost">
+            <div class="w-10 rounded-full">
+                <img src="/stock_profile.jpg" alt="Profile" />
+            </div>
+        </span>
+    </a>
+</div>
