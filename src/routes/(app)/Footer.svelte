@@ -9,7 +9,7 @@
 </footer>
 <footer class="footer border-t border-base-300 bg-base-200 px-10 py-4 text-base-content">
     <div class="grid-flow-col items-center justify-self-center sm:justify-self-start">
-        <img src="tessellate_logo_white.svg" alt="Tessellate Logo" style="width: 35px" />
+        <img src="svgs/tessellate_logo_white.svg" alt="Tessellate Logo" style="width: 35px" />
         <p style="font-size: 1.4rem">TESSELATE</p>
     </div>
     <div class="justify-self-center sm:justify-self-end">
