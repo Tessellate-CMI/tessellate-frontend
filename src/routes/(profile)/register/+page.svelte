@@ -2,7 +2,7 @@
     import '../../../app.css'
 </script>
 
-<div class="registrationForm">
+<div class="grid flex-col justify-items-center">
     <h1>Register</h1>
 
     <form method="post" action="?/signup">
@@ -83,7 +83,7 @@
         </div>
 
         <div class="form-row">
-            <input type="submit" value="Submit" class="btn"/>
+            <input type="submit" value="Submit" class="btn" />
         </div>
     </form>
 </div>
@@ -100,7 +100,8 @@
         -moz-appearance: textfield;
     }
 
-    .registrationForm {
+    /* Replaced the bottom with tailwind tags, performs better with smaller screens*/
+    /* .registrationForm {
         position: absolute;
         left: 50%;
         top: 50%;
@@ -109,7 +110,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
+    } */
 
     h1 {
         font-size: 2.5rem;
@@ -117,12 +118,12 @@
     }
 
     .form-row {
-        margin-bottom: 10px;
-        padding: 10px;
+        margin-bottom: 5px;
+        padding: 7px;
     }
 
     input,
     select {
-        height: 30px;
+        height: 40px;
     }
 </style>
