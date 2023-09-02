@@ -29,15 +29,12 @@
 </div>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 font-sans">
-    <div class="text-white p-12 text-2xl bg-lgray">
-        <span class="font-bold font-display">STEMS</span>, a part of our annual college fest Tessellate, is a nationwide contest in
-        Mathematics, Physics and Computer Science. It gives students an opportunity to show off
-        their conceptual understanding, win exciting prizes, and attend sessions with world
-        renowned mathematicians and scientists.
+    <div class="p-6 bg-lgray flex flex-col justify-center">
+        <a href="/stems"><img src="svgs/STEMS-white.svg" alt=""></a>
     </div>
     <div class="grid grid-rows-2">
-        <div class="bg-main-blue text-black p-12 text-6xl font-bold hover:underline"><a href="/events/">Cultural Events <span>&#8594;</span></a></div>
         <div class="bg-second-blue text-white p-12 text-6xl font-bold hover:underline"><a href=".">Competitions <span>&#8594;</span></a></div>
+        <div class="bg-main-blue text-black p-12 text-6xl font-bold hover:underline"><a href="/events/">Cultural Events <span>&#8594;</span></a></div>
     </div>
 </div>
 
