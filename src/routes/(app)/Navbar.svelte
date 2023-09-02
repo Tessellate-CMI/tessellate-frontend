@@ -6,15 +6,15 @@
 
 <div class="navbar bg-main-blue font-sans text-black">
     <div class="flex-1">
-        <a class="btn btn-ghost text-2xl normal-case" href="/">Tessellate</a>
+        <a class="btn btn-ghost text-4xl normal-case" href="/">Tessellate</a>
     </div>
 
     {#if innerWidth > 640}
         <div class="gap flex-none">
-            <button class="btn btn-ghost normal-case text-lg"><a href="/events">Events</a></button>
-            <button class="btn btn-ghost normal-case text-lg"><a href="/stems/">Stems</a></button>
-            <button class="btn btn-ghost normal-case text-lg"><a href="/sponsors">Sponsors</a></button>
-            <button class="btn btn-ghost normal-case text-lg"><a href="/about-us">About Us</a></button>
+            <button class="btn btn-ghost normal-case text-xl"><a href="/events">Events</a></button>
+            <button class="btn btn-ghost normal-case text-xl"><a href="/stems/">Stems</a></button>
+            <button class="btn btn-ghost normal-case text-xl"><a href="/sponsors">Sponsors</a></button>
+            <button class="btn btn-ghost normal-case text-xl"><a href="/about-us">About Us</a></button>
         </div>
     {:else}
         <details class="dropdown dropdown-end">
