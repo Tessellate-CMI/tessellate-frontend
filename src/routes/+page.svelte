@@ -21,11 +21,29 @@
         academic events in a seamless manner.
     </div>
 
-    <div class="bg-white flex flex-col">
-        <img src="images/cuber.webp" alt="Cubing Competition" class="max-w-full h-auto">
-        <img src="images/chess.webp" alt="Cubing Competition">
-        <img src="images/concert.webp" alt="Cubing Competition">
+<div class="carousel w-full">
+  <div id="slide1" class="carousel-item relative w-full">
+    <img src="images/chess.webp" alt="chess" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a> 
+      <a href="#slide2" class="btn btn-circle">❯</a>
     </div>
+  </div> 
+  <div id="slide2" class="carousel-item relative w-full">
+    <img src="images/concert.webp" alt="concert" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a> 
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" class="carousel-item relative w-full">
+    <img src="images/cuber.webp" alt="cuber" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  </div>
 </div>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 font-sans">
