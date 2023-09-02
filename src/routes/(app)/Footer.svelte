@@ -1,13 +1,4 @@
-<footer class="footer bg-base-200 p-10 text-base-content">
-    <div>
-        <span class="footer-title">More Info</span>
-        <a class="link-hover link" href="/stems">STEMS</a>
-        <a class="link-hover link" href="/events">Events</a>
-        <a class="link-hover link" href="/sponsors">Sponsors</a>
-        <a class="link-hover link" href="/about-us">About Us</a>
-    </div>
-</footer>
-<footer class="footer border-t border-base-300 bg-base-200 px-10 py-4 text-base-content">
+<footer class="footer border-t border-base-300  px-10 py-4 text-base-content bg-black">
     <div class="grid-flow-col items-center justify-self-center sm:justify-self-start">
         <img src="svgs/tessellate_logo_white.svg" alt="Tessellate Logo" style="width: 35px" />
         <p style="font-size: 1.4rem">TESSELATE</p>
