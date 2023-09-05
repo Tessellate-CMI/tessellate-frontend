@@ -30,23 +30,29 @@
     </div>
 
 <div class="carousel w-full">
-  <div id="slide1" class="carousel-item relative w-full">
-    <img src="images/chess.webp" alt="chess" class="w-full" />
-    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <div id="slide1" class="carousel-item relative w-full place-content-center bg-black">
+                <img src="/images/chess.webp" alt="people playing chess" />
+                <div
+                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                >
       <a href="#slide3" class="btn btn-circle">❮</a> 
       <a href="#slide2" class="btn btn-circle">❯</a>
     </div>
   </div> 
-  <div id="slide2" class="carousel-item relative w-full">
-    <img src="images/concert.webp" alt="concert" class="w-full" />
-    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <div id="slide2" class="carousel-item relative w-full place-content-center bg-black">
+                <img src="/images/chess.webp" alt="" />
+                <div
+                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                >
       <a href="#slide1" class="btn btn-circle">❮</a> 
       <a href="#slide3" class="btn btn-circle">❯</a>
     </div>
   </div> 
-  <div id="slide3" class="carousel-item relative w-full">
-    <img src="images/cuber.webp" alt="cuber" class="w-full" />
-    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <div id="slide3" class="carousel-item relative w-full place-content-center bg-black">
+                <img src="/images/cuber.webp" alt="" />
+                <div
+                    class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+                >
       <a href="#slide2" class="btn btn-circle">❮</a> 
       <a href="#slide1" class="btn btn-circle">❯</a>
     </div>
@@ -54,9 +60,9 @@
   </div>
 </div>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 font-sans">
-    <div class="p-6 bg-lgray flex flex-col justify-center">
-        <a href="/stems"><img src="svgs/STEMS-white.svg" alt=""></a>
+    <div class="grid h-screen grid-cols-1 font-sans sm:grid-cols-2">
+        <div class="bg-lgray flex flex-col justify-center p-6">
+            <a href="/stems"><img src="svgs/STEMS-white.svg" alt="" /></a>
     </div>
     <div class="grid grid-rows-2">
             <a
