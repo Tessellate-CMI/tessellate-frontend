@@ -4,7 +4,8 @@
     import Footer from './(app)/Footer.svelte'
 </script>
 
-<Navbar />
+<div class="sticky top-0">
+    <Navbar />
 
     <div class="bg-main-blue text-black sm:min-h-screen" style="height: 50vh">
         <div
@@ -18,8 +19,8 @@
         </div>
     </div>
 </div>
-
-<div class="grid grid-cols-1 sm:grid-cols-2">
+<div class="sticky top-0">
+    <div class="grid grid-cols-1 sm:grid-cols-2">
         <div class="bg-second-blue p-12 font-sans text-4xl font-semibold text-white">
             <span class="font-display text-5xl font-bold">TESSELLATE </span>is the brainchild of
             students at Chennai Mathematical Institute, and serves to both develop further interest
@@ -27,44 +28,44 @@
             their creative and competitive muscles. It all started when the student body of a small
             research institute tessellated seemingly unrelated cultural and academic events in a
             seamless manner.
-    </div>
+        </div>
 
-<div class="carousel w-full">
+        <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full place-content-center bg-black">
                 <img src="/images/chess.webp" alt="people playing chess" />
                 <div
                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
                 >
-      <a href="#slide3" class="btn btn-circle">❮</a> 
-      <a href="#slide2" class="btn btn-circle">❯</a>
-    </div>
-  </div> 
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
             <div id="slide2" class="carousel-item relative w-full place-content-center bg-black">
                 <img src="/images/chess.webp" alt="" />
                 <div
                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
                 >
-      <a href="#slide1" class="btn btn-circle">❮</a> 
-      <a href="#slide3" class="btn btn-circle">❯</a>
-    </div>
-  </div> 
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
             <div id="slide3" class="carousel-item relative w-full place-content-center bg-black">
                 <img src="/images/cuber.webp" alt="" />
                 <div
                     class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
                 >
-      <a href="#slide2" class="btn btn-circle">❮</a> 
-      <a href="#slide1" class="btn btn-circle">❯</a>
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div> 
-  </div>
-</div>
 
     <div class="grid h-screen grid-cols-1 font-sans sm:grid-cols-2">
         <div class="bg-lgray flex flex-col justify-center p-6">
             <a href="/stems"><img src="svgs/STEMS-white.svg" alt="" /></a>
-    </div>
-    <div class="grid grid-rows-2">
+        </div>
+        <div class="grid grid-rows-2">
             <a
                 class="bg-main-blue pl-1 pt-1 text-6xl font-bold tracking-tighter text-black
                 transition-colors duration-300 hover:bg-black hover:text-main-blue
@@ -83,6 +84,5 @@
             </a>
         </div>
     </div>
+    <Footer />
 </div>
-
-<Footer />
