@@ -20,12 +20,13 @@
 </div>
 
 <div class="grid grid-cols-1 sm:grid-cols-2">
-    <div class="text-white font-sans bg-second-blue p-12 text-2xl font-semibold">
-        <span class="font-bold font-display text-3xl">TESSELLATE </span>is the brainchild of students at Chennai Mathematical Institute, and serves to
-        both develop further interest in mathematics, and as a fun reprieve for students to break
-        from their rut and flex their creative and competitive muscles. It all started when the
-        student body of a small research institute tessellated seemingly unrelated cultural and
-        academic events in a seamless manner.
+        <div class="bg-second-blue p-12 font-sans text-4xl font-semibold text-white">
+            <span class="font-display text-5xl font-bold">TESSELLATE </span>is the brainchild of
+            students at Chennai Mathematical Institute, and serves to both develop further interest
+            in mathematics, and as a fun reprieve for students to break from their rut and flex
+            their creative and competitive muscles. It all started when the student body of a small
+            research institute tessellated seemingly unrelated cultural and academic events in a
+            seamless manner.
     </div>
 
 <div class="carousel w-full">
