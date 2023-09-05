@@ -59,8 +59,23 @@
         <a href="/stems"><img src="svgs/STEMS-white.svg" alt=""></a>
     </div>
     <div class="grid grid-rows-2">
-        <div class="bg-second-blue text-white p-12 text-6xl font-bold hover:underline"><a href=".">Competitions <span>&#8594;</span></a></div>
-        <div class="bg-main-blue text-black p-12 text-6xl font-bold hover:underline"><a href="/events/">Cultural Events <span>&#8594;</span></a></div>
+            <a
+                class="bg-main-blue pl-1 pt-1 text-6xl font-bold tracking-tighter text-black
+                transition-colors duration-300 hover:bg-black hover:text-main-blue
+                sm:text-8xl"
+                href="/events"
+            >
+                <p>Cultural <br /> Events <span>&#129130;</span></p>
+            </a>
+            <a
+                class="bg-second-blue pl-1 pt-1 text-6xl font-bold tracking-tighter text-white
+                transition-colors duration-300 hover:bg-black hover:text-main-blue
+                sm:text-8xl"
+                href="."
+            >
+                <p>Competitions <span>&#129130; </span></p>
+            </a>
+        </div>
     </div>
 </div>
 
