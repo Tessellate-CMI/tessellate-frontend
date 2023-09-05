@@ -6,9 +6,16 @@
 
 <Navbar />
 
-<div class="hero min-h-screen bg-main-blue text-black">
-    <div class="hero-content text-center font-display font-bold" style="font-size: 11vw">
-        TESSELLATE <br /> 2024
+    <div class="bg-main-blue text-black sm:min-h-screen" style="height: 50vh">
+        <div
+            class="flex h-full w-full place-content-center place-items-start items-center text-center font-display"
+            style="font-size: 11.5vw"
+        >
+            <div class="m-auto" style="line-height: 0.85">
+                <h1 class="font-black">TESSELLATE</h1>
+                <p class="font-bold tracking-tighter">2024</p>
+            </div>
+        </div>
     </div>
 </div>
 
