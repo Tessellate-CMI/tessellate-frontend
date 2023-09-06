@@ -2,7 +2,6 @@
     import '../../../app.css'
 
     let showPass = false
-    let showConfirmPass = false
 
     $: type = showPass ? 'text' : 'password'
 </script>
