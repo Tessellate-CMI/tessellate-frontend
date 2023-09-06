@@ -4,17 +4,27 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="navbar bg-base-100">
+<div class="navbar bg-main-blue font-sans text-black">
     <div class="flex-1">
-        <a class="btn btn-ghost text-xl normal-case" href="/">Tessellate</a>
+        <a class="btn btn-ghost text-2xl normal-case" href="/"
+            ><img src="svgs/TESSELLATE-black.svg" alt="Tessellate Logo" style="width: 40px" /></a
+        >
     </div>
 
     {#if innerWidth > 640}
-        <div class="gap flex-none">
-            <button class="btn btn-ghost"><a href="/events">Events</a></button>
-            <button class="btn btn-ghost"><a href="/stems/">Stems</a></button>
-            <button class="btn btn-ghost"><a href="/sponsors">Sponsors</a></button>
-            <button class="btn btn-ghost"><a href="/about-us">About Us</a></button>
+        <div class="flex">
+            <button class="link px-3 text-xl font-bold normal-case overline"
+                ><a href="/stems/">STEMS</a></button
+            >
+            <button class="link px-3 text-xl font-bold normal-case overline"
+                ><a href="/events">Events</a></button
+            >
+            <button class="link px-3 text-xl font-bold normal-case overline"
+                ><a href="/sponsors">Sponsors</a></button
+            >
+            <button class="link px-3 text-xl font-bold normal-case overline"
+                ><a href="/about-us">About Us</a></button
+            >
         </div>
     {:else}
         <details class="dropdown dropdown-end">
@@ -34,9 +44,11 @@
             </summary>
             <ul
                 tabindex="-1"
-                class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-base-100 p-1"
+                class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 gap-2 bg-base-100 p-1"
             >
-                <li><button class="btn btn-ghost"><a href="/events">Events</a></button></li>
+                <li>
+                    <button class="btn btn-ghost"><a href="/events">Events</a></button>
+                </li>
                 <li><button class="btn btn-ghost"><a href="/stems/">Stems</a></button></li>
                 <li><button class="btn btn-ghost"><a href="/sponsors">Sponsors</a></button></li>
                 <li><button class="btn btn-ghost"><a href="/about-us">About Us</a></button></li>

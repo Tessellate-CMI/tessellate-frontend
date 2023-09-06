@@ -6,34 +6,39 @@
     $: type = showPass ? 'text' : 'password'
 </script>
 
-<div class="flex h-screen">
+<div class="flex h-screen bg-main-blue">
     <div class="m-auto grid flex-col justify-items-center">
-        <h1>Login</h1>
+        <h1 class="z-10 font-black text-black">Login</h1>
 
-        <form method="post" action="?/login">
+        <form class="bg-white" method="post" action="?/login">
+            <div class="h-16"></div>
             <div class="form-row">
-                <label for="email">Email<sup><small>*</small></sup></label>
+                <label for="email" class="font-bold text-black"
+                    >Email<sup><small>*</small></sup></label
+                >
                 <input
                     id="email"
                     type="email"
                     name="email"
-                    class="input input-bordered w-full max-w-xs"
+                    class="css-input w-full max-w-xs"
                     required
                 />
             </div>
 
             <div class="form-row">
-                <label for="password">Password<sup><small>*</small></sup></label>
+                <label for="password" class="font-bold tracking-tight text-black"
+                    >Password<sup><small>*</small></sup></label
+                >
                 <div class="relative">
                     <input
                         id="institute"
                         {type}
                         name="institute"
-                        class="input input-bordered w-full max-w-xs"
+                        class="css-input w-full max-w-xs"
                         required
                     />
                     <div
-                        class="absolute inset-y-0 right-0 flex items-center pr-3 pt-5 text-sm leading-5"
+                        class="absolute inset-y-0 right-0 flex items-center pr-3 text-sm leading-5"
                     >
                         <label class="swap">
                             <!-- this hidden checkbox controls the state -->
@@ -41,27 +46,40 @@
 
                             <!-- volume on icon -->
                             <svg
-                                class="swap-on h-5 fill-current"
+                                class="swap-on h-8 fill-current"
                                 xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 576 512"
-                                ><path
-                                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
-                                /></svg
+                                viewBox="0 0 20 20"
                             >
+                                <path
+                                    d="M3.25909 11.6021C3.94254 8.32689 6.79437 6 10 6C13.2057 6 16.0574 8.32688 16.7409 11.6021C16.7974 11.8725 17.0622 12.0459 17.3325 11.9895C17.6029 11.933 17.7763 11.6682 17.7199 11.3979C16.9425 7.67312 13.6934 5 10 5C6.3066 5 3.05742 7.67311 2.28017 11.3979C2.22377 11.6682 2.39718 11.933 2.6675 11.9895C2.93782 12.0459 3.20268 11.8725 3.25909 11.6021Z"
+                                />
+                                <path
+                                    d="M9.98953 8C11.9225 8 13.4895 9.567 13.4895 11.5C13.4895 13.433 11.9225 15 9.98953 15C8.05653 15 6.48953 13.433 6.48953 11.5C6.48953 9.567 8.05653 8 9.98953 8Z"
+                                />
+                            </svg>
 
                             <!-- volume off icon -->
                             <svg
-                                class="swap-off h-5 fill-current"
+                                class="swap-off h-8 fill-current"
                                 xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 640 512"
-                                ><path
-                                    d="M320 400c-75.85 0-137.25-58.71-142.9-133.11L72.2 185.82c-13.79 17.3-26.48 35.59-36.72 55.59a32.35 32.35 0 0 0 0 29.19C89.71 376.41 197.07 448 320 448c26.91 0 52.87-4 77.89-10.46L346 397.39a144.13 144.13 0 0 1-26 2.61zm313.82 58.1l-110.55-85.44a331.25 331.25 0 0 0 81.25-102.07 32.35 32.35 0 0 0 0-29.19C550.29 135.59 442.93 64 320 64a308.15 308.15 0 0 0-147.32 37.7L45.46 3.37A16 16 0 0 0 23 6.18L3.37 31.45A16 16 0 0 0 6.18 53.9l588.36 454.73a16 16 0 0 0 22.46-2.81l19.64-25.27a16 16 0 0 0-2.82-22.45zm-183.72-142l-39.3-30.38A94.75 94.75 0 0 0 416 256a94.76 94.76 0 0 0-121.31-92.21A47.65 47.65 0 0 1 304 192a46.64 46.64 0 0 1-1.54 10l-73.61-56.89A142.31 142.31 0 0 1 320 112a143.92 143.92 0 0 1 144 144c0 21.63-5.29 41.79-13.9 60.11z"
-                                /></svg
+                                viewBox="0 0 20 20"
                             >
+                                <path
+                                    d="M2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L5.64526 6.35237C3.97039 7.49178 2.72334 9.27383 2.28011 11.3979C2.22371 11.6682 2.39712 11.9331 2.66744 11.9895C2.93776 12.0459 3.20262 11.8725 3.25903 11.6021C3.66284 9.66698 4.82362 8.06289 6.3671 7.07421L7.94894 8.65604C7.06509 9.29133 6.48947 10.3284 6.48947 11.5C6.48947 13.433 8.05647 15 9.98947 15C11.161 15 12.1981 14.4244 12.8334 13.5405L17.1464 17.8536C17.3417 18.0488 17.6583 18.0488 17.8536 17.8536C18.0488 17.6583 18.0488 17.3417 17.8536 17.1464L2.85355 2.14645Z"
+                                />
+                                <path
+                                    d="M10.1238 8.00253L13.4869 11.3657C13.418 9.5395 11.95 8.07143 10.1238 8.00253Z"
+                                />
+                                <path
+                                    d="M7.53104 5.4098L8.3341 6.21286C8.87141 6.07353 9.43009 6 9.99995 6C13.2056 6 16.0574 8.32688 16.7409 11.6021C16.7973 11.8725 17.0622 12.0459 17.3325 11.9895C17.6028 11.933 17.7762 11.6682 17.7198 11.3979C16.9425 7.67312 13.6934 5 9.99995 5C9.14478 5 8.31342 5.14331 7.53104 5.4098Z"
+                                />
+                            </svg>
                         </label>
                     </div>
                 </div>
             </div>
+
+            <div class="form-row text-blue-600">Forgot Password?</div>
 
             <div class="form-row">
                 <input type="submit" value="Login" class="btn" />
@@ -78,9 +96,9 @@
     }
 
     /* Firefox */
-    input[type='number'] {
+    /* input[type='number'] {
         -moz-appearance: textfield;
-    }
+    } */
 
     /* .registrationForm {
         position: absolute;
@@ -94,16 +112,34 @@
     } */
 
     h1 {
-        font-size: 2.5rem;
-        margin: 15px;
+        font-size: 5rem;
+        margin: -2rem;
     }
 
     .form-row {
         margin-bottom: 5px;
+        margin-left: 25px;
+        margin-right: 25px;
         padding: 10px;
     }
+    .fill-current {
+        fill: #000000;
+    }
 
-    input {
-        height: 40px;
+    .css-input {
+        padding: 7px;
+        height: 45px;
+        font-size: 16px;
+        border-width: 1.5px;
+        border-color: #000000;
+        background-color: #ffffff;
+        color: #000000;
+        border-style: solid;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px rgba(66, 66, 66, 0);
+        text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+    }
+    .css-input:focus {
+        outline: none;
     }
 </style>
