@@ -13,16 +13,16 @@
 
     {#if innerWidth > 640}
         <div class="flex">
-            <button class="btn btn-ghost px-3 text-xl font-bold normal-case"
+            <button class="link px-3 text-xl font-bold normal-case overline"
                 ><a href="/stems/">STEMS</a></button
             >
-            <button class="btn btn-ghost px-3 text-xl font-bold normal-case"
+            <button class="link px-3 text-xl font-bold normal-case overline"
                 ><a href="/events">Events</a></button
             >
-            <button class="btn btn-ghost px-3 text-xl font-bold normal-case"
+            <button class="link px-3 text-xl font-bold normal-case overline"
                 ><a href="/sponsors">Sponsors</a></button
             >
-            <button class="btn btn-ghost px-3 text-xl font-bold normal-case"
+            <button class="link px-3 text-xl font-bold normal-case overline"
                 ><a href="/about-us">About Us</a></button
             >
         </div>
@@ -46,7 +46,9 @@
                 tabindex="-1"
                 class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 gap-2 bg-base-100 p-1"
             >
-                <li><button class="btn btn-ghost"><a href="/events">Events</a></button></li>
+                <li>
+                    <button class="btn btn-ghost"><a href="/events">Events</a></button>
+                </li>
                 <li><button class="btn btn-ghost"><a href="/stems/">Stems</a></button></li>
                 <li><button class="btn btn-ghost"><a href="/sponsors">Sponsors</a></button></li>
                 <li><button class="btn btn-ghost"><a href="/about-us">About Us</a></button></li>
