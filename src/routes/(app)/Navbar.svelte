@@ -13,16 +13,16 @@
 
     {#if innerWidth > 640}
         <div class="flex">
-            <button class="link px-3 text-xl font-bold normal-case overline"
+            <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/stems/">STEMS</a></button
             >
-            <button class="link px-3 text-xl font-bold normal-case overline"
+            <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/events">Events</a></button
             >
-            <button class="link px-3 text-xl font-bold normal-case overline"
+            <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/sponsors">Sponsors</a></button
             >
-            <button class="link px-3 text-xl font-bold normal-case overline"
+            <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/about-us">About Us</a></button
             >
         </div>

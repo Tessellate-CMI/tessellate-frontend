@@ -7,34 +7,32 @@
 </script>
 
 <div class="flex h-screen bg-main-blue">
-    <div class="m-auto grid flex-col justify-items-center">
+    <div class="m-auto flex flex-col place-items-center sm:w-96">
         <h1 class="z-10 font-black text-black">Login</h1>
 
-        <form class="bg-white" method="post" action="?/login">
-            <div class="h-16"></div>
-            <div class="form-row">
-                <label for="email" class="font-bold text-black"
-                    >Email<sup><small>*</small></sup></label
+        <form class="mx-4 bg-white sm:mx-0 sm:w-full" method="post" action="?/login">
+            <div class="mb-8 pt-2">
+                <button class="btn btn-ghost rounded-none"
+                    ><svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                        ><path
+                            d="M32 15H3.41l8.29-8.29-1.41-1.42-10 10a1 1 0 0 0 0 1.41l10 10 1.41-1.41L3.41 17H32z"
+                        /></svg
+                    ></button
                 >
-                <input
-                    id="email"
-                    type="email"
-                    name="email"
-                    class="css-input w-full max-w-xs"
-                    required
-                />
+            </div>
+            <div class="form-row">
+                <label for="email" class="font-bold text-black">Email</label>
+                <input id="email" type="email" name="email" class="css-input w-full" required />
             </div>
 
             <div class="form-row">
-                <label for="password" class="font-bold tracking-tight text-black"
-                    >Password<sup><small>*</small></sup></label
-                >
+                <label for="password" class="font-bold tracking-tight text-black">Password</label>
                 <div class="relative">
                     <input
                         id="institute"
                         {type}
                         name="institute"
-                        class="css-input w-full max-w-xs"
+                        class="css-input w-full"
                         required
                     />
                     <div
@@ -79,10 +77,22 @@
                 </div>
             </div>
 
-            <div class="form-row text-blue-600">Forgot Password?</div>
+            <div class="ml-9">
+                <a href="." class="tracking-tight text-blue-600">Forgot password?</a>
+            </div>
 
-            <div class="form-row">
-                <input type="submit" value="Login" class="btn" />
+            <div class="form-row flex">
+                <button
+                    style="text-transform: none"
+                    type="submit"
+                    class="btn btn-outline m-auto my-4 h-auto min-h-0 rounded-none px-10 py-1.5 text-lg text-black"
+                    >Submit</button
+                >
+            </div>
+
+            <div class="mb-10 ml-9 mt-6 tracking-tight">
+                <span class="font-medium text-black">No account?</span>
+                <a href="." class=" text-blue-600">Sign up.</a>
             </div>
         </form>
     </div>
@@ -95,22 +105,6 @@
         margin: 0;
     }
 
-    /* Firefox */
-    /* input[type='number'] {
-        -moz-appearance: textfield;
-    } */
-
-    /* .registrationForm {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    } */
-
     h1 {
         font-size: 5rem;
         margin: -2rem;
@@ -118,26 +112,25 @@
 
     .form-row {
         margin-bottom: 5px;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 26px;
+        margin-right: 26px;
+
         padding: 10px;
     }
+
     .fill-current {
         fill: #000000;
     }
 
     .css-input {
         padding: 7px;
+        max-width: 40rem;
         height: 45px;
         font-size: 16px;
         border-width: 1.5px;
         border-color: #000000;
         background-color: #ffffff;
         color: #000000;
-        border-style: solid;
-        border-radius: 0px;
-        box-shadow: 0px 0px 0px rgba(66, 66, 66, 0);
-        text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
     }
     .css-input:focus {
         outline: none;
