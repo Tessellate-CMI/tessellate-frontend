@@ -62,7 +62,7 @@
     </div>
 
     <div class="grid h-screen grid-cols-1 font-sans sm:grid-cols-2">
-        <div class="bg-lgray flex flex-col justify-center p-6">
+        <div class="flex flex-col justify-center bg-gray-900 p-6">
             <a href="/stems"><img src="svgs/STEMS-white.svg" alt="" /></a>
         </div>
         <div class="grid grid-rows-2">
