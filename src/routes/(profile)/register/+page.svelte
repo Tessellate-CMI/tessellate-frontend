@@ -1,9 +1,5 @@
 <script>
     import '../../../app.css'
-
-    let showPass = false
-
-    $: type = showPass ? 'text' : 'password'
 </script>
 
 <div class="flex h-screen bg-main-blue">
@@ -134,10 +130,6 @@
         padding-left: 10px;
         padding-top: 3px;
         padding-bottom: 5px;
-    }
-
-    .fill-current {
-        fill: #000000;
     }
 
     .css-input {
