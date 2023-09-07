@@ -2,6 +2,8 @@
     import '../app.css'
     import Navbar from './(app)/Navbar.svelte'
     import Footer from './(app)/Footer.svelte'
+    import { browser } from '$app/environment'
+    import Carousel from 'svelte-carousel'
 </script>
 
 <div class="sticky top-0">
@@ -30,7 +32,7 @@
             seamless manner.
         </div>
 
-        <div class="carousel w-full">
+        <!-- <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full place-content-center bg-black">
                 <img src="/images/chess.webp" alt="people playing chess" />
                 <div
@@ -58,7 +60,17 @@
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
             </div>
-        </div>
+        </div> -->
+        {#if browser}
+            <div class="bg-white">
+                <Carousel autoplay autoplayDuration={2500}>
+                    <img src="/images/cuber.webp" alt="" />
+                    <img src="/images/cuber.webp" alt="" />
+                    <img src="/images/cuber.webp" alt="" />
+                    <img src="/images/cuber.webp" alt="" />
+                </Carousel>
+            </div>
+        {/if}
     </div>
 
     <div class="grid h-screen grid-cols-1 font-sans sm:grid-cols-2">
