@@ -1,10 +1,11 @@
 <script lang="ts">
+    export let bgColor = "bg-main-blue";
     let innerWidth = 0
 </script>
 
 <svelte:window bind:innerWidth />
 
-<div class="navbar bg-main-blue font-sans text-black">
+<div class="navbar {bgColor} font-sans text-black">
     <div class="flex-1">
         <a class="btn btn-ghost text-2xl normal-case" href="/"
             ><img src="svgs/TESSELLATE-black.svg" alt="Tessellate Logo" style="width: 40px" /></a
