@@ -12,11 +12,9 @@
     </div>
 </div>
 <div class="sticky top-0"> 
-    <div class="grid grid-cols-2 bg-second-blue">
-        <div>
-            About STEMS
-        </div>
-        <div>
+    <div class="grid grid-cols-1 bg-second-blue text-white text-4xl lg:grid-cols-2 font-semibold">
+        <div class="text-9xl p-4 font-bold border-b-2 border-white lg:border-r-2 lg:border-b-0"> About STEMS </div>
+        <div class="p-4">
             STEMS (Scholastic Test of Excellence in Mathematical Sciences) is 
             a Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus est quaerat enim delectus, magni qui ipsam rem, magnam nostrum officiis minima deleniti aspernatur libero rerum labore accusantium perspiciatis possimus quae?
         </div>
