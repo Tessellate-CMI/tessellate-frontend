@@ -33,14 +33,12 @@
             tessellated seemingly unrelated cultural and academic events in a seamless manner.
         </div>
 
-        <div>
+        <div class="bg-black flex flex-col justify-center">
             {#if browser}
-                <div class="bg-white">
-                    <Carousel autoplay autoplayDuration={2500}>
-                        <img src="/images/cuber.webp" alt="" />
-                        <img src="/images/cuber.webp" alt="" />
-                        <img src="/images/cuber.webp" alt="" />
-                        <img src="/images/cuber.webp" alt="" />
+                <div>
+                    <Carousel autoplay autoplayDuration={2500} arrows={false} dots={false}>
+                        <img src="/images/cuber.webp" alt="Cuber" />
+                        <img src="/images/chess.webp" alt="Chess Match" />
                     </Carousel>
                 </div>
             {/if}
