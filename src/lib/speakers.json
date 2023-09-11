@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Abhay Vasant Ashtekar",
+        "university": "Pennsylvania State University",
+        "image": "AbheyAshtekar.png"
+    },
+    {
+        "name": "Akshay Venkatesh",
+        "university": "Institute for Advanced Study",
+        "image": "Akshay_Venkatesh.png"
+    },
+    {
+        "name": "Daniel Litt",
+        "university": "University Of Toronto",
+        "image": "Daniel_litt.png"
+    },
+    {
+        "name": "H.C. Verma",
+        "university": "Indian Institue of Technology Kanpur",
+        "image": "HCVerma.png"
+    },
+    {
+        "name": "Heloise F. Stevance",
+        "university": "University of Oxford",
+        "image": "HeloiseStevance.png"
+    },
+    {
+        "name": "Jaikumar Radhakrishnan",
+        "university": "Tata Institute of Fundamental Research",
+        "image": "Jaikumar_Radhakrishnan.png"
+    },
+    {
+        "name": "Kavita Ramanan",
+        "university": "Brown University",
+        "image": "KavitaRamanan.png"
+    },
+    {
+        "name": "Lisa Sauermann",
+        "university": "Massachusetts Institute of Technology",
+        "image": "Lisa_Sauermann.png"
+    },
+    {
+        "name": "Madhavan Mukund",
+        "university": "Chennai Mathematical Institute",
+        "image": "MadhavanM.png"
+    },
+    {
+        "name": "Manindar Agrawal",
+        "university": "Indian Institue of Technology Kanpur",
+        "image": "ManindarAgrawal.png"
+    },
+    {
+        "name": "Nutan Limaye",
+        "university": "IT University of Copenhagen",
+        "image": "NutanLimaye.png"
+    },
+    {
+        "name": "Ravi Vakil",
+        "university": "Stanford University",
+        "image": "RaviValik.png"
+    },
+    {
+        "name": "Rajeeva Laxman Karandikar",
+        "university": "Chennai Mathematical Institute",
+        "image": "RKarandikar.png"
+    },
+    {
+        "name": "Ryan O' Donnell",
+        "university": "Carnegie Mellon University",
+        "image": "RyanoDonnell.png"
+    },
+    {
+        "name": "Shubhangi Saraf",
+        "university": "University Of Toronto",
+        "image": "Shubhangi_Saraf.png"
+    },
+    {
+        "name": "Sujatha Ramodari",
+        "university": "University of British Columbia",
+        "image": "SujathaRamodari.png"
+    },
+    {
+        "name": "Xavier Vinneot",
+        "university": "Institute For Mathematical Science",
+        "image": "XavierVinneot.png"
+    }
+]

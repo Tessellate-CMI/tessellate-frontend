@@ -2,6 +2,7 @@
     import '../../../app.css'
     import Footer from '../Footer.svelte'
     import Navbar from '../Navbar.svelte';
+    import SpeakerPanel from './SpeakerPanel.svelte';
 </script>
 
 
@@ -42,5 +43,7 @@
             on our resources page soon.</p>
         </div> 
     </div>
+
+    <SpeakerPanel />
     <Footer />
 </div>
