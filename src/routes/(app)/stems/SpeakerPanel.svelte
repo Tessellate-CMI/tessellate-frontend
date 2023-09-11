@@ -4,11 +4,21 @@
     import speakers from '$lib/speakers.json'
 </script>
 
-<div class="bg-main-blue p-0.5 h-full">
-    <h1 class="font-sans text-6xl font-bold text-center m-3">Speakers</h1>
-    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 place-items-center m-4 p-2">
-        {#each speakers as speaker}
-            <Speaker name={speaker.name} image={speaker.image} university={speaker.university} />
-        {/each}
+<div class="h-full bg-main-blue p-0.5">
+    <h1 class="m-3 mb-12 ml-10 mt-6 font-sans text-7xl font-bold text-black md:mb-20">
+        Past Speakers
+    </h1>
+    <div class="flex w-full justify-center">
+        <div
+            class="flex w-full flex-row flex-wrap place-content-center gap-4 md:w-3/4 md:gap-14 lg:w-2/3"
+        >
+            {#each speakers as speaker}
+                <Speaker
+                    name={speaker.name}
+                    image={speaker.image}
+                    university={speaker.university}
+                />
+            {/each}
+        </div>
     </div>
 </div>
