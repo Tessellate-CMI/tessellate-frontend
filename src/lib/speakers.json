@@ -2,86 +2,103 @@
     {
         "name": "Abhay Vasant Ashtekar",
         "university": "Pennsylvania State University",
-        "image": "AbheyAshtekar.png"
+        "image": "AbheyAshtekar.png",
+        "link": "/stems"
     },
     {
         "name": "Akshay Venkatesh",
         "university": "Institute for Advanced Study",
-        "image": "Akshay_Venkatesh.png"
+        "image": "Akshay_Venkatesh.png",
+        "link": "/stems"
     },
     {
         "name": "Daniel Litt",
         "university": "University Of Toronto",
-        "image": "Daniel_litt.png"
+        "image": "Daniel_litt.png",
+        "link": "/stems"
     },
     {
         "name": "H.C. Verma",
         "university": "Indian Institue of Technology Kanpur",
-        "image": "HCVerma.png"
+        "image": "HCVerma.png",
+        "link": "/stems"
     },
     {
         "name": "Heloise F. Stevance",
         "university": "University of Oxford",
-        "image": "HeloiseStevance.png"
+        "image": "HeloiseStevance.png",
+        "link": "/stems"
     },
     {
         "name": "Jaikumar Radhakrishnan",
         "university": "Tata Institute of Fundamental Research",
-        "image": "Jaikumar_Radhakrishnan.png"
+        "image": "Jaikumar_Radhakrishnan.png",
+        "link": "/stems"
     },
     {
         "name": "Kavita Ramanan",
         "university": "Brown University",
-        "image": "KavitaRamanan.png"
+        "image": "KavitaRamanan.png",
+        "link": "/stems"
     },
     {
         "name": "Lisa Sauermann",
         "university": "Massachusetts Institute of Technology",
-        "image": "Lisa_Sauermann.png"
+        "image": "Lisa_Sauermann.png",
+        "link": "/stems"
     },
     {
         "name": "Madhavan Mukund",
         "university": "Chennai Mathematical Institute",
-        "image": "MadhavanM.png"
+        "image": "MadhavanM.png",
+        "link": "/stems"
     },
     {
         "name": "Manindar Agrawal",
         "university": "Indian Institue of Technology Kanpur",
-        "image": "ManindarAgrawal.png"
+        "image": "ManindarAgrawal.png",
+        "link": "/stems"
     },
     {
         "name": "Nutan Limaye",
         "university": "IT University of Copenhagen",
-        "image": "NutanLimaye.png"
+        "image": "NutanLimaye.png",
+        "link": "/stems"
     },
     {
         "name": "Ravi Vakil",
         "university": "Stanford University",
-        "image": "RaviValik.png"
+        "image": "RaviValik.png",
+        "link": "/stems"
     },
     {
         "name": "Rajeeva Laxman Karandikar",
         "university": "Chennai Mathematical Institute",
-        "image": "RKarandikar.png"
+        "image": "RKarandikar.png",
+        "link": "/stems"
     },
     {
         "name": "Ryan O' Donnell",
         "university": "Carnegie Mellon University",
-        "image": "RyanoDonnell.png"
+        "image": "RyanoDonnell.png",
+        "link": "/stems"
     },
     {
         "name": "Shubhangi Saraf",
         "university": "University Of Toronto",
-        "image": "Shubhangi_Saraf.png"
+        "image": "Shubhangi_Saraf.png",
+        "link": "/stems"
     },
     {
         "name": "Sujatha Ramodari",
         "university": "University of British Columbia",
-        "image": "SujathaRamodari.png"
+        "image": "SujathaRamodari.png",
+        "link": "/stems"
     },
     {
         "name": "Xavier Vinneot",
         "university": "Institute For Mathematical Science",
-        "image": "XavierVinneot.png"
+        "image": "XavierVinneot.png",
+        "link": "/stems"
     }
 ]

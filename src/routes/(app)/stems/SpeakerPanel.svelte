@@ -9,14 +9,13 @@
         Past Speakers
     </h1>
     <div class="flex w-full justify-center">
-        <div
-            class="flex w-full flex-row flex-wrap place-content-center gap-4 md:w-3/4 md:gap-14 lg:w-2/3"
-        >
+        <div class="flex w-full flex-row flex-wrap place-content-center gap-4 md:w-3/4 md:gap-14">
             {#each speakers as speaker}
                 <Speaker
                     name={speaker.name}
                     image={speaker.image}
                     university={speaker.university}
+                    link={speaker.link}
                 />
             {/each}
         </div>

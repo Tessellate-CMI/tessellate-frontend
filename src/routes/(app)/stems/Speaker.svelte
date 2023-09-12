@@ -4,9 +4,11 @@
     export let name = 'Speaker'
     export let image = 'default.png'
     export let university = 'University'
+    export let link = '/stems'
 </script>
 
-<div
+<a
+    href={link}
     class="h-80 w-60 scale-90 cursor-pointer border-2 border-black bg-white text-black transition-colors duration-200 ease-in-out hover:border-blue-500 md:scale-100"
 >
     <div class="flex h-4/5 w-full items-center justify-center bg-white">
@@ -22,4 +24,4 @@
         </div>
         <p class="pl-2 text-sm font-medium leading-none">{university}</p>
     </div>
-</div>
+</a>
