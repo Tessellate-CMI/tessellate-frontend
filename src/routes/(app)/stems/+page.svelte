@@ -12,36 +12,47 @@
     </div>
 </div>
 <div class="sticky top-0">
-    <div
-        class="grid grid-cols-1 bg-second-blue pb-12 pt-6 text-3xl font-semibold text-white lg:grid-cols-5"
-    >
-        <div
-            class="border-b-2 border-white p-4 text-9xl font-bold lg:col-span-2 lg:border-b-0 lg:border-r-2"
-        >
-            About STEMS
+    <div class="grid grid-cols-1 text-2xl font-semibold md:text-3xl lg:grid-cols-2">
+        <div class="bg-second-blue pb-12 pt-6 text-white">
+            <div class="border-b-2 border-white p-4 font-display text-7xl font-bold lg:text-9xl">
+                About STEMS
+            </div>
+            <div class="p-4">
+                STEMS (Scholastic Test of Excellence in Mathematical Sciences) is an annual
+                first-of-its-kind open resource examination conducted for students from 8th grade to
+                undergraduates across India. The exam will be held in Mathematics, Physics, and
+                (theoretical) Computer Science in December. The relaxed duration of the exam and
+                original conceptual questions promote academic creativity over rote learning and
+                research interest, increasing the interest and awareness of mathematical sciences
+                amongst the students.
+            </div>
         </div>
-        <div class="p-4 lg:col-span-3">
-            STEMS (Scholastic Test of Excellence in Mathematical Sciences) is an annual
-            first-of-its-kind open resource examination conducted for students from 8th grade to
-            undergraduates across India. The exam will be held in Mathematics, Physics, and
-            (theoretical) Computer Science in December. The relaxed duration of the exam and
-            original conceptual questions promote academic creativity over rote learning and
-            research interest, increasing the interest and awareness of mathematical sciences
-            amongst the students.
+        <div class="bg-main-blue pb-12 pt-6 text-black">
+            <div
+                class="text-display border-b-2 border-black p-4 font-display text-7xl font-bold lg:text-9xl"
+            >
+                STEMS CAMP
+            </div>
+            <div class="p-4">
+                About 30 of the best scorers across the three disclipines of STEMS will be selected
+                for a 3-day, fully-funded camp at CMI. Past students selected for this camp include
+                various medalists at the IMO, IOI and few of the brightest school and college
+                students across India.
+            </div>
         </div>
     </div>
 
     <div class="grid grid-cols-1 bg-lgray text-center font-sans text-white lg:grid-cols-3">
-        <div class="p-4 text-lg">
-            <h1 class="mb-5 text-center text-6xl font-bold">Details</h1>
+        <div class="p-4 text-xl lg:pt-8">
+            <h1 class="mb-5 text-center text-6xl font-bold lg:text-7xl">Details</h1>
             <p class="mx-auto w-4/5">
                 STEMS will be conducted on the weekend of 7th and 8th January, 2024. The test can be
                 taken online from any location; and the top 30 performers will be invited to CMI to
                 attend a sponsored residential camp with guest lectures by leading experts.
             </p>
         </div>
-        <div class="bg-black p-4">
-            <h1 class="mb-5 text-center text-6xl font-bold">Register</h1>
+        <div class="bg-black p-4 text-xl lg:pt-8">
+            <h1 class="mb-5 text-center text-6xl font-bold lg:text-7xl">Register</h1>
             <p class="mx-auto w-4/5">
                 The registration deadline is 6th January, 2024. The registration fee is INR 200
                 (₹200/-) per subject, until December 25th, 2023.
@@ -54,7 +65,7 @@
                 >Signup</button
             >
         </div>
-        <div class="p-4">
+        <div class="p-4 text-xl lg:pt-8">
             <h1 class="mb-5 text-center text-6xl font-bold">Resources</h1>
             <p class="mx-auto w-4/5">
                 Currently, we have added the question papers from previous editions of STEMS, along
