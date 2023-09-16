@@ -5,9 +5,9 @@
     import SpeakerPanel from './SpeakerPanel.svelte'
 </script>
 
-<div class="sticky top-0">
-    <Navbar bgColor={'bg-white'} />
-    <div class="flex h-screen content-center justify-center bg-white">
+<div class="bg-pattern sticky top-0">
+    <Navbar bgColor={'bg-transparent'} stems={false} />
+    <div class="flex h-screen content-center justify-center">
         <img src="svgs/STEMS-black.svg" alt="STEMS Logo" class="w-full lg:w-2/3" />
     </div>
 </div>
@@ -85,3 +85,16 @@
     <SpeakerPanel />
     <Footer />
 </div>
+
+<style>
+    .bg-pattern {
+        background-image: url(/images/tessellation-oldconcept.png);
+        background-size: 250%;
+        background-position: center;
+    }
+    @media (min-width: 768px) {
+        .bg-pattern {
+            background-size: 150%;
+        }
+    }
+</style>
