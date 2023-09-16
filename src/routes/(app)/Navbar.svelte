@@ -1,11 +1,12 @@
 <script lang="ts">
-    export let bgColor = "bg-main-blue";
+    export let bgColor = 'bg-main-blue'
+    export let stems = true
     let innerWidth = 0
 </script>
 
 <svelte:window bind:innerWidth />
 
-<div class="navbar {bgColor} font-sans text-black">
+<div class="navbar {bgColor} relative font-sans text-black">
     <div class="flex-1">
         <a class="btn btn-ghost text-2xl normal-case" href="/"
             ><img src="svgs/TESSELLATE-black.svg" alt="Tessellate Logo" style="width: 40px" /></a
@@ -14,9 +15,11 @@
 
     {#if innerWidth > 640}
         <div class="flex">
-            <button class="link px-4 text-lg font-bold normal-case overline"
-                ><a href="/stems/">STEMS</a></button
-            >
+            {#if stems}
+                <button class="link px-4 text-lg font-bold normal-case overline"
+                    ><a href="/stems/">STEMS</a></button
+                >
+            {/if}
             <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/events">Events</a></button
             >
@@ -50,7 +53,9 @@
                 <li>
                     <button class="btn btn-ghost"><a href="/events">Events</a></button>
                 </li>
-                <li><button class="btn btn-ghost"><a href="/stems/">Stems</a></button></li>
+                {#if stems}
+                    <li><button class="btn btn-ghost"><a href="/stems/">Stems</a></button></li>
+                {/if}
                 <li><button class="btn btn-ghost"><a href="/sponsors">Sponsors</a></button></li>
                 <li><button class="btn btn-ghost"><a href="/about-us">About Us</a></button></li>
             </ul>
