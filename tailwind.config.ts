@@ -5,7 +5,8 @@ export default {
     theme: {
         fontFamily: {
             display: ['Unbounded', 'display'],
-            sans: ['Space Grotesk', 'sans-serif']
+            sans: ['Space Grotesk', 'sans-serif'],
+            heading: ['Poppins', 'sans-serif']
         },
         extend: {
             colors: {
