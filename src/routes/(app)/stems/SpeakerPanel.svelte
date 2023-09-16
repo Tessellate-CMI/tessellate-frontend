@@ -4,8 +4,10 @@
     import speakers from '$lib/speakers.json'
 </script>
 
-<div class="h-full bg-main-blue p-0.5">
-    <h1 class="m-3 mb-12 ml-10 mt-6 font-sans text-7xl font-bold text-black md:mb-20">
+<div class="h-full bg-main-blue p-0.5 pb-20">
+    <h1
+        class="m-3 mb-12 ml-10 mt-6 font-sans text-7xl font-bold tracking-tighter text-black md:mb-20"
+    >
         Past Speakers
     </h1>
     <div class="flex w-full justify-center">
