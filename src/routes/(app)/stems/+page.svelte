@@ -12,12 +12,14 @@
     </div>
 </div>
 <div class="sticky top-0">
-    <div class="grid grid-cols-1 text-2xl font-semibold md:text-3xl lg:grid-cols-2">
-        <div class="bg-second-blue pb-12 pt-6 text-white">
-            <div class="border-b-2 border-white p-4 font-display text-7xl font-bold lg:text-9xl">
-                About STEMS
+    <div class="grid grid-cols-1 text-2xl font-medium md:text-3xl lg:grid-cols-2">
+        <div class="bg-second-blue pb-12 pt-3 text-white">
+            <div
+                class="border-b-2 border-white p-4 font-heading text-7xl font-bold tracking-tight lg:text-9xl"
+            >
+                <span class="font-semibold">About</span> STEMS
             </div>
-            <div class="p-4">
+            <div class="p-4 md:p-5 md:pl-6">
                 STEMS (Scholastic Test of Excellence in Mathematical Sciences) is an annual
                 first-of-its-kind open resource examination conducted for students from 8th grade to
                 undergraduates across India. The exam will be held in Mathematics, Physics, and
@@ -27,13 +29,13 @@
                 amongst the students.
             </div>
         </div>
-        <div class="bg-main-blue pb-12 pt-6 text-black">
+        <div class="bg-main-blue pb-12 pt-3 text-black">
             <div
-                class="text-display border-b-2 border-black p-4 font-display text-7xl font-bold lg:text-9xl"
+                class="border-b-2 border-black p-4 font-heading text-7xl font-extrabold tracking-tight lg:text-9xl"
             >
-                STEMS CAMP
+                STEMS <span class="font-bold">Camp</span>
             </div>
-            <div class="p-4">
+            <div class="p-4 md:p-5 md:pl-6">
                 About 30 of the best scorers across the three disclipines of STEMS will be selected
                 for a 3-day, fully-funded camp at CMI. Past students selected for this camp include
                 various medalists at the IMO, IOI and few of the brightest school and college
@@ -46,16 +48,18 @@
         <div class="p-4 text-xl lg:pt-8">
             <h1 class="mb-5 text-center text-6xl font-bold lg:text-7xl">Details</h1>
             <p class="mx-auto w-4/5">
-                STEMS will be conducted on the weekend of 7th and 8th January, 2024. The test can be
-                taken online from any location; and the top 30 performers will be invited to CMI to
-                attend a sponsored residential camp with guest lectures by leading experts.
+                STEMS will be conducted on the weekend of TBD. The test can be taken online from any
+                location; and the top 30 performers will be invited to CMI to attend a sponsored
+                residential camp with guest lectures by leading experts.
             </p>
         </div>
         <div class="bg-black p-4 text-xl lg:pt-8">
             <h1 class="mb-5 text-center text-6xl font-bold lg:text-7xl">Register</h1>
             <p class="mx-auto w-4/5">
-                The registration deadline is 6th January, 2024. The registration fee is INR 200
-                (₹200/-) per subject, until December 25th, 2023.
+                The registration deadline is : <br /> TBD
+            </p>
+            <p class="mx-auto mt-6 w-4/5">
+                The registration fee is INR 200 (₹200/-) per subject, until TBD.
             </p>
             <p class="mx-auto mt-6 w-4/5">It becomes INR 300 (₹300/-) per subject thereafter.</p>
             <button
