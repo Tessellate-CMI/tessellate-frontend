@@ -5,6 +5,13 @@
         "image": "Akshay_Venkatesh.png",
         "link": "https://www.ias.edu/math/people/faculty/venkatesh"
     },
+
+    {
+        "name": "Abhay Vasant Ashtekar",
+        "university": "Pennsylvania State University",
+        "image": "AbheyAshtekar.png",
+        "link": "https://ctoc.igc.psu.edu/abhay-ashtekar/"
+    },
     {
         "name": "H.C. Verma",
         "university": "Indian Institue of Technology Kanpur",
@@ -34,12 +41,6 @@
         "university": "University Of Toronto",
         "image": "Shubhangi_Saraf.png",
         "link": "https://www.math.toronto.edu/ssaraf/"
-    },
-    {
-        "name": "Abhay Vasant Ashtekar",
-        "university": "Pennsylvania State University",
-        "image": "AbheyAshtekar.png",
-        "link": "https://ctoc.igc.psu.edu/abhay-ashtekar/"
     },
     {
         "name": "Daniel Litt",
@@ -140,6 +141,7 @@
     {
         "name": "V Arvind",
         "university": "Chennai Mathematical Institute",
+        "image": "VArvind.png",
         "link": "https://www.cmi.ac.in/people/fac-profile.php?id=varvind"
     }
 ]
