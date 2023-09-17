@@ -1,1 +1,6 @@
-<h1>About Us</h1>
+<script>
+    import '../../../app.css'
+    import ComingSoon from '../../ComingSoon.svelte'
+</script>
+
+<ComingSoon />
