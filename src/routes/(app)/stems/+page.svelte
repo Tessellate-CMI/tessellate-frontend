@@ -74,13 +74,17 @@
         <div class="p-4 text-xl lg:pt-8">
             <h1 class="mb-5 text-center text-6xl font-bold">Resources</h1>
             <p class="mx-auto w-4/5">
-                Currently, we have added the question papers from previous editions of STEMS, along
-                with sample papers.
+                The question papers from the previous editions of STEMS and sample papers
+                can be found on the resources page. 
             </p>
             <p class="mx-auto mt-8 w-4/5">
-                Slides from the lectures of previous editions of STEMS will be available on our
-                resources page soon.
+                Additionally, slides from the lectures of the previous editions are also 
+                available on our resources page. 
             </p>
+            <button 
+                style="text-transform: none"
+                class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white"
+                ><a href="/stems/resources">Resources</a></button>
         </div>
     </div>
 
