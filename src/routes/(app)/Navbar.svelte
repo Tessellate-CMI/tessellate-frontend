@@ -31,7 +31,7 @@
             >
         </div>
     {:else}
-        <details class="dropdown dropdown-end">
+        <details class="dropdown-end dropdown">
             <summary class="btn btn-square btn-ghost">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +64,8 @@
 
     <a href="/profile">
         <span tabindex="-1" class="avatar btn btn-circle btn-ghost">
-            <div class="w-10 rounded-full">
-                <img src="/stock_profile.jpg" alt="Profile" />
+            <div class="h-6">
+                <img src="/svgs/profile-min.svg" alt="Profile" />
             </div>
         </span>
     </a>

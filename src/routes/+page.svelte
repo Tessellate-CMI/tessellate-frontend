@@ -9,7 +9,7 @@
 <div class="sticky top-0">
     <Navbar />
 
-    <div class="bg-main-blue text-black sm:min-h-screen" style="height: 50vh">
+    <div class="bg-main-blue text-black min-h-screen" style="height: 50vh">
         <div
             class="flex h-full w-full place-content-center place-items-start items-center text-center font-display"
             style="font-size: 11.5vw"

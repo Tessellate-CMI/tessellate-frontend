@@ -5,10 +5,12 @@
     import SpeakerPanel from './SpeakerPanel.svelte'
 </script>
 
-<div class="bg-pattern sticky top-0">
-    <Navbar bgColor={'bg-transparent'} stems={false} />
-    <div class="flex h-screen content-center justify-center">
-        <img src="svgs/STEMS-black.svg" alt="STEMS Logo" class="w-full lg:w-2/3" />
+<div class="sticky top-0 bg-white">
+    <div class="bg-pattern">
+        <Navbar bgColor={'bg-transparent'} stems={false} />
+        <div class="flex h-screen content-center justify-center">
+            <img src="svgs/STEMS-black.svg" alt="STEMS Logo" class="w-full lg:w-2/3" />
+        </div>
     </div>
 </div>
 <div class="sticky top-0">
@@ -88,13 +90,21 @@
 
 <style>
     .bg-pattern {
-        background-image: url(/images/tessellation-oldconcept.png);
+        position: relative;
         background-size: 250%;
         background-position: center;
     }
-    @media (min-width: 768px) {
-        .bg-pattern {
-            background-size: 150%;
-        }
+
+    .bg-pattern::before {
+        content: '';
+        position: absolute;
+        clip-path: circle(30%);
+        width: 100%;
+        height: 100%;
+
+        background-size: 250%;
+        background-position: center;
+        background-image: url('/svgs/tessellation-oldconcept.svg'); /* Adjust background size as needed */
+        z-index: -1; /* Place the pseudo-element behind the content */
     }
 </style>
