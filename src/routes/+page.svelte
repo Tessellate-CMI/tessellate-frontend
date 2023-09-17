@@ -54,13 +54,13 @@
     </div>
 
     <div class="grid h-screen grid-cols-1 font-sans sm:grid-cols-2">
-        <div class="flex flex-col justify-center bg-gray-900 p-6">
-            <a href="/stems"><img src="svgs/STEMS-white.svg" alt="" /></a>
+        <div class="parent flex flex-col justify-center bg-gray-900 p-6 transition-colors duration-300  ease-in-out hover:bg-white">
+            <a href="/stems"><img src="svgs/STEMS-white.svg" alt="" class="child"/></a>
         </div>
         <div class="grid grid-rows-2">
             <a
                 class="bg-main-blue pl-5 pt-5 text-6xl font-bold tracking-tighter text-black
-                transition-colors duration-300 hover:bg-black hover:text-main-blue
+                transition-colors duration-300 hover:bg-black hover:text-main-blue ease-in-out
                 sm:text-8xl"
                 href="/events"
             >
@@ -68,7 +68,7 @@
             </a>
             <a
                 class="bg-second-blue pl-5 pt-5 text-6xl font-bold tracking-tighter text-white
-                transition-colors duration-300 hover:bg-black hover:text-main-blue
+                transition-colors duration-300 hover:bg-black hover:text-main-blue ease-in-out
                 sm:text-8xl"
                 href="."
             >
@@ -78,3 +78,9 @@
     </div>
     <Footer />
 </div>
+
+<style>
+.parent:hover .child {
+    filter: brightness(0) saturate(100%) invert(7%) sepia(16%) saturate(2142%) hue-rotate(182deg) brightness(95%) contrast(94%);
+}
+</style>
