@@ -19,8 +19,8 @@
     </div>
 
     <div class="child h-1/5 border-t-2 border-black transition-colors duration-300 ease-in-out">
-        <div class=" mt-1 flex items-center justify-between pl-2">
-            <h1 class="font-bold">{name}</h1>
+        <div class="mt-1 flex items-center justify-between pl-2">
+            <h1 class="text-lg font-bold leading-tight">{name}</h1>
         </div>
         <p class="pl-2 text-sm font-medium leading-none">{university}</p>
     </div>

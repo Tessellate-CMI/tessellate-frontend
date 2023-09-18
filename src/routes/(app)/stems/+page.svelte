@@ -47,44 +47,52 @@
     </div>
 
     <div class="grid grid-cols-1 bg-lgray text-center font-sans text-white lg:grid-cols-3">
-        <div class="p-4 text-xl lg:pt-8">
-            <h1 class="mb-5 text-center text-6xl font-bold lg:text-7xl">Details</h1>
-            <p class="mx-auto w-4/5">
-                STEMS will be conducted on the weekend of TBD. The test can be taken online from any
-                location; and the top 30 performers will be invited to CMI to attend a sponsored
-                residential camp with guest lectures by leading experts.
+        <div class="p-4 pt-12 text-xl lg:py-16">
+            <h1 class="mb-9 text-center text-6xl font-bold lg:text-7xl">Details</h1>
+            <p class="mx-auto w-4/5 leading-relaxed">
+                STEMS will be conducted on the <br /> <span class="font-semibold">weekend</span> of
+                TBD.
+                <br />The test can be taken online from any location; and the top 30 performers will
+                be invited to CMI to attend a sponsored residential camp with guest lectures by
+                leading experts.
             </p>
         </div>
-        <div class="bg-black p-4 text-xl lg:pt-8">
-            <h1 class="mb-5 text-center text-6xl font-bold lg:text-7xl">Register</h1>
+        <div class="bg-black p-4 pt-12 text-xl lg:py-16">
+            <h1 class="mb-9 text-center text-6xl font-bold leading-relaxed lg:text-7xl">
+                Register
+            </h1>
             <p class="mx-auto w-4/5">
-                The registration deadline is : <br /> TBD
+                The registration deadline: <br /> <span class="font-semibold">TBD</span>
             </p>
-            <p class="mx-auto mt-6 w-4/5">
-                The registration fee is INR 200 (₹200/-) per subject, until TBD.
+            <p class="mx-auto mt-6 w-4/5 leading-loose">
+                The registration fee: <br />
+                <span class="font-semibold"
+                    >INR 250 (₹250/-)* until TBD <br /> INR 300 (₹300/-)* thereafter.</span
+                >
             </p>
-            <p class="mx-auto mt-6 w-4/5">It becomes INR 300 (₹300/-) per subject thereafter.</p>
             <button
                 style="text-transform: none"
                 type="submit"
                 class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white"
                 >Signup</button
             >
+            <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
         </div>
-        <div class="p-4 text-xl lg:pt-8">
-            <h1 class="mb-5 text-center text-6xl font-bold">Resources</h1>
-            <p class="mx-auto w-4/5">
-                The question papers from the previous editions of STEMS and sample papers
-                can be found on the resources page. 
+        <div class="p-4 pt-12 text-xl lg:py-16">
+            <h1 class="mb-9 text-center text-6xl font-bold lg:text-7xl">Resources</h1>
+            <p class="mx-auto w-4/5 leading-relaxed">
+                The question papers from the previous editions of STEMS and sample papers can be
+                found on the resources page.
             </p>
-            <p class="mx-auto mt-8 w-4/5">
-                Additionally, slides from the lectures of the previous editions are also 
-                available on our resources page. 
+            <p class="mx-auto mt-8 w-4/5 leading-relaxed">
+                Additionally, slides from the lectures of the previous editions are also available
+                on our resources page.
             </p>
-            <button 
+            <button
                 style="text-transform: none"
                 class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white"
-                ><a href="/stems/resources">Resources</a></button>
+                ><a href="/stems/resources">Resources</a></button
+            >
         </div>
     </div>
 
@@ -105,10 +113,11 @@
         clip-path: circle(30%);
         width: 100%;
         height: 100%;
+        opacity: 70%;
 
         background-size: 250%;
         background-position: center;
-        background-image: url('/svgs/tessellation-oldconcept.svg'); /* Adjust background size as needed */
+        background-image: url('/images/tessellation-oldconcept.png'); /* Adjust background size as needed */
         z-index: -1; /* Place the pseudo-element behind the content */
     }
 </style>
