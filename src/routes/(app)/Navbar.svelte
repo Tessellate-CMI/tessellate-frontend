@@ -6,7 +6,7 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="navbar {bgColor} relative font-sans text-black">
+<div class="navbar {bgColor} font-sans text-black absolute">
     <div class="flex-1">
         <a class="btn btn-ghost text-2xl normal-case" href="/"
             ><img src="/svgs/TESSELLATE-black.svg" alt="Tessellate Logo" style="width: 40px" /></a
