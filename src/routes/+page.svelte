@@ -59,7 +59,7 @@
         </div>
         <div class="grid grid-rows-2">
             <a
-                class="bg-main-blue pl-5 pt-5 text-6xl font-bold tracking-tighter text-black
+                class="bg-main-blue pl-5 pt-5 text-5xl font-bold tracking-tighter text-black
                 transition-colors duration-300 hover:bg-black hover:text-main-blue ease-in-out
                 sm:text-8xl"
                 href="/events"
@@ -67,7 +67,7 @@
                 <p>Cultural <br /> Events <span>&#129130;</span></p>
             </a>
             <a
-                class="bg-second-blue pl-5 pt-5 text-6xl font-bold tracking-tighter text-white
+                class="bg-second-blue pl-5 pt-5 text-5xl font-bold tracking-tighter text-white
                 transition-colors duration-300 hover:bg-black hover:text-main-blue ease-in-out
                 sm:text-8xl"
                 href="."
