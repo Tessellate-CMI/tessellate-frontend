@@ -1,9 +1,14 @@
-<footer class="footer items-center bg-black px-4 py-10 text-white flex justify-between">
-    <aside class="grid-flow-col items-center">
-        <img src="/svgs/tessellate_logo_white.svg" alt="Tessellate Logo" style="width: 40px" />
-        <p class="font-display text-xl">TESSELLATE</p>
+<footer class="footer flex flex-wrap items-center justify-between bg-black px-4 py-10 text-white">
+    <aside class="grid grid-cols-1">
+        <div class="flex items-center">
+            <img src="/svgs/tessellate_logo_white.svg" alt="Tessellate Logo" style="width: 40px" />
+            <p class="font-display text-xl">TESSELLATE</p>
+        </div>
+        <a href="mailto:tessellate.cmi@gmail.com" class="text-sm lg:text-lg"
+            >tessellate.cmi@gmail.com</a
+        >
     </aside>
-    <a href="mailto:tessellate.cmi@gmail.com" class="text-sm lg:text-lg">tessellate.cmi@gmail.com</a>
+
     <nav class="flex flex-col sm:flex-row sm:gap-8 md:place-self-center md:justify-self-end">
         <a
             href="https://www.instagram.com/tessellate_cmi"
