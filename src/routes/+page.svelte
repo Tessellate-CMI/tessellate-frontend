@@ -24,13 +24,13 @@
 <div class="sticky top-0">
     <div class="grid grid-cols-1 lg:grid-cols-2">
         <div
-            class="bg-second-blue pb-12 pt-3 text-2xl font-medium text-white md:text-3xl lg:grid-cols-2"
+            class="bg-second-blue pb-12 pt-3 text-1xl font-medium text-white sm:text-4xl lg:grid-cols-2"
         >
             <div
-                class="border-b-2 border-white p-4 font-heading text-7xl font-bold tracking-tight lg:text-8xl"
+                class="border-b-2 border-white p-4 font-heading text-4xl font-bold tracking-tight sm:text-6xl"
             >
-                <span class="font-semibold">About</span>
-                <span class="font-display" style="font-size:6vw">TESSELLATE</span>
+                <span class="font-semibold">About</span><br>
+                <span class="font-heading text-5xl sm:text-7xl">TESSELLATE</span>
             </div>
             <div class="p-4 md:p-5 md:pl-6">
                 Creativity. Competition. Culture. Tessellate is Chennai Mathematical Institute's
