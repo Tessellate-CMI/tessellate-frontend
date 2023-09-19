@@ -81,11 +81,27 @@
         </div>
     {/if}
 
-    <a href="/profile">
-        <span tabindex="-1" class="avatar btn btn-circle btn-ghost">
+    <div class="dropdown-end dropdown">
+        <div tabindex="-1" class="avatar btn btn-circle btn-ghost">
             <div class="h-6">
                 <img src="/svgs/profile-min.svg" alt="Profile" />
             </div>
-        </span>
-    </a>
+        </div>
+        <ul tabindex="-1" class="menu dropdown-content menu-sm z-[1] w-36 bg-white p-0">
+            <li>
+                <a
+                    href="/sponsors"
+                    class="btn btn-ghost h-auto min-h-0 rounded-none py-2 hover:bg-black hover:text-white"
+                    >Signup</a
+                >
+            </li>
+            <li>
+                <a
+                    href="/about-us"
+                    class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
+                    >Register</a
+                >
+            </li>
+        </ul>
+    </div>
 </div>
