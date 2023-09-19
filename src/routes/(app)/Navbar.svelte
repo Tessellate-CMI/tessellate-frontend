@@ -90,16 +90,16 @@
         <ul tabindex="-1" class="menu dropdown-content menu-sm z-[1] w-36 bg-white p-0">
             <li>
                 <a
-                    href="/sponsors"
+                    href="/login"
                     class="btn btn-ghost h-auto min-h-0 rounded-none py-2 hover:bg-black hover:text-white"
-                    >Signup</a
+                    >Login</a
                 >
             </li>
             <li>
                 <a
-                    href="/about-us"
+                    href="/signup"
                     class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
-                    >Register</a
+                    >Signup</a
                 >
             </li>
         </ul>
