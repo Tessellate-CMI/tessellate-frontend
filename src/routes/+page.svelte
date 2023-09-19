@@ -9,7 +9,7 @@
 <div class="sticky top-0">
     <Navbar />
 
-    <div class="bg-main-blue text-black min-h-screen" style="height: 50vh">
+    <div class="min-h-screen bg-main-blue text-black" style="height: 50vh">
         <div
             class="flex h-full w-full place-content-center place-items-start items-center text-center font-display"
             style="font-size: 11.5vw"
@@ -24,13 +24,13 @@
 <div class="sticky top-0">
     <div class="grid grid-cols-1 lg:grid-cols-2">
         <div
-            class="bg-second-blue pb-12 pt-3 text-1xl font-medium text-white sm:text-4xl lg:grid-cols-2"
+            class="bg-second-blue pb-12 pt-3 text-xl font-medium text-white sm:text-4xl lg:grid-cols-2"
         >
             <div
-                class="border-b-2 border-white p-4 font-heading text-4xl font-bold tracking-tight sm:text-6xl"
+                class="border-b-2 border-white p-4 font-heading text-5xl font-bold tracking-tight sm:text-6xl"
             >
-                <span class="font-semibold">About</span><br>
-                <span class="font-heading text-5xl sm:text-7xl">TESSELLATE</span>
+                <span class="font-semibold">About</span><br />
+                <span class="font-heading text-6xl sm:text-7xl">TESSELLATE</span>
             </div>
             <div class="p-4 md:p-5 md:pl-6">
                 Creativity. Competition. Culture. Tessellate is Chennai Mathematical Institute's
@@ -54,13 +54,15 @@
     </div>
 
     <div class="grid h-screen grid-cols-1 font-sans sm:grid-cols-2">
-        <div class="parent flex flex-col justify-center bg-gray-900 p-6 transition-colors duration-300  ease-in-out hover:bg-white">
-            <a href="/stems"><img src="svgs/STEMS-white.svg" alt="" class="child"/></a>
+        <div
+            class="parent flex flex-col justify-center bg-gray-900 p-6 transition-colors duration-300 ease-in-out hover:bg-white"
+        >
+            <a href="/stems"><img src="svgs/STEMS-white.svg" alt="" class="child" /></a>
         </div>
         <div class="grid grid-rows-2">
             <a
                 class="bg-main-blue pl-5 pt-5 text-5xl font-bold tracking-tighter text-black
-                transition-colors duration-300 hover:bg-black hover:text-main-blue ease-in-out
+                transition-colors duration-300 ease-in-out hover:bg-black hover:text-main-blue
                 sm:text-8xl"
                 href="/events"
             >
@@ -68,7 +70,7 @@
             </a>
             <a
                 class="bg-second-blue pl-5 pt-5 text-5xl font-bold tracking-tighter text-white
-                transition-colors duration-300 hover:bg-black hover:text-main-blue ease-in-out
+                transition-colors duration-300 ease-in-out hover:bg-black hover:text-main-blue
                 sm:text-8xl"
                 href="."
             >
@@ -80,7 +82,8 @@
 </div>
 
 <style>
-.parent:hover .child {
-    filter: brightness(0) saturate(100%) invert(7%) sepia(16%) saturate(2142%) hue-rotate(182deg) brightness(95%) contrast(94%);
-}
+    .parent:hover .child {
+        filter: brightness(0) saturate(100%) invert(7%) sepia(16%) saturate(2142%)
+            hue-rotate(182deg) brightness(95%) contrast(94%);
+    }
 </style>
