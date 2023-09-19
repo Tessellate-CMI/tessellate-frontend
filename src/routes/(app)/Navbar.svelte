@@ -6,7 +6,7 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="navbar {bgColor} font-sans text-black absolute">
+<div class="navbar {bgColor} absolute font-sans text-black">
     <div class="flex-1">
         <a class="btn btn-ghost text-2xl normal-case" href="/"
             ><img src="/svgs/TESSELLATE-black.svg" alt="Tessellate Logo" style="width: 40px" /></a
@@ -31,8 +31,8 @@
             >
         </div>
     {:else}
-        <details class="dropdown-end dropdown">
-            <summary class="btn btn-square btn-ghost">
+        <div class="dropdown dropdown-end">
+            <div tabindex="-1" class="btn btn-square btn-ghost rounded-none">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -45,21 +45,40 @@
                         d="M4 6h16M4 12h16M4 18h16"
                     ></path></svg
                 >
-            </summary>
-            <ul
-                tabindex="-1"
-                class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 gap-2 bg-base-100 p-1"
-            >
+            </div>
+            <ul tabindex="-1" class="menu dropdown-content menu-sm z-[1] w-36 bg-white p-0">
                 <li>
-                    <button class="btn btn-ghost"><a href="/events">Events</a></button>
+                    <a
+                        href="/events"
+                        class="btn btn-ghost h-auto min-h-0 rounded-none py-2 hover:bg-black hover:text-white"
+                        >Events</a
+                    >
                 </li>
                 {#if stems}
-                    <li><button class="btn btn-ghost"><a href="/stems/">Stems</a></button></li>
+                    <li>
+                        <a
+                            href="/stems/"
+                            class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
+                            >Stems</a
+                        >
+                    </li>
                 {/if}
-                <li><button class="btn btn-ghost"><a href="/sponsors">Sponsors</a></button></li>
-                <li><button class="btn btn-ghost"><a href="/about-us">About Us</a></button></li>
+                <li>
+                    <a
+                        href="/sponsors"
+                        class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
+                        >Sponsors</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="/about-us"
+                        class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
+                        >About Us</a
+                    >
+                </li>
             </ul>
-        </details>
+        </div>
     {/if}
 
     <a href="/profile">
