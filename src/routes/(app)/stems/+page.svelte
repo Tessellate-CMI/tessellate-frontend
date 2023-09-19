@@ -47,12 +47,12 @@
     </div>
 
     <div class="grid grid-cols-1 bg-lgray text-center font-sans text-white lg:grid-cols-3">
-        <div class="p-4 pt-12 text-xl lg:py-16">
+        <div class="px-2 py-12 text-xl sm:px-3">
             <h1 class="mb-9 text-center text-6xl font-bold lg:text-7xl">Details</h1>
             <p class="mx-auto w-4/5 leading-relaxed">
-                STEMS will be conducted on the <br /> <span class="font-semibold">weekend</span> of
+                STEMS will be conducted on the <span class="font-semibold">weekend</span> of
                 TBD.
-                <br />The test can be taken online from any location; and the top 30 performers will
+                The test can be taken online from any location; and the top 30 performers will
                 be invited to CMI to attend a sponsored residential camp with guest lectures by
                 leading experts.
             </p>
