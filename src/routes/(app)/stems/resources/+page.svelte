@@ -1,6 +1,5 @@
 <script>
     import '../../../../app.css'
-    import ComingSoon from '../../../ComingSoon.svelte'
     import Navbar from '../../Navbar.svelte'
 </script>
 
