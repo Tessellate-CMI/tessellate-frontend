@@ -61,20 +61,36 @@
         </div>
         <div class="grid grid-rows-2">
             <a
-                class="bg-main-blue pl-5 pt-5 text-5xl font-bold tracking-tighter text-black
-                transition-colors duration-300 ease-in-out hover:bg-black hover:text-main-blue
-                sm:text-8xl"
+                class="bg-main-blue fill-black pl-5 pt-5 text-6xl font-bold
+                tracking-tighter text-black transition-colors duration-300 ease-in-out
+                hover:bg-black hover:fill-main-blue hover:text-main-blue
+                sm:text-5xl md:text-6xl lg:text-8xl"
                 href="/events"
             >
-                <p>Cultural <br /> Events <span>&#129130;</span></p>
+                <div class="flex flex-row flex-wrap items-center">
+                    <p class="w-full">Cultural</p>
+                    <p>Events</p>
+                    <svg viewBox="0 0 55 45" class="r-arrow ml-[1.25rem]">
+                        <path
+                            d="m28.06,43.89h-9.31l18.57-18.71H0v-6.47h37.31L18.74,0h9.31l21.94,21.95-21.94,21.94Z"
+                        />
+                    </svg>
+                </div>
             </a>
             <a
-                class="bg-second-blue pl-5 pt-5 text-5xl font-bold tracking-tighter text-white
-                transition-colors duration-300 ease-in-out hover:bg-black hover:text-main-blue
-                sm:text-8xl"
+                class="bg-second-blue fill-white pl-5 pt-5 text-6xl font-bold
+                tracking-tighter text-white transition-colors duration-300 ease-in-out
+                hover:bg-black hover:fill-main-blue hover:text-main-blue
+                sm:text-5xl md:text-6xl lg:text-8xl"
                 href="."
             >
-                <p>Competitions <span>&#129130; </span></p>
+                <div class="flex flex-row flex-wrap items-center gap-5">
+                    Competitions <svg viewBox="0 0 55 45" class="r-arrow">
+                        <path
+                            d="m28.06,43.89h-9.31l18.57-18.71H0v-6.47h37.31L18.74,0h9.31l21.94,21.95-21.94,21.94Z"
+                        />
+                    </svg>
+                </div>
             </a>
         </div>
     </div>
@@ -85,5 +101,24 @@
     .parent:hover .child {
         filter: brightness(0) saturate(100%) invert(7%) sepia(16%) saturate(2142%)
             hue-rotate(182deg) brightness(95%) contrast(94%);
+    }
+
+    .r-arrow {
+        height: 3rem;
+    }
+    @media (min-width: 1024px) {
+        .r-arrow {
+            height: 4.5rem;
+        }
+    }
+    @media (max-width: 1023px) and (min-width: 768px) {
+        .r-arrow {
+            height: 3rem;
+        }
+    }
+    @media (max-width: 767px) and (min-width: 640px) {
+        .r-arrow {
+            height: 2rem;
+        }
     }
 </style>
