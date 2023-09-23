@@ -54,11 +54,13 @@
     </div>
 
     <div class="grid h-screen grid-cols-1 font-sans sm:grid-cols-2">
-        <div
-            class="parent flex flex-col justify-center bg-gray-900 p-6 transition-colors duration-300 ease-in-out hover:bg-white"
+        <a
+            href="/stems"
+            class="parent relative flex flex-col justify-center bg-gray-900 p-6 text-white transition-colors duration-300 ease-in-out hover:bg-white hover:text-black"
         >
-            <a href="/stems"><img src="svgs/STEMS-white.svg" alt="" class="child" /></a>
-        </div>
+            <div><img src="svgs/STEMS-white.svg" alt="" class="child" /></div>
+            <div class="absolute bottom-20 left-10">click to know more</div>
+        </a>
         <div class="grid grid-rows-2">
             <a
                 class="bg-main-blue fill-black pl-5 pt-5 text-6xl font-bold

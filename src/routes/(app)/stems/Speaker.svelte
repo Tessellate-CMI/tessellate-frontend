@@ -9,7 +9,7 @@
 
 <a
     href={link}
-    class="parent h-80 w-60 scale-90 cursor-pointer border-2 border-black bg-white text-black md:scale-100"
+    class="parent h-[15rem] w-[11.5rem] cursor-pointer border-2 border-black bg-white text-black sm:h-80 sm:w-60"
 >
     <div class=" flex h-4/5 w-full items-center justify-center bg-white">
         <div
@@ -19,10 +19,10 @@
     </div>
 
     <div class="child h-1/5 border-t-2 border-black transition-colors duration-300 ease-in-out">
-        <div class="mt-1 flex items-center justify-between pl-2">
-            <h1 class="text-lg font-bold leading-tight">{name}</h1>
+        <div class="mt-1 flex items-center justify-between pl-1 sm:pl-2">
+            <h1 class="text-base font-bold leading-none sm:text-lg">{name}</h1>
         </div>
-        <p class="pl-2 text-sm font-medium leading-none">{university}</p>
+        <p class="pl-1 text-xs font-medium leading-none sm:pl-2">{university}</p>
     </div>
 </a>
 

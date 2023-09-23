@@ -9,7 +9,9 @@
         >
     </aside>
 
-    <nav class="flex flex-col sm:flex-row sm:gap-8 md:place-self-center md:justify-self-end">
+    <nav
+        class="flex flex-col pr-5 sm:flex-row sm:gap-8 md:place-self-center md:justify-self-end md:pr-0"
+    >
         <a
             href="https://www.instagram.com/tessellate_cmi"
             class="flex flex-row flex-nowrap items-center gap-1.5 text-xl font-bold hover:underline hover:underline-offset-2"
