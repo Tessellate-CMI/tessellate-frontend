@@ -15,7 +15,7 @@
             style="font-size: 10vw"
         >
             <div class="m-auto" style="line-height: 0.85">
-                <h1 class="font-black">TESSELLATE</h1>
+                <h1 class="font-black m-2">TESSELLATE</h1>
                 <p class="font-bold tracking-tighter">2024</p>
             </div>
         </div>
