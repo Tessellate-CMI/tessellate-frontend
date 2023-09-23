@@ -7,7 +7,7 @@
 
 <Navbar absolute={false} />
 
-<div class="w-full bg-main-blue px-6 pb-8 pt-12 text-7xl font-bold text-black">Past Resources</div>
+<div class="w-full bg-main-blue px-6 pb-8 pt-12 text-6xl font-bold text-black sm:text-7xl">Past Resources</div>
 
 <PastYearStuff year={2023} style={1} />
 <PastYearStuff year={2022} style={0} />
