@@ -12,7 +12,7 @@
     <div class="min-h-screen bg-main-blue text-black" style="height: 50vh">
         <div
             class="flex h-full w-full place-content-center place-items-start items-center text-center font-display"
-            style="font-size: 11.5vw"
+            style="font-size: 10vw"
         >
             <div class="m-auto" style="line-height: 0.85">
                 <h1 class="font-black">TESSELLATE</h1>
@@ -63,7 +63,7 @@
         </a>
         <div class="grid grid-rows-2">
             <a
-                class="bg-main-blue fill-black pl-5 pt-5 text-6xl font-bold
+                class="bg-main-blue fill-black pl-5 pt-5 text-5xl font-bold
                 tracking-tighter text-black transition-colors duration-300 ease-in-out
                 hover:bg-black hover:fill-main-blue hover:text-main-blue
                 sm:text-5xl md:text-6xl lg:text-8xl"
@@ -80,14 +80,14 @@
                 </div>
             </a>
             <a
-                class="bg-second-blue fill-white pl-5 pt-5 text-6xl font-bold
+                class="bg-second-blue fill-white pl-5 pt-5 text-5xl font-bold
                 tracking-tighter text-white transition-colors duration-300 ease-in-out
                 hover:bg-black hover:fill-main-blue hover:text-main-blue
                 sm:text-5xl md:text-6xl lg:text-8xl"
                 href="."
             >
                 <div class="flex flex-row flex-wrap items-center gap-5">
-                    Competitions <svg viewBox="0 0 55 45" class="r-arrow">
+                    Competitions <br> <svg viewBox="0 0 55 45" class="r-arrow">
                         <path
                             d="m28.06,43.89h-9.31l18.57-18.71H0v-6.47h37.31L18.74,0h9.31l21.94,21.95-21.94,21.94Z"
                         />
