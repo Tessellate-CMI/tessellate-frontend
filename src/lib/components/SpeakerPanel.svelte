@@ -1,5 +1,5 @@
 <script>
-    import '../../app.css'
+    import '$src/app.css'
     import Speaker from './Speaker.svelte'
     import speakers from '$lib/speakers.json'
 </script>

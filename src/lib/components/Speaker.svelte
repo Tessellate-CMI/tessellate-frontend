@@ -1,5 +1,5 @@
 <script>
-    import '../../app.css'
+    import '$src/app.css'
 
     export let name = 'Speaker'
     export let image = 'default.png'

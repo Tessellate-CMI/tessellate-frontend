@@ -1,7 +1,7 @@
 <script>
     import PastYearStuff from '$lib/components/PastYearStuff.svelte'
 
-    import '../../../../app.css'
+    import '$src/app.css'
     import Navbar from '$lib/components/Navbar.svelte'
 </script>
 
