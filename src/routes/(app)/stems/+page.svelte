@@ -1,8 +1,8 @@
 <script>
     import '../../../app.css'
-    import Footer from '../Footer.svelte'
-    import Navbar from '../Navbar.svelte'
-    import SpeakerPanel from './SpeakerPanel.svelte'
+    import Footer from '$lib/components/Footer.svelte'
+    import Navbar from '$lib/components/Navbar.svelte'
+    import SpeakerPanel from '$lib/components/SpeakerPanel.svelte'
 </script>
 
 <div class="sticky top-0 bg-white">

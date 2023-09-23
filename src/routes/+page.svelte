@@ -1,7 +1,7 @@
 <script>
     import '../app.css'
-    import Navbar from './(app)/Navbar.svelte'
-    import Footer from './(app)/Footer.svelte'
+    import Navbar from '$lib/components/Navbar.svelte'
+    import Footer from '$lib/components/Footer.svelte'
     import { browser } from '$app/environment'
     import Carousel from 'svelte-carousel'
 </script>

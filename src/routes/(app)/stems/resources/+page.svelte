@@ -1,8 +1,8 @@
 <script>
-    import PastYearStuff from './PastYearStuff.svelte'
+    import PastYearStuff from '$lib/components/PastYearStuff.svelte'
 
     import '../../../../app.css'
-    import Navbar from '../../Navbar.svelte'
+    import Navbar from '$lib/components/Navbar.svelte'
 </script>
 
 <Navbar absolute={false} />

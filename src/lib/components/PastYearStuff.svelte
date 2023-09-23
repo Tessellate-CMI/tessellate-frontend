@@ -5,7 +5,7 @@
     export let physics = ['A', 'B', 'C']
     export let cs = ['A', 'B']
 
-    import '../../../../app.css'
+    import '../../app.css'
 
     var bgstyle = ''
     var borderstyle = ''
