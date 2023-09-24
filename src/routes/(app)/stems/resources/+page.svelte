@@ -3,6 +3,7 @@
 
     import '$src/app.css'
     import Navbar from '$lib/components/Navbar.svelte'
+    import Footer from '$src/lib/components/Footer.svelte';
 </script>
 
 <Navbar absolute={false} />
@@ -15,3 +16,5 @@
 <PastYearStuff year={2022} style={0} /> -->
 <PastYearStuff year={2021} style={1} />
 <PastYearStuff year={2020} style={0} physics={['A', 'B']} maths={['A', 'B']} />
+
+<Footer />
