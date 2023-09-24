@@ -34,9 +34,7 @@
             <div class="pb-6 pt-5 text-3xl md:pt-1">Mathematics</div>
             <div class="flex flex-col pb-6 pl-2 text-start text-xl underline md:w-2/5">
                 {#each maths as category}
-                    <a
-                        class="py-2"
-                        href="../../../pastPapers/STEMS{year}-Math-Category{category}.pdf"
+                    <a class="py-2" href="/pastPapers/STEMS{year}-Math-Category{category}.pdf"
                         >• Category {category}</a
                     >
                 {/each}
@@ -48,9 +46,7 @@
             <div class="pb-6 pt-5 text-3xl md:pt-1">Physics</div>
             <div class="flex flex-col pb-6 pl-2 text-start text-xl underline md:w-2/5">
                 {#each physics as category}
-                    <a
-                        class="py-2"
-                        href="../../../pastPapers/STEMS{year}-Math-Category{category}.pdf"
+                    <a class="py-2" href="/pastPapers/STEMS{year}-Math-Category{category}.pdf"
                         >• Category {category}</a
                     >
                 {/each}
@@ -60,9 +56,7 @@
             <div class="pb-6 pt-5 text-3xl md:pt-1">Computer Science</div>
             <div class="flex flex-col pb-6 pl-2 text-start text-xl underline md:w-2/5">
                 {#each cs as category}
-                    <a
-                        class="py-2"
-                        href="../../../pastPapers/STEMS{year}-Math-Category{category}.pdf"
+                    <a class="py-2" href="/pastPapers/STEMS{year}-Math-Category{category}.pdf"
                         >• Category {category}</a
                     >
                 {/each}
