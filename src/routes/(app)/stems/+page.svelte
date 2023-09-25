@@ -3,7 +3,14 @@
     import Footer from '$lib/components/Footer.svelte'
     import Navbar from '$lib/components/Navbar.svelte'
     import SpeakerPanel from '$lib/components/SpeakerPanel.svelte'
+
+    let innerWidth = 0
+    let screenIsLarge = false
+
+    $: screenIsLarge = innerWidth < 1024
 </script>
+
+<svelte:window bind:innerWidth />
 
 <div class="sticky top-0 bg-white">
     <div class="bg-pattern">
@@ -48,16 +55,23 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-1 bg-lgray text-center font-sans text-white lg:grid-cols-3">
-        <div class="p-4 pb-16 pt-12 text-xl lg:pb-16 lg:pt-20">
+    <div class="grid grid-cols-1 bg-lgray text-center font-sans text-xl text-white lg:grid-cols-3">
+        <div class="p-4 pb-16 pt-12 lg:pb-6 lg:pt-20">
             <h1 class="mb-9 text-center text-6xl font-bold lg:text-7xl">Details</h1>
             <p class="mx-auto w-4/5 leading-relaxed">
                 STEMS will be conducted on the <span class="font-semibold">weekend</span> of TBD. The
                 test can be taken online from any location; and the top 30 performers will be invited
                 to CMI to attend a sponsored residential camp with guest lectures by leading experts.
             </p>
+            {#if screenIsLarge}
+                <button
+                    style="text-transform: none"
+                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
+                    ><a href="/stems/details">Details</a></button
+                >
+            {/if}
         </div>
-        <div class="bg-black p-4 pb-16 pt-12 text-xl lg:pb-16 lg:pt-20">
+        <div class="bg-black p-4 pb-16 pt-12 lg:pb-6 lg:pt-20">
             <h1 class="mb-9 text-center text-6xl font-bold leading-relaxed lg:text-7xl">
                 Register
             </h1>
@@ -70,15 +84,17 @@
                     >INR 250 (₹250/-)* until TBD <br /> INR 300 (₹300/-)* thereafter.</span
                 >
             </p>
-            <button
-                style="text-transform: none"
-                type="submit"
-                class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                >Signup</button
-            >
-            <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
+            {#if screenIsLarge}
+                <button
+                    style="text-transform: none"
+                    type="submit"
+                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
+                    >Signup</button
+                >
+                <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
+            {/if}
         </div>
-        <div class="p-4 pb-16 pt-12 text-xl lg:pb-16 lg:pt-20">
+        <div class="p-4 pb-16 pt-12 lg:pb-6 lg:pt-20">
             <h1 class="mb-9 text-center text-6xl font-bold lg:text-7xl">Resources</h1>
             <p class="mx-auto w-4/5 leading-relaxed">
                 The question papers from the previous editions of STEMS and sample papers can be
@@ -88,12 +104,39 @@
                 Additionally, slides from the lectures of the previous editions are also available
                 on our resources page.
             </p>
-            <button
-                style="text-transform: none"
-                class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                ><a href="/stems/resources">Resources</a></button
-            >
+            {#if screenIsLarge}
+                <button
+                    style="text-transform: none"
+                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
+                    ><a href="/stems/resources">Resources</a></button
+                >
+            {/if}
         </div>
+        {#if !screenIsLarge}
+            <div class="p-4 pb-16">
+                <button
+                    style="text-transform: none"
+                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
+                    ><a href="/stems/details">Details</a></button
+                >
+            </div>
+            <div class="bg-black p-4 pb-16">
+                <button
+                    style="text-transform: none"
+                    type="submit"
+                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
+                    >Signup</button
+                >
+                <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
+            </div>
+            <div class="p-4 pb-16">
+                <button
+                    style="text-transform: none"
+                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
+                    ><a href="/stems/resources">Resources</a></button
+                >
+            </div>
+        {/if}
     </div>
 
     <SpeakerPanel />
