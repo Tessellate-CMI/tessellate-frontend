@@ -2,8 +2,11 @@
     import '$src/app.css'
     import Navbar from '$lib/components/Navbar.svelte'
     import Footer from '$lib/components/Footer.svelte'
-    import { browser } from '$app/environment'
-    import Carousel from 'svelte-carousel'
+
+    import { Splide, SplideSlide } from '@splidejs/svelte-splide'
+    import '@splidejs/svelte-splide/css'
+
+    let images = ['chess.webp', 'concert.webp', 'cuber.webp']
 </script>
 
 <div class="sticky top-0">
@@ -41,15 +44,43 @@
             </div>
         </div>
 
-        <div class="flex flex-col justify-center bg-black">
-            {#if browser}
+        <div class="flex w-full bg-black">
+            <!-- {#if browser}
                 <div>
                     <Carousel autoplay autoplayDuration={2500} arrows={false} dots={false}>
                         <img src="/images/cuber.webp" alt="Cuber" />
                         <img src="/images/chess.webp" alt="Chess Match" />
                     </Carousel>
                 </div>
-            {/if}
+            {/if} -->
+            <Splide
+                class="m-auto"
+                aria-label="tessellate event images"
+                options={{
+                    type: 'loop',
+                    perPage: 1,
+                    autoplay: true,
+                    setInterval: 500,
+                    autoHeight: true,
+                    arrows: false,
+                    drag: 'free',
+                    snap: true
+                }}
+            >
+                {#each images as img}
+                    <SplideSlide
+                        style="background-image: url({'/images/' + img}); 
+                               background-size:cover"
+                    >
+                        <img
+                            style="backdrop-filter: blur(10px)"
+                            class="m-auto h-full max-h-[30rem] w-full object-contain md:max-h-[40rem]"
+                            src="/images/{img}"
+                            alt="Cuber"
+                        />
+                    </SplideSlide>
+                {/each}
+            </Splide>
         </div>
     </div>
 
