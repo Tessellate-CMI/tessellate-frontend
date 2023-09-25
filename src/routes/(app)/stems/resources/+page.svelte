@@ -8,8 +8,10 @@
 
 <Navbar absolute={false} />
 
-<div class="w-full bg-main-blue px-6 pb-8 pt-12 text-6xl font-bold text-black sm:text-7xl">
-    Past Resources
+<div
+    class="w-full border-b-2 border-black bg-main-blue px-6 pb-8 pt-12 text-6xl font-bold text-black sm:text-7xl"
+>
+    Resources
 </div>
 
 <PastYearStuff year={2023} style={0} maths={['A', 'B', 'C', 'A(secondary)', 'B(secondary)']} />
