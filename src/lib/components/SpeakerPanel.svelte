@@ -6,7 +6,7 @@
 
 <div class="h-full bg-main-blue p-0.5 pb-20">
     <h1
-        class="m-3 mb-12 ml-5 mt-6 font-sans text-7xl font-bold tracking-tighter text-black sm:ml-10 md:mb-20"
+        class="m-3 mb-12 ml-5 mt-6 font-sans text-7xl font-bold tracking-tighter text-black sm:ml-10 md:mb-16"
     >
         Past Speakers
     </h1>
