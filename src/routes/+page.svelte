@@ -33,11 +33,13 @@
                 <span class="font-heading text-6xl sm:text-7xl">TESSELLATE</span>
             </div>
             <div class="p-4 md:p-5 md:pl-6">
-                Creativity. Competition. Culture. Tessellate is Chennai Mathematical Institute's
+                <p class="font-bold"> Creativity. Competition. Culture. </p>
+                <br>
+                Tessellate is Chennai Mathematical Institute's
                 annual student-run fest where thousands of attendees each year let loose and
                 showcase their myriad of talents. From Carnatic nights to trivia delights, bomb defusal
                 to delicious food stall perusal, our fest tessellates cultural events and contests
-                to create three days of unique experiences and incredible memories.
+                to create four days of unique experiences and incredible memories.
             </div>
         </div>
 
