@@ -15,7 +15,7 @@
 </div>
 <div class="sticky top-0">
     <div class="grid grid-cols-1 text-xl font-medium md:text-2xl lg:grid-cols-2">
-        <div class="bg-second-blue pb-12 pt-4 text-white">
+        <div class="bg-second-blue pb-12 text-white">
             <div
                 class="border-b-2 border-white p-4 pl-6 font-heading tracking-tight md:p-8 md:pl-12"
             >
@@ -32,7 +32,7 @@
                 amongst the students.
             </div>
         </div>
-        <div class="bg-main-blue pb-12 pt-4 text-black">
+        <div class="bg-main-blue pb-12 text-black">
             <div
                 class="border-b-2 border-black p-4 pl-6 font-heading tracking-tight md:p-8 md:pl-12"
             >
@@ -73,7 +73,7 @@
             <button
                 style="text-transform: none"
                 type="submit"
-                class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white"
+                class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
                 >Signup</button
             >
             <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
@@ -90,7 +90,7 @@
             </p>
             <button
                 style="text-transform: none"
-                class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white"
+                class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
                 ><a href="/stems/resources">Resources</a></button
             >
         </div>
