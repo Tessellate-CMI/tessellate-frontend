@@ -68,9 +68,13 @@
                 }}
             >
                 {#each images as img}
-                    <SplideSlide>
+                    <SplideSlide
+                        style="background-image: url({'/images/' + img}); 
+                               background-size:cover"
+                    >
                         <img
-                            class="m-auto h-full max-h-[40rem] object-contain md:w-full"
+                            style="backdrop-filter: blur(10px)"
+                            class="m-auto h-full max-h-[30rem] w-full object-contain md:max-h-[40rem]"
                             src="/images/{img}"
                             alt="Cuber"
                         />
