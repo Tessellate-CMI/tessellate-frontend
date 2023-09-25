@@ -32,10 +32,10 @@
             class="flex w-full flex-col items-center border-b-2 font-semibold md:border-b-0 md:border-r-2 {borderstyle}"
         >
             <div class="pb-6 pt-5 text-3xl md:pt-1">Mathematics</div>
-            <div class="flex flex-col pb-6 pl-2 text-start text-xl underline md:w-2/5">
+            <div class="flex flex-col pb-6 text-center text-xl underline">
                 {#each maths as category}
-                    <a class="py-2" href="/pastPapers/STEMS{year}-Math-Category{category}.pdf"
-                        >• Category {category}</a
+                    <a class="py-2" href="/pastPapers/STEMS{year}-Maths-Category{category}.pdf"
+                        >Category {category}</a
                     >
                 {/each}
             </div>
@@ -44,20 +44,20 @@
             class="flex w-full flex-col items-center border-b-2 font-semibold md:border-b-0 md:border-r-2 {borderstyle}"
         >
             <div class="pb-6 pt-5 text-3xl md:pt-1">Physics</div>
-            <div class="flex flex-col pb-6 pl-2 text-start text-xl underline md:w-2/5">
+            <div class="flex flex-col pb-6 text-center text-xl underline">
                 {#each physics as category}
-                    <a class="py-2" href="/pastPapers/STEMS{year}-Math-Category{category}.pdf"
-                        >• Category {category}</a
+                    <a class="py-2" href="/pastPapers/STEMS{year}-Physics-Category{category}.pdf"
+                        >Category {category}</a
                     >
                 {/each}
             </div>
         </div>
         <div class="flex w-full flex-col items-center font-semibold {borderstyle}">
             <div class="pb-6 pt-5 text-3xl md:pt-1">Computer Science</div>
-            <div class="flex flex-col pb-6 pl-2 text-start text-xl underline md:w-2/5">
+            <div class="flex flex-col pb-6 text-center text-xl underline">
                 {#each cs as category}
-                    <a class="py-2" href="/pastPapers/STEMS{year}-Math-Category{category}.pdf"
-                        >• Category {category}</a
+                    <a class="py-2" href="/pastPapers/STEMS{year}-CS-Category{category}.pdf"
+                        >Category {category}</a
                     >
                 {/each}
             </div>
