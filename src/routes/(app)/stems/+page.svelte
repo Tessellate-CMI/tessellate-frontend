@@ -84,6 +84,8 @@
                     >INR 250 (₹250/-)* until TBD <br /> INR 300 (₹300/-)* thereafter.</span
                 >
             </p>
+
+            <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
             {#if screenIsLarge}
                 <button
                     style="text-transform: none"
@@ -91,7 +93,6 @@
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
                     >Signup</button
                 >
-                <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
             {/if}
         </div>
         <div class="p-4 pb-16 pt-12 lg:pb-6 lg:pt-20">
@@ -127,7 +128,6 @@
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
                     >Signup</button
                 >
-                <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
             </div>
             <div class="p-4 pb-16">
                 <button
