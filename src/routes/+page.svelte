@@ -1,4 +1,5 @@
 <script>
+    import { onMount } from 'svelte'
     import '$src/app.css'
     import Navbar from '$lib/components/Navbar.svelte'
     import Footer from '$lib/components/Footer.svelte'
@@ -6,7 +7,27 @@
     import { Splide, SplideSlide } from '@splidejs/svelte-splide'
     import '@splidejs/svelte-splide/css'
 
-    let images = ['chess.webp', 'concert.webp', 'cuber.webp']
+    const imageModules = import.meta.glob('../../static/images/*.*')
+    /**
+     * @type {string[]}
+     */
+    let images = []
+
+    for (const imgPaths in imageModules) {
+        images.push(imgPaths.substring(20))
+    }
+
+    /**
+     * @param {string[]} array
+     */
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1))
+            ;[array[i], array[j]] = [array[j], array[i]]
+        }
+    }
+
+    shuffleArray(images)
 </script>
 
 <div class="sticky top-0">

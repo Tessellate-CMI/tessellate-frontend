@@ -160,7 +160,7 @@
 
         background-size: 250%;
         background-position: center;
-        background-image: url('/images/tessellation-oldconcept.png'); /* Adjust background size as needed */
+        background-image: url('/bg-images/tessellation-oldconcept.png'); /* Adjust background size as needed */
         z-index: -1; /* Place the pseudo-element behind the content */
     }
 </style>
