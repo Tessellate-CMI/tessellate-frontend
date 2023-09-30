@@ -14,7 +14,7 @@
     Resources
 </div>
 
-<PastYearStuff year={2023} style={0} maths={['A', 'B', 'C', 'A(secondary)', 'B(secondary)']} />
+<PastYearStuff year={2023} style={0} maths={['A', 'A(2)', 'B', 'B(2)', 'C']} />
 <!-- <PastYearStuff year={2022} style={0} /> -->
 <PastYearStuff year={2021} style={1} />
 <PastYearStuff year={2020} style={0} physics={['A', 'B']} maths={['A', 'B']} />

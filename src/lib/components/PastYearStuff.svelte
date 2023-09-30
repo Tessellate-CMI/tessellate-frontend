@@ -32,12 +32,16 @@
             class="flex w-full flex-col items-center border-b-2 font-semibold md:border-b-0 md:border-r-2 {borderstyle}"
         >
             <div class="pb-6 pt-5 text-3xl md:pt-1">Mathematics</div>
-            <div class="flex flex-col pb-6 text-center text-xl underline">
-                {#each maths as category}
-                    <a class="py-2" href="/pastPapers/STEMS{year}-Maths-Category{category}.pdf"
-                        >Category {category}</a
-                    >
-                {/each}
+            <div class="flex flex-col pb-6 text-left text-xl underline self-auto">
+                <ul class="list-disc">
+                    {#each maths as category}
+                        <li>
+                            <a href="/pastPapers/STEMS{year}-Maths-Category{category}.pdf"
+                                >Category {category}</a
+                            >
+                        </li>
+                    {/each}
+                </ul>
             </div>
         </div>
         <div
@@ -45,21 +49,29 @@
         >
             <div class="pb-6 pt-5 text-3xl md:pt-1">Physics</div>
             <div class="flex flex-col pb-6 text-center text-xl underline">
-                {#each physics as category}
-                    <a class="py-2" href="/pastPapers/STEMS{year}-Physics-Category{category}.pdf"
-                        >Category {category}</a
-                    >
-                {/each}
+                <ul class="list-disc">
+                    {#each physics as category}
+                        <li>
+                            <a href="/pastPapers/STEMS{year}-Physics-Category{category}.pdf"
+                                >Category {category}</a
+                            >
+                        </li>
+                    {/each}
+                </ul>
             </div>
         </div>
         <div class="flex w-full flex-col items-center font-semibold {borderstyle}">
             <div class="pb-6 pt-5 text-3xl md:pt-1">Computer Science</div>
             <div class="flex flex-col pb-6 text-center text-xl underline">
-                {#each cs as category}
-                    <a class="py-2" href="/pastPapers/STEMS{year}-CS-Category{category}.pdf"
-                        >Category {category}</a
-                    >
-                {/each}
+                <ul class="list-disc">
+                    {#each cs as category}
+                        <li>
+                            <a href="/pastPapers/STEMS{year}-CS-Category{category}.pdf"
+                                >Category {category}</a
+                            >
+                        </li>
+                    {/each}
+                </ul>
             </div>
         </div>
     </div>
