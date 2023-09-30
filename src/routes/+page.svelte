@@ -6,7 +6,7 @@
     import { Splide, SplideSlide } from '@splidejs/svelte-splide'
     import '@splidejs/svelte-splide/css'
 
-    const imageModules = import.meta.glob('../../static/images/*.*')
+    const imageModules = import.meta.glob('../../static/images/*.jpg')
     /**
      * @type {string[]}
      */
