@@ -1,0 +1,192 @@
+[
+    {
+        "team": "Overall Coordinators",
+        "members": [
+            {
+                "name": "Siddhant Shah",
+                "batch": "BSc. III",
+                "email": "siddhants@cmi.ac.in"
+            },
+            {
+                "name": "Harini Rammohan",
+                "batch": "BSc II",
+                "email": "harini@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "Design",
+        "members": [
+            {
+                "name": "Abdul Aleem",
+                "batch": "BSc. III",
+                "email": "abdul@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "Event Organisation",
+        "members": [
+            {
+                "name": "Ishita Pethkar",
+                "batch": "BSc. III",
+                "email": "ishita@cmi.ac.in"
+            },
+            {
+                "name": "Dyuti Mukherjee",
+                "batch": "BSc. II",
+                "email": "dyuti@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "External Events",
+        "members": [
+            {
+                "name": "Aniruddha Bhattacharjee",
+                "batch": "MSc. Math II",
+                "email": "aniruddhab@cmi.ac.in"
+            },
+            {
+                "name": "Divyanshi Kumari",
+                "batch": "MSc. DS I",
+                "email": "divyanshi.mds2023@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "Internal Events",
+        "members": [
+            {
+                "name": "Advait Phadnis",
+                "batch": "MSc. Math II",
+                "email": ""
+            },
+            {
+                "name": "Shreenish Shinde",
+                "batch": "BSc II",
+                "email": "shreenish@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "Event Set Up",
+        "members": [
+            {
+                "name": "Harini Rammohan",
+                "batch": "BSc II",
+                "email": "harini@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "Marketing",
+        "members": [
+            {
+                "name": "Siddhant Shah",
+                "batch": "BSc. III",
+                "email": "siddhants@cmi.ac.in"
+            },
+            {
+                "name": "Harini Rammohan",
+                "batch": "BSc II",
+                "email": "harini@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "STEMS",
+        "members": [
+            {
+                "name": "Ananya Ranade",
+                "batch": "BSc II",
+                "email": "ananyar@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "STEMS - Computer Science",
+        "members": [
+            {
+                "name": "Aditi Mishra",
+                "batch": "BSc II",
+                "email": "amishra@cmi.ac.in"
+            },
+            {
+                "name": "Vardhan Kumar Ray",
+                "batch": "BSc II",
+                "email": "vardhan@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "Stems - Maths",
+        "members": [
+            {
+                "name": "Chandralekha",
+                "batch": "BSc. II",
+                "email": "chandralekha@cmi.ac.in"
+            },
+            {
+                "name": "Krutarth Shah",
+                "batch": "BSc. I",
+                "email": "krutarth.ug2023@cmi.ac.in"
+            },
+            {
+                "name": "Sunaina Pati",
+                "batch": "BSc. I",
+                "email": "sunaina.ug2023@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "Stems - Physics",
+        "members": [
+            {
+                "name": "Harini Rammohan",
+                "batch": "BSc. II",
+                "email": "harini@cmi.ac.in"
+            },
+            {
+                "name": "Vedant Neema",
+                "batch": "BSc. II",
+                "email": "vedantn@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "Tech",
+        "members": [
+            {
+                "name": "Arghyadip Chakraborty",
+                "batch": "MSc. CS II",
+                "email": "arghyadip@cmi.ac.in"
+            },
+            {
+                "name": "Paarth Iyer",
+                "batch": "MSc. CS II",
+                "email": "Paarth Iyer"
+            },
+            {
+                "name": "Siddhant Agarwal",
+                "batch": "BSc. I",
+                "email": "siddhanta.ug2023@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "",
+        "members": [
+            {
+                "name": "",
+                "batch": "",
+                "email": ""
+            },
+            {
+                "name": "",
+                "batch": "",
+                "email": ""
+            }
+        ]
+    }
+]
