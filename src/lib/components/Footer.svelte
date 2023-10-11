@@ -5,7 +5,7 @@
             <p class="font-display text-xl">TESSELLATE</p>
         </div>
         <a href="mailto:tessellate@cmi.ac.in" class="text-sm lg:text-lg"
-            >tessellate.cmi@gmail.com</a
+            >tessellate@cmi.ac.in</a
         >
     </aside>
 
@@ -85,7 +85,4 @@
             </svg></a
         >
     </nav>
-    <!-- <a href="." class="text-slate-400"
-        >Subscribe to the Tessellate newsletter to keep up with updates</a
-    > -->
 </footer>
