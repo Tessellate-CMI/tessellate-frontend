@@ -1,5 +1,6 @@
 <script lang="ts">
     export let bgColor = 'bg-main-blue'
+    export let textWhite = false
     export let stems = true
     export let absolute = true
     let innerWidth = 0
@@ -9,10 +10,14 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="navbar {bgColor} {position} font-sans text-black">
+<div class="navbar {bgColor} {position} font-sans {textWhite ? 'text-white' : ' text-black'}">
     <div class="flex-1">
         <a class="btn btn-ghost text-2xl normal-case" href="/"
-            ><img src="/svgs/TESSELLATE-black.svg" alt="Tessellate Logo" style="width: 40px" /></a
+            ><img
+                src="/svgs/TESSELLATE-{textWhite ? 'white' : 'black'}.svg"
+                alt="Tessellate Logo"
+                style="width: 40px"
+            /></a
         >
     </div>
 
@@ -32,20 +37,25 @@
             <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/about-us">About Us</a></button
             >
-            {#if !stems} 
-            <button class="link px-4 text-lg font-bold normal-case overline"
-                ><a href="/register">Register</a></button
-            >
+            {#if !stems}
+                <button class="link px-4 text-lg font-bold normal-case overline"
+                    ><a href="/register">Register</a></button
+                >
             {/if}
         </div>
     {:else}
         <div class="dropdown dropdown-end">
-            <div tabindex="-1" class="btn btn-square btn-ghost rounded-none">
+            <div
+                tabindex="-1"
+                class="btn btn-square btn-ghost rounded-none {textWhite
+                    ? 'stroke-white'
+                    : 'stroke-black'}"
+            >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    class="inline-block h-5 w-5 stroke-current"
+                    class="inline-block h-5 w-5"
                     ><path
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -98,3 +108,10 @@
         </div>
     {/if}
 </div>
+
+<style>
+    .make-white {
+        filter: brightness(0) saturate(100%) invert(7%) sepia(16%) saturate(2142%)
+            hue-rotate(182deg) brightness(95%) contrast(94%);
+    }
+</style>
