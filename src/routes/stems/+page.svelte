@@ -59,7 +59,7 @@
         <div class="p-4 pb-16 pt-12 lg:pb-6 lg:pt-20">
             <h1 class="mb-9 text-center text-6xl font-bold lg:text-7xl">Details</h1>
             <p class="mx-auto w-4/5 leading-relaxed">
-                STEMS will be conducted on the <span class="font-semibold">weekend</span> of TBD. The
+                STEMS will be conducted on the <span class="font-semibold">16<sup>th</sup></span> and <span class="font-semibold">17<sup>th</sup> of January</span>. The
                 test can be taken online from any location; and the top 30 performers will be invited
                 to CMI to attend a sponsored residential camp with guest lectures by leading experts.
             </p>
@@ -76,12 +76,12 @@
                 Register
             </h1>
             <p class="mx-auto w-4/5">
-                The registration deadline: <br /> <span class="font-semibold">TBD</span>
+                The registration deadline: <br /> <span class="font-semibold">10th December, 2023</span>
             </p>
             <p class="mx-auto mt-6 w-4/5 leading-loose">
                 The registration fee: <br />
                 <span class="font-semibold"
-                    >INR 250 (₹250/-)* until TBD <br /> INR 300 (₹300/-)* thereafter.</span
+                    >INR 250 (₹250/-)* until 19th November <br /> INR 300 (₹300/-)* thereafter.</span
                 >
             </p>
 
