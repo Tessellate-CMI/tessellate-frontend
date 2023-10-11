@@ -1,5 +1,12 @@
 <script>
     import '$src/app.css'
+    import ComingSoon from '$src/lib/components/ComingSoon.svelte'
+</script>
+
+<ComingSoon message="Registrations will open by 20th October, 2023" />
+
+<!-- <script>
+    import '$src/app.css'
 </script>
 
 <div class="flex h-screen bg-main-blue">
@@ -174,4 +181,4 @@
     .css-input:focus {
         outline: none;
     }
-</style>
+</style> -->

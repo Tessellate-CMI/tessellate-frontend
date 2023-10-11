@@ -1,4 +1,5 @@
 <script>
+    export let message = ''
     import '$src/app.css'
     import Navbar from './Navbar.svelte'
     import Footer from './Footer.svelte'
@@ -13,6 +14,7 @@
     >
         <div class="m-auto" style="line-height: 0.9">
             <h1 class="font-black">Coming <br />Soon!</h1>
+            <p class="mt-10 text-4xl">{message}</p>
             <a
                 href="."
                 class="btn btn-outline m-auto mb-2 mt-2 h-auto min-h-0 rounded-none px-10 py-1.5 text-lg text-black hover:bg-black hover:text-main-blue"
