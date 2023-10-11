@@ -23,5 +23,9 @@
         "*.css": "tailwindcss"
     },
     "svelte.enable-ts-plugin": true,
-    "tailwindCSS.emmetCompletions": true
+    "tailwindCSS.emmetCompletions": true,
+    "workbench.colorCustomizations": {
+        "minimap.background": "#00000000",
+        "scrollbar.shadow": "#00000000"
+    }
 }
