@@ -9,7 +9,7 @@
 <Navbar absolute={false} />
 
 <div
-    class="w-full border-b-2 border-black bg-main-blue px-6 pb-8 pt-12 text-6xl font-bold text-black sm:text-7xl"
+    class="w-full border-b-2 border-black bg-main-blue px-6 pb-8 pt-12 font-heading text-6xl font-semibold text-black sm:text-7xl"
 >
     Resources
 </div>

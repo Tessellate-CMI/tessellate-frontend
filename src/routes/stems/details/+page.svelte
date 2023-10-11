@@ -14,7 +14,7 @@
 <Navbar absolute={false} />
 
 <div
-    class="w-full border-b-2 border-black bg-main-blue px-6 pb-8 pt-12 text-6xl font-bold text-black sm:text-8xl"
+    class="w-full border-b-2 border-black bg-main-blue px-6 pb-8 pt-12 font-heading text-6xl font-semibold text-black sm:text-8xl"
 >
     Details
 </div>
@@ -38,8 +38,8 @@
         <div class="px-8 py-4 md:px-16 md:py-6">
             <ul class="list-disc">
                 <li>
-                    16<sup>th</sup> January, 2024 <br /> Physics: 9:00 am - 12:00 am <br /> Computer Science: 3:00 pm - 6:00
-                    pm
+                    16<sup>th</sup> January, 2024 <br /> Physics: 9:00 am - 12:00 am <br /> Computer
+                    Science: 3:00 pm - 6:00 pm
                 </li>
                 <li>17<sup>th</sup> January, 2024 <br /> Mathematics: 11:00 am - 5:00 pm</li>
             </ul>
@@ -147,22 +147,22 @@
     </div>
 
     <div class="px-10 py-8 text-xl md:px-20 md:py-16 lg:col-span-2 lg:text-2xl">
-        <ol class="list-decimal p-0 m-0">
+        <ol class="m-0 list-decimal p-0">
             <li>
                 Students are allowed to refer to books and online sources to solve the problems.
-                <br><br>
+                <br /><br />
             </li>
             <li>
                 The problems should not be uploaded on any forums or websites for discussion during
                 exam time. Candidates will be disqualified in case of any misconduct during the
                 exam.
-                <br><br>
+                <br /><br />
             </li>
             <li>
                 Your solutions must be strictly original. There might be an interview for
                 confirmation after the selection is made. In case of any discrepancies, the
                 submission of the student in question will be invalidated.
-                <br><br>
+                <br /><br />
             </li>
             <li>Submissions made after the deadline will not be accepted.</li>
         </ol>
