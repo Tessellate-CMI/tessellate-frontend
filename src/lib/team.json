@@ -4,7 +4,7 @@
         "members": [
             {
                 "name": "Siddhant Shah",
-                "batch": "BSc. III",
+                "batch": "BSc III",
                 "email": "siddhants@cmi.ac.in"
             },
             {
@@ -19,7 +19,7 @@
         "members": [
             {
                 "name": "Abdul Aleem",
-                "batch": "BSc. III",
+                "batch": "BSc III",
                 "email": "abdul@cmi.ac.in"
             }
         ]
@@ -29,12 +29,12 @@
         "members": [
             {
                 "name": "Ishita Pethkar",
-                "batch": "BSc. III",
+                "batch": "BSc III",
                 "email": "ishita@cmi.ac.in"
             },
             {
                 "name": "Dyuti Mukherjee",
-                "batch": "BSc. II",
+                "batch": "BSc II",
                 "email": "dyuti@cmi.ac.in"
             }
         ]
@@ -44,12 +44,12 @@
         "members": [
             {
                 "name": "Aniruddha Bhattacharjee",
-                "batch": "MSc. Math II",
+                "batch": "MSc Math II",
                 "email": "aniruddhab@cmi.ac.in"
             },
             {
                 "name": "Divyanshi Kumari",
-                "batch": "MSc. DS I",
+                "batch": "MSc DS I",
                 "email": "divyanshi.mds2023@cmi.ac.in"
             }
         ]
@@ -59,7 +59,7 @@
         "members": [
             {
                 "name": "Advait Phadnis",
-                "batch": "MSc. Math II",
+                "batch": "MSc Math II",
                 "email": ""
             },
             {
@@ -70,7 +70,7 @@
         ]
     },
     {
-        "team": "Event Set Up",
+        "team": "Event Setup",
         "members": [
             {
                 "name": "Harini Rammohan",
@@ -84,7 +84,7 @@
         "members": [
             {
                 "name": "Siddhant Shah",
-                "batch": "BSc. III",
+                "batch": "BSc III",
                 "email": "siddhants@cmi.ac.in"
             },
             {
@@ -96,6 +96,7 @@
     },
     {
         "team": "STEMS",
+        "subteam": "Overall Coordinator",
         "members": [
             {
                 "name": "Ananya Ranade",
@@ -105,7 +106,8 @@
         ]
     },
     {
-        "team": "STEMS - Computer Science",
+        "team": "STEMS",
+        "subteam": "Computer Science",
         "members": [
             {
                 "name": "Aditi Mishra",
@@ -120,36 +122,38 @@
         ]
     },
     {
-        "team": "Stems - Maths",
+        "team": "STEMS",
+        "subteam": "Maths",
         "members": [
             {
                 "name": "Chandralekha",
-                "batch": "BSc. II",
+                "batch": "BSc II",
                 "email": "chandralekha@cmi.ac.in"
             },
             {
                 "name": "Krutarth Shah",
-                "batch": "BSc. I",
+                "batch": "BSc I",
                 "email": "krutarth.ug2023@cmi.ac.in"
             },
             {
                 "name": "Sunaina Pati",
-                "batch": "BSc. I",
+                "batch": "BSc I",
                 "email": "sunaina.ug2023@cmi.ac.in"
             }
         ]
     },
     {
-        "team": "Stems - Physics",
+        "team": "STEMS",
+        "subteam": "Physics",
         "members": [
             {
                 "name": "Harini Rammohan",
-                "batch": "BSc. II",
+                "batch": "BSc II",
                 "email": "harini@cmi.ac.in"
             },
             {
                 "name": "Vedant Neema",
-                "batch": "BSc. II",
+                "batch": "BSc II",
                 "email": "vedantn@cmi.ac.in"
             }
         ]
@@ -159,33 +163,18 @@
         "members": [
             {
                 "name": "Arghyadip Chakraborty",
-                "batch": "MSc. CS II",
+                "batch": "MSc CS II",
                 "email": "arghyadip@cmi.ac.in"
             },
             {
                 "name": "Paarth Iyer",
-                "batch": "MSc. CS II",
-                "email": "Paarth Iyer"
+                "batch": "MSc CS II",
+                "email": "paarth@cmi.ac.in"
             },
             {
                 "name": "Siddhant Agarwal",
-                "batch": "BSc. I",
+                "batch": "BSc I",
                 "email": "siddhanta.ug2023@cmi.ac.in"
-            }
-        ]
-    },
-    {
-        "team": "",
-        "members": [
-            {
-                "name": "",
-                "batch": "",
-                "email": ""
-            },
-            {
-                "name": "",
-                "batch": "",
-                "email": ""
             }
         ]
     }
