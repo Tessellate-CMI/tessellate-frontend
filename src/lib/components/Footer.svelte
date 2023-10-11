@@ -4,7 +4,7 @@
             <img src="/svgs/tessellate_logo_white.svg" alt="Tessellate Logo" style="width: 40px" />
             <p class="font-display text-xl">TESSELLATE</p>
         </div>
-        <a href="mailto:tessellate.cmi@gmail.com" class="text-sm lg:text-lg"
+        <a href="mailto:tessellate@cmi.ac.in" class="text-sm lg:text-lg"
             >tessellate.cmi@gmail.com</a
         >
     </aside>
