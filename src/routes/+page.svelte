@@ -29,10 +29,10 @@
     shuffleArray(images)
 </script>
 
-<div class="sticky top-0">
-    <Navbar />
+<div class="bg-image sticky top-0">
+    <Navbar bgColor="transparent" />
 
-    <div class="min-h-screen bg-main-blue text-black" style="height: 50vh">
+    <div class=" min-h-screen text-black" style="height: 50vh">
         <div
             class="flex h-full w-full place-content-center place-items-start items-center text-center font-display"
             style="font-size: 10vw"
@@ -174,5 +174,14 @@
         .r-arrow {
             height: 2rem;
         }
+    }
+
+    .bg-image {
+        background-image: url('/bg-images/tess-bg.png');
+        height: 100vh;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 </style>
