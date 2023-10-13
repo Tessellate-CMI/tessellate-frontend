@@ -7,16 +7,16 @@
 <Navbar absolute={false} bgColor="bg-second-blue" textWhite={true} />
 
 <div
-    class="grid w-full grid-cols-1 border-b-2 border-white bg-second-blue px-10
-            pb-10 text-white sm:grid-cols-3 sm:pb-12 sm:pt-24"
+    class="grid w-full grid-cols-1 border-b-2 border-white bg-second-blue px-5 lg:px-10
+            pb-10 text-white lg:grid-cols-3 sm:pb-12 sm:pt-24"
 >
     <h1
-        class="col-span-1 h-full w-full border-white pb-2 pt-10 font-heading text-6xl font-semibold sm:pb-12 sm:text-8xl"
+        class="lg:col-span-1 h-full w-full border-white pb-2 pt-10 font-heading text-6xl font-semibold sm:pb-12 sm:text-8xl"
     >
         About CMI
     </h1>
     <p
-        class=" col-span-2 max-w-screen-lg pt-5 text-xl font-medium sm:border-l-2 sm:pb-12 sm:pl-16 sm:pr-8 sm:text-2xl"
+        class="lg:col-span-2 max-w-screen-lg pt-5 text-xl font-medium lg:border-l-2 sm:pb-12 lg:pl-16 sm:pr-8 sm:text-2xl"
     >
         Chennai Mathematical Institute (CMI) is a renowned institution for mathematics and computer
         science education and research, founded in 1989. It became autonomous in 1996 and is known
@@ -27,7 +27,7 @@
     </p>
 </div>
 
-<div class="w-full bg-main-blue pl-10 text-black">
+<div class="w-full bg-main-blue pl-5 md:pl-10 text-black">
     <h1 class="pb-2 pt-16 font-heading text-6xl font-semibold sm:pb-8 sm:text-8xl">
         Meet the Tess'24 Team
     </h1>
@@ -45,13 +45,13 @@
                     {#each teamName.members as member}
                         <div>
                             <div
-                                class="m-7 flex max-w-[300px] flex-col border-l-2 border-black p-2 px-5 text-xl"
+                                class="m-3 md:m-7 flex max-w-[300px] flex-col border-l-2 border-black p-2 px-3 md:px-5 text-xl"
                             >
                                 <div class="pb-2 text-2xl font-semibold sm:text-3xl">
                                     {member.name}
                                 </div>
                                 <div>{member.batch}</div>
-                                <a href="mailto:{member.email}" class="hover:text-blue-600"
+                                <a href="mailto:{member.email}" class="text-lg sm:text-xl hover:text-blue-600"
                                     >{member.email}</a
                                 >
                             </div>
