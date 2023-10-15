@@ -178,6 +178,7 @@
 
     .bg-image {
         background-image: url('/bg-images/tess-bg.png');
+        background-color: rgb(198 218 255);
         height: 100vh;
 
         background-position: center;
