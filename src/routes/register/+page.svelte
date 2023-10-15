@@ -224,25 +224,63 @@
         </form>
 
         {#if form?.success}
-            <dialog open>
-                <p>Please confirm the details</p>
-                <p>Name: {form?.name}</p>
-                <p>Email: {form?.email}</p>
-                <p>Phone Number: {form?.phone}</p>
-                <p>Current Education: {form?.education}</p>
-                <p>Institute Name: {form?.institute}</p>
-                {#if form?.altEmail}
-                    <p>Alternate Email: {form?.altEmail}</p>
-                {/if}
-                {#if form?.altPhone}
-                    <p>Alternate Phone Number: {form?.altPhone}</p>
-                {/if}
-                <p>Subject(s): {form?.subject}</p>
-                <p>Final Amount: ₹{form?.amount}</p>
-                <form method="POST" action="?/register">
-                    <button value="cancel" formmethod="dialog">Cancel</button>
-                    <button value="confirm" type="submit">Confirm</button>
-                </form>
+            <dialog open class="modal overflow-hidden">
+                <div class="absolute h-full w-full bg-black opacity-50"></div>
+                <div
+                    class="modal-box rounded-none border-2 border-black bg-white text-lg text-black"
+                >
+                    <p class="mb-3 text-2xl font-bold">Please confirm your details</p>
+                    <p class="mb-3">
+                        Name<br /><span class="text-xl font-bold">{form?.name}</span>
+                    </p>
+                    <p class="mb-3">
+                        Email<br /><span class="text-xl font-bold">{form?.email}</span>
+                    </p>
+                    <p class="mb-3">
+                        Phone Number<br /><span class="text-xl font-bold">{form?.phone}</span>
+                    </p>
+                    <p class="mb-3">
+                        Current Education<br /><span class="text-xl font-bold"
+                            >{form?.education}</span
+                        >
+                    </p>
+                    <p class="mb-3">
+                        Institute Name<br /><span class="text-xl font-bold">{form?.institute}</span>
+                    </p>
+                    {#if form?.altEmail}
+                        <p class="mb-3">
+                            Alternate Email<br /><span class="text-xl font-bold"
+                                >{form?.altEmail}</span
+                            >
+                        </p>
+                    {/if}
+                    {#if form?.altPhone}
+                        <p class="mb-3">
+                            Alternate Phone Number<br /><span class="text-xl font-bold"
+                                >{form?.altPhone}</span
+                            >
+                        </p>
+                    {/if}
+                    <p class="mb-5">
+                        Subject(s)<br /><span class="font-bold">{form?.subject}</span>
+                    </p>
+                    <p class="mb-4 text-xl">
+                        Final Amount: ₹<span class="font-bold">{form?.amount}</span>
+                    </p>
+                    <form method="dialog">
+                        <button class="btn btn-circle btn-ghost btn-sm absolute right-2 top-2"
+                            >✕</button
+                        >
+                    </form>
+                    <form method="POST" action="?/register">
+                        <button
+                            value="confirm"
+                            type="submit"
+                            class="btn btn-outline m-auto mb-2 mt-2 h-auto min-h-0 rounded-none px-4 py-1.5 text-lg normal-case text-black hover:bg-black hover:text-white"
+                            >Confirm and Pay ₹{form?.amount}</button
+                        >
+                    </form>
+                </div>
             </dialog>
         {/if}
 

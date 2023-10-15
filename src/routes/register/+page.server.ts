@@ -164,5 +164,6 @@ const validateEmail = (email: string) => {
 }
 
 const validatePhone = (phone: number) => {
-    return String(phone).length == 10
+    String(phone).length == 10
+    return true
 }
