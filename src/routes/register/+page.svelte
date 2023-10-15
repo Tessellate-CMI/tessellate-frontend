@@ -223,15 +223,28 @@
             </div>
         </form>
 
-        <!-- {#if form?.success} -->
-        <!--     <dialog open> -->
-        <!--         <p>Please confirm the details</p> -->
-        <!--         <form> -->
-        <!--             <button value="cancel" formmethod="dialog">Cancel</button> -->
-        <!--             <button value="confirm">Confirm</button> -->
-        <!--         </form> -->
-        <!--     </dialog> -->
-        <!-- {/if} -->
+        {#if form?.success}
+            <dialog open>
+                <p>Please confirm the details</p>
+                <p>Name: {form?.name}</p>
+                <p>Email: {form?.email}</p>
+                <p>Phone Number: {form?.phone}</p>
+                <p>Current Education: {form?.education}</p>
+                <p>Institute Name: {form?.institute}</p>
+                {#if form?.altEmail}
+                    <p>Alternate Email: {form?.altEmail}</p>
+                {/if}
+                {#if form?.altPhone}
+                    <p>Alternate Phone Number: {form?.altPhone}</p>
+                {/if}
+                <p>Subject(s): {form?.subject}</p>
+                <p>Final Amount: ₹{form?.amount}</p>
+                <form method="POST" action="?/register">
+                    <button value="cancel" formmethod="dialog">Cancel</button>
+                    <button value="confirm" type="submit">Confirm</button>
+                </form>
+            </dialog>
+        {/if}
 
         <p class="border-t-2 border-black bg-white p-3 px-4 text-sm text-black">
             You will recieve an email confirming the details of your registration. In case you don't
