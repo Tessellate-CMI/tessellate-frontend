@@ -1,19 +1,15 @@
-<!-- <script>
+<script lang="ts">
     import '$src/app.css'
-    import ComingSoon from '$src/lib/components/ComingSoon.svelte'
-</script>
+    import { enhance } from '$app/forms'
 
-<ComingSoon message="Registrations will open by 20th October, 2023" /> -->
-
-<script>
-    import '$src/app.css'
+    export let form
 </script>
 
 <div class="flex min-h-screen bg-main-blue">
     <div class="m-auto flex flex-col place-items-center py-10 sm:w-96">
         <h1 class="z-10 font-black text-black">Register</h1>
 
-        <form class="mx-4 bg-white sm:mx-0 sm:w-full" method="POST" action="?/register">
+        <form class="mx-4 bg-white sm:mx-0 sm:w-full" method="POST" action="?/validate" use:enhance>
             <div class="mb-1 pt-2">
                 <button class="btn btn-ghost rounded-none" on:click={() => history.back()}
                     ><svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
@@ -30,9 +26,15 @@
                     type="text"
                     name="fullName"
                     class="css-input w-full max-w-xs"
+                    value={form?.data?.fullName ?? ''}
                     required
                 />
             </div>
+            {#if form?.errors?.fullName}
+                <div class="form-row">
+                    <p class="error">Name is required</p>
+                </div>
+            {/if}
 
             <div class="form-row">
                 <label for="email">Email<sup><small>*</small></sup></label>
@@ -41,9 +43,19 @@
                     type="email"
                     name="email"
                     class="css-input w-full max-w-xs"
+                    value={form?.data?.email ?? ''}
                     required
                 />
             </div>
+            {#if form?.errors?.email == 'required'}
+                <div class="form-row">
+                    <p class="error">Email is required</p>
+                </div>
+            {:else if form?.errors?.email == 'invalid'}
+                <div class="form-row">
+                    <p class="error">Please input a valid email</p>
+                </div>
+            {/if}
 
             <div class="form-row">
                 <label for="education">Current Education<sup><small>*</small></sup></label>
@@ -63,6 +75,11 @@
                     status you have selected.
                 </p>
             </div>
+            {#if form?.errors?.education}
+                <div class="form-row">
+                    <p class="error">Education is required</p>
+                </div>
+            {/if}
 
             <div class="form-row">
                 <label for="institute">Institute Name<sup><small>*</small></sup></label>
@@ -71,9 +88,15 @@
                     type="text"
                     name="institute"
                     class="css-input w-full max-w-xs"
+                    value={form?.data?.institute ?? ''}
                     required
                 />
             </div>
+            {#if form?.errors?.institute}
+                <div class="form-row">
+                    <p class="error">Name is required</p>
+                </div>
+            {/if}
 
             <div class="form-row">
                 <label for="phone">Phone Number<sup><small>*</small></sup></label>
@@ -82,9 +105,19 @@
                     type="number"
                     name="phone"
                     class="css-input w-full max-w-xs"
+                    value={form?.data?.phone ?? ''}
                     required
                 />
             </div>
+            {#if form?.errors?.phone == 'required'}
+                <div class="form-row">
+                    <p class="error">Phone number is required</p>
+                </div>
+            {:else if form?.errors?.phone == 'invalid'}
+                <div class="form-row">
+                    <p class="error">Please input a valid phone number</p>
+                </div>
+            {/if}
 
             <div class="form-row">
                 <label for="altEmail">Alternate Email</label>
@@ -93,8 +126,14 @@
                     type="email"
                     name="altEmail"
                     class="css-input w-full max-w-xs"
+                    value={form?.data?.altEmail ?? ''}
                 />
             </div>
+            {#if form?.errors?.altEmail}
+                <div class="form-row">
+                    <p class="error">Please input a valid email</p>
+                </div>
+            {/if}
 
             <div class="form-row">
                 <label for="altPhone">Alternate Phone</label>
@@ -103,8 +142,14 @@
                     type="number"
                     name="altPhone"
                     class="css-input w-full max-w-xs"
+                    value={form?.data?.altPhone ?? ''}
                 />
             </div>
+            {#if form?.errors?.altPhone}
+                <div class="form-row">
+                    <p class="error">Please input a valid phone number</p>
+                </div>
+            {/if}
 
             <div class="subjects mt-5 border-t-2 border-black pt-5">
                 <div class="form-row mb-3">
@@ -144,6 +189,11 @@
                     >
                 </div>
             </div>
+            {#if form?.errors?.subject}
+                <div class="form-row">
+                    <p class="error">Please select at least one subject.</p>
+                </div>
+            {/if}
 
             <div class="form-row mt-8">
                 <input
@@ -158,6 +208,11 @@
                     and stems update mails</label
                 >
             </div>
+            {#if form?.errors?.disclaimer}
+                <div class="form-row">
+                    <p class="error">Disclaimer is a required field.</p>
+                </div>
+            {/if}
             <div class="form-row mt-3 flex">
                 <button
                     style="text-transform: none"
@@ -167,6 +222,17 @@
                 >
             </div>
         </form>
+
+        <!-- {#if form?.success} -->
+        <!--     <dialog open> -->
+        <!--         <p>Please confirm the details</p> -->
+        <!--         <form> -->
+        <!--             <button value="cancel" formmethod="dialog">Cancel</button> -->
+        <!--             <button value="confirm">Confirm</button> -->
+        <!--         </form> -->
+        <!--     </dialog> -->
+        <!-- {/if} -->
+
         <p class="border-t-2 border-black bg-white p-3 px-4 text-sm text-black">
             You will recieve an email confirming the details of your registration. In case you don't
             get any email, or you face other problems, please email us at tessellate@cmi.ac.in
@@ -215,5 +281,9 @@
     }
     .css-input:focus {
         outline: none;
+    }
+
+    .error {
+        color: tomato;
     }
 </style>
