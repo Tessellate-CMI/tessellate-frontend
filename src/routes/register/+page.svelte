@@ -1,19 +1,19 @@
-<script>
+<!-- <script>
     import '$src/app.css'
     import ComingSoon from '$src/lib/components/ComingSoon.svelte'
 </script>
 
-<ComingSoon message="Registrations will open by 20th October, 2023" />
+<ComingSoon message="Registrations will open by 20th October, 2023" /> -->
 
-<!-- <script>
+<script>
     import '$src/app.css'
 </script>
 
-<div class="flex h-screen bg-main-blue">
-    <div class="m-auto flex flex-col place-items-center sm:w-96">
+<div class="flex min-h-screen bg-main-blue">
+    <div class="m-auto flex flex-col place-items-center py-10 sm:w-96">
         <h1 class="z-10 font-black text-black">Register</h1>
 
-        <form class="mx-4 bg-white sm:mx-0 sm:w-full" method="post" action="?/signup">
+        <form class="mx-4 bg-white sm:mx-0 sm:w-full" method="POST" action="?/register">
             <div class="mb-1 pt-2">
                 <button class="btn btn-ghost rounded-none"
                     ><svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
@@ -47,14 +47,21 @@
 
             <div class="form-row">
                 <label for="education">Current Education<sup><small>*</small></sup></label>
+
                 <select name="education" id="education" class="css-input w-full max-w-xs">
                     <option value="class8">Class 8</option>
                     <option value="class9">Class 9</option>
                     <option value="class10">Class 10</option>
                     <option value="class11">Class 11</option>
                     <option value="class12">Class 12</option>
-                    <option value="undergraduate">Undergraduate Studies</option>
+                    <option value="undergraduate1">Undergraduate 1st year</option>
+                    <option value="undergraduate2">Undergraduate 2nd year</option>
+                    <option value="undergraduate3">Undergraduate 3rd or final year</option>
                 </select>
+                <p class="pt-3 text-sm font-normal">
+                    You will recieve your category (for each subject) according to the education
+                    status you have selected.
+                </p>
             </div>
 
             <div class="form-row">
@@ -99,10 +106,19 @@
                 />
             </div>
 
-            <div class="subjects mt-5">
+            <div class="subjects mt-5 border-t-2 border-black pt-5">
                 <div class="form-row mb-3">
-                    <p class="text-2xl">Subjects</p>
-               </div>
+                    <p class="pb-1 text-4xl">Subjects</p>
+                    <p class="text-sm">
+                        Please select all subjects you wish to appear for. <br />If you wish to
+                        register for additional subjects after submitting the form, please refill
+                        this form and
+                        <span class="text-base text-red-600"
+                            >ONLY SELECT THE SUBJECTS YOU HAVE NOT ALREADY REGISTERED FOR</span
+                        >. You will not be refunded for any duplicate payments, so please be
+                        careful.
+                    </p>
+                </div>
                 <div class="form-row">
                     <input
                         type="checkbox"
@@ -110,11 +126,11 @@
                         name="mathematics"
                         value="Mathematics"
                     />
-                    <label for="mathematics" class="checkbox-label ml-2">Mathematics</label>
+                    <label for="mathematics" class="checkbox-label ml-2 text-xl">Mathematics</label>
                 </div>
                 <div class="form-row">
                     <input type="checkbox" id="physics" name="physics" value="Physics" />
-                    <label for="physics" class="checkbox-label ml-2">Physics</label>
+                    <label for="physics" class="checkbox-label ml-2 text-xl">Physics</label>
                 </div>
                 <div class="form-row">
                     <input
@@ -123,19 +139,38 @@
                         name="computer-science"
                         value="Computer-Science"
                     />
-                    <label for="computer-science" class="checkbox-label ml-2">Computer Science</label>
+                    <label for="computer-science" class="checkbox-label ml-2 text-xl"
+                        >Computer Science</label
+                    >
                 </div>
             </div>
 
-            <div class="form-row flex mt-3">
+            <div class="form-row mt-8">
+                <input
+                    type="checkbox"
+                    id="disclaimer"
+                    name="disclaimer"
+                    value="Disclaimer"
+                    required
+                />
+                <label for="disclaimer" class="checkbox-label ml-2"
+                    >This is a disclaimer confirming that they will be ok with recieving Tessellate
+                    and stems update mails</label
+                >
+            </div>
+            <div class="form-row mt-3 flex">
                 <button
                     style="text-transform: none"
                     type="submit"
-                    class="btn btn-outline m-auto mb-2 mt-2 h-auto min-h-0 rounded-none px-10 py-1.5 text-lg text-black"
+                    class="btn btn-outline m-auto mb-2 mt-2 h-auto min-h-0 rounded-none px-10 py-1.5 text-lg text-black hover:bg-black hover:text-white"
                     >Submit</button
                 >
             </div>
         </form>
+        <p class="border-t-2 border-black bg-white p-3 px-4 text-sm text-black">
+            You will recieve an email confirming the details of your registration. In case you don't
+            get any email, or you face other problems, please email us at tessellate@cmi.ac.in
+        </p>
     </div>
 </div>
 
@@ -165,7 +200,7 @@
         padding-left: 10px;
         padding-left: 10px;
         padding-top: 3px;
-        padding-bottom: 5px;
+        padding-bottom: 15px;
     }
 
     .css-input {
@@ -181,4 +216,4 @@
     .css-input:focus {
         outline: none;
     }
-</style> -->
+</style>
