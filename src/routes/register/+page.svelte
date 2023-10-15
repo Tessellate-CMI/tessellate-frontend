@@ -15,7 +15,7 @@
 
         <form class="mx-4 bg-white sm:mx-0 sm:w-full" method="POST" action="?/register">
             <div class="mb-1 pt-2">
-                <button class="btn btn-ghost rounded-none"
+                <button class="btn btn-ghost rounded-none" on:click={() => history.back()}
                     ><svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
                         ><path
                             d="M32 15H3.41l8.29-8.29-1.41-1.42-10 10a1 1 0 0 0 0 1.41l10 10 1.41-1.41L3.41 17H32z"
