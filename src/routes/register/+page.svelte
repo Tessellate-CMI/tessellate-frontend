@@ -1,8 +1,9 @@
 <script lang="ts">
     import '$src/app.css'
     import { enhance } from '$app/forms'
+    import type { FormData } from '.'
 
-    export let form
+    export let form: FormData
 </script>
 
 <div class="flex min-h-screen bg-main-blue">
