@@ -10,7 +10,7 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="navbar {bgColor} {position} font-sans text-black">
+<div class="navbar {bgColor} {position} z-10 font-sans text-black">
     <div class="flex-1">
         <a class="btn btn-ghost text-2xl normal-case" href="/"
             ><img

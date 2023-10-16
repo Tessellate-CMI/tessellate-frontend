@@ -34,13 +34,23 @@
 
     <div class=" min-h-screen text-black" style="height: 50vh">
         <div
-            class="flex h-full w-full place-content-center place-items-start items-center text-center font-display"
+            class="relative flex h-full w-full flex-col place-content-center place-items-start items-center text-center font-display"
             style="font-size: 10vw"
         >
             <div class="m-auto" style="line-height: 0.85">
                 <h1 class="m-2 font-black">TESSELLATE</h1>
                 <p class="font-bold tracking-tighter">2024</p>
             </div>
+            <!-- <div
+                class="absolute inset-y-2/3 mx-auto flex h-max w-full flex-col bg-white bg-opacity-25 py-4 text-xs sm:inset-y-3/4 sm:text-base md:text-lg lg:text-xl"
+            >
+                Registration for STEMS has started.<br />Click here for details and registration.
+                <a
+                    style="text-transform: none"
+                    class="btn btn-outline m-auto mt-3 h-auto min-h-0 rounded-none px-10 py-3 text-xs text-black hover:bg-black hover:text-white sm:text-base md:text-lg lg:text-xl"
+                    href="/stems#details">Details</a
+                >
+            </div> -->
         </div>
     </div>
 </div>
