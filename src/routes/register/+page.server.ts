@@ -2,6 +2,8 @@ import { fail } from '@sveltejs/kit'
 import type { Actions } from './$types'
 export const prerender = false
 
+const serverData: Record<string, unknown> = {}
+
 export const actions = {
     validate: async ({ request }) => {
         const formData = await request.formData()
@@ -18,6 +20,10 @@ export const actions = {
             else if (value === 'Computer-Science') hasCS = true
             else if (value === 'Disclaimer') hasDisclaimer = true
         }
+
+        serverData.maths = hasMathematics
+        serverData.computer = hasCS
+        serverData.physics = hasPhysics
 
         let mCat = ''
         let cCat = ''
@@ -37,6 +43,7 @@ export const actions = {
             errors.fullName = 'required'
         } else {
             returnData.name = fullName
+            serverData.name = fullName
         }
 
         if (!email || typeof email !== 'string') {
@@ -44,6 +51,7 @@ export const actions = {
         } else if (!validateEmail(email)) {
             errors.email = 'invalid'
         } else {
+            serverData.email = email
             returnData.email = email
         }
 
@@ -83,12 +91,16 @@ export const actions = {
                 cCat = 'B'
                 returnData.education = 'Undergraduate 3rd or final year'
             }
+            serverData.email = email
+            serverData.mCat = mCat
+            serverData.cCat = cCat
         }
 
         if (!institute || typeof institute !== 'string') {
             errors.institute = 'required'
         } else {
             returnData.institute = institute
+            serverData.institute = institute
         }
 
         if (!phone || typeof phone !== 'number') {
@@ -97,18 +109,21 @@ export const actions = {
             errors.phone = 'invalid'
         } else {
             returnData.phone = phone
+            serverData.phone = phone
         }
 
         if (altEmail && !validateEmail(altEmail)) {
             errors.altEmail = 'invalid'
         } else {
             returnData.altEmail = altEmail
+            serverData.altEmail = altEmail
         }
 
         if (altPhone && !validatePhone(altPhone)) {
             errors.altPhone = 'invalid'
         } else {
             returnData.altPhone = altPhone
+            serverData.altPhone = altPhone
         }
 
         if (!hasMathematics && !hasPhysics && !hasCS) {
@@ -148,10 +163,8 @@ export const actions = {
         returnData.success = true
         return returnData
     },
-    register: async ({ request }) => {
-        const formData = await request.formData()
-        console.log(formData)
-        console.log('Request called')
+    register: async () => {
+        console.log(serverData)
     }
 } satisfies Actions
 
