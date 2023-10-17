@@ -43,6 +43,7 @@
         }
     },
     "dependencies": {
+        "@directus/sdk": "^12.0.1",
         "@splidejs/svelte-splide": "^0.2.9"
     },
     "packageManager": "yarn@3.6.3"

@@ -128,6 +128,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@directus/sdk@npm:^12.0.1":
+  version: 12.0.1
+  resolution: "@directus/sdk@npm:12.0.1"
+  checksum: 0a85f1b60fba6df4292f61db3a56e9189807beebf77020712eee2570bf7b618a49987e3c326781f4549efb91d410df66126c54a979df6ba6c187585da1d3c731
+  languageName: node
+  linkType: hard
+
 "@esbuild/android-arm64@npm:0.18.20":
   version: 0.18.20
   resolution: "@esbuild/android-arm64@npm:0.18.20"
@@ -4259,6 +4266,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tessellate-frontend@workspace:."
   dependencies:
+    "@directus/sdk": ^12.0.1
     "@splidejs/svelte-splide": ^0.2.9
     "@sveltejs/adapter-static": ^2.0.3
     "@sveltejs/kit": ^1.22.6

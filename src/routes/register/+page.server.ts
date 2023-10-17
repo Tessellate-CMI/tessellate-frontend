@@ -4,6 +4,9 @@ export const prerender = false
 
 const serverData: Record<string, unknown> = {}
 
+import { createDirectus, rest, createItem } from '@directus/sdk'
+const client = createDirectus('http://api.tessellate.cmi.ac.in').with(rest())
+
 export const actions = {
     validate: async ({ request }) => {
         const formData = await request.formData()
@@ -58,6 +61,7 @@ export const actions = {
         if (!education || typeof education !== 'string') {
             errors.education = 'required'
         } else {
+            serverData.education = education
             if (education === 'class8') {
                 mCat = 'A'
                 cCat = 'A'
@@ -145,6 +149,7 @@ export const actions = {
                 ++numSubjects
             }
             returnData.amount = 250 * numSubjects
+            serverData.amount = returnData.amount
         }
 
         if (!hasDisclaimer) {
@@ -164,7 +169,11 @@ export const actions = {
         return returnData
     },
     register: async () => {
-        console.log(serverData)
+        try {
+            await client.request(createItem('registration', serverData))
+        } catch (error) {
+            console.log(error)
+        }
     }
 } satisfies Actions
 
