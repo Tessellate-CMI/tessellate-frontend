@@ -231,6 +231,14 @@
                     class="modal-box rounded-none border-2 border-black bg-white text-lg text-black"
                 >
                     <p class="mb-3 text-2xl font-bold">Please confirm your details</p>
+
+                    <p class="mb-4 border-2 border-black p-2 text-base font-semibold md:text-lg">
+                        Press the <span class="text-red-600">confirm button at the bottom.</span>
+                        <br />
+                        You will
+                        <span class="text-red-600">recieve an email with a payment link</span> on the
+                        entered email id. After the payment is done, your registration will be completed.
+                    </p>
                     <p class="mb-3">
                         Name<br /><span class="text-xl font-bold">{form?.name}</span>
                     </p>
@@ -268,17 +276,18 @@
                     <p class="mb-4 text-xl">
                         Final Amount: ₹<span class="font-bold">{form?.amount}</span>
                     </p>
+
                     <form method="dialog">
                         <button class="btn btn-circle btn-ghost btn-sm absolute right-2 top-2"
                             >✕</button
                         >
                     </form>
-                    <form method="POST" action="?/register">
+                    <form method="POST" action="?/register" use:enhance>
                         <button
                             value="confirm"
                             type="submit"
-                            class="btn btn-outline m-auto mb-2 mt-2 h-auto min-h-0 rounded-none px-4 py-1.5 text-lg normal-case text-black hover:bg-black hover:text-white"
-                            >Confirm and Pay ₹{form?.amount}</button
+                            class="btn btn-outline m-auto mb-2 mt-2 h-auto min-h-0 rounded-none px-4 py-1.5 text-xl normal-case text-black hover:bg-black hover:text-white"
+                            >Confirm</button
                         >
                     </form>
                 </div>
@@ -286,8 +295,11 @@
         {/if}
 
         <p class="border-t-2 border-black bg-white p-3 px-4 text-sm text-black">
-            You will recieve an email confirming the details of your registration. In case you don't
-            get any email, or you face other problems, please email us at tessellate@cmi.ac.in
+            You will recieve an email with a <span class="font-semibold text-red-500"
+                >payment link</span
+            >
+            confirming the details of your registration. In case you don't get any email, or you face
+            other problems, please email us at tessellate@cmi.ac.in
         </p>
     </div>
 </div>
