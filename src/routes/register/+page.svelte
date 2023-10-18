@@ -8,7 +8,6 @@
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     function controlModal(e: any) {
-        console.log(e)
         const formData = new FormData(e.target)
         const data: Record<string, unknown> = {}
         let numSubjects = 0
@@ -90,8 +89,16 @@
 
     async function sendData() {
         try {
-            // returnData is the data to send to the server
-            console.log(returnData)
+            await fetch('http://api.tessellate.cmi.ac.in/items/registration', {
+                method: 'POST',
+                body: JSON.stringify(returnData),
+                mode: "no-cors",
+                headers: {
+                    'Content-type': 'application/json;charset=UTF-8',
+                }
+            })
+                .then(response => response.json)
+                .then(json => console.log(json))
         } catch (error) {
             console.log(error)
         }
@@ -333,8 +340,7 @@
                         value="confirm"
                         type="submit"
                         class="btn btn-outline m-auto mb-2 mt-2 h-auto min-h-0 rounded-none px-4 py-1.5 text-xl normal-case text-black hover:bg-black hover:text-white"
-                        formmethod="dialog"
-                        >Confirm</button
+                        formmethod="dialog">Confirm</button
                     >
                 </form>
             </div>
