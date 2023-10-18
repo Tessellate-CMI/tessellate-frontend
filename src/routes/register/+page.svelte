@@ -1,16 +1,108 @@
 <script lang="ts">
     import '$src/app.css'
-    import { enhance } from '$app/forms'
-    import type { FormData } from '.'
+    import Modal from '$src/lib/components/Modal.svelte'
 
-    export let form: FormData
+    let showModal = false
+    let noSubjects = false
+    const returnData: Record<string, unknown> = {}
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    function controlModal(e: any) {
+        console.log(e)
+        const formData = new FormData(e.target)
+        const data: Record<string, unknown> = {}
+        let numSubjects = 0
+        for (let field of formData) {
+            const [key, value] = field
+            data[key] = value
+            if (key === 'mathematics') {
+                ++numSubjects
+            } else if (key === 'physics') {
+                ++numSubjects
+            } else if (key === 'computer-science') {
+                ++numSubjects
+            }
+        }
+
+        if (numSubjects === 0) {
+            noSubjects = true
+            return
+        }
+
+        noSubjects = false
+        showModal = true
+
+        returnData.firstName = data.firstName
+        returnData.lastName = data.lastName
+        returnData.email = data.email
+        returnData.phone = data.phone
+        returnData.altEmail = data.altEmail
+        returnData.altPhone = data.altPhone
+        returnData.institute = data.institute
+        if (data.education === 'class8') {
+            returnData.mCat = 'A'
+            returnData.cCat = 'A'
+            returnData.education = 'Class 8'
+        } else if (data.education === 'class9') {
+            returnData.mCat = 'A'
+            returnData.cCat = 'A'
+            returnData.education = 'Class 9'
+        } else if (data.education === 'class10') {
+            returnData.mCat = 'A'
+            returnData.cCat = 'A'
+            returnData.education = 'Class 10'
+        } else if (data.education === 'class11') {
+            returnData.mCat = 'B'
+            returnData.cCat = 'A'
+            returnData.education = 'Class 11'
+        } else if (data.education === 'class12') {
+            returnData.mCat = 'B'
+            returnData.cCat = 'A'
+            returnData.education = 'Class 12'
+        } else if (data.education === 'undergraduate1') {
+            returnData.mCat = 'B'
+            returnData.cCat = 'B'
+            returnData.education = 'Undergradutate 1st Year'
+        } else if (data.education === 'undergraduate2') {
+            returnData.mCat = 'C'
+            returnData.cCat = 'B'
+            returnData.education = 'Undergradutate 2nd Year'
+        } else if (data.education === 'undergraduate3') {
+            returnData.mCat = 'C'
+            returnData.cCat = 'B'
+            returnData.education = 'Undergraduate 3rd or final year'
+        }
+        returnData.maths = 'mathematics' in data
+        returnData.physics = 'physics' in data
+        returnData.computer = 'computer-science' in data
+        returnData.subject = ''
+        if (returnData.maths) {
+            returnData.subject += 'Mathematics (Section ' + returnData.mCat + ') '
+        }
+        if (returnData.physics) {
+            returnData.subject += 'Physics (Section ' + returnData.mCat + ') '
+        }
+        if (returnData.computer) {
+            returnData.subject += 'Computer Science (Section ' + returnData.cCat + ') '
+        }
+        returnData.amount = numSubjects * 250
+    }
+
+    async function sendData() {
+        try {
+            // returnData is the data to send to the server
+            console.log(returnData)
+        } catch (error) {
+            console.log(error)
+        }
+    }
 </script>
 
 <div class="flex min-h-screen bg-main-blue">
     <div class="m-auto flex flex-col place-items-center py-10 sm:w-96">
         <h1 class="z-10 font-black text-black">Register</h1>
 
-        <form class="mx-4 bg-white sm:mx-0 sm:w-full" method="POST" action="?/validate" use:enhance>
+        <form class="mx-4 bg-white sm:mx-0 sm:w-full" on:submit={controlModal}>
             <div class="mb-1 pt-2">
                 <button class="btn btn-ghost rounded-none" on:click={() => history.back()}
                     ><svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
@@ -21,21 +113,25 @@
                 >
             </div>
             <div class="form-row">
-                <label for="fullName">Full Name<sup><small>*</small></sup></label>
+                <label for="firstName">First Name<sup><small>*</small></sup></label>
                 <input
-                    id="fullName"
+                    id="firstName"
                     type="text"
-                    name="fullName"
+                    name="firstName"
                     class="css-input w-full max-w-xs"
-                    value={form?.data?.fullName ?? ''}
                     required
                 />
             </div>
-            {#if form?.errors?.fullName}
-                <div class="form-row">
-                    <p class="error">Name is required</p>
-                </div>
-            {/if}
+            <div class="form-row">
+                <label for="lastName">Last Name<sup><small>*</small></sup></label>
+                <input
+                    id="lastName"
+                    type="text"
+                    name="lastName"
+                    class="css-input w-full max-w-xs"
+                    required
+                />
+            </div>
 
             <div class="form-row">
                 <label for="email">Email<sup><small>*</small></sup></label>
@@ -44,19 +140,9 @@
                     type="email"
                     name="email"
                     class="css-input w-full max-w-xs"
-                    value={form?.data?.email ?? ''}
                     required
                 />
             </div>
-            {#if form?.errors?.email == 'required'}
-                <div class="form-row">
-                    <p class="error">Email is required</p>
-                </div>
-            {:else if form?.errors?.email == 'invalid'}
-                <div class="form-row">
-                    <p class="error">Please input a valid email</p>
-                </div>
-            {/if}
 
             <div class="form-row">
                 <label for="education">Current Education<sup><small>*</small></sup></label>
@@ -76,11 +162,6 @@
                     status you have selected.
                 </p>
             </div>
-            {#if form?.errors?.education}
-                <div class="form-row">
-                    <p class="error">Education is required</p>
-                </div>
-            {/if}
 
             <div class="form-row">
                 <label for="institute">Institute Name<sup><small>*</small></sup></label>
@@ -89,15 +170,9 @@
                     type="text"
                     name="institute"
                     class="css-input w-full max-w-xs"
-                    value={form?.data?.institute ?? ''}
                     required
                 />
             </div>
-            {#if form?.errors?.institute}
-                <div class="form-row">
-                    <p class="error">Name is required</p>
-                </div>
-            {/if}
 
             <div class="form-row">
                 <label for="phone">Phone Number<sup><small>*</small></sup></label>
@@ -106,19 +181,9 @@
                     type="number"
                     name="phone"
                     class="css-input w-full max-w-xs"
-                    value={form?.data?.phone ?? ''}
                     required
                 />
             </div>
-            {#if form?.errors?.phone == 'required'}
-                <div class="form-row">
-                    <p class="error">Phone number is required</p>
-                </div>
-            {:else if form?.errors?.phone == 'invalid'}
-                <div class="form-row">
-                    <p class="error">Please input a valid phone number</p>
-                </div>
-            {/if}
 
             <div class="form-row">
                 <label for="altEmail">Alternate Email</label>
@@ -127,14 +192,8 @@
                     type="email"
                     name="altEmail"
                     class="css-input w-full max-w-xs"
-                    value={form?.data?.altEmail ?? ''}
                 />
             </div>
-            {#if form?.errors?.altEmail}
-                <div class="form-row">
-                    <p class="error">Please input a valid email</p>
-                </div>
-            {/if}
 
             <div class="form-row">
                 <label for="altPhone">Alternate Phone</label>
@@ -143,14 +202,8 @@
                     type="number"
                     name="altPhone"
                     class="css-input w-full max-w-xs"
-                    value={form?.data?.altPhone ?? ''}
                 />
             </div>
-            {#if form?.errors?.altPhone}
-                <div class="form-row">
-                    <p class="error">Please input a valid phone number</p>
-                </div>
-            {/if}
 
             <div class="subjects mt-5 border-t-2 border-black pt-5">
                 <div class="form-row mb-3">
@@ -190,7 +243,7 @@
                     >
                 </div>
             </div>
-            {#if form?.errors?.subject}
+            {#if noSubjects}
                 <div class="form-row">
                     <p class="error">Please select at least one subject.</p>
                 </div>
@@ -209,11 +262,6 @@
                     and stems update mails</label
                 >
             </div>
-            {#if form?.errors?.disclaimer}
-                <div class="form-row">
-                    <p class="error">Disclaimer is a required field.</p>
-                </div>
-            {/if}
             <div class="form-row mt-3 flex">
                 <button
                     style="text-transform: none"
@@ -224,75 +272,73 @@
             </div>
         </form>
 
-        {#if form?.success}
-            <dialog open class="modal overflow-hidden">
-                <div class="absolute h-full w-full bg-black opacity-50"></div>
-                <div
-                    class="modal-box rounded-none border-2 border-black bg-white text-lg text-black"
-                >
-                    <p class="mb-3 text-2xl font-bold">Please confirm your details</p>
+        <Modal bind:showModal>
+            <div class="modal-box rounded-none border-2 border-black bg-white text-lg text-black">
+                <p class="mb-3 text-2xl font-bold">Please confirm your details</p>
 
-                    <p class="mb-4 border-2 border-black p-2 text-base font-semibold md:text-lg">
-                        Press the <span class="text-red-600">confirm button at the bottom.</span>
-                        <br />
-                        You will
-                        <span class="text-red-600">recieve an email with a payment link</span> on the
-                        entered email id. After the payment is done, your registration will be completed.
-                    </p>
+                <p class="mb-4 border-2 border-black p-2 text-base font-semibold md:text-lg">
+                    Press the <span class="text-red-600">confirm button at the bottom.</span>
+                    <br />
+                    You will
+                    <span class="text-red-600">recieve an email with a payment link</span> on the entered
+                    email id. After the payment is done, your registration will be completed.
+                </p>
+                <p class="mb-3">
+                    Name<br /><span class="text-xl font-bold"
+                        >{returnData.firstName} {returnData.lastName}</span
+                    >
+                </p>
+                <p class="mb-3">
+                    Email<br /><span class="text-xl font-bold">{returnData.email}</span>
+                </p>
+                <p class="mb-3">
+                    Phone Number<br /><span class="text-xl font-bold">{returnData.phone}</span>
+                </p>
+                <p class="mb-3">
+                    Current Education<br /><span class="text-xl font-bold"
+                        >{returnData.education}</span
+                    >
+                </p>
+                <p class="mb-3">
+                    Institute Name<br /><span class="text-xl font-bold">{returnData.institute}</span
+                    >
+                </p>
+                {#if returnData.altEmail !== ''}
                     <p class="mb-3">
-                        Name<br /><span class="text-xl font-bold">{form?.name}</span>
-                    </p>
-                    <p class="mb-3">
-                        Email<br /><span class="text-xl font-bold">{form?.email}</span>
-                    </p>
-                    <p class="mb-3">
-                        Phone Number<br /><span class="text-xl font-bold">{form?.phone}</span>
-                    </p>
-                    <p class="mb-3">
-                        Current Education<br /><span class="text-xl font-bold"
-                            >{form?.education}</span
+                        Alternate Email<br /><span class="text-xl font-bold"
+                            >{returnData.altEmail}</span
                         >
                     </p>
+                {/if}
+                {#if returnData.altPhone !== ''}
                     <p class="mb-3">
-                        Institute Name<br /><span class="text-xl font-bold">{form?.institute}</span>
+                        Alternate Phone Number<br /><span class="text-xl font-bold"
+                            >{returnData.altPhone}</span
+                        >
                     </p>
-                    {#if form?.altEmail}
-                        <p class="mb-3">
-                            Alternate Email<br /><span class="text-xl font-bold"
-                                >{form?.altEmail}</span
-                            >
-                        </p>
-                    {/if}
-                    {#if form?.altPhone}
-                        <p class="mb-3">
-                            Alternate Phone Number<br /><span class="text-xl font-bold"
-                                >{form?.altPhone}</span
-                            >
-                        </p>
-                    {/if}
-                    <p class="mb-5">
-                        Subject(s)<br /><span class="font-bold">{form?.subject}</span>
-                    </p>
-                    <p class="mb-4 text-xl">
-                        Final Amount: ₹<span class="font-bold">{form?.amount}</span>
-                    </p>
+                {/if}
+                <p class="mb-5">
+                    Subject(s)<br /><span class="font-bold">{returnData.subject}</span>
+                </p>
+                <p class="mb-4 text-xl">
+                    Final Amount: ₹<span class="font-bold">{returnData.amount}</span>
+                </p>
 
-                    <form method="dialog">
-                        <button class="btn btn-circle btn-ghost btn-sm absolute right-2 top-2"
-                            >✕</button
-                        >
-                    </form>
-                    <form method="POST" action="?/register" use:enhance>
-                        <button
-                            value="confirm"
-                            type="submit"
-                            class="btn btn-outline m-auto mb-2 mt-2 h-auto min-h-0 rounded-none px-4 py-1.5 text-xl normal-case text-black hover:bg-black hover:text-white"
-                            >Confirm</button
-                        >
-                    </form>
-                </div>
-            </dialog>
-        {/if}
+                <form method="dialog">
+                    <button class="btn btn-circle btn-ghost btn-sm absolute right-2 top-2">✕</button
+                    >
+                </form>
+                <form on:submit={sendData}>
+                    <button
+                        value="confirm"
+                        type="submit"
+                        class="btn btn-outline m-auto mb-2 mt-2 h-auto min-h-0 rounded-none px-4 py-1.5 text-xl normal-case text-black hover:bg-black hover:text-white"
+                        formmethod="dialog"
+                        >Confirm</button
+                    >
+                </form>
+            </div>
+        </Modal>
 
         <p class="border-t-2 border-black bg-white p-3 px-4 text-sm text-black">
             You will recieve an email with a <span class="font-semibold text-red-500"
@@ -346,7 +392,6 @@
     .css-input:focus {
         outline: none;
     }
-
     .error {
         color: tomato;
     }
