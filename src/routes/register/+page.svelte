@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { goto } from '$app/navigation'
     import '$src/app.css'
     import Modal from '$src/lib/components/Modal.svelte'
 
@@ -89,18 +90,17 @@
 
     async function sendData() {
         try {
-            await fetch('http://api.tessellate.cmi.ac.in/items/registration', {
+            await fetch('http://api.tessellate.cmi.ac.in/items/register', {
                 method: 'POST',
                 body: JSON.stringify(returnData),
-                mode: "no-cors",
                 headers: {
-                    'Content-type': 'application/json;charset=UTF-8',
+                    'Content-type': 'application/json; charset=UTF-8'
                 }
             })
-                .then(response => response.json)
-                .then(json => console.log(json))
+            goto('/stems/registerSuccess')
         } catch (error) {
             console.log(error)
+            goto('/stems/registerFail')
         }
     }
 </script>
