@@ -98,9 +98,9 @@
                 {#if !stems}
                     <li>
                         <a
-                            href="/register/"
+                            href="/stems/register/"
                             class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
-                            >register</a
+                            >Register</a
                         >
                     </li>
                 {/if}
