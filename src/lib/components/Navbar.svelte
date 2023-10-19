@@ -39,7 +39,7 @@
             >
             {#if !stems}
                 <button class="link px-4 text-lg font-bold normal-case overline"
-                    ><a href="/register">Register</a></button
+                    ><a href="/stems/register">Register</a></button
                 >
             {/if}
         </div>

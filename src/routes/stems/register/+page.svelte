@@ -6,6 +6,7 @@
     let showModal = false
     let noSubjects = false
     const returnData: Record<string, unknown> = {}
+    const serverData: Record<string, unknown> = {}
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     function controlModal(e: any) {
@@ -39,6 +40,16 @@
         returnData.altEmail = data.altEmail
         returnData.altPhone = data.altPhone
         returnData.institute = data.institute
+
+        serverData.firstName = data.firstName
+        serverData.lastName = data.lastName
+        serverData.email = data.email
+        serverData.phone = data.phone
+        serverData.altEmail = data.altEmail
+        serverData.altPhone = data.altPhone
+        serverData.institute = data.institute
+        serverData.education = data.education
+
         if (data.education === 'class8') {
             returnData.mCat = 'A'
             returnData.cCat = 'A'
@@ -75,6 +86,11 @@
         returnData.maths = 'mathematics' in data
         returnData.physics = 'physics' in data
         returnData.computer = 'computer-science' in data
+
+        serverData.maths = 'mathematics' in data
+        serverData.physics = 'physics' in data
+        serverData.computer = 'computer-science' in data
+
         returnData.subject = ''
         if (returnData.maths) {
             returnData.subject += 'Mathematics (Section ' + returnData.mCat + ') '
@@ -92,7 +108,7 @@
         try {
             await fetch('http://api.tessellate.cmi.ac.in/items/register', {
                 method: 'POST',
-                body: JSON.stringify(returnData),
+                body: JSON.stringify(serverData),
                 headers: {
                     'Content-type': 'application/json; charset=UTF-8'
                 }
