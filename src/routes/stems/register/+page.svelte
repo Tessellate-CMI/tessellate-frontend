@@ -143,6 +143,8 @@
                     name="firstName"
                     class="css-input w-full max-w-xs"
                     required
+                    minlength="1"
+                    maxlength="50"
                 />
             </div>
             <div class="form-row">
@@ -153,6 +155,8 @@
                     name="lastName"
                     class="css-input w-full max-w-xs"
                     required
+                    minlength="1"
+                    maxlength="50"
                 />
             </div>
 
@@ -164,6 +168,8 @@
                     name="email"
                     class="css-input w-full max-w-xs"
                     required
+                    minlength="6"
+                    maxlength="50"
                 />
             </div>
 
@@ -205,6 +211,8 @@
                     name="phone"
                     class="css-input w-full max-w-xs"
                     required
+                    minlength="8"
+                    maxlength="15"
                 />
             </div>
 
