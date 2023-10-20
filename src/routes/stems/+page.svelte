@@ -15,8 +15,18 @@
 <div class="sticky top-0 bg-white">
     <div class="bg-pattern">
         <Navbar bgColor={'bg-transparent'} stems={false} />
-        <div class="flex h-screen content-center justify-center">
+        <div class="relative flex h-screen w-full content-center justify-center">
             <img src="svgs/STEMS-black.svg" alt="STEMS Logo" class="w-full lg:w-2/3" />
+            <!-- <div
+                class="absolute inset-y-2/3 mx-auto flex h-max w-full flex-col bg-white bg-opacity-25 py-4 text-center font-heading text-xs font-semibold text-black sm:inset-y-3/4 sm:text-base md:text-lg lg:text-xl"
+            >
+                Registration for STEMS has started.<br />Click here for details.
+                <a
+                    style="text-transform: none"
+                    class="btn btn-outline m-auto mt-3 h-auto min-h-0 rounded-none px-10 py-3 text-xs text-black hover:bg-black hover:text-white sm:text-base md:text-lg lg:text-xl"
+                    href="/stems#details">Details</a
+                >
+            </div> -->
         </div>
     </div>
 </div>
@@ -55,19 +65,23 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-1 bg-lgray text-center font-sans text-xl text-white lg:grid-cols-3">
+    <div
+        id="details"
+        class="grid grid-cols-1 bg-lgray text-center font-sans text-xl text-white lg:grid-cols-3"
+    >
         <div class="p-4 pb-16 pt-12 lg:pb-6 lg:pt-20">
             <h1 class="mb-9 text-center text-6xl font-bold lg:text-7xl">Details</h1>
             <p class="mx-auto w-4/5 leading-relaxed">
-                STEMS will be conducted on the <span class="font-semibold">16<sup>th</sup></span> and <span class="font-semibold">17<sup>th</sup> of January</span>. The
-                test can be taken online from any location; and the top 30 performers will be invited
-                to CMI to attend a sponsored residential camp with guest lectures by leading experts.
+                STEMS will be conducted on the <span class="font-semibold">16<sup>th</sup></span>
+                and <span class="font-semibold">17<sup>th</sup> of December</span>. The test can be
+                taken online from any location; and the top 30 performers will be invited to CMI to
+                attend a sponsored residential camp with guest lectures by leading experts.
             </p>
             {#if screenIsLarge}
-                <button
+                <a
                     style="text-transform: none"
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    ><a href="/stems/details">Details</a></button
+                    href="/stems/details">Details</a
                 >
             {/if}
         </div>
@@ -76,7 +90,8 @@
                 Register
             </h1>
             <p class="mx-auto w-4/5">
-                The registration deadline: <br /> <span class="font-semibold">10th December, 2023</span>
+                The registration deadline: <br />
+                <span class="font-semibold">10th December, 2023</span>
             </p>
             <p class="mx-auto mt-6 w-4/5 leading-loose">
                 The registration fee: <br />
@@ -87,11 +102,10 @@
 
             <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
             {#if screenIsLarge}
-                <button
+                <a
                     style="text-transform: none"
-                    type="submit"
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    >Signup</button
+                    href="/register">Register</a
                 >
             {/if}
         </div>
@@ -106,34 +120,33 @@
                 on our resources page.
             </p>
             {#if screenIsLarge}
-                <button
+                <a
                     style="text-transform: none"
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    ><a href="/stems/resources">Resources</a></button
+                    href="/stems/resources">Resources</a
                 >
             {/if}
         </div>
         {#if !screenIsLarge}
             <div class="p-4 pb-16">
-                <button
+                <a
                     style="text-transform: none"
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    ><a href="/stems/details">Details</a></button
+                    href="/stems/details">Details</a
                 >
             </div>
             <div class="bg-black p-4 pb-16">
-                <button
+                <a
                     style="text-transform: none"
-                    type="submit"
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    >Signup</button
+                    href="/register">Register</a
                 >
             </div>
             <div class="p-4 pb-16">
-                <button
+                <a
                     style="text-transform: none"
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    ><a href="/stems/resources">Resources</a></button
+                    href="/stems/resources">Resources</a
                 >
             </div>
         {/if}

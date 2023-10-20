@@ -4,7 +4,6 @@
     import Footer from '$lib/components/Footer.svelte'
 
     let innerWidth = 0
-    let screenIsLarge = false
 
     $: screenIsLarge = innerWidth < 1024
 </script>
@@ -38,10 +37,10 @@
         <div class="px-8 py-4 md:px-16 md:py-6">
             <ul class="list-disc">
                 <li>
-                    16<sup>th</sup> January, 2024 <br /> Physics: 9:00 am - 12:00 am <br /> Computer
+                    16<sup>th</sup> December, 2024 <br /> Physics: 9:00 am - 12:00 am <br /> Computer
                     Science: 3:00 pm - 6:00 pm
                 </li>
-                <li>17<sup>th</sup> January, 2024 <br /> Mathematics: 11:00 am - 5:00 pm</li>
+                <li>17<sup>th</sup> December, 2024 <br /> Mathematics: 11:00 am - 5:00 pm</li>
             </ul>
         </div>
     </div>
@@ -64,10 +63,10 @@
             </li>
         </ul>
         {#if screenIsLarge}
-            <button
+            <a
                 style="text-transform: none"
                 class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                ><a href="/syllabus/Maths_Syllabus.pdf">Syllabus</a></button
+                href="/syllabus/Maths_Syllabus.pdf">Syllabus</a
             >
         {/if}
     </div>
@@ -87,10 +86,10 @@
             </li>
         </ul>
         {#if screenIsLarge}
-            <button
+            <a
                 style="text-transform: none"
                 class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                ><a href="/syllabus/Physics_Syllabus.pdf">Syllabus</a></button
+                href="/syllabus/Physics_Syllabus.pdf">Syllabus</a
             >
         {/if}
     </div>
@@ -107,33 +106,33 @@
             </li>
         </ul>
         {#if screenIsLarge}
-            <button
+            <a
                 style="text-transform: none"
                 class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                ><a href="/syllabus/CS_Syllabus.pdf">Syllabus</a></button
+                href="/syllabus/CS_Syllabus.pdf">Syllabus</a
             >
         {/if}
     </div>
     {#if !screenIsLarge}
         <div class="p-4 pb-16">
-            <button
+            <a
                 style="text-transform: none"
                 class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                ><a href="/syllabus/Maths_Syllabus.pdf">Syllabus</a></button
+                href="/syllabus/Maths_Syllabus.pdf">Syllabus</a
             >
         </div>
         <div class="bg-black p-4 pb-16">
-            <button
+            <a
                 style="text-transform: none"
                 class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                ><a href="/syllabus/Physics_Syllabus.pdf">Syllabus</a></button
+                href="/syllabus/Physics_Syllabus.pdf">Syllabus</a
             >
         </div>
         <div class="p-4 pb-16">
-            <button
+            <a
                 style="text-transform: none"
                 class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                ><a href="/syllabus/CS_Syllabus.pdf">Syllabus</a></button
+                href="/syllabus/CS_Syllabus.pdf">Syllabus</a
             >
         </div>
     {/if}
@@ -144,6 +143,12 @@
         class=" border-b-2 border-white p-10 pl-6 font-heading text-5xl font-bold tracking-tight sm:text-6xl md:p-16 md:pl-12 lg:border-b-0 lg:border-r-2"
     >
         Rules & Regulations
+
+        <a
+            style="text-transform: none"
+            class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-5 py-3 text-xl font-semibold tracking-normal text-white hover:bg-white hover:text-black"
+            href="/syllabus/Physics_Syllabus.pdf">Complete set of Rules</a
+        >
     </div>
 
     <div class="px-10 py-8 text-xl md:px-20 md:py-16 lg:col-span-2 lg:text-2xl">
