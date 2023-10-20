@@ -105,7 +105,7 @@
                 <a
                     style="text-transform: none"
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    href="/register">Register</a
+                    href="/stems/register">Register</a
                 >
             {/if}
         </div>
@@ -139,7 +139,7 @@
                 <a
                     style="text-transform: none"
                     class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    href="/register">Register</a
+                    href="/stems/register">Register</a
                 >
             </div>
             <div class="p-4 pb-16">
