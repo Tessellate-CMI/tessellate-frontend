@@ -3,5 +3,7 @@
 </script>
 
 <RegistrationCompleted
-    message="Registration successful! Please check your email for the payment link."
-/>
+    ><span class="leading-normal">
+        Details sent successfully<br />Please check your email for the payment link.
+    </span>
+</RegistrationCompleted>
