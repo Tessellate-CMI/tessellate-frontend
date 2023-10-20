@@ -17,7 +17,7 @@
         <Navbar bgColor={'bg-transparent'} stems={false} />
         <div class="relative flex h-screen w-full content-center justify-center">
             <img src="svgs/STEMS-black.svg" alt="STEMS Logo" class="w-full lg:w-2/3" />
-            <!-- <div
+            <div
                 class="absolute inset-y-2/3 mx-auto flex h-max w-full flex-col bg-white bg-opacity-25 py-4 text-center font-heading text-xs font-semibold text-black sm:inset-y-3/4 sm:text-base md:text-lg lg:text-xl"
             >
                 Registration for STEMS has started.<br />Click here for details.
@@ -26,7 +26,7 @@
                     class="btn btn-outline m-auto mt-3 h-auto min-h-0 rounded-none px-10 py-3 text-xs text-black hover:bg-black hover:text-white sm:text-base md:text-lg lg:text-xl"
                     href="/stems#details">Details</a
                 >
-            </div> -->
+            </div>
         </div>
     </div>
 </div>
