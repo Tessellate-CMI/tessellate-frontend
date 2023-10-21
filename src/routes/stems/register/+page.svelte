@@ -3,6 +3,8 @@
     import '$src/app.css'
     import Modal from '$src/lib/components/Modal.svelte'
 
+    const REGISTER_URL = import.meta.env.VITE_TESSELLATE_ENDPOINT
+
     let showModal = false
     let noSubjects = false
     const returnData: Record<string, unknown> = {}
@@ -106,7 +108,7 @@
 
     async function sendData() {
         try {
-            await fetch('http://api.tessellate.cmi.ac.in/items/register', {
+            await fetch(REGISTER_URL + '/items/register', {
                 method: 'POST',
                 body: JSON.stringify(serverData),
                 headers: {
