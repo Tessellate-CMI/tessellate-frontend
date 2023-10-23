@@ -3,7 +3,7 @@
     import ComingSoon from '$src/lib/components/ComingSoon.svelte'
 </script>
 
-<ComingSoon message="Registrations will open by 20th October, 2023" />
+<ComingSoon message="Registrations will open by 1st November, 2023" />
 
 <!-- <script>
     import '$src/app.css'
