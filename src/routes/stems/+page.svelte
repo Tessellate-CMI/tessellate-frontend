@@ -1,8 +1,8 @@
 <script>
-    import '$src/app.css'
     import Footer from '$lib/components/Footer.svelte'
     import Navbar from '$lib/components/Navbar.svelte'
     import SpeakerPanel from '$lib/components/SpeakerPanel.svelte'
+    import '$src/app.css'
 
     let innerWidth = 0
     let screenIsLarge = false
@@ -16,7 +16,7 @@
     <div class="bg-pattern">
         <Navbar bgColor={'bg-transparent'} stems={false} />
         <div class="relative flex h-screen w-full content-center justify-center">
-            <img src="svgs/STEMS-black.svg" alt="STEMS Logo" class="w-full lg:w-2/3" />
+            <img src="/svgs/STEMS-black.svg" alt="STEMS Logo" class="w-full lg:w-2/3" />
             <!-- <div
                 class="absolute inset-y-2/3 mx-auto flex h-max w-full flex-col bg-white bg-opacity-25 py-4 text-center font-heading text-xs font-semibold text-black sm:inset-y-3/4 sm:text-base md:text-lg lg:text-xl"
             >

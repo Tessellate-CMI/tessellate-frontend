@@ -4,7 +4,7 @@ import { vitePreprocess } from '@sveltejs/kit/vite'
 /** @type {import('@sveltejs/kit').Config} */
 export default {
     kit: {
-        adapter: adapter(),
+        adapter: adapter({ precompress: true }),
         alias: {
             $src: './src'
         }
