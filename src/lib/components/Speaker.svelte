@@ -13,7 +13,7 @@
 >
     <div class=" flex h-4/5 w-full items-center justify-center bg-white">
         <div
-            style="background-image: url({'speakers/' + image});"
+            style="background-image: url({'/speakers/' + image});"
             class="h-full w-full bg-gray-100 bg-cover bg-center"
         ></div>
     </div>

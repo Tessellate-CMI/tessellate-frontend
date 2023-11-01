@@ -1,8 +1,8 @@
 <script>
-    import '$src/app.css'
     import Footer from '$lib/components/Footer.svelte'
     import Navbar from '$lib/components/Navbar.svelte'
     import SpeakerPanel from '$lib/components/SpeakerPanel.svelte'
+    import '$src/app.css'
 
     let innerWidth = 0
     let screenIsLarge = false
