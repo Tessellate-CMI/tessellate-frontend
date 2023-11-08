@@ -1,9 +1,8 @@
 <script lang="ts">
     import { goto } from '$app/navigation'
+    import { API_URL } from '$env/static/private'
     import '$src/app.css'
     import Modal from '$src/lib/components/Modal.svelte'
-
-    const REGISTER_URL = import.meta.env.VITE_TESSELLATE_ENDPOINT
 
     let showModal = false
     let noSubjects = false
@@ -108,7 +107,7 @@
 
     async function sendData() {
         try {
-            await fetch(REGISTER_URL + '/items/register', {
+            await fetch(API_URL + '/items/register', {
                 method: 'POST',
                 body: JSON.stringify(serverData),
                 headers: {
