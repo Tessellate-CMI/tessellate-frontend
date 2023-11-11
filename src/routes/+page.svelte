@@ -50,7 +50,7 @@
                 <a
                     style="text-transform: none"
                     class="text-md btn btn-outline m-auto mt-3 h-auto min-h-0 rounded-none px-10 py-3 text-black hover:bg-black hover:text-white sm:text-base md:text-lg lg:text-xl"
-                    href="/stems#details">Details</a
+                    href="/stems#details">Details & Register</a
                 >
             </div>
         </div>
