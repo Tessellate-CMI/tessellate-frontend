@@ -290,8 +290,8 @@
                     required
                 />
                 <label for="disclaimer" class="checkbox-label ml-2"
-                    >This is a disclaimer confirming that they will be ok with recieving Tessellate
-                    and stems update mails</label
+                    >By registering for STEMS, you consent to receiving update mails for Tessellate
+                    and STEMS.</label
                 >
             </div>
             <div class="form-row mt-3 flex">
