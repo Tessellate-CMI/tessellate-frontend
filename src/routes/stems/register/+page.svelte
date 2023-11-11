@@ -94,15 +94,15 @@
 
         returnData.subject = ''
         if (returnData.maths) {
-            returnData.subject += 'Mathematics (Section ' + returnData.mCat + ') '
+            returnData.subject += 'Mathematics (Section ' + returnData.mCat + '), '
         }
         if (returnData.physics) {
-            returnData.subject += 'Physics (Section ' + returnData.mCat + ') '
+            returnData.subject += 'Physics (Section ' + returnData.mCat + '), '
         }
         if (returnData.computer) {
             returnData.subject += 'Computer Science (Section ' + returnData.cCat + ') '
         }
-        returnData.amount = numSubjects * 250
+        returnData.amount = numSubjects * 275
     }
 
     async function sendData() {
