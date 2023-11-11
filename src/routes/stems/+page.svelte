@@ -97,12 +97,8 @@
             </p>
             <p class="mx-auto mt-6 w-4/5 leading-loose">
                 The registration fee: <br />
-                <span class="font-semibold"
-                    >INR 250 (₹250/-)* until 19th November <br /> INR 300 (₹300/-)* thereafter.</span
-                >
+                <span class="font-semibold">INR 275 (₹275/-)* per subject.</span>
             </p>
-
-            <p class="ml-14 mt-6 text-left text-lg">* - per subject</p>
             {#if screenIsLarge}
                 <a
                     style="text-transform: none"
