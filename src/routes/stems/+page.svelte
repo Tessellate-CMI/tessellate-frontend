@@ -93,7 +93,7 @@
             </h1>
             <p class="mx-auto w-4/5">
                 The registration deadline: <br />
-                <span class="font-semibold">15th December, 2023</span>
+                <span class="font-semibold">14th December, 2023</span>
             </p>
             <p class="mx-auto mt-6 w-4/5 leading-loose">
                 The registration fee: <br />
