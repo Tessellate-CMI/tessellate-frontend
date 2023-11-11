@@ -37,10 +37,10 @@
         <div class="px-8 py-4 md:px-16 md:py-6">
             <ul class="list-disc">
                 <li>
-                    16<sup>th</sup> December, 2024 <br /> Physics: 9:00 am - 12:00 am <br /> Computer
+                    16<sup>th</sup> December, 2023 <br /> Physics: 9:00 am - 12:00 am <br /> Computer
                     Science: 3:00 pm - 6:00 pm
                 </li>
-                <li>17<sup>th</sup> December, 2024 <br /> Mathematics: 11:00 am - 5:00 pm</li>
+                <li>17<sup>th</sup> December, 2023 <br /> Mathematics: 11:00 am - 5:00 pm</li>
             </ul>
         </div>
     </div>

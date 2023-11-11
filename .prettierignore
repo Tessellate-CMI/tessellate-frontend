@@ -1,5 +1,5 @@
 .DS_Store
-.pnp.*
+
 /.yarn
 /node_modules
 /.svelte-kit
