@@ -39,7 +39,7 @@
             >
             {#if !stems}
                 <button class="link px-4 text-lg font-bold normal-case overline"
-                    ><a href="/register">Register</a></button
+                    ><a href="/stems/register">Register</a></button
                 >
             {/if}
         </div>
@@ -98,9 +98,9 @@
                 {#if !stems}
                     <li>
                         <a
-                            href="/register/"
+                            href="/stems/register/"
                             class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
-                            >register</a
+                            >Register</a
                         >
                     </li>
                 {/if}
