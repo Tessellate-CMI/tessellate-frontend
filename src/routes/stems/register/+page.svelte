@@ -1,6 +1,6 @@
 <script lang="ts">
     import { goto } from '$app/navigation'
-    import { API_URL } from '$env/static/private'
+    import { PUBLIC_API_URL } from '$env/static/public'
     import '$src/app.css'
     import Modal from '$src/lib/components/Modal.svelte'
 
@@ -107,7 +107,7 @@
 
     async function sendData() {
         try {
-            await fetch(API_URL + '/items/register', {
+            await fetch(PUBLIC_API_URL + '/items/register', {
                 method: 'POST',
                 body: JSON.stringify(serverData),
                 headers: {
@@ -290,8 +290,8 @@
                     required
                 />
                 <label for="disclaimer" class="checkbox-label ml-2"
-                    >By registering for STEMS, you consent to receiving update mails for Tessellate
-                    and STEMS.</label
+                    >By registering for STEMS, you consent to receiving email updates for Tessellate
+                    2024 and STEMS</label
                 >
             </div>
             <div class="form-row mt-3 flex">
