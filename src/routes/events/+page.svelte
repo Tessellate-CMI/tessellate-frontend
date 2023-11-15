@@ -8,8 +8,12 @@
 <Navbar absolute={false}/>
 
 <div class="bg-white text-black">
-    <Event name="Chess" color="second-blue">
+    <Event name="Chess">
         Chess is an awesome sport!
+    </Event>
+
+    <Event name="Quiz" colorOpt={2}>
+        Quizzes are fun.
     </Event>
 </div>
 
