@@ -3,7 +3,7 @@
     import Navbar from '$lib/components/Navbar.svelte'
     import Footer from '$lib/components/Footer.svelte'
     import event_list from '$lib/events.json'
-    import EventListing from '$src/lib/components/EventListing.svelte'
+    import EventListing from '$lib/components/EventListing.svelte'
 </script>
 
 <Navbar absolute={false} />
