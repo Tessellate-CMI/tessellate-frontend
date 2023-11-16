@@ -147,7 +147,7 @@
         <a
             style="text-transform: none"
             class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-5 py-3 text-xl font-semibold tracking-normal text-white hover:bg-white hover:text-black"
-            href="/syllabus/Physics_Syllabus.pdf">Complete set of Rules</a
+            href="/STEMS_general_instructions.pdf">Complete set of Rules</a
         >
     </div>
 
