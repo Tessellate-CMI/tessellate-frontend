@@ -149,6 +149,9 @@
                     required
                 />
             </div>
+            <div class="mx-[26px] px-[10px] text-base font-medium text-black">
+                You will be required to produce your school/college ID card on the day of the event
+            </div>
 
             <div class="form-row mt-8">
                 <input
@@ -190,7 +193,7 @@
                     >
                 </p>
                 <p class="mb-3">
-                    category<br /><span class="text-xl font-bold">{returnData.school_member}</span>
+                    Category<br /><span class="text-xl font-bold">{returnData.school_member}</span>
                 </p>
                 <p class="mb-3">
                     Email<br /><span class="text-xl font-bold">{returnData.email}</span>

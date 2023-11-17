@@ -74,7 +74,7 @@
                     ></button
                 >
             </div>
-            <div class="form-row text-xl">Team</div>
+            <div class="form-row text-xl">Do you have a team or are you alone ?</div>
             <div class="form-row mb-2 border-b-2 border-black">
                 <div class="mb-4">
                     <input
@@ -100,8 +100,15 @@
                 />
                 <label for="college">I have a team of 3 (including myself)</label>
             </div>
+            <div
+                class="mx-[26px] border-b-2 border-black px-[10px] pb-2 text-sm font-medium text-black"
+            >
+                Every team with atleast one college student will be considered as a college-level
+                team.<br /> We cannot guarantee that individual registrants will be allotted to a team
+                of the same level.
+            </div>
             <div class="form-row mt-4">
-                <p class="mb-1">Education level{teamOfThree ? ' (of all team members)' : ''}</p>
+                <p class="mb-1">{teamOfThree ? 'We are in :' : 'I am in :'}</p>
                 <input
                     type="radio"
                     id="school_college"
@@ -193,6 +200,12 @@
                 />
             </div>
 
+            <div class="mx-[26px] px-[10px] text-base font-medium text-black">
+                {teamOfThree
+                    ? 'All team members will be required to produce valid school/college ID cards on the day of the event'
+                    : 'You  will be required to produce your school/college ID card on the day of the event'}
+            </div>
+
             <div class="form-row mt-8">
                 <input
                     type="checkbox"
@@ -233,7 +246,7 @@
                     >
                 </p>
                 <p class="mb-3">
-                    category<br /><span class="text-xl font-bold">{returnData.school_member}</span>
+                    Category<br /><span class="text-xl font-bold">{returnData.school_member}</span>
                 </p>
                 <p class="mb-3">
                     Team<br /><span class="text-xl font-bold"
