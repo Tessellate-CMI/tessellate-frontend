@@ -11,6 +11,7 @@
     est laborum.`
     export let register = 'register'
     export let rules_pdf = '/'
+    export let image = '/events/default-1.png'
     export let key_rules = ['First rule', 'Second rule', 'Third rule']
 </script>
 
@@ -49,7 +50,7 @@
             </div>
 
             <img
-                src="/images/cuber.jpg"
+                src={image}
                 alt="cuber"
                 class="w-full place-self-center px-8 pt-5 md:w-[520px] md:pl-16 md:pr-0 md:pt-0"
             />
