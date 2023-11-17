@@ -1,31 +1,71 @@
 [
     {
         "name": "Cubing",
-        "image": "",
+        "image": "default.jpg",
+        "date": "24th Jan 2024",
+        "venue": "Seminar Hall",
+        "event_partner": ["default.svg", "default-2.svg"],
+        "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
     },
     {
         "name": "Cubing",
-        "image": "",
+        "image": "default.jpg",
+        "date": "24th Jan 2024",
+        "venue": "Seminar Hall",
+        "event_partner": [],
+        "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
     },
     {
         "name": "Cubing",
-        "image": "",
+        "image": "default.jpg",
+        "date": "24th Jan 2024",
+        "venue": "Seminar Hall",
+        "event_partner": ["default.svg", "default-2.svg"],
+        "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
     },
     {
         "name": "Cubing",
-        "image": "",
+        "image": "default.jpg",
+        "date": "24th Jan 2024",
+        "venue": "Seminar Hall",
+        "event_partner": ["default.svg", "default-2.svg"],
+        "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
     },
     {
         "name": "Cubing",
-        "image": "",
+        "image": "default.jpg",
+        "date": "24th Jan 2024",
+        "venue": "Seminar Hall",
+        "event_partner": ["default.svg", "default-2.svg"],
+        "deadline": "15th Jan 2024",
+        "desc": "An event with cubing",
+        "link": "/competitions/debate-individual"
+    },
+    {
+        "name": "Cubing",
+        "image": "default.jpg",
+        "date": "24th Jan 2024",
+        "venue": "Seminar Hall",
+        "event_partner": ["default.svg", "default-2.svg"],
+        "deadline": "15th Jan 2024",
+        "desc": "An event with cubing",
+        "link": "/competitions/debate-individual"
+    },
+    {
+        "name": "Cubing",
+        "image": "default.jpg",
+        "date": "24th Jan 2024",
+        "venue": "Seminar Hall",
+        "event_partner": ["default.svg", "default-2.svg"],
+        "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
     }
