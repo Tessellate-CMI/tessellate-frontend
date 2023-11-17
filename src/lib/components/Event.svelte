@@ -1,12 +1,17 @@
 <script>
     import '$src/app.css'
 
-    // export let name = 'Event Name'
-    // export let colorOpt = 1
-    // const color = colorOpt === 1 ? 'second-blue' : 'main-blue'
-    // const bColor = colorOpt === 1 ? 'white' : 'black'
-    // const textColor = colorOpt === 1 ? 'white' : 'black'
-    // export let date = '24th January, 2024'
+    export let name = 'Event name'
+    export let desc = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+    est laborum.`
+    export let register = 'register'
+    export let rules_pdf = '/'
+    export let key_rules = ['First rule', 'Second rule', 'Third rule']
 </script>
 
 <div class="w-full bg-main-blue">
@@ -18,7 +23,7 @@
         class="z-10 mx-auto -mb-[6vw] w-full max-w-screen-lg bg-white pt-5 text-center
                font-heading text-[16vw] font-bold text-sky-950 sm:-mb-3 sm:text-8xl"
     >
-        Quiz
+        {name}
     </div>
 
     <div class="mx-auto w-full max-w-screen-xl border-t-4 border-second-blue"></div>
@@ -30,18 +35,19 @@
         </div>
         <div class="z-10 grid w-full grid-cols-1 items-center object-right pt-5 md:grid-cols-2">
             <div class="flex md:w-full md:justify-end">
-                <div
-                    class="px-8 text-justify text-lg font-medium sm:text-xl md:-mr-20 md:w-[592px]"
-                >
-                    Every year, our quiz show event captivates participants with intriguing
-                    questions spanning a kaleidoscope of categories. From the annals of history to
-                    the intricacies of pop culture; from scientific realms to literary landscapes;
-                    prepare to put your knowledge to the test, as every obscure fact you've come
-                    across will be called upon. This year, we are honoured to have eminent quizzer
-                    Major Chandrakant Nair as our Quizmaster. Come join us for an exciting day of
-                    cerebral combat!
+                <div class="px-8 text-lg font-medium sm:text-xl md:-mr-20 md:w-[592px]">
+                    <p class="text-justify">
+                        {desc}
+                    </p>
+                    <a
+                        href={register}
+                        style="text-transform:none; font-size:1.5rem"
+                        class="btn btn-outline m-auto mt-5 h-auto min-h-0 w-full rounded-none border-4 py-3 text-sky-950 hover:border-sky-950 hover:bg-sky-950 hover:text-white sm:text-xl"
+                        >Register</a
+                    >
                 </div>
             </div>
+
             <img
                 src="/images/cuber.jpg"
                 alt="cuber"
@@ -61,7 +67,7 @@
                 Rules & <br />Regulations
             </div>
             <a
-                href="/"
+                href={rules_pdf}
                 style="text-transform:none"
                 class="btn btn-outline m-auto ml-8 mt-5 h-auto min-h-0 rounded-none px-5 py-3 text-lg text-sky-950 hover:bg-sky-950 hover:text-white sm:px-10 sm:text-xl"
                 >Complete list of rules</a
@@ -69,9 +75,9 @@
         </div>
         <div class="mt-5 pl-8 text-lg font-medium sm:text-xl">
             <ol class="list-decimal pl-10 pt-6 md:pt-0">
-                <li>The first rule <br /> <br /></li>
-                <li>The second rule <br /> <br /></li>
-                <li>The third rule <br /> <br /></li>
+                {#each key_rules as rule}
+                    <li>{rule}<br /><br /></li>
+                {/each}
             </ol>
         </div>
     </div>
