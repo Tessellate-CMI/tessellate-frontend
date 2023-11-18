@@ -74,6 +74,12 @@
                     ></button
                 >
             </div>
+            <div
+                class="mx-[20px] mb-3 border-b-2 border-black px-[8px] pb-3 text-base font-medium text-black"
+            >
+                <span class="text-lg font-bold">Debate (Parliamentary).</span>
+                <br /> Please make sure you have gone through the rules before proceeding.
+            </div>
             <div class="form-row text-xl">Do you have a team or are you alone ?</div>
             <div class="form-row mb-2 border-b-2 border-black">
                 <div class="mb-4">
@@ -215,8 +221,8 @@
                     required
                 />
                 <label for="disclaimer" class="checkbox-label ml-2"
-                    >By registering for Tessellate QUIZ, you consent to receiving email updates for
-                    Tessellate 2024</label
+                    >By registering for Tessellate events, you consent to receiving email updates
+                    for Tessellate 2024</label
                 >
             </div>
             <div class="form-row mt-3 flex">
