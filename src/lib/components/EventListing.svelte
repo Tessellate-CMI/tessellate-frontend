@@ -19,20 +19,19 @@
     <div class=" h-[22.5rem] w-[40rem] border-2 border-black bg-white text-black">
         <div class="grid h-full grid-cols-9">
             <div
-                style="background-image:linear-gradient(90deg, #fff0 0%, #fff0 85%, #ffff 100%), url({'/events/' +
-                    image});"
+                style="background-image:url({'/events/' + image});"
                 class="relative col-span-4 h-full w-full bg-gray-100 bg-cover bg-center"
             >
                 <div class="absolute bottom-0 w-full pt-4">
                     <a
                         href={link}
                         style="text-transform:none"
-                        class="btn m-auto h-auto min-h-0 w-full rounded-none border-0 bg-white bg-opacity-60 py-3 text-lg text-black hover:bg-white hover:bg-opacity-80"
+                        class="btn m-auto h-auto min-h-0 w-full rounded-none border-0 bg-white bg-opacity-70 py-3 text-lg text-black hover:bg-white hover:bg-opacity-95"
                         >More info & register</a
                     >
                 </div>
             </div>
-            <div class="col-span-5 pl-5">
+            <div class="col-span-5 border-l-2 border-black pl-5">
                 <div class="flex items-center justify-between pb-3 pt-3">
                     <h1 class="font-heading text-4xl font-bold">
                         {name}
@@ -47,16 +46,18 @@
                     <span class=" text-base">When & Where :</span><br />
                     {date} | {venue}, CMI
                 </p>
-                <p class="text-base">Event partners :</p>
-                <div class="flex flex-row flex-wrap">
-                    {#each event_partner as partner}
-                        <img
-                            src={'/partners/' + partner}
-                            alt={partner + 'logo'}
-                            class="mr-2 h-12"
-                        />
-                    {/each}
-                </div>
+                {#if event_partner.length}
+                    <p class="text-base">Event partners :</p>
+                    <div class="flex flex-row flex-wrap">
+                        {#each event_partner as partner}
+                            <img
+                                src={'/partners/' + partner}
+                                alt={partner + 'logo'}
+                                class="mr-2 h-12"
+                            />
+                        {/each}
+                    </div>
+                {/if}
             </div>
         </div>
     </div>
