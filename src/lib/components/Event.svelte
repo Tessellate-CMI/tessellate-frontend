@@ -2,13 +2,15 @@
     import '$src/app.css'
 
     export let name = 'Event name'
-    export let desc = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    export let desc = [
+        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
     ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
     est laborum.`
+    ]
     export let register = 'register'
     export let rules_pdf = '/'
     export let image = '/events/default.jpg'
@@ -49,9 +51,11 @@
         <div class="z-10 grid w-full grid-cols-1 items-center object-right pt-5 md:grid-cols-2">
             <div class="flex md:w-full md:justify-end">
                 <div class="px-8 text-lg font-medium sm:text-xl md:-mr-20 md:w-[592px]">
-                    <p class="text-justify">
-                        {desc}
-                    </p>
+                    {#each desc as para}
+                        <p class="text-justify">
+                            {para}
+                        </p>
+                    {/each}
                     <a
                         href={register}
                         style="text-transform:none; font-size:1.5rem"

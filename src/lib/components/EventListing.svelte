@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
     import '$src/app.css'
+    import type { EventPartners } from '$lib/components/interfaces'
 
     export let name = 'Speaker'
     export let image = 'default.png'
@@ -7,7 +8,9 @@
     export let deadline = '15th Jan 2024'
     export let date = '24th Jan 2024'
     export let venue = 'Seminar Hall'
-    export let event_partner = ['default.svg', 'default-2.svg']
+
+    export let event_partners: EventPartners[] = []
+
     export let link = '/stems'
     let innerWidth = 0
 
@@ -46,13 +49,13 @@
                     <span class=" text-base">When & Where :</span><br />
                     {date} | {venue}, CMI
                 </p>
-                {#if event_partner.length}
+                {#if event_partners.length}
                     <p class="text-base">Event partners :</p>
                     <div class="flex flex-row flex-wrap">
-                        {#each event_partner as partner}
+                        {#each event_partners as partner}
                             <img
-                                src={'/partners/' + partner}
-                                alt={partner + 'logo'}
+                                src={'/partners/' + partner.image}
+                                alt={partner.name + ' logo'}
                                 class="mr-2 h-12"
                             />
                         {/each}
@@ -84,14 +87,14 @@
                 <span class=" text-base">When & Where :</span><br />
                 {date} | {venue}, CMI
             </p>
-            {#if event_partner.length}
+            {#if event_partners.length}
                 <p class="text-base">Event partners :</p>
                 <div class="flex flex-row flex-wrap">
-                    {#each event_partner as partner}
+                    {#each event_partners as partner}
                         <img
-                            src={'/partners/' + partner}
-                            alt={partner + 'logo'}
-                            class="mr-2 h-12"
+                            src={'/partners/' + partner.image}
+                            alt={partner.name + 'logo'}
+                            class="mr-2 h-16"
                         />
                     {/each}
                 </div>

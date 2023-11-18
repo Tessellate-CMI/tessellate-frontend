@@ -4,7 +4,7 @@
         "image": "default.jpg",
         "date": "24th Jan 2024",
         "venue": "Seminar Hall",
-        "event_partner": ["default.svg", "default-2.svg"],
+        "event_partners": [{ "name": "stems", "image": "default.svg" }],
         "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
@@ -14,7 +14,7 @@
         "image": "default.jpg",
         "date": "24th Jan 2024",
         "venue": "Seminar Hall",
-        "event_partner": [],
+        "event_partners": [],
         "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
@@ -24,7 +24,7 @@
         "image": "default.jpg",
         "date": "24th Jan 2024",
         "venue": "Seminar Hall",
-        "event_partner": ["default.svg", "default-2.svg"],
+        "event_partners": [{ "name": "tesellate", "image": "default.svg" }],
         "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
@@ -34,7 +34,7 @@
         "image": "default.jpg",
         "date": "24th Jan 2024",
         "venue": "Seminar Hall",
-        "event_partner": ["default.svg", "default-2.svg"],
+        "event_partners": [{ "name": "tesellate", "image": "default.svg" }],
         "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
@@ -44,7 +44,7 @@
         "image": "default.jpg",
         "date": "24th Jan 2024",
         "venue": "Seminar Hall",
-        "event_partner": ["default.svg", "default-2.svg"],
+        "event_partners": [{ "name": "tesellate", "image": "default.svg" }],
         "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
@@ -54,7 +54,7 @@
         "image": "default.jpg",
         "date": "24th Jan 2024",
         "venue": "Seminar Hall",
-        "event_partner": ["default.svg", "default-2.svg"],
+        "event_partners": [{ "name": "tesellate", "image": "default.svg" }],
         "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"
@@ -64,7 +64,10 @@
         "image": "default.jpg",
         "date": "24th Jan 2024",
         "venue": "Seminar Hall",
-        "event_partner": ["default.svg", "default-2.svg"],
+        "event_partners": [
+            { "name": "tesellate", "image": "default.svg" },
+            { "name": "tesellate", "image": "default-2.svg" }
+        ],
         "deadline": "15th Jan 2024",
         "desc": "An event with cubing",
         "link": "/competitions/debate-individual"

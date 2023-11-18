@@ -4,11 +4,13 @@
     import Navbar from '$src/lib/components/Navbar.svelte'
     import Footer from '$src/lib/components/Footer.svelte'
 
-    const desc = `Every year, our quiz show event captivates participants with intriguing questions spanning a kaleidoscope
+    const desc = [
+        `Every year, our quiz show event captivates participants with intriguing questions spanning a kaleidoscope
 of categories. From the annals of history to the intricacies of pop culture; from scientific realms to
 literary landscapes; prepare to put your knowledge to the test, as every obscure fact you've come across
 will be called upon. This year, we are honoured to have eminent quizzer Major Chandrakant Nair as our
 Quizmaster. Come join us for an exciting day of cerebral combat!`
+    ]
 
     const key_rules = [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
