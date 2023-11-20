@@ -8,6 +8,7 @@
     export let deadline = '15th Jan 2024'
     export let date = '24th Jan 2024'
     export let venue = 'Seminar Hall'
+    export let id = ''
 
     export let event_partners: EventPartners[] = []
 
@@ -19,7 +20,10 @@
 
 <svelte:window bind:innerWidth />
 {#if screenIsLarge}
-    <div class=" h-[22.5rem] w-[40rem] border-2 border-black bg-white text-black">
+    <div
+        class=" m-10 min-h-[22.5rem] w-[40rem] border-2 border-black bg-white text-black sm:m-4"
+        {id}
+    >
         <div class="grid h-full grid-cols-9">
             <div
                 style="background-image:url({'/events/' + image});"
