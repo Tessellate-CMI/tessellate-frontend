@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
     import '$src/app.css'
+    import type { EventPartners_large } from '$lib/components/interfaces'
 
     export let name = 'Event name'
     export let desc = [
@@ -15,18 +16,13 @@
     export let rules_pdf = '/'
     export let image = '/events/default.jpg'
     export let key_rules = ['First rule', 'Second rule', 'Third rule']
-    export let event_partners = [
-        {
-            name: 'Default',
-            image: 'default-2.svg',
-            desc: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-        },
-        {
-            name: 'Default',
-            image: 'default.svg',
-            desc: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-        }
-    ]
+    export let event_partners: EventPartners_large[] = []
+    export let details = {
+        cost: 'INR TBD per person',
+        deadline: 'TBD',
+        date: 'TBD',
+        venue: 'TBD'
+    }
 </script>
 
 <div class="w-full bg-main-blue pb-4">
@@ -35,8 +31,8 @@
         class="mx-auto h-10 w-full max-w-screen-lg"
     ></div> -->
     <div
-        class="z-10 mx-auto w-full max-w-screen-lg bg-white pb-5 pl-8
-               pt-10 font-heading text-[16vw] font-bold text-sky-950 sm:text-8xl"
+        class="z-10 mx-auto w-full max-w-screen-lg bg-white pl-8 pt-10
+               font-heading text-[11.5vw] font-bold leading-none text-sky-950 sm:pb-5 md:text-8xl"
     >
         {name}
     </div>
@@ -62,6 +58,10 @@
                         class="btn btn-outline m-auto mt-5 h-auto min-h-0 w-full rounded-none border-4 py-3 text-sky-950 hover:border-sky-950 hover:bg-sky-950 hover:text-white sm:text-xl"
                         >Register</a
                     >
+                    <div class="mt-3 text-sm text-red-700 sm:text-base">
+                        Please go through the event details and rules listed below before you
+                        register, as to avoid any confusions.
+                    </div>
                 </div>
             </div>
 
@@ -73,17 +73,49 @@
         </div>
     </div>
 
+    <div class="mx-auto mt-4 flex w-full max-w-screen-lg flex-row flex-wrap bg-white pb-10 pt-8">
+        <div>
+            <div
+                class="pl-8 font-heading text-[10vw] font-medium leading-none text-sky-950 md:mt-5 md:text-6xl md:leading-tight"
+            >
+                Event<br /> Details
+            </div>
+        </div>
+        <div class="mr-8 mt-5 text-lg font-medium sm:text-xl">
+            <div class="border-sky-950 pl-8 pt-6 md:ml-8 md:border-l-[3px] md:pl-8 md:pt-0">
+                <p class="my-3 text-xl">
+                    Registration Cost <br /><span class="text-2xl font-semibold"
+                        >{details.cost}</span
+                    >
+                </p>
+                <p class="my-3 text-xl">
+                    Last date to register <br /><span class="text-2xl font-semibold"
+                        >{details.deadline}</span
+                    >
+                </p>
+                <p class="my-3 text-xl">
+                    When is it happening <br /><span class="text-2xl font-semibold"
+                        >{details.date}</span
+                    >
+                </p>
+                <p class="my-3 text-xl">
+                    Event venue <br /><span class="text-2xl font-semibold">{details.venue}</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
     <!-- <div class="mx-auto w-full max-w-screen-xl border-t-4 border-second-blue"></div> -->
     {#if event_partners.length}
         <div class="mx-auto mt-4 w-full max-w-screen-lg bg-white pb-16 pt-8">
             <div
-                class="w-full pl-8 pt-4 font-heading text-[12vw] font-medium text-sky-950 sm:text-6xl"
+                class="w-full pl-8 pt-4 font-heading text-[10vw] font-medium leading-none text-sky-950 md:text-6xl"
             >
                 Event Partners
             </div>
             {#each event_partners as partner}
                 <div
-                    class="grid grid-cols-1 place-items-center pt-12 md:grid-cols-3 md:place-items-start"
+                    class="grid grid-cols-1 place-items-center pt-5 md:grid-cols-3 md:place-items-start md:pt-12"
                 >
                     <img
                         src={'/partners/' + partner.image}
@@ -91,7 +123,7 @@
                         class="col-span-1 max-h-48 px-12 md:max-h-none"
                     />
                     <div class="pl-10 pr-10 md:col-span-2 md:pl-0">
-                        <h1 class="font-heading text-[8vw] text-sky-950 sm:text-4xl">
+                        <h1 class="font-heading text-[7vw] text-sky-950 sm:text-4xl">
                             {partner.name}
                         </h1>
                         <p class="text-lg sm:text-xl">{partner.desc}</p>
@@ -105,7 +137,7 @@
     >
         <div>
             <div
-                class="pl-8 font-heading text-[12vw] font-medium leading-none text-sky-950 sm:text-6xl md:mt-5"
+                class="pl-8 font-heading text-[10vw] font-medium leading-none text-sky-950 md:mt-5 md:text-6xl"
             >
                 Rules & <br />Regulations
             </div>
