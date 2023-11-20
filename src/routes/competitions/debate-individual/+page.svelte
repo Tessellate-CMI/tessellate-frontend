@@ -1,28 +1,40 @@
-<script>
+<script lang="ts">
     import '$src/app.css'
     import Event from '$src/lib/components/Event.svelte'
     import Navbar from '$src/lib/components/Navbar.svelte'
     import Footer from '$src/lib/components/Footer.svelte'
 
     const desc = [
-        `Every year, our quiz show event captivates participants with intriguing questions spanning a kaleidoscope
-of categories. From the annals of history to the intricacies of pop culture; from scientific realms to
-literary landscapes; prepare to put your knowledge to the test, as every obscure fact you've come across
-will be called upon. This year, we are honoured to have eminent quizzer Major Chandrakant Nair as our
-Quizmaster. Come join us for an exciting day of cerebral combat!`
+        `A snappy one-on-one debate where your arguments must keep pace with the unpredictable bell chime. 
+        Can you effectively convey yourself before time runs out?`,
+        `This year, we are pleased to say our debate events will be judged by a panel from A to Zee creativity.`
     ]
 
-    const key_rules = [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
-        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur',
-        'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    const key_rules: string[] = []
+
+    const details = {
+        cost: 'INR 200 per person',
+        deadline: 'TBD',
+        date: 'TBD',
+        venue: 'TBD'
+    }
+
+    export let rules_pdf = '/'
+    export let image = '/events/default.jpg'
+    export let event_partners = [
+        {
+            name: 'A to Zee creativity',
+            image: 'AtoZeeCreativity.webp',
+            desc: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+        }
     ]
 </script>
 
 <Navbar absolute={false} />
 
 <div class="bg-white text-black">
-    <Event name="Debate" {desc} {key_rules}>Quizzes are fun.</Event>
+    <Event name="Turncoat Debate" {desc} {key_rules} {details} {rules_pdf} {image} {event_partners}
+    ></Event>
 </div>
 
 <Footer />
