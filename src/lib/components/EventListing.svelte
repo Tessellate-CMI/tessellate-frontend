@@ -44,23 +44,23 @@
                         {name}
                     </h1>
                 </div>
-                <p class="mb-7 text-lg">{desc}</p>
-                <p class="mb-7 text-lg leading-tight">
-                    <span class=" text-base">Register by :</span><br />
+                <p class="mb-6 text-base">{desc}</p>
+                <p class="mb-6 text-lg leading-tight">
+                    <span class=" text-base">Register by :</span>
                     <span class="font-bold">{deadline}</span>
                 </p>
-                <p class="mb-8 text-lg leading-tight">
+                <p class="mb-6 text-lg leading-tight">
                     <span class=" text-base">When & Where :</span><br />
-                    {date} | {venue}, CMI
+                    {date} | {venue}
                 </p>
                 {#if event_partners.length}
                     <p class="text-base">Event partners :</p>
-                    <div class="flex flex-row flex-wrap">
+                    <div class="mb-3 mt-1 flex flex-row flex-wrap">
                         {#each event_partners as partner}
                             <img
                                 src={'/partners/' + partner.image}
                                 alt={partner.name + ' logo'}
-                                class="mr-2 h-12"
+                                class="mr-4 h-12"
                             />
                         {/each}
                     </div>
@@ -69,14 +69,18 @@
         </div>
     </div>
 {:else}
-    <a href={link} class="flex w-full flex-col border-y-2 border-black bg-white text-black">
+    <a
+        href={link}
+        class="my-5 flex w-full flex-col border-y-2 border-black bg-white text-black"
+        {id}
+    >
         <div
-            style="background-image: linear-gradient(180deg, #fff0 0%, #fff0 45%, #ffff 90%), url({'/events/' +
+            style="background-image: linear-gradient(180deg, #fff0 0%, #fff0 40%, #ffff 90%), url({'/events/' +
                 image});"
-            class="relative h-44 w-full bg-gray-100 bg-cover bg-center"
+            class="relative h-56 w-full bg-gray-100 bg-cover bg-center"
         >
-            <div class="absolute bottom-0 left-4">
-                <h1 class="pb-3 pt-3 font-heading text-4xl font-bold">
+            <div class="absolute bottom-0 left-0">
+                <h1 class="mb-3 mt-3 bg-white bg-opacity-5 pl-4 font-heading text-4xl font-bold">
                     {name}
                 </h1>
             </div>
@@ -115,6 +119,3 @@
         </div>
     </a>
 {/if}
-
-<style>
-</style>
