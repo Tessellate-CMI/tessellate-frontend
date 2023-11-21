@@ -177,15 +177,13 @@
 
             <div class="form-row">
                 <label for="institute"
-                    >{teamOfThree ? 'Team Rep. ' : ''}Institute Name<sup><small>*</small></sup
-                    ></label
+                    >{teamOfThree ? 'Team Rep. ' : ''}Institute Name<sup></sup></label
                 >
                 <input
                     id="institute"
                     type="text"
                     name="institute"
                     class="css-input w-full max-w-xs"
-                    required
                 />
             </div>
 
