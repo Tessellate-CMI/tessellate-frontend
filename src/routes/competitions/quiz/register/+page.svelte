@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
     import { goto } from '$app/navigation'
     import { PUBLIC_API_URL } from '$env/static/public'
     import '$src/app.css'
@@ -80,18 +80,6 @@
             </div>
             <div class="form-row text-xl">Team</div>
             <div class="form-row mb-2 border-b-2 border-black">
-                <!-- <div class="mb-4">
-                    <input
-                        type="radio"
-                        id="team"
-                        name="team"
-                        value="have_team_1"
-                        class="dark:bg-white"
-                        bind:group={teamSize}
-                        required
-                    />
-                    <label for="school">I want to play alone</label><br />
-                </div> -->
                 <div class="mb-4">
                     <input
                         type="radio"
@@ -314,4 +302,4 @@
     .css-input:focus {
         outline: none;
     }
-</style>
+</style> -->
