@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Battle the Time",
+        "image": "default.jpg",
+        "date": "27th January, 2024",
+        "venue": "LH5, LH6 and Auditorium (CMI)",
+        "deadline": "TBD",
+        "desc": "Swift 1v1 debates, match wits with the ticking clock. Can you prevail?",
+        "link": "/competitions/debate-individual"
+    },
+    {
+        "name": "Parliamentary Debate",
+        "image": "default.jpg",
+        "date": "26th January, 2024",
+        "venue": "LH5, LH6 and Auditorium (CMI)",
+        "deadline": "TBD",
+        "desc": "Eloquent 3v3 debates where passionate oratory meets parliamentary precision",
+        "link": "/competitions/debate-parliamentary"
+    },
+    {
+        "name": "Quiz",
+        "image": "quiz.webp",
+        "date": "28th January, 2024",
+        "venue": "Auditorium, CMI",
+        "event_partners": [],
+        "deadline": "TBD",
+        "desc": "Show us your mettle in a cerebral combat with Major Chandrakant Nair as Quizmaster.",
+        "link": "/competitions/quiz"
+    },
+    {
+        "name": "Cubing",
+        "image": "cubing.webp",
+        "date": "26th, 27th & 28th January, 2024",
+        "venue": "Seminar Hall, CMI",
+        "event_partners": [],
+        "deadline": "TBD",
+        "desc": "",
+        "link": ""
+    },
+    {
+        "name": "Chess",
+        "image": "chess.webp",
+        "date": "26th & 27th January, 2024",
+        "venue": "2nd floor, New Building (CMI)",
+        "event_partners": [],
+        "deadline": "TBD",
+        "desc": "",
+        "link": ""
+    },
+    {
+        "name": "Valorant",
+        "image": "default.jpg",
+        "date": "January 2024",
+        "venue": "Online / CMI (finals)",
+        "event_partners": [],
+        "deadline": "31st December, 2023",
+        "desc": "Prove your skill, secure victory and emerge Radiant.",
+        "link": "/competitions/valorant"
+    }
+]
