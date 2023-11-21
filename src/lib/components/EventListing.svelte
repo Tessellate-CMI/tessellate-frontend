@@ -30,12 +30,21 @@
                 class="relative col-span-4 h-full w-full bg-gray-100 bg-cover bg-center"
             >
                 <div class="absolute bottom-0 w-full pt-4">
-                    <a
-                        href={link}
-                        style="text-transform:none"
-                        class="btn m-auto h-auto min-h-0 w-full rounded-none border-0 bg-white bg-opacity-70 py-3 text-lg text-black hover:bg-white hover:bg-opacity-95"
-                        >More info & register</a
-                    >
+                    {#if link != ''}
+                        <a
+                            href={link}
+                            style="text-transform:none"
+                            class="btn m-auto h-auto min-h-0 w-full rounded-none border-0 bg-white bg-opacity-70 py-3 text-lg text-black hover:bg-white hover:bg-opacity-95"
+                            >More info & register</a
+                        >
+                    {:else}
+                        <div
+                            style="text-transform:none"
+                            class="btn m-auto h-auto min-h-0 w-full rounded-none border-0 bg-white bg-opacity-70 py-3 text-lg text-black hover:bg-white hover:bg-opacity-95"
+                        >
+                            Registrations starting soon!
+                        </div>
+                    {/if}
                 </div>
             </div>
             <div class="col-span-5 border-l-2 border-black pl-5">
@@ -44,14 +53,17 @@
                         {name}
                     </h1>
                 </div>
-                <p class="mb-6 text-base">{desc}</p>
+                <p class="mb-6 pr-2 text-base">{desc}</p>
                 <p class="mb-6 text-lg leading-tight">
                     <span class=" text-base">Register by :</span>
                     <span class="font-bold">{deadline}</span>
                 </p>
                 <p class="mb-6 text-lg leading-tight">
                     <span class=" text-base">When & Where :</span><br />
-                    {date} | {venue}
+                    {date}
+                    <!-- <span class="text-2xl">|</span> -->
+                    <br />
+                    {venue}
                 </p>
                 {#if event_partners.length}
                     <p class="text-base">Event partners :</p>
@@ -109,12 +121,21 @@
             {/if}
 
             <div class="mt-2 flex w-full pr-5">
-                <a
-                    href={link}
-                    style="text-transform: none"
-                    class="btn btn-outline m-auto h-auto min-h-0 rounded-none px-6 py-3 text-lg text-black hover:bg-black hover:text-white"
-                    >More info & register</a
-                >
+                {#if link != ''}
+                    <a
+                        href={link}
+                        style="text-transform: none"
+                        class="btn btn-outline m-auto h-auto min-h-0 rounded-none px-6 py-3 text-lg text-black hover:bg-black hover:text-white"
+                        >More info & register</a
+                    >
+                {:else}
+                    <div
+                        style="text-transform: none"
+                        class="btn btn-outline m-auto h-auto min-h-0 rounded-none px-6 py-3 text-lg text-black hover:bg-black hover:text-white"
+                    >
+                        Registrations starting soon!
+                    </div>
+                {/if}
             </div>
         </div>
     </a>
