@@ -8,3 +8,8 @@ export interface EventPartners_large {
     image: string
     desc: string
 }
+
+export interface Contact {
+    name: string
+    email: string
+}

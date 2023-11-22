@@ -16,6 +16,8 @@
     const rules_pdf = ''
     const image = '/events/default.jpg'
     const register = ''
+
+    // const contacts = [{ name: 'Tessellate Valorant', email: '' }]
 </script>
 
 <Navbar absolute={false} />

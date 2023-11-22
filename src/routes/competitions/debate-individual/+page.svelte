@@ -16,6 +16,11 @@
     const rules_pdf = ''
     const image = '/events/default.jpg'
     const register = ''
+
+    const contacts = [
+        { name: 'Divyanshi Kumari', email: 'divyanshi.mds2023@cmi.ac.in' },
+        { name: 'Aniruddha Bhattacharjee', email: 'aniruddhab@cmi.ac.in' }
+    ]
     // const event_partners = [
     //     {
     //         name: 'A to Zee creativity',
@@ -28,7 +33,7 @@
 <Navbar absolute={false} />
 
 <div class="bg-white text-black">
-    <Event name="Battle the Time" {key_rules} {details} {rules_pdf} {image} {register}>
+    <Event name="Battle the Time" {key_rules} {details} {rules_pdf} {image} {register} {contacts}>
         <p>
             Where debonair debaters duel with deft discourse, delivering delightful dialogues in a
             riveting rhythmic rendition of rhetoric.

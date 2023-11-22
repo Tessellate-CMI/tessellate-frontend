@@ -1,6 +1,6 @@
 <script lang="ts">
     import '$src/app.css'
-    import type { EventPartners_large } from '$lib/components/interfaces'
+    import type { EventPartners_large, Contact } from '$lib/components/interfaces'
 
     export let name = 'Event name'
     export let register = 'register'
@@ -14,6 +14,7 @@
         date: 'TBD',
         venue: 'TBD'
     }
+    export let contacts: Contact[] = []
 </script>
 
 <div class="w-full bg-main-blue pb-4 text-black">
@@ -72,7 +73,7 @@
             </div>
         </div>
         <div class="mr-8 mt-5 text-lg font-medium sm:text-xl">
-            <div class="border-sky-950 pl-8 pt-6 md:ml-8 md:border-l-[3px] md:pl-8 md:pt-0">
+            <div class="border-sky-950 pl-8 pt-6 md:ml-8 md:border-l-[3px] md:pt-0">
                 <p class="my-3 text-lg sm:text-xl">
                     Registration Cost <br /><span class="text-xl font-semibold sm:text-2xl"
                         >{details.cost}</span
@@ -127,9 +128,9 @@
     <div
         class="mx-auto mt-4 grid w-full max-w-screen-lg grid-cols-1 bg-white pb-10 pt-8 md:grid-cols-2"
     >
-        <div>
+        <div class="pl-8 pr-8">
             <div
-                class="pl-8 font-heading text-[10vw] font-medium leading-none text-sky-950 md:mt-5 md:text-6xl"
+                class="font-heading text-[10vw] font-medium leading-none text-sky-950 md:mt-5 md:text-6xl"
             >
                 Rules & <br />Regulations
             </div>
@@ -137,13 +138,13 @@
                 <a
                     href={rules_pdf}
                     style="text-transform:none"
-                    class="btn btn-outline m-auto ml-8 mt-10 h-auto min-h-0 rounded-none px-5 py-3 text-lg text-sky-950 hover:bg-sky-950 hover:text-white sm:px-10 sm:text-xl"
+                    class="btn btn-outline m-auto mt-10 h-auto min-h-0 rounded-none px-5 py-3 text-lg text-sky-950 hover:bg-sky-950 hover:text-white sm:px-10 sm:text-xl"
                     >Complete list of rules</a
                 >
             {:else}
                 <div
                     style="text-transform:none"
-                    class="btn btn-outline m-auto ml-8 mt-10 h-auto min-h-0 rounded-none px-5 py-3 text-lg text-sky-950 hover:bg-sky-950 hover:text-white sm:px-10 sm:text-xl"
+                    class="btn btn-outline m-auto mt-10 h-auto min-h-0 rounded-none px-5 py-3 text-lg text-sky-950 hover:bg-sky-950 hover:text-white sm:px-10 sm:text-xl"
                 >
                     Complete list of rules coming soon!
                 </div>
@@ -157,4 +158,25 @@
             </ol>
         </div>
     </div>
+
+    {#if contacts.length}
+        <div class="mx-auto mt-4 w-full max-w-screen-lg bg-white pb-10 pt-8">
+            <div
+                class="pl-8 font-heading text-[7vw] font-medium leading-none text-sky-950 md:mt-5 md:text-4xl"
+            >
+                Contact Us At
+            </div>
+
+            <div class="ml-8 mt-5 flex flex-wrap text-lg font-medium sm:text-xl">
+                {#each contacts as contact}
+                    <div class="my-2 mr-12">
+                        <span class="font-heading text-lg font-normal sm:text-xl"
+                            >{contact.email}</span
+                        ><br />
+                        {contact.name}
+                    </div>
+                {/each}
+            </div>
+        </div>
+    {/if}
 </div>
