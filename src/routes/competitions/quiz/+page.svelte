@@ -4,13 +4,14 @@
     import Navbar from '$src/lib/components/Navbar.svelte'
     import Footer from '$src/lib/components/Footer.svelte'
 
-    const key_rules: string[] = []
+    const key_rules = ['Maximum team strength is 3']
 
     const details = {
         cost: 'INR 200 per person',
         deadline: 'TBD',
         date: ' 28th January, 2024 ',
-        venue: ' Auditorium, CMI'
+        venue: ' Auditorium, CMI',
+        prize_pool: 'TBD'
     }
 
     const rules_pdf = ''

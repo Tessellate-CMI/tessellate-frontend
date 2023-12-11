@@ -12,7 +12,8 @@
         cost: 'INR TBD per person',
         deadline: 'TBD',
         date: 'TBD',
-        venue: 'TBD'
+        venue: 'TBD',
+        prize_pool: 'TBD'
     }
     export let contacts: Contact[] = []
 </script>
@@ -82,6 +83,11 @@
                 <p class="my-3 text-lg sm:text-xl">
                     Last date to register <br /><span class="text-xl font-semibold sm:text-2xl"
                         >{details.deadline}</span
+                    >
+                </p>
+                <p class="my-3 text-lg sm:text-xl">
+                    Prize Pool <br /><span class="text-xl font-semibold sm:text-2xl"
+                        >{details.prize_pool}</span
                     >
                 </p>
                 <p class="my-3 text-lg sm:text-xl">
@@ -167,13 +173,13 @@
                 Contact Us At
             </div>
 
-            <div class="ml-8 mt-5 flex flex-wrap text-lg font-medium sm:text-xl">
+            <div class="ml-8 mt-5 flex flex-col flex-wrap text-2xl font-medium sm:text-3xl">
                 {#each contacts as contact}
                     <div class="my-2 mr-12">
+                        {contact.name}<br />
                         <span class="font-heading text-lg font-normal sm:text-xl"
                             >{contact.email}</span
-                        ><br />
-                        {contact.name}
+                        >
                     </div>
                 {/each}
             </div>
