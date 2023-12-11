@@ -25,7 +25,7 @@
     const event_partners = [
         {
             name: 'Lotus Academy',
-            image: '',
+            image: 'lca.webp',
             desc: ""
         },
         {
@@ -40,7 +40,7 @@
 
 <div class="bg-white text-black">
     <Event
-        name="Open Fide Rating Rapid Chess Tournament"
+        name="Chess Tournament"
         {key_rules}
         {details}
         {rules_pdf}
@@ -49,6 +49,7 @@
         {contacts}
         {event_partners}
     >
+    <p class="font-bold">Open Fide Rating Rapid Chess Tournament</p>
     <p><span class="font-bold">Chief Arbiter:</span> Mrs. K. V. Bhuvaneswari I.A</p>
     <p>Total 9 rounds</p>
     </Event>
