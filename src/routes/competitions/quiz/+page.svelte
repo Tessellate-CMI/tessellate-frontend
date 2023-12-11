@@ -4,14 +4,14 @@
     import Navbar from '$src/lib/components/Navbar.svelte'
     import Footer from '$src/lib/components/Footer.svelte'
 
-    const key_rules = ['Maximum team strength is 3']
+    const key_rules = ['Maximum team strength is 3', 'To qualify for the Best College/Pre-college Team award, all team members should be in college or school currently. Cross-college/school teams are allowed. College/school ID cards need to be produced on the day of the event.']
 
     const details = {
         cost: 'INR 200 per person',
         deadline: 'TBD',
         date: ' 28th January, 2024 ',
         venue: ' Auditorium, CMI',
-        prize_pool: 'TBD'
+        prize_pool: 'INR 23,000 (includes Best College/Pre-college Team award)'
     }
 
     const rules_pdf = ''
