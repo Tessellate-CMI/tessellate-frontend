@@ -10,25 +10,40 @@
         cost: 'INR 200 per person',
         deadline: 'TBD',
         date: '27th January, 2024',
-        venue: 'LH5, LH6 and Auditorium (CMI)'
+        venue: 'LH5, LH6 and Auditorium (CMI)',
+        prize_pool: 'INR 13,000'
     }
 
     const rules_pdf = ''
     const image = '/events/default.jpg'
-    const register = ''
-    // const event_partners = [
-    //     {
-    //         name: 'A to Zee creativity',
-    //         image: 'AtoZeeCreativity.webp',
-    //         desc: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-    //     }
-    // ]
+    const register = 'register'
+
+    const contacts = [
+        { name: 'Divyanshi Kumari', email: 'divyanshi.mds2023@cmi.ac.in' },
+        { name: 'Aniruddha Bhattacharjee', email: 'aniruddhab@cmi.ac.in' }
+    ]
+    const event_partners = [
+        {
+            name: 'A to Zee creativity',
+            image: 'AtoZeeCreativity.png',
+            desc: "A to Zee Creativity is an organization for all things creative! We have a range of programmes catering to students from 5 to 17/18 years old, including sessions in debating, public speaking, drama, writing, Model United Nations, training for the Trinity College London Examinations (Speech and Drama and Communication Skills) and for competitions like the World Scholar's Cup. "
+        }
+    ]
 </script>
 
 <Navbar absolute={false} />
 
 <div class="bg-white text-black">
-    <Event name="Battle the Time" {key_rules} {details} {rules_pdf} {image} {register}>
+    <Event
+        name="Battle the Time"
+        {key_rules}
+        {details}
+        {rules_pdf}
+        {image}
+        {register}
+        {contacts}
+        {event_partners}
+    >
         <p>
             Where debonair debaters duel with deft discourse, delivering delightful dialogues in a
             riveting rhythmic rendition of rhetoric.

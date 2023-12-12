@@ -4,18 +4,25 @@
     import Navbar from '$src/lib/components/Navbar.svelte'
     import Footer from '$src/lib/components/Footer.svelte'
 
-    const key_rules: string[] = []
+    const key_rules: string[] = [
+        'There is only team registration. There is no registration for single participants without teams.',
+        'Teams can consist of five players, with upto two subs',
+        'The top six teams will be invited for the finals'
+    ]
 
     const details = {
-        cost: 'INR 2,000 per team',
+        cost: 'INR 1500 per team (Early Bird Offer till 20th December)',
         deadline: '31st December, 2023',
         date: 'January 2024 (details to be announced later)',
-        venue: 'Online (prelims) / CMI (finals)'
+        venue: 'Online (prelims) / CMI (finals)',
+        prize_pool: 'INR 31,000'
     }
 
     const rules_pdf = ''
-    const image = '/events/default.jpg'
-    const register = ''
+    const image = '/events/Valo-logo.png'
+    const register = 'register'
+
+    // const contacts = [{ name: 'Tessellate Valorant', email: '' }]
 </script>
 
 <Navbar absolute={false} />

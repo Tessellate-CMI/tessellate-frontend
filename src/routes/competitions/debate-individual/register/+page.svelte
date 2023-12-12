@@ -1,4 +1,4 @@
-<!-- <script lang="ts">
+<script lang="ts">
     import { goto } from '$app/navigation'
     import { PUBLIC_API_URL } from '$env/static/public'
     import '$src/app.css'
@@ -282,4 +282,4 @@
     .css-input:focus {
         outline: none;
     }
-</style> -->
+</style>
