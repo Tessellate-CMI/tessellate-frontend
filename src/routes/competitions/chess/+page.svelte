@@ -4,7 +4,12 @@
     import Navbar from '$src/lib/components/Navbar.svelte'
     import Footer from '$src/lib/components/Footer.svelte'
 
-    const key_rules: string[] = ['No Accommodation will be provided', 'Last date for entry: 23.01.2024 - 9.00pm. Total number of entries is restricted to 300 ONLY', 'Spot entries are strictly not accepted', 'No parking facilities inside the campus']
+    const key_rules: string[] = [
+        'No Accommodation will be provided',
+        'Last date for entry: 23.01.2024 - 9.00pm. Total number of entries is restricted to 300 ONLY',
+        'Spot entries are strictly not accepted',
+        'No parking facilities inside the campus'
+    ]
 
     const details = {
         cost: 'INR 1000 (may vary)',
@@ -26,12 +31,12 @@
         {
             name: 'Lotus Academy',
             image: 'lca.webp',
-            desc: ""
+            desc: ''
         },
         {
             name: 'SVA Champions Academy',
-            image: '',
-            desc: ""
+            image: 'SVAChess.png',
+            desc: ''
         }
     ]
 </script>
@@ -49,9 +54,9 @@
         {contacts}
         {event_partners}
     >
-    <p class="font-bold">Open Fide Rating Rapid Chess Tournament</p>
-    <p><span class="font-bold">Chief Arbiter:</span> Mrs. K. V. Bhuvaneswari I.A</p>
-    <p>Total 9 rounds</p>
+        <p class="font-bold">Open Fide Rating Rapid Chess Tournament</p>
+        <p><span class="font-bold">Chief Arbiter:</span> Mrs. K. V. Bhuvaneswari I.A</p>
+        <p>Total 9 rounds</p>
     </Event>
 </div>
 
