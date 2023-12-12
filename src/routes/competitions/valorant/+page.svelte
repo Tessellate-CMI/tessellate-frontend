@@ -4,7 +4,11 @@
     import Navbar from '$src/lib/components/Navbar.svelte'
     import Footer from '$src/lib/components/Footer.svelte'
 
-    const key_rules: string[] = ['There is only team registration. There is no registration for single participants without teams.', 'Teams can consist of five, six or seven players each', 'The top six teams will be invited for the finals']
+    const key_rules: string[] = [
+        'There is only team registration. There is no registration for single participants without teams.',
+        'Teams can consist of five players, with upto two subs',
+        'The top six teams will be invited for the finals'
+    ]
 
     const details = {
         cost: 'INR 1500 per team (Early Bird Offer till 20th December)',
@@ -15,8 +19,8 @@
     }
 
     const rules_pdf = ''
-    const image = '/events/default.jpg'
-    const register = ''
+    const image = '/events/Valo-logo.png'
+    const register = 'register'
 
     // const contacts = [{ name: 'Tessellate Valorant', email: '' }]
 </script>

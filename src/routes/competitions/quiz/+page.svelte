@@ -4,7 +4,10 @@
     import Navbar from '$src/lib/components/Navbar.svelte'
     import Footer from '$src/lib/components/Footer.svelte'
 
-    const key_rules = ['Maximum team strength is 3', 'To qualify for the Best College/Pre-college Team award, all team members should be in college or school currently. Cross-college/school teams are allowed. College/school ID cards need to be produced on the day of the event.']
+    const key_rules = [
+        'Maximum team strength is 3',
+        'To qualify for the Best College/Pre-college Team award, all team members should be in college or school currently. Cross-college/school teams are allowed. College/school ID cards need to be produced on the day of the event.'
+    ]
 
     const details = {
         cost: 'INR 200 per person',
@@ -16,7 +19,7 @@
 
     const rules_pdf = ''
     const image = '/events/quiz.webp'
-    const register = ''
+    const register = 'register'
 
     const contacts = [
         { name: 'Ananya Sinha', email: 'ananyas.mds2023@cmi.ac.in' },

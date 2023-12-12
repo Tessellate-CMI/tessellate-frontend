@@ -16,7 +16,7 @@
 
     const rules_pdf = ''
     const image = '/events/default.jpg'
-    const register = ''
+    const register = 'register'
 
     const contacts = [
         { name: 'Divyanshi Kumari', email: 'divyanshi.mds2023@cmi.ac.in' },

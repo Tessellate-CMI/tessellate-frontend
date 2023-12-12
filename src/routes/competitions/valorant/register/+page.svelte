@@ -8,6 +8,8 @@
     const returnData: Record<string, unknown> = {}
     const serverData: Record<string, unknown> = {}
 
+    const riotIdPattern = '[A-Za-z0-9]{3,16}#[A-Za-z0-9]{3,5}'
+
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     function controlModal(e: any) {
         const formData = new FormData(e.target)
@@ -85,7 +87,8 @@
                 }
             })
             goto('/competitions/registerResult/registerSuccess')
-        } catch (error) { console.log(error)
+        } catch (error) {
+            console.log(error)
             goto('/competitions/registerResult/registerFail')
         }
     }
@@ -108,9 +111,10 @@
             <div
                 class="mx-[20px] mb-3 border-b-2 border-black px-[8px] pb-3 text-base font-medium text-black"
             >
-                <span class="text-lg font-bold">Valorant (Team Only).</span> <br /> The name and phone
-                number given should be the team leader's. Please make sure you have gone through the
-                rules before proceeding.
+                <span class="text-lg font-bold">Valorant</span> <br /> All the communication will be
+                done through Player 1's email. The name and phone number provided should be of P1.
+                <br />
+                Please make sure you have gone through the rules before proceeding.
             </div>
             <div class="form-row">
                 <label for="team_name">Team Name<sup><small>*</small></sup></label>
@@ -173,12 +177,17 @@
                     minlength="6"
                     maxlength="50"
                 />
+                <div class=" mb-1 mt-3 text-sm font-medium text-black">
+                    Riot Id should be of the form GameName#Tag
+                </div>
                 <label for="p1_riotid">Player 1 Riot Id<sup><small>*</small></sup></label>
                 <input
                     id="p1_riotid"
                     type="text"
                     name="p1_riotid"
                     class="css-input w-full max-w-xs"
+                    pattern={riotIdPattern}
+                    title="Riot ID should follow the format: GameName#Tagline"
                     required
                     minlength="1"
                     maxlength="50"
@@ -354,9 +363,7 @@
                     email id. After the payment is done, your registration will be completed.
                 </p>
                 <p class="mb-3">
-                    Team Name<br /><span class="text-xl font-bold"
-                        >{returnData.team_name}</span
-                    >
+                    Team Name<br /><span class="text-xl font-bold">{returnData.team_name}</span>
                 </p>
                 <p class="mb-3">
                     Name<br /><span class="text-xl font-bold"
