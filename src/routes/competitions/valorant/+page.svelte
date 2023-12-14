@@ -15,7 +15,7 @@
         deadline: '31st December, 2023',
         date: 'January 2024 (details to be announced later)',
         venue: 'Online (prelims) / CMI (finals)',
-        prize_pool: 'INR 31,000'
+        prize_pool: 'INR 30,000'
     }
 
     const rules_pdf = ''
