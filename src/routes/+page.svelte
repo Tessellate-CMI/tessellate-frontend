@@ -46,7 +46,7 @@
                     bg-opacity-25 py-4 text-center font-heading text-base font-semibold text-black
                     sm:inset-y-3/4 sm:text-base md:text-lg lg:text-xl"
             >
-                Registration for STEMS has started.<br />Click here for details.
+                Last day for STEMS Registration.<br />Click here for details.
                 <a
                     style="text-transform: none"
                     class="text-md btn btn-outline m-auto mt-3 h-auto min-h-0 rounded-none px-10 py-3 text-black hover:bg-black hover:text-white sm:text-base md:text-lg lg:text-xl"
@@ -101,7 +101,7 @@
             >
                 {#each images as img}
                     <SplideSlide
-                        style="background-image: url({'/images/' + img}); 
+                        style="background-image: url({'/images/' + img});
                                background-size:cover"
                     >
                         <img

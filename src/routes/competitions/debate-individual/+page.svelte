@@ -11,7 +11,7 @@
         deadline: 'TBD',
         date: '27th January, 2024',
         venue: 'LH5, LH6 and Auditorium (CMI)',
-        prize_pool: 'INR 13,000'
+        prize_pool: 'INR 10,000'
     }
 
     const rules_pdf = ''
