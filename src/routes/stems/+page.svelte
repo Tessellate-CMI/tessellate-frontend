@@ -17,18 +17,6 @@
         <Navbar bgColor={'bg-transparent'} stems={false} />
         <div class="relative flex h-screen w-full content-center justify-center">
             <img src="/svgs/STEMS-black.svg" alt="STEMS Logo" class="w-full lg:w-2/3" />
-            <div
-                class="absolute inset-y-2/3 mx-auto flex h-max w-full flex-col bg-white
-                    bg-opacity-25 py-4 text-center font-heading text-lg font-semibold text-black
-                    sm:inset-y-3/4 sm:text-base md:text-lg lg:text-xl"
-            >
-                Registration for STEMS has started.<br />Click here for details.
-                <a
-                    style="text-transform: none"
-                    class="btn btn-outline m-auto mt-3 h-auto min-h-0 rounded-none px-10 py-3 text-base text-black hover:bg-black hover:text-white sm:text-base md:text-lg lg:text-xl"
-                    href="/stems#details">Details & Register</a
-                >
-            </div>
         </div>
     </div>
 </div>
@@ -92,20 +80,8 @@
                 Register
             </h1>
             <p class="mx-auto w-4/5">
-                The registration deadline: <br />
-                <span class="font-semibold">14th December, 2023</span>
+                Registration for STEMS has ended<br />
             </p>
-            <p class="mx-auto mt-6 w-4/5 leading-loose">
-                The registration fee: <br />
-                <span class="font-semibold">INR 275 (₹275/-)* per subject.</span>
-            </p>
-            {#if screenIsLarge}
-                <a
-                    style="text-transform: none"
-                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    href="/stems/register">Register</a
-                >
-            {/if}
         </div>
         <div class="p-4 pb-16 pt-12 lg:pb-6 lg:pt-20">
             <h1 class="mb-9 text-center text-6xl font-bold lg:text-7xl">Resources</h1>
@@ -134,11 +110,6 @@
                 >
             </div>
             <div class="bg-black p-4 pb-16">
-                <a
-                    style="text-transform: none"
-                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    href="/stems/register">Register</a
-                >
             </div>
             <div class="p-4 pb-16">
                 <a

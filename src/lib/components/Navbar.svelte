@@ -40,11 +40,6 @@
             <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/about-us">About Us</a></button
             >
-            {#if !stems}
-                <button class="link px-4 text-lg font-bold normal-case overline"
-                    ><a href="/stems/register">Register</a></button
-                >
-            {/if}
         </div>
     {:else}
         <div class="dropdown dropdown-end">
@@ -105,15 +100,6 @@
                         >About Us</a
                     >
                 </li>
-                {#if !stems}
-                    <li>
-                        <a
-                            href="/stems/register/"
-                            class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
-                            >Register</a
-                        >
-                    </li>
-                {/if}
             </ul>
         </div>
     {/if}
