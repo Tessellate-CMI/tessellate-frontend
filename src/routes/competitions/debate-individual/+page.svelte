@@ -53,7 +53,7 @@
             A snappy one-on-one debate where your arguments must keep pace with the unpredictable
             bell chime. Can you effectively convey yourself before time runs out? <br />
             This year, we are pleased to say our debate events will be judged by a panel from A to Zee
-            creativity.
+            creativity. Please note that registration is restricted to 8th graders and above.
         </p>
     </Event>
 </div>

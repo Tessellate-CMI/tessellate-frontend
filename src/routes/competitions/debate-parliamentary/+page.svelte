@@ -54,7 +54,7 @@
             Decorum in the house! A structured three-on-three debate with eloquent arguments,
             impassioned oratory, and a touch of parliamentary procedure. <br />
             This year, we are pleased to say our debate events will be judged by a panel from A to Zee
-            creativity.
+            creativity. Please note that registration is restricted to 8th graders and above.
         </p>
     </Event>
 </div>
