@@ -15,7 +15,7 @@
     }
 
     const rules_pdf = ''
-    const image = '/events/default.jpg'
+    const image = '/events/Parliamentary_Debate.jpg'
     const register = 'register'
 
     const contacts = [

@@ -15,7 +15,7 @@
     }
 
     const rules_pdf = ''
-    const image = '/events/default.jpg'
+    const image = '/events/Battle_the_Time.webp'
     const register = 'register'
 
     const contacts = [

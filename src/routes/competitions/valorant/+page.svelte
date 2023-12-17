@@ -5,6 +5,7 @@
     import Footer from '$src/lib/components/Footer.svelte'
 
     const key_rules: string[] = [
+        'Bring your oen computer/laptop',
         'There is only team registration. There is no registration for single participants without teams.',
         'Teams can consist of five players, with upto two subs',
         'The top six teams will be invited for the finals'
@@ -18,7 +19,7 @@
         prize_pool: 'INR 30,000'
     }
 
-    const rules_pdf = ''
+    const rules_pdf = '/events/rules/Valorant_Tournament_Rules.pdf'
     const image = '/events/Valo-logo.png'
     const register = 'register'
 
