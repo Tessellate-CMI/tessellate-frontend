@@ -32,7 +32,7 @@
             class="flex w-full flex-col items-center border-b-2 font-semibold md:border-b-0 md:border-r-2 {borderstyle}"
         >
             <div class="pb-6 pt-5 text-3xl md:pt-1">Mathematics</div>
-            <div class="flex flex-col pb-6 text-left text-xl underline self-auto">
+            <div class="flex flex-col self-auto pb-6 text-left text-xl underline">
                 <ul class="list-disc">
                     {#each maths as category}
                         <li>
