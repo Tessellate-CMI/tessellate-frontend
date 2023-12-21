@@ -19,7 +19,8 @@
         prize_pool: 'INR 30,000'
     }
 
-    const rules_pdf = '/events/rules/Valorant_Tournament_Rules.pdf'
+    const rules_pdf =
+        'https://cdn.tessellate.cmi.ac.in/events/valorant/Valorant_Tournament_Rules.pdf'
     const image = '/events/Valo-logo.png'
     const register = 'register'
 
