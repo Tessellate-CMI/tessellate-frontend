@@ -32,11 +32,12 @@
             class="flex w-full flex-col items-center border-b-2 font-semibold md:border-b-0 md:border-r-2 {borderstyle}"
         >
             <div class="pb-6 pt-5 text-3xl md:pt-1">Mathematics</div>
-            <div class="flex flex-col pb-6 text-left text-xl underline self-auto">
+            <div class="flex flex-col self-auto pb-6 text-left text-xl underline">
                 <ul class="list-disc">
                     {#each maths as category}
                         <li>
-                            <a href="/pastPapers/STEMS{year}-Maths-Category{category}.pdf"
+                            <a
+                                href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-Maths-Category{category}.pdf"
                                 >Category {category}</a
                             >
                         </li>
@@ -52,7 +53,8 @@
                 <ul class="list-disc">
                     {#each physics as category}
                         <li>
-                            <a href="/pastPapers/STEMS{year}-Physics-Category{category}.pdf"
+                            <a
+                                href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-Physics-Category{category}.pdf"
                                 >Category {category}</a
                             >
                         </li>
@@ -66,7 +68,8 @@
                 <ul class="list-disc">
                     {#each cs as category}
                         <li>
-                            <a href="/pastPapers/STEMS{year}-CS-Category{category}.pdf"
+                            <a
+                                href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-CS-Category{category}.pdf"
                                 >Category {category}</a
                             >
                         </li>
