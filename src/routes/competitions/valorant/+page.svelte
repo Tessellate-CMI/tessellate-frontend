@@ -12,8 +12,8 @@
     ]
 
     const details = {
-        cost: 'INR 1500 per team (Early Bird Offer till 20th December)',
-        deadline: '31st December, 2023',
+        cost: 'INR 1500 per team (Early Bird Offer till 25th December)',
+        deadline: '5th January, 2024',
         date: 'January 2024 (details to be announced later)',
         venue: 'Online (prelims) / CMI (finals)',
         prize_pool: 'INR 30,000'

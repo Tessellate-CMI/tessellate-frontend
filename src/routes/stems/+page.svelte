@@ -109,8 +109,7 @@
                     href="/stems/details">Details</a
                 >
             </div>
-            <div class="bg-black p-4 pb-16">
-            </div>
+            <div class="bg-black p-4 pb-16"></div>
             <div class="p-4 pb-16">
                 <a
                     style="text-transform: none"
