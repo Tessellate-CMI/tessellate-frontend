@@ -256,7 +256,7 @@
                 </p>
                 <p class="mb-3">
                     Team<br /><span class="text-xl font-bold"
-                        >{returnData.teamOfThree ? 'Have a team of 3' : 'Looking for a team'}</span
+                        >{teamOfThree ? 'Have a team of 3' : 'Looking for a team'}</span
                     >
                 </p>
                 <p class="mb-3">

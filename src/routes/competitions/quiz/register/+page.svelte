@@ -216,9 +216,7 @@
                 </p>
                 <p class="mb-3">
                     Team : <br /><span class="text-xl font-bold"
-                        >{returnData.teamOfThree
-                            ? 'Playing alone / Have a team'
-                            : 'Looking for a team'}</span
+                        >{teamOfThree ? 'Playing alone / Have a team' : 'Looking for a team'}</span
                     >
                 </p>
                 <p class="mb-3">
