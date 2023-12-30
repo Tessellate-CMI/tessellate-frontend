@@ -5,10 +5,6 @@
     import Modal from '$src/lib/components/Modal.svelte'
 
     let showModal = false
-    let teamSize = 'alone'
-    let teamOfThree = false
-
-    $: teamOfThree = teamSize == 'have_team' ? true : false
 
     const returnData: Record<string, unknown> = {}
     const serverData: Record<string, unknown> = {}
@@ -36,9 +32,8 @@
         serverData.email = data.email
         serverData.phone = data.phone
         serverData.institute = data.institute
-        serverData.looking_for_team = teamSize == 'alone'
 
-        returnData.amount = teamSize != 'alone' ? 200 : 100
+        returnData.amount = 150
     }
 
     async function sendData() {
@@ -76,39 +71,12 @@
                 class="mx-[20px] mb-3 border-b-2 border-black px-[8px] pb-3 text-base font-medium text-black"
             >
                 <span class="text-lg font-bold">Quiz</span> <br /> Please make sure you have gone through
-                the rules before proceeding.
-            </div>
-            <div class="form-row text-xl">Team</div>
-            <div class="form-row mb-2 border-b-2 border-black">
-                <div class="mb-4">
-                    <input
-                        type="radio"
-                        id="team"
-                        name="team"
-                        value="alone"
-                        class="dark:bg-white"
-                        bind:group={teamSize}
-                        required
-                    />
-                    <label for="school">I am looking for a team</label><br />
-                </div>
-                <input
-                    type="radio"
-                    id="team"
-                    name="team"
-                    value="have_team"
-                    class=" dark:bg-white"
-                    bind:group={teamSize}
-                    required
-                />
-                <label for="college"
-                    >I am playing alone / I have a team of upto 3, including myself</label
-                >
+                the rules before proceeding. Registration is done individually. Please ensure that the
+                whole team is present at the event, teams will be formed on site. If are not part of
+                any team, you will be entered into a team with other participants without a team.
             </div>
             <div class="form-row">
-                <label for="firstName"
-                    >{teamOfThree ? 'Team Rep. ' : ''}First Name<sup><small>*</small></sup></label
-                >
+                <label for="firstName">First Name<sup><small>*</small></sup></label>
                 <input
                     id="firstName"
                     type="text"
@@ -120,9 +88,7 @@
                 />
             </div>
             <div class="form-row">
-                <label for="lastName"
-                    >{teamOfThree ? 'Team Rep. ' : ''}Last Name<sup><small>*</small></sup></label
-                >
+                <label for="lastName">Last Name<sup><small>*</small></sup></label>
                 <input
                     id="lastName"
                     type="text"
@@ -135,9 +101,7 @@
             </div>
 
             <div class="form-row">
-                <label for="email"
-                    >{teamOfThree ? 'Team Rep. ' : ''}Email<sup><small>*</small></sup></label
-                >
+                <label for="email">Email<sup><small>*</small></sup></label>
                 <input
                     id="email"
                     type="email"
@@ -149,9 +113,7 @@
                 />
             </div>
             <div class="form-row">
-                <label for="phone"
-                    >{teamOfThree ? 'Team Rep. ' : ''}Phone Number<sup><small>*</small></sup></label
-                >
+                <label for="phone">Phone Number<sup><small>*</small></sup></label>
                 <input
                     id="phone"
                     type="number"
@@ -164,9 +126,7 @@
             </div>
 
             <div class="form-row">
-                <label for="institute"
-                    >{teamOfThree ? 'Team Rep. ' : ''}Institute Name<sup></sup></label
-                >
+                <label for="institute">Institute Name<sup></sup></label>
                 <input
                     id="institute"
                     type="text"
@@ -212,11 +172,6 @@
                 <p class="mb-3">
                     Name<br /><span class="text-xl font-bold"
                         >{returnData.firstName} {returnData.lastName}</span
-                    >
-                </p>
-                <p class="mb-3">
-                    Team : <br /><span class="text-xl font-bold"
-                        >{teamOfThree ? 'Playing alone / Have a team' : 'Looking for a team'}</span
                     >
                 </p>
                 <p class="mb-3">
