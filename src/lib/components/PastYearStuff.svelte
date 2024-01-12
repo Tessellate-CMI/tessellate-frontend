@@ -4,6 +4,7 @@
     export let maths = ['A', 'B', 'C']
     export let physics = ['A', 'B', 'C']
     export let cs = ['A', 'B']
+    export let solutions = false
 
     import '$src/app.css'
 
@@ -25,7 +26,7 @@
 </script>
 
 <div class="w-full pb-8 {bgstyle}">
-    <div class="p-10 px-6 text-5xl font-bold">STEMS {year}</div>
+    <div class="p-10 px-6 text-5xl font-bold">STEMS {year} {solutions ? 'Solutions' : ''}</div>
 
     <div class="grid grid-cols-1 text-center font-sans md:grid-cols-3">
         <div
@@ -35,12 +36,21 @@
             <div class="flex flex-col self-auto pb-6 text-left text-xl underline">
                 <ul class="list-disc">
                     {#each maths as category}
-                        <li>
-                            <a
-                                href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-Maths-Category{category}.pdf"
-                                >Category {category}</a
-                            >
-                        </li>
+                        {#if solutions}
+                            <li>
+                                <a
+                                    href="https://cdn.tessellate.cmi.ac.in/stems/PastSolutions/STEMS{year}-Maths-Category{category}.pdf"
+                                    >Category {category}</a
+                                >
+                            </li>
+                        {:else}
+                            <li>
+                                <a
+                                    href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-Maths-Category{category}.pdf"
+                                    >Category {category}</a
+                                >
+                            </li>
+                        {/if}
                     {/each}
                 </ul>
             </div>
@@ -52,12 +62,21 @@
             <div class="flex flex-col pb-6 text-center text-xl underline">
                 <ul class="list-disc">
                     {#each physics as category}
-                        <li>
-                            <a
-                                href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-Physics-Category{category}.pdf"
-                                >Category {category}</a
-                            >
-                        </li>
+                        {#if solutions}
+                            <li>
+                                <a
+                                    href="https://cdn.tessellate.cmi.ac.in/stems/PastSolutions/STEMS{year}-Physics-Category{category}.pdf"
+                                    >Category {category}</a
+                                >
+                            </li>
+                        {:else}
+                            <li>
+                                <a
+                                    href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-Physics-Category{category}.pdf"
+                                    >Category {category}</a
+                                >
+                            </li>
+                        {/if}
                     {/each}
                 </ul>
             </div>
@@ -67,12 +86,21 @@
             <div class="flex flex-col pb-6 text-center text-xl underline">
                 <ul class="list-disc">
                     {#each cs as category}
-                        <li>
-                            <a
-                                href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-CS-Category{category}.pdf"
-                                >Category {category}</a
-                            >
-                        </li>
+                        {#if solutions}
+                            <li>
+                                <a
+                                    href="https://cdn.tessellate.cmi.ac.in/stems/PastSolutions/STEMS{year}-CS-Category{category}.pdf"
+                                    >Category {category}</a
+                                >
+                            </li>
+                        {:else}
+                            <li>
+                                <a
+                                    href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-CS-Category{category}.pdf"
+                                    >Category {category}</a
+                                >
+                            </li>
+                        {/if}
                     {/each}
                 </ul>
             </div>
