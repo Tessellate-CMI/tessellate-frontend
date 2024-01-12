@@ -35,9 +35,6 @@
                 ><a href="/competitions">Competitions</a></button
             >
             <button class="link px-4 text-lg font-bold normal-case overline"
-                ><a href="/sponsors">Sponsors</a></button
-            >
-            <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/about-us">About Us</a></button
             >
         </div>
@@ -84,13 +81,6 @@
                         href="/competitions"
                         class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
                         >Competitions</a
-                    >
-                </li>
-                <li>
-                    <a
-                        href="/sponsors"
-                        class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
-                        >Sponsors</a
                     >
                 </li>
                 <li>
