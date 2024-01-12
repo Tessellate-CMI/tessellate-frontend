@@ -18,9 +18,19 @@
         "link": "/competitions/debate-parliamentary"
     },
     {
+        "name": "Valorant",
+        "image": "Valo-logo.jpg",
+        "date": "January 2024",
+        "venue": "Online / CMI (finals)",
+        "event_partners": [],
+        "deadline": "12th January, 2024",
+        "desc": "Prove your skill, secure victory and emerge Radiant.",
+        "link": "/competitions/valorant"
+    },
+    {
         "name": "Quiz",
         "image": "quiz.webp",
-        "date": "28th January, 2024",
+        "date": "10 AM, 28th January, 2024",
         "venue": "Auditorium, CMI",
         "event_partners": [],
         "deadline": "TBD",
@@ -46,15 +56,5 @@
         "deadline": "23rd January, 9:00 pm",
         "desc": "",
         "link": "/competitions/chess"
-    },
-    {
-        "name": "Valorant",
-        "image": "Valo-logo.jpg",
-        "date": "January 2024",
-        "venue": "Online / CMI (finals)",
-        "event_partners": [],
-        "deadline": "12th January, 2024",
-        "desc": "Prove your skill, secure victory and emerge Radiant.",
-        "link": "/competitions/valorant"
     }
 ]

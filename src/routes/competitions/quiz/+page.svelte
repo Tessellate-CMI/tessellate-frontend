@@ -12,7 +12,7 @@
     const details = {
         cost: 'INR 150 per person',
         deadline: 'TBD',
-        date: ' 28th January, 2024 ',
+        date: '10 AM, 28th January, 2024 ',
         venue: ' Auditorium, CMI',
         prize_pool: 'INR 18,000 (includes Best College/Pre-college Team award)'
     }
