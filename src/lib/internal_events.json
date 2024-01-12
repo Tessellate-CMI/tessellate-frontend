@@ -1,0 +1,132 @@
+[
+    {
+        "name": "KTANE - Keep Talking And Nobody Explodes",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Hurudaya Narasimhan",
+                "batch": "BSc2",
+                "email": "hurudaya@cmi.ac.in"
+            },
+            {
+                "name": "Rohit Roy",
+                "batch": "DS1",
+                "email": "rohitroy@cmi.ac.in"
+            }
+        ],
+        "description": "A bomb-diffusing party game where you can exhibit your communication skills. Be the fastest to diffuse the bomb without making mistakes and glory shall soon be yours."
+    },
+    {
+        "name": "Treasure Hunt",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Bibek Paul",
+                "batch": "DS1",
+                "email": "bibek.mds2023@cmi.ac.in"
+            }
+        ],
+        "description": "Go get that bounty"
+    },
+    {
+        "name": "Integration Bee",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Sankalp Sundar",
+                "batch": "BSc3",
+                "email": "sankalps@cmi.ac.in"
+            }
+        ],
+        "description": "Miss your JEE days? We got you covered. Showcase your integration skills by solving integrals fast and correctly in front of a judge who probably needs a calculator themself to check your answers."
+    },
+    {
+        "name": "Antithesis",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Rohit Roy",
+                "batch": "DS1",
+                "email": "rohitroy@cmi.ac.in"
+            },
+            {
+                "name": "Writika Sarkar",
+                "batch": "CS1",
+                "email": "writika@cmi.ac.in"
+            }
+        ],
+        "description": "Defend/criticise/meme your way through some random thesis/dissertation from the internet that's given to you. A jury of your peers will vote to decide if you move on to the next round. Know that there might or might not be a crown involved."
+    },
+    {
+        "name": "Balloon Battle Royal",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Rajdeep Ghosh",
+                "batch": "BSc3",
+                "email": "rajdeep@cmi.ac.in"
+            }
+        ],
+        "description": "You've got a balloon on your back. All you have is a toothpick and your team's honour. THIS IS SPARTAAAAA"
+    },
+    {
+        "name": "Card Games",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Nabin Sahoo",
+                "batch": "CS2",
+                "email": "nabins@cmi.ac.in"
+            }
+        ],
+        "description": "We hope to have poker, bridge, literature (and maybe one more game) this year. There won’t be actual money involved in the gambling tho... well, (at least officially 😉)"
+    },
+    {
+        "name": "Tug Of War",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Bijayan Ray",
+                "batch": "BSc3",
+                "email": "bijayan@cmi.ac.in"
+            }
+        ],
+        "description": "We’ve got a football field, a strong rope, and people who think they are strong. You do the math."
+    },
+    {
+        "name": "Chess-Clock-Jenga",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Romit Roy Chowdhury",
+                "batch": "BSc3",
+                "email": "romit@cmi.ac.in"
+            }
+        ],
+        "description": ""
+    },
+    {
+        "name": "Poetry Slam",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Milan Paul",
+                "batch": "BSc3",
+                "email": "milan@cmi.ac.in"
+            }
+        ],
+        "description": ""
+    },
+    {
+        "name": "Food Eating Contest",
+        "alumni": false,
+        "coordinators": [
+            {
+                "name": "Shreenish Shinde",
+                "batch": "BSc2",
+                "email": "shreenish@cmi.ac.in"
+            }
+        ],
+        "description": ""
+    }
+]

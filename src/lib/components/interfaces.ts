@@ -13,3 +13,9 @@ export interface Contact {
     name: string
     email: string
 }
+
+export interface Coordinator {
+    name: string
+    batch: string
+    email: string
+}

@@ -133,7 +133,7 @@
                 href="/events"
             >
                 <div class="flex flex-row flex-wrap items-center">
-                    <p class="w-full">Cultural</p>
+                    <p class="w-full">Internal</p>
                     <p>Events</p>
                     <svg viewBox="0 0 55 45" class="r-arrow ml-[1.25rem]">
                         <path

@@ -28,9 +28,9 @@
                     ><a href="/stems/">STEMS</a></button
                 >
             {/if}
-            <!-- <button class="link px-4 text-lg font-bold normal-case overline"
+            <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/events">Events</a></button
-            > -->
+            >
             <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/competitions">Competitions</a></button
             >
@@ -69,13 +69,13 @@
                         >
                     </li>
                 {/if}
-                <!-- <li>
+                <li>
                     <a
                         href="/events"
                         class="btn btn-ghost h-auto min-h-0 rounded-none py-2 hover:bg-black hover:text-white"
                         >Events</a
                     >
-                </li> -->
+                </li>
                 <li>
                     <a
                         href="/competitions"
