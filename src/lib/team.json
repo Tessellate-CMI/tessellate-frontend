@@ -15,17 +15,8 @@
         ]
     },
     {
-        "team": "Design",
-        "members": [
-            {
-                "name": "Abdul Aleem",
-                "batch": "BSc III",
-                "email": "abdul@cmi.ac.in"
-            }
-        ]
-    },
-    {
         "team": "Event Organisation",
+        "subteam": "Event Coordinators",
         "members": [
             {
                 "name": "Ishita Pethkar",
@@ -40,7 +31,8 @@
         ]
     },
     {
-        "team": "External Events",
+        "team": "Event Organisation",
+        "subteam": "External Events",
         "members": [
             {
                 "name": "Aniruddha Bhattacharjee",
@@ -55,32 +47,18 @@
         ]
     },
     {
-        "team": "Internal Events",
+        "team": "Event Organisation",
+        "subteam": "Internal Events",
         "members": [
             {
                 "name": "Advait Phadnis",
                 "batch": "MSc Math II",
-                "email": ""
-            },
-            {
-                "name": "Shreenish Shinde",
-                "batch": "BSc II",
-                "email": "shreenish@cmi.ac.in"
+                "email": "advait@cmi.ac.in"
             }
         ]
     },
     {
-        "team": "Event Setup",
-        "members": [
-            {
-                "name": "Harini Rammohan",
-                "batch": "BSc II",
-                "email": "harini@cmi.ac.in"
-            }
-        ]
-    },
-    {
-        "team": "Marketing",
+        "team": "Design",
         "members": [
             {
                 "name": "Siddhant Shah",
@@ -88,9 +66,29 @@
                 "email": "siddhants@cmi.ac.in"
             },
             {
-                "name": "Harini Rammohan",
-                "batch": "BSc II",
-                "email": "harini@cmi.ac.in"
+                "name": "Paarth Iyer",
+                "batch": "MSc CS II",
+                "email": "paarth@cmi.ac.in"
+            }
+        ]
+    },
+    {
+        "team": "Tech",
+        "members": [
+            {
+                "name": "Arghyadip Chakraborty",
+                "batch": "MSc CS II",
+                "email": "arghyadip@cmi.ac.in"
+            },
+            {
+                "name": "Paarth Iyer",
+                "batch": "MSc CS II",
+                "email": "paarth@cmi.ac.in"
+            },
+            {
+                "name": "Siddhant Agarwal",
+                "batch": "BSc I",
+                "email": "siddhanta.ug2023@cmi.ac.in"
             }
         ]
     },
@@ -155,26 +153,6 @@
                 "name": "Vedant Neema",
                 "batch": "BSc II",
                 "email": "vedantn@cmi.ac.in"
-            }
-        ]
-    },
-    {
-        "team": "Tech",
-        "members": [
-            {
-                "name": "Arghyadip Chakraborty",
-                "batch": "MSc CS II",
-                "email": "arghyadip@cmi.ac.in"
-            },
-            {
-                "name": "Paarth Iyer",
-                "batch": "MSc CS II",
-                "email": "paarth@cmi.ac.in"
-            },
-            {
-                "name": "Siddhant Agarwal",
-                "batch": "BSc I",
-                "email": "siddhanta.ug2023@cmi.ac.in"
             }
         ]
     }
