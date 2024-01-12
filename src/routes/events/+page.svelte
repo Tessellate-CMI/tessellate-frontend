@@ -15,6 +15,7 @@
 </div>
 
 <div class="min-h-screen w-full bg-second-blue">
+    <!-- <p class="text-black text-center text-xl pt-3">The ruleset for every event can be accessed <a href="" class="underline">here</a></p> -->
     <div class="grid w-full grid-cols-1 justify-center p-4 md:grid-cols-2">
         {#each event_list as event}
             <InternalEvent {...event} />

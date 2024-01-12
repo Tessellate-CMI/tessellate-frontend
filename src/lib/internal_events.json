@@ -1,7 +1,7 @@
 [
     {
         "name": "KTANE - Keep Talking And Nobody Explodes",
-        "alumni": false,
+        "alumni": "true",
         "coordinators": [
             {
                 "name": "Hurudaya Narasimhan",
@@ -18,7 +18,7 @@
     },
     {
         "name": "Treasure Hunt",
-        "alumni": false,
+        "alumni": "false",
         "coordinators": [
             {
                 "name": "Bibek Paul",
@@ -26,11 +26,11 @@
                 "email": "bibek.mds2023@cmi.ac.in"
             }
         ],
-        "description": "Go get that bounty"
+        "description": "Go get that bounty."
     },
     {
         "name": "Integration Bee",
-        "alumni": false,
+        "alumni": "false",
         "coordinators": [
             {
                 "name": "Sankalp Sundar",
@@ -42,7 +42,7 @@
     },
     {
         "name": "Antithesis",
-        "alumni": false,
+        "alumni": "TBA",
         "coordinators": [
             {
                 "name": "Rohit Roy",
@@ -59,7 +59,7 @@
     },
     {
         "name": "Balloon Battle Royal",
-        "alumni": false,
+        "alumni": "false",
         "coordinators": [
             {
                 "name": "Rajdeep Ghosh",
@@ -71,7 +71,7 @@
     },
     {
         "name": "Card Games",
-        "alumni": false,
+        "alumni": "false",
         "coordinators": [
             {
                 "name": "Nabin Sahoo",
@@ -79,11 +79,11 @@
                 "email": "nabins@cmi.ac.in"
             }
         ],
-        "description": "We hope to have poker, bridge, literature (and maybe one more game) this year. There won’t be actual money involved in the gambling tho... well, (at least officially 😉)"
+        "description": "We hope to have poker, bridge, literature (and maybe one more game) this year."
     },
     {
         "name": "Tug Of War",
-        "alumni": false,
+        "alumni": "false",
         "coordinators": [
             {
                 "name": "Bijayan Ray",
@@ -95,7 +95,7 @@
     },
     {
         "name": "Chess-Clock-Jenga",
-        "alumni": false,
+        "alumni": "false",
         "coordinators": [
             {
                 "name": "Romit Roy Chowdhury",
@@ -103,11 +103,11 @@
                 "email": "romit@cmi.ac.in"
             }
         ],
-        "description": ""
+        "description": "Play the usual game of Jenga, but there’s a chess-clock nagging you to speed up. Can you win at Jenga without losing on time?"
     },
     {
         "name": "Poetry Slam",
-        "alumni": false,
+        "alumni": "true",
         "coordinators": [
             {
                 "name": "Milan Paul",
@@ -115,18 +115,28 @@
                 "email": "milan@cmi.ac.in"
             }
         ],
-        "description": ""
+        "description": "Write an original piece of poetry and have it sent to us. Recite it in front of an audience and judges to win the (metaphorical) belt."
     },
     {
         "name": "Food Eating Contest",
-        "alumni": false,
+        "alumni": "TBA",
         "coordinators": [
             {
                 "name": "Shreenish Shinde",
                 "batch": "BSc2",
                 "email": "shreenish@cmi.ac.in"
+            },
+            {
+                "name": "Dyuti Mukherjee",
+                "batch": "BSc2",
+                "email": "dyuti@cmi.ac.in"
+            },
+            {
+                "name": "Vardhan Kumar Ray",
+                "batch": "BSc2",
+                "email": "vardhan@cmi.ac.in"
             }
         ],
-        "description": ""
+        "description": "With a some entry fee, get the chance to devour unlimited food."
     }
 ]
