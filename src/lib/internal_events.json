@@ -24,6 +24,11 @@
                 "name": "Bibek Paul",
                 "batch": "DS1",
                 "email": "bibek.mds2023@cmi.ac.in"
+            },
+            {
+                "name": "Ayush Yadav",
+                "batch": "DS1",
+                "email": "ayushy.mds2023@cmi.ac.in"
             }
         ],
         "description": "Go get that bounty."
@@ -38,10 +43,10 @@
                 "email": "sankalps@cmi.ac.in"
             }
         ],
-        "description": "Miss your JEE days? We got you covered. Showcase your integration skills by solving integrals fast and correctly in front of a judge who probably needs a calculator themself to check your answers."
+        "description": "Miss your JEE days? We got you covered. Showcase your integration skills by solving integrals fast and correctly in front of a judge who probably needs a calculator themself to check your answers.\n Note: It'll be full of interesting and clever integrals and will not be an exercise in boring high school computations."
     },
     {
-        "name": "Antithesis",
+        "name": "Anti-Thesis",
         "alumni": "TBA",
         "coordinators": [
             {
@@ -118,7 +123,7 @@
         "description": "Write an original piece of poetry and have it sent to us. Recite it in front of an audience and judges to win the (metaphorical) belt."
     },
     {
-        "name": "Food Eating Contest",
+        "name": "Tessellate UNLIMITED Food Eating Contest",
         "alumni": "TBA",
         "coordinators": [
             {
