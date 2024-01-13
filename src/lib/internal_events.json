@@ -123,8 +123,8 @@
         "description": "Write an original piece of poetry and have it sent to us. Recite it in front of an audience and judges to win the (metaphorical) belt."
     },
     {
-        "name": "Tessellate UNLIMITED Food Eating Contest",
-        "alumni": "TBA",
+        "name": "Unlimited Food Eating Contest",
+        "alumni": "false",
         "coordinators": [
             {
                 "name": "Shreenish Shinde",
