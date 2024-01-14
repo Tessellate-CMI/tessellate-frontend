@@ -14,7 +14,7 @@
     const details = {
         cost: 'INR 1000 (may vary)',
         deadline: '23rd January, 2024 9:00pm',
-        date: '27th January, 2024',
+        date: '26th & 27th January, 2024',
         venue: '2nd Floor, New Building',
         prize_pool: 'INR 2,00,000'
     }
