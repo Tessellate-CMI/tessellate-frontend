@@ -118,16 +118,25 @@
 
     <div class="grid h-screen grid-cols-1 font-sans sm:grid-cols-2">
         <a
-            href="/stems"
-            class="parent relative flex flex-col justify-center bg-gray-900 p-6 text-white transition-colors duration-300 ease-in-out hover:bg-white hover:text-black"
+            class="bg-main-blue fill-black pl-8 pt-8 text-5xl font-bold
+                tracking-tighter text-black transition-colors duration-300 ease-in-out
+                hover:bg-black hover:fill-main-blue hover:text-main-blue
+                sm:text-5xl md:text-6xl lg:text-8xl"
+            href="/competitions/"
         >
-            <div><img src="svgs/STEMS-white.svg" alt="" class="child" /></div>
-            <div class="text-center text-lg">click to know more</div>
+            <div class="flex flex-row flex-wrap items-center gap-5">
+                Competitions <br />
+                <svg viewBox="0 0 55 45" class="r-arrow">
+                    <path
+                        d="m28.06,43.89h-9.31l18.57-18.71H0v-6.47h37.31L18.74,0h9.31l21.94,21.95-21.94,21.94Z"
+                    />
+                </svg>
+            </div>
         </a>
         <div class="grid grid-rows-2">
             <a
-                class="bg-main-blue fill-black pl-8 pt-8 text-5xl font-bold
-                tracking-tighter text-black transition-colors duration-300 ease-in-out
+                class="bg-second-blue fill-white pl-8 pt-8 text-5xl font-bold
+                tracking-tighter text-white transition-colors duration-300 ease-in-out
                 hover:bg-black hover:fill-main-blue hover:text-main-blue
                 sm:text-5xl md:text-6xl lg:text-8xl"
                 href="/events"
@@ -143,20 +152,11 @@
                 </div>
             </a>
             <a
-                class="bg-second-blue fill-white pl-8 pt-8 text-5xl font-bold
-                tracking-tighter text-white transition-colors duration-300 ease-in-out
-                hover:bg-black hover:fill-main-blue hover:text-main-blue
-                sm:text-5xl md:text-6xl lg:text-8xl"
-                href="/competitions/"
+                href="/stems"
+                class="parent relative flex flex-col justify-center bg-gray-900 p-6 text-white transition-colors duration-300 ease-in-out hover:bg-white hover:text-black"
             >
-                <div class="flex flex-row flex-wrap items-center gap-5">
-                    Competitions <br />
-                    <svg viewBox="0 0 55 45" class="r-arrow">
-                        <path
-                            d="m28.06,43.89h-9.31l18.57-18.71H0v-6.47h37.31L18.74,0h9.31l21.94,21.95-21.94,21.94Z"
-                        />
-                    </svg>
-                </div>
+                <div><img src="svgs/STEMS-white.svg" alt="" class="child" /></div>
+                <div class="text-center text-lg">click to know more</div>
             </a>
         </div>
     </div>

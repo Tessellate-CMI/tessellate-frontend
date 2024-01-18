@@ -23,17 +23,17 @@
 
     {#if innerWidth > 640}
         <div class="flex {textWhite ? 'text-white' : ' text-black'}">
+            <button class="link px-4 text-lg font-bold normal-case overline"
+                ><a href="/competitions">Competitions</a></button
+            >
+            <button class="link px-4 text-lg font-bold normal-case overline"
+                ><a href="/events">Internal Events</a></button
+            >
             {#if stems}
                 <button class="link px-4 text-lg font-bold normal-case overline"
                     ><a href="/stems/">STEMS</a></button
                 >
             {/if}
-            <button class="link px-4 text-lg font-bold normal-case overline"
-                ><a href="/events">Events</a></button
-            >
-            <button class="link px-4 text-lg font-bold normal-case overline"
-                ><a href="/competitions">Competitions</a></button
-            >
             <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/about-us">About Us</a></button
             >
@@ -60,22 +60,6 @@
                 >
             </div>
             <ul tabindex="-1" class="menu dropdown-content menu-sm z-[1] w-36 bg-white p-0">
-                {#if stems}
-                    <li>
-                        <a
-                            href="/stems/"
-                            class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-b-black py-2 hover:bg-black hover:text-white"
-                            >Stems</a
-                        >
-                    </li>
-                {/if}
-                <li>
-                    <a
-                        href="/events"
-                        class="btn btn-ghost h-auto min-h-0 rounded-none py-2 hover:bg-black hover:text-white"
-                        >Events</a
-                    >
-                </li>
                 <li>
                     <a
                         href="/competitions"
@@ -85,11 +69,27 @@
                 </li>
                 <li>
                     <a
+                        href="/events"
+                        class="btn btn-ghost h-auto min-h-0 rounded-none py-2 hover:bg-black hover:text-white"
+                        >Internal Events</a
+                    >
+                </li>
+                <li>
+                    <a
                         href="/about-us"
                         class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
                         >About Us</a
                     >
                 </li>
+                {#if stems}
+                    <li>
+                        <a
+                            href="/stems/"
+                            class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-b-black py-2 hover:bg-black hover:text-white"
+                            >Stems</a
+                        >
+                    </li>
+                {/if}
             </ul>
         </div>
     {/if}

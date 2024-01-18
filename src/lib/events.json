@@ -1,5 +1,52 @@
 [
     {
+        "name": "Cubing",
+        "image": "cubing.webp",
+        "date": "26th, 27th & 28th January, 2024",
+        "venue": "Seminar Hall, CMI",
+        "event_partners": [
+            {
+                "name": "Chennai Cubing Club",
+                "image": "ChennaiCubingClub.png",
+                "desc": ""
+            }
+        ],
+        "deadline": "21st January, 2024",
+        "desc": "",
+        "link": "/competitions/cubing"
+    },
+    {
+        "name": "Chess",
+        "image": "chess.webp",
+        "date": "26th & 27th January, 2024",
+        "venue": "2nd floor, New Building (CMI)",
+        "event_partners": [
+            {
+                "name": "Lotus Academy",
+                "image": "lca.webp",
+                "desc": ""
+            },
+            {
+                "name": "SVA Champions Academy",
+                "image": "SVAChess.png",
+                "desc": ""
+            }
+        ],
+        "deadline": "23rd January, 9:00 pm",
+        "desc": "",
+        "link": "/competitions/chess"
+    },
+    {
+        "name": "Quiz",
+        "image": "quiz.webp",
+        "date": "10 AM, 28th January, 2024",
+        "venue": "Auditorium, CMI",
+        "event_partners": [],
+        "deadline": "TBD",
+        "desc": "Show us your mettle in a cerebral combat with Major Chandrakant Nair as Quizmaster.",
+        "link": "/competitions/quiz"
+    },
+    {
         "name": "Battle the Time",
         "image": "Battle_the_Time.webp",
         "date": "27th January, 2024",
@@ -22,36 +69,13 @@
         "venue": "LH5, LH6 and Auditorium (CMI)",
         "deadline": "22nd January, 2024",
         "desc": "Eloquent 3v3 debates where passionate oratory meets parliamentary precision",
-        "link": "/competitions/debate-parliamentary"
-    },
-    {
-        "name": "Quiz",
-        "image": "quiz.webp",
-        "date": "10 AM, 28th January, 2024",
-        "venue": "Auditorium, CMI",
-        "event_partners": [],
-        "deadline": "TBD",
-        "desc": "Show us your mettle in a cerebral combat with Major Chandrakant Nair as Quizmaster.",
-        "link": "/competitions/quiz"
-    },
-    {
-        "name": "Cubing",
-        "image": "cubing.webp",
-        "date": "26th, 27th & 28th January, 2024",
-        "venue": "Seminar Hall, CMI",
-        "event_partners": [],
-        "deadline": "21st January, 2024",
-        "desc": "",
-        "link": "https://www.worldcubeassociation.org/competitions/CMITessellateCubeOpen2024/register"
-    },
-    {
-        "name": "Chess",
-        "image": "chess.webp",
-        "date": "26th & 27th January, 2024",
-        "venue": "2nd floor, New Building (CMI)",
-        "event_partners": [],
-        "deadline": "23rd January, 9:00 pm",
-        "desc": "",
-        "link": "/competitions/chess"
+        "link": "/competitions/debate-parliamentary",
+        "event_partners": [
+            {
+                "name": "A to Zee creativity",
+                "image": "AtoZeeCreativity.png",
+                "desc": "A to Zee Creativity is an organization for all things creative! We have a range of programmes catering to students from 5 to 17/18 years old, including sessions in debating, public speaking, drama, writing, Model United Nations, training for the Trinity College London Examinations (Speech and Drama and Communication Skills) and for competitions like the World Scholar's Cup. "
+            }
+        ]
     }
 ]

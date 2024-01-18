@@ -25,7 +25,7 @@
 
     const event_partners = [
         {
-            name: 'A to Zee creativity',
+            name: 'A to Zee Creativity',
             image: 'AtoZeeCreativity.png',
             desc: "A to Zee Creativity is an organization for all things creative! We have a range of programmes catering to students from 5 to 17/18 years old, including sessions in debating, public speaking, drama, writing, Model United Nations, training for the Trinity College London Examinations (Speech and Drama and Communication Skills) and for competitions like the World Scholar's Cup. "
         }
