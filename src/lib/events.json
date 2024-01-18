@@ -4,7 +4,13 @@
         "image": "Battle_the_Time.webp",
         "date": "27th January, 2024",
         "venue": "LH5, LH6 and Auditorium (CMI)",
-        "event_partners": ["A to Zee Creativity"],
+        "event_partners": [
+            {
+                "name": "A to Zee creativity",
+                "image": "AtoZeeCreativity.png",
+                "desc": "A to Zee Creativity is an organization for all things creative! We have a range of programmes catering to students from 5 to 17/18 years old, including sessions in debating, public speaking, drama, writing, Model United Nations, training for the Trinity College London Examinations (Speech and Drama and Communication Skills) and for competitions like the World Scholar's Cup. "
+            }
+        ],
         "deadline": "17th January, 2024",
         "desc": "Swift 1v1 debates, match wits with the ticking clock. Can you prevail?",
         "link": "/competitions/debate-individual"
@@ -33,7 +39,7 @@
         "image": "cubing.webp",
         "date": "26th, 27th & 28th January, 2024",
         "venue": "Seminar Hall, CMI",
-        "event_partners": ["Chennai Cubing Club"],
+        "event_partners": [],
         "deadline": "21st January, 2024",
         "desc": "",
         "link": "https://www.worldcubeassociation.org/competitions/CMITessellateCubeOpen2024/register"
