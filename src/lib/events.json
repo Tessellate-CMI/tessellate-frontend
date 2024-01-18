@@ -4,6 +4,7 @@
         "image": "Battle_the_Time.webp",
         "date": "27th January, 2024",
         "venue": "LH5, LH6 and Auditorium (CMI)",
+        "event_partners": ["A to Zee Creativity"],
         "deadline": "17th January, 2024",
         "desc": "Swift 1v1 debates, match wits with the ticking clock. Can you prevail?",
         "link": "/competitions/debate-individual"
@@ -32,7 +33,7 @@
         "image": "cubing.webp",
         "date": "26th, 27th & 28th January, 2024",
         "venue": "Seminar Hall, CMI",
-        "event_partners": [],
+        "event_partners": ["Chennai Cubing Club"],
         "deadline": "21st January, 2024",
         "desc": "",
         "link": "https://www.worldcubeassociation.org/competitions/CMITessellateCubeOpen2024/register"
