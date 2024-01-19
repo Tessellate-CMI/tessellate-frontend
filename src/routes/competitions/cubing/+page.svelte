@@ -29,7 +29,7 @@
         {
             name: 'Chennai Cubing Club',
             image: 'ChennaiCubingClub.png',
-            desc: ''
+            desc: 'Empowering Minds, Igniting Passion: Chennai Cubing Club (C3) envisions a community where the thrill of speedcubing fuels the spirit of competition, fostering a culture of continuous improvement and camaraderie among enthusiasts in Tamil Nadu and across India.'
         }
     ]
 
