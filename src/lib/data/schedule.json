@@ -1,0 +1,185 @@
+{
+    "thursday": [
+        {
+            "name": "Tug Of War",
+            "start_time": "9:30 am",
+            "end_time": "12:30 pm",
+            "type": "internal",
+            "venue": "Footbal Field"
+        },
+        {
+            "name": "Keep Talking & Nobody Explodes (KTANE)",
+            "start_time": "2:00 pm",
+            "end_time": "5:00 pm",
+            "type": "internal",
+            "venue": "LH 803"
+        },
+        {
+            "name": "Cultural Night",
+            "start_time": "5:30 pm",
+            "end_time": "7:30 pm",
+            "type": "internal",
+            "venue": "Auditorium"
+        },
+        {
+            "name": "Card Games",
+            "start_time": "9:00 pm",
+            "end_time": "12:00 am",
+            "type": "internal",
+            "venue": "LH 5 & 6"
+        }
+    ],
+    "friday": [
+        {
+            "name": "Cubing",
+            "start_time": "9:00 am",
+            "end_time": "4:30 pm",
+            "type": "external",
+            "venue": "Seminar Hall, LH1, LH2"
+        },
+        {
+            "name": "Chess",
+            "start_time": "9:30 am",
+            "end_time": "5:30 pm",
+            "type": "external",
+            "venue": "DS Area, NKN Hall"
+        },
+        {
+            "name": "Chess Clock Jenga",
+            "start_time": "9:30 am",
+            "end_time": "12:30 pm",
+            "type": "internal",
+            "venue": ""
+        },
+        {
+            "name": "CMI & Olympiad Panel",
+            "start_time": "10:30 am",
+            "end_time": "12:00 pm",
+            "type": "external",
+            "venue": ""
+        },
+        {
+            "name": "Keep Talking & Nobody Explodes (KTANE)",
+            "start_time": "1:30 pm",
+            "end_time": "5:30 pm",
+            "type": "internal",
+            "venue": "LH 803"
+        },
+        {
+            "name": "Treasure Hunt",
+            "start_time": "6:00 pm",
+            "end_time": "10:00pm",
+            "type": "internal",
+            "venue": ""
+        },
+        {
+            "name": "Card Games",
+            "start_time": "10:30pm",
+            "end_time": "1:00 am (on 27th January)",
+            "type": "internal",
+            "venue": "LH 5 & 6"
+        }
+    ],
+    "saturday": [
+        {
+            "name": "Cubing",
+            "start_time": "10:00 am",
+            "end_time": "6:00 pm",
+            "type": "external",
+            "venue": "Seminar Hall, LH1, LH2"
+        },
+        {
+            "name": "Chess",
+            "start_time": "9:30 am",
+            "end_time": "4:30 pm",
+            "type": "external",
+            "venue": "DS Area, NKN Hall"
+        },
+        {
+            "name": "Balloon Battle Royale",
+            "start_time": "9:30 am",
+            "end_time": "11:00 am",
+            "type": "internal",
+            "venue": ""
+        },
+        {
+            "name": "Poetry Slam",
+            "start_time": "11:30 am",
+            "end_time": "",
+            "type": "internal",
+            "venue": "LH 803"
+        },
+        {
+            "name": "Integration Bee",
+            "start_time": "2:00 pm",
+            "end_time": "5:00 pm",
+            "type": "internal",
+            "venue": "LH 803"
+        },
+        {
+            "name": "Chess Awards Ceremony",
+            "start_time": "4:30 pm",
+            "end_time": "",
+            "type": "external",
+            "venue": "Auditorium"
+        },
+        {
+            "name": "Cultural Night",
+            "start_time": "7:00 pm",
+            "end_time": "10:00 pm",
+            "type": "internal",
+            "venue": "Auditorium"
+        },
+        {
+            "name": "Card Games",
+            "start_time": "10:30 pm",
+            "end_time": "1:00 am (on 28th January)",
+            "type": "internal",
+            "venue": "LH 5 & 6"
+        }
+    ],
+    "sunday": [
+        {
+            "name": "Cubing",
+            "start_time": "9:00 am",
+            "end_time": "5:00 pm",
+            "type": "external",
+            "venue": "Seminar Hall, LH1, LH2"
+        },
+        {
+            "name": "Quiz",
+            "start_time": "10:00 am",
+            "end_time": "3:30 pm",
+            "type": "external",
+            "venue": "Auditorium"
+        },
+        {
+            "name": "Michelin Talk",
+            "start_time": "11:00 am",
+            "end_time": "12:15 pm",
+            "type": "internal",
+            "venue": "NKN Hall"
+        },
+        {
+            "name": "Anti-Thesis",
+            "start_time": "3:30 pm",
+            "end_time": "6:30 pm",
+            "type": "internal",
+            "venue": "LH 803"
+        },
+        {
+            "name": "Cubing Awards Ceremony",
+            "start_time": "7:00 pm",
+            "end_time": "",
+            "type": "external",
+            "venue": "Auditorium"
+        },
+        {
+            "name": "DJ Night",
+            "start_time": "8:00 pm",
+            "end_time": "11:00 pm",
+            "type": "internal",
+            "venue": ""
+        }
+    ]
+}

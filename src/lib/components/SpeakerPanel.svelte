@@ -1,7 +1,7 @@
 <script>
     import '$src/app.css'
     import Speaker from './Speaker.svelte'
-    import speakers from '$lib/speakers.json'
+    import speakers from '$lib/data/speakers.json'
 </script>
 
 <div class="h-full bg-main-blue p-0.5 pb-20">

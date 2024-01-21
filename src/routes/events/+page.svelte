@@ -2,7 +2,7 @@
     import '$src/app.css'
     import Navbar from '$src/lib/components/Navbar.svelte'
     import Footer from '$src/lib/components/Footer.svelte'
-    import event_list from '$lib/internal_events.json'
+    import event_list from '$lib/data/internal_events.json'
     import InternalEvent from '$src/lib/components/InternalEvent.svelte'
 </script>
 

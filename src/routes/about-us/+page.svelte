@@ -1,7 +1,7 @@
 <script>
     import '$src/app.css'
     import Navbar from '$src/lib/components/Navbar.svelte'
-    import team from '$lib/team.json'
+    import team from '$lib/data/team.json'
     import Footer from '$src/lib/components/Footer.svelte'
 </script>
 

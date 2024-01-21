@@ -24,6 +24,9 @@
     {#if innerWidth > 640}
         <div class="flex {textWhite ? 'text-white' : ' text-black'}">
             <button class="link px-4 text-lg font-bold normal-case overline"
+                ><a href="/schedule">Schedule</a></button
+            >
+            <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/competitions">Competitions</a></button
             >
             <button class="link px-4 text-lg font-bold normal-case overline"
@@ -60,6 +63,13 @@
                 >
             </div>
             <ul tabindex="-1" class="menu dropdown-content menu-sm z-[1] w-36 bg-white p-0">
+                <li>
+                    <a
+                        href="/schedule"
+                        class="border-y-1 btn btn-ghost h-auto min-h-0 rounded-none border-t-black py-2 hover:bg-black hover:text-white"
+                        >Schedule</a
+                    >
+                </li>
                 <li>
                     <a
                         href="/competitions"
