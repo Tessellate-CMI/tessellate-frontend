@@ -45,12 +45,16 @@
     <div class="grid grid-cols-1 gap-3">
         {#each team as teamName}<div class="flex flex-col">
                 <div class="pb-3">
-                    <h1 class=" pt-10 font-heading text-4xl font-semibold sm:text-5xl">
-                        {teamName.team}
-                    </h1>
-                    <div class="pt-2 font-heading text-3xl font-semibold sm:text-4xl">
-                        {teamName.subteam ? teamName.subteam : ''}
-                    </div>
+                    {#if teamName.team != ''}
+                        <h1 class=" pt-10 font-heading text-4xl font-semibold sm:text-5xl">
+                            {teamName.team}
+                        </h1>
+                    {/if}
+                    {#if teamName.subteam}
+                        <div class="pt-2 font-heading text-3xl font-semibold sm:text-4xl">
+                            {teamName.subteam}
+                        </div>
+                    {/if}
                 </div>
                 <div class="flex flex-wrap">
                     {#each teamName.members as member}
