@@ -82,13 +82,6 @@
     ],
     "saturday": [
         {
-            "name": "Cubing",
-            "start_time": "10:00 am",
-            "end_time": "6:00 pm",
-            "type": "external",
-            "venue": "Seminar Hall, LH1, LH2"
-        },
-        {
             "name": "Chess",
             "start_time": "9:30 am",
             "end_time": "4:30 pm",
@@ -101,6 +94,13 @@
             "end_time": "11:00 am",
             "type": "internal",
             "venue": ""
+        },
+        {
+            "name": "Cubing",
+            "start_time": "10:00 am",
+            "end_time": "6:00 pm",
+            "type": "external",
+            "venue": "Seminar Hall, LH1, LH2"
         },
         {
             "name": "Poetry Slam",

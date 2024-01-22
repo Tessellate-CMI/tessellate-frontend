@@ -8,7 +8,7 @@
     export let venue = ''
 
     const time = start_time + ' ' + (end_time == '' ? ' onwards' : ' to ' + end_time)
-    const internal_external = type == 'internal' ? 'I' : 'E'
+    const internal_external = type == 'internal' ? 'Internal' : 'External'
     const place = venue != '' ? 'at ' + venue : ''
 </script>
 
