@@ -63,7 +63,7 @@
         "description": "Defend/criticise/meme your way through some random thesis/dissertation from the internet that's given to you. A jury of your peers will vote to decide if you move on to the next round. Know that there might or might not be a crown involved."
     },
     {
-        "name": "Balloon Battle Royal",
+        "name": "Balloon Battle Royale",
         "alumni": "false",
         "coordinators": [
             {
@@ -94,6 +94,11 @@
                 "name": "Bijayan Ray",
                 "batch": "BSc3",
                 "email": "bijayan@cmi.ac.in"
+            },
+            {
+                "name": "Shubhankar Varshney",
+                "batch": "CS2",
+                "email": "shubhankar@cmi.ac.in"
             }
         ],
         "description": "We’ve got a football field, a strong rope, and people who think they are strong. You do the math."
@@ -121,27 +126,5 @@
             }
         ],
         "description": "Write an original piece of poetry and have it sent to us. Recite it in front of an audience and judges to win the (metaphorical) belt."
-    },
-    {
-        "name": "Unlimited Food Eating Contest",
-        "alumni": "false",
-        "coordinators": [
-            {
-                "name": "Shreenish Shinde",
-                "batch": "BSc2",
-                "email": "shreenish@cmi.ac.in"
-            },
-            {
-                "name": "Dyuti Mukherjee",
-                "batch": "BSc2",
-                "email": "dyuti@cmi.ac.in"
-            },
-            {
-                "name": "Vardhan Kumar Ray",
-                "batch": "BSc2",
-                "email": "vardhan@cmi.ac.in"
-            }
-        ],
-        "description": "With a some entry fee, get the chance to devour unlimited food."
     }
 ]
