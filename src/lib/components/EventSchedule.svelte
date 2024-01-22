@@ -7,10 +7,10 @@
     export let type = ''
     export let venue = ''
 
-    const time = start_time + ' ' + (end_time == '' ? ' onwards' : ' to ' + end_time)
+    const time = start_time + ' ' + (end_time == '' ? ' onwards' : ' - ' + end_time)
     const internal_external = type == 'internal' ? 'Internal' : 'External'
-    const place = venue != '' ? 'at ' + venue : ''
 </script>
 
-<p class="text-xl font-semibold">{name} ({internal_external})</p>
-<p class="text-lg">{time} {place}</p>
+<p><span class="text-lg font-semibold">{time}</span> | {venue}</p>
+<p class="text-3xl font-semibold">{name}</p>
+<p>{internal_external}</p>

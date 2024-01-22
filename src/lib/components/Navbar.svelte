@@ -27,7 +27,7 @@
                 ><a href="/competitions">Competitions</a></button
             >
             <button class="link px-4 text-lg font-bold normal-case overline"
-                ><a href="/events">Internal Events</a></button
+                ><a href="/internal-events">Internal Events</a></button
             >
             <button class="link px-4 text-lg font-bold normal-case overline"
                 ><a href="/schedule">Schedule</a></button
@@ -72,7 +72,7 @@
                 </li>
                 <li>
                     <a
-                        href="/events"
+                        href="/internal-events"
                         class="btn btn-ghost h-auto min-h-0 rounded-none py-2 hover:bg-black hover:text-white"
                         >Internal Events</a
                     >

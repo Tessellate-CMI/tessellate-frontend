@@ -139,7 +139,7 @@
                 tracking-tighter text-white transition-colors duration-300 ease-in-out
                 hover:bg-black hover:fill-main-blue hover:text-main-blue
                 sm:text-5xl md:text-6xl lg:text-8xl"
-                href="/events"
+                href="/internal-events"
             >
                 <div class="flex flex-row flex-wrap items-center">
                     <p class="w-full">Internal</p>
