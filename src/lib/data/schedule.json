@@ -31,7 +31,7 @@
     ],
     "friday": [
         {
-            "name": "Cubing",
+            "name": "Cube Open",
             "start_time": "9:00 AM",
             "end_time": "4:30 PM",
             "type": "external",
@@ -82,7 +82,7 @@
     ],
     "saturday": [
         {
-            "name": "Cubing",
+            "name": "Cube Open",
             "start_time": "9:00 AM",
             "end_time": "6:00 PM",
             "type": "external",
@@ -140,7 +140,7 @@
     ],
     "sunday": [
         {
-            "name": "Cubing",
+            "name": "Cube Open",
             "start_time": "9:00 AM",
             "end_time": "5:00 PM",
             "type": "external",
@@ -168,7 +168,7 @@
             "venue": "LH 803"
         },
         {
-            "name": "Cubing Awards Ceremony",
+            "name": "Cube Open Awards Ceremony",
             "start_time": "5:00 PM",
             "end_time": "6:00 PM",
             "type": "external",

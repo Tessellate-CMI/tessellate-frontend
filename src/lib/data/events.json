@@ -1,6 +1,6 @@
 [
     {
-        "name": "Cubing",
+        "name": "Cube Open",
         "image": "cubing.webp",
         "date": "26th, 27th & 28th January, 2024",
         "venue": "Seminar Hall, CMI",
@@ -13,7 +13,7 @@
         ],
         "deadline": "21st January, 2024",
         "desc": "",
-        "link": "/competitions/cubing"
+        "link": "/competitions/cube-open"
     },
     {
         "name": "Chess",
