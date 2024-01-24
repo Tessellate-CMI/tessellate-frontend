@@ -1,0 +1,48 @@
+{
+    "maths": {
+        "cata": [
+            {
+                "name": "person 1"
+            }
+        ],
+        "catb": [
+            {
+                "name": "person 1"
+            }
+        ],
+        "catc": [
+            {
+                "name": "person 1"
+            }
+        ]
+    },
+    "physics": {
+        "cata": [
+            {
+                "name": "person 1"
+            }
+        ],
+        "catb": [
+            {
+                "name": "person 1"
+            }
+        ],
+        "catc": [
+            {
+                "name": "person 1"
+            }
+        ]
+    },
+    "cs": {
+        "cata": [
+            {
+                "name": "person 1"
+            }
+        ],
+        "catb": [
+            {
+                "name": "person 1"
+            }
+        ]
+    }
+}
