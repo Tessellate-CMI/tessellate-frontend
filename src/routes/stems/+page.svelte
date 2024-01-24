@@ -78,18 +78,18 @@
         <div class="bg-black p-4 pb-16 pt-12 lg:pb-6 lg:pt-20">
             <h1 class="mb-9 text-center text-6xl font-bold leading-relaxed lg:text-7xl">Results</h1>
             <p class="mx-auto w-4/5">
-                The results for STEMS are out.<br />
+                The results for STEMS will be out soon.<br />
             </p>
-            <p class="mx-auto w-4/5">
-                Invited participants can find their name here:<br />
-            </p>
-            {#if screenIsLarge}
-                <a
-                    style="text-transform: none"
-                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    href="/stems/results">Results</a
-                >
-            {/if}
+            <!-- <p class="mx-auto w-4/5"> -->
+            <!--     Invited participants can find their name here:<br /> -->
+            <!-- </p> -->
+            <!-- {#if screenIsLarge} -->
+            <!--     <a -->
+            <!--         style="text-transform: none" -->
+            <!--         class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black" -->
+            <!--         href="/stems/results">Results</a -->
+            <!--     > -->
+            <!-- {/if} -->
         </div>
         <div class="p-4 pb-16 pt-12 lg:pb-6 lg:pt-20">
             <h1 class="mb-9 text-center text-6xl font-bold lg:text-7xl">Resources</h1>
@@ -117,13 +117,13 @@
                     href="/stems/details">Details</a
                 >
             </div>
-            <div class="bg-black p-4 pb-16">
-                <a
-                    style="text-transform: none"
-                    class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black"
-                    href="/stems/results">Results</a
-                >
-            </div>
+            <!-- <div class="bg-black p-4 pb-16"> -->
+            <!--     <a -->
+            <!--         style="text-transform: none" -->
+            <!--         class="btn btn-outline m-auto mb-5 mt-10 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-white hover:bg-white hover:text-black" -->
+            <!--         href="/stems/results">Results</a -->
+            <!--     > -->
+            <!-- </div> -->
             <div class="p-4 pb-16">
                 <a
                     style="text-transform: none"
