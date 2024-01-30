@@ -46,11 +46,11 @@
                     bg-opacity-25 py-4 text-center font-heading text-base font-semibold text-black
                     sm:inset-y-3/4 sm:text-base md:text-lg lg:text-xl"
             >
-                Registration for competitions has started.<br />Click here for details.
+                The STEMS results have been announced.<br />Click here for details.
                 <a
                     style="text-transform: none"
                     class="text-md btn btn-outline m-auto mt-3 h-auto min-h-0 rounded-none px-10 py-3 text-black hover:bg-black hover:text-white sm:text-base md:text-lg lg:text-xl"
-                    href="/competitions/">Details & Register</a
+                    href="/stems/results/">Results</a
                 >
             </div>
         </div>

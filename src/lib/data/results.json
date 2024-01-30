@@ -2,46 +2,136 @@
     "maths": {
         "cata": [
             {
-                "name": "person 1"
+                "name": "Abel George Mathew"
+            },
+            {
+                "name": "Abhinav Khetan"
+            },
+            {
+                "name": "Bairav V"
+            },
+            {
+                "name": "Kanav Talwar"
+            },
+            {
+                "name": "Krishiv Khandelwal"
+            },
+            {
+                "name": "Pranit Goel"
+            },
+            {
+                "name": "Pranjal Jha"
+            },
+            {
+                "name": "Shameek Dalal"
+            },
+            {
+                "name": "Shreshth Suraiya"
+            },
+            {
+                "name": "Aratrik Pal"
+            },
+            {
+                "name": "Sanjana Philo Chacko"
             }
         ],
         "catb": [
             {
-                "name": "person 1"
+                "name": "Adhitya Mangudy Venkata Ganesh"
+            },
+            {
+                "name": "Antareep Nath"
+            },
+            {
+                "name": "Archit Manas"
+            },
+            {
+                "name": "Arjun Gupta"
+            },
+            {
+                "name": "Avigyan Chakraborty"
+            },
+            {
+                "name": "Malay Mahajan"
             }
         ],
         "catc": [
             {
-                "name": "person 1"
+                "name": "Shantanu Nene"
+            },
+            {
+                "name": "Arpon Basu"
+            },
+            {
+                "name": "Kunal Kundwani"
             }
         ]
     },
     "physics": {
         "cata": [
             {
-                "name": "person 1"
+                "name": "Saraswata Sadhu "
+            },
+            {
+                "name": "Siddhesh Musale"
+            },
+            {
+                "name": "Amrit Raj"
+            },
+            {
+                "name": "Kanad Bhattacharya"
             }
         ],
         "catb": [
             {
-                "name": "person 1"
+                "name": "Akshay Anand"
+            },
+            {
+                "name": "Kavin David"
+            },
+            {
+                "name": "Mehul Borad"
+            },
+            {
+                "name": "Abhinav Bijlani"
+            },
+            {
+                "name": "Arnav Nigam"
             }
         ],
         "catc": [
             {
-                "name": "person 1"
+                "name": "Anchal Aiswariya Dutta"
             }
         ]
     },
     "cs": {
         "cata": [
             {
-                "name": "person 1"
+                "name": "Rushil Mathur"
+            },
+            {
+                "name": "Archit Manas"
+            },
+            {
+                "name": "Savitr Chauhan"
+            },
+            {
+                "name": "Abhinav Khetan"
+            },
+            {
+                "name": "Saee Patil"
+            },
+            {
+                "name": "Kanav Talwar"
+            },
+            {
+                "name": "Shikhar Gupta"
             }
         ],
         "catb": [
             {
-                "name": "person 1"
+                "name": "Kunal Kundwani"
             }
         ]
     }
