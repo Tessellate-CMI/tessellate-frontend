@@ -19,7 +19,7 @@
             class="flex w-full flex-col items-center border-b-2 border-black font-semibold md:border-b-0 md:border-r-2"
         >
             <div class="pb-6 pt-5 text-3xl md:pt-1">Mathematics</div>
-            <div class="flex flex-col self-auto pb-6 text-left text-xl">
+            <div class="flex flex-col items-center pb-6 text-left text-xl">
                 <p class="category">Category A</p>
                 <ul class="list-disc">
                     {#each results.maths.cata as person}
