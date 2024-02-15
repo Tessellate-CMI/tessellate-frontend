@@ -24,7 +24,7 @@
     <div class="font-sans">
         <div class="bg-second-blue p-8 text-white">
             <div class="mx-auto w-full max-w-screen-lg">
-                <h1 class="font-heading text-3xl font-semibold">Friday, 26th January</h1>
+                <h1 class="font-heading text-3xl font-semibold">Friday, 16th February</h1>
             </div>
         </div>
         <div class="bg-main-blue text-black">
@@ -40,7 +40,7 @@
     <div class="font-sans">
         <div class="bg-second-blue p-8 text-white">
             <div class="mx-auto w-full max-w-screen-lg">
-                <h1 class="font-heading text-3xl font-semibold">Saturday, 27th January</h1>
+                <h1 class="font-heading text-3xl font-semibold">Saturday, 17th February</h1>
             </div>
         </div>
         <div class="bg-main-blue text-black">
@@ -56,7 +56,7 @@
     <div class="font-sans">
         <div class="bg-second-blue p-5 text-white">
             <div class="mx-auto w-full max-w-screen-lg">
-                <h1 class="font-heading text-3xl font-semibold">Sunday, 28th January</h1>
+                <h1 class="font-heading text-3xl font-semibold">Sunday, 18th February</h1>
             </div>
         </div>
         <div class="bg-main-blue text-black">
