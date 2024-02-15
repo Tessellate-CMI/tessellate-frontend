@@ -16,7 +16,8 @@
 
 <div class="bg-main-blue">
     <p class="w-full p-6 text-center font-heading font-semibold tracking-tighter text-black">
-        All sessions will be conducted in the Seminar Hall.
+        All sessions will be conducted in the Seminar Hall. <br />
+        All CMI students and faculty are welcome to attend.
     </p>
 </div>
 
