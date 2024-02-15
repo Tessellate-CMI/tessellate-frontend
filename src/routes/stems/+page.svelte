@@ -52,6 +52,15 @@
                 various medalists at the IMO, IOI and few of the brightest school and college
                 students across India.
             </div>
+            <div class="p-4 px-6 md:p-6 md:px-12">
+                STEMS camp 2024 is taking place from 16th February, 2024 to 18th February, 2024. A
+                detailed scheduled is available here.
+            </div>
+            <a
+                style="text-transform: none"
+                class="btn btn-outline m-4 mx-6 h-auto min-h-0 rounded-none px-10 py-3 text-lg text-black md:m-6 md:mx-12"
+                href="/stems/schedule">STEMS Schedule</a
+            >
         </div>
     </div>
 

@@ -1,0 +1,170 @@
+{
+    "friday": [
+        {
+            "time": "9:30 - 10:45",
+            "title": "Application of Fundamental Algorithms in Computer Science in Biology",
+            "speaker": "Professor Rahul Siddharthan, IMSc",
+            "abstract": ""
+        },
+        {
+            "time": "10:45 - 11:15",
+            "title": "Snack Break",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "11:15 - 12:30",
+            "title": "Gravitational Waves And Black Holes",
+            "speaker": "Professor Amitabh Virmani, CMI",
+            "abstract": ""
+        },
+        {
+            "time": "12:30 - 14:00",
+            "title": "Lunch",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "14:00 - 15:15",
+            "title": "Computing the Sum of kth Powers of the First n Positive Integers",
+            "speaker": "Professor Amritanshu Prasad, IMSc",
+            "abstract": ""
+        },
+        {
+            "time": "15:15 - 15:30",
+            "title": "Break",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "15:30 - 16:45",
+            "title": "Euler Characteristic",
+            "speaker": "Prof. Sushmita Venugopalan, IMSc",
+            "abstract": ""
+        },
+        {
+            "time": "16:45 - 17:15",
+            "title": "Snack Break",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "17:15 - 18:30",
+            "title": "Introduction to Randomization (Student Talk)",
+            "speaker": "Rohan Goyal, CMI (BSc III)",
+            "abstract": "We will introduce the idea of randomized computation,  demonstrate some classical algorithms, analysis techniques and related inequalities!"
+        }
+    ],
+    "saturday": [
+        {
+            "time": "9:30 - 10:45",
+            "title": "Space, Time and Disorder",
+            "speaker": "Professor Joseph Samuel, ICTS",
+            "abstract": ""
+        },
+        {
+            "time": "10:45 - 11:15",
+            "title": "Snack Break",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "11:15 - 12:30",
+            "title": "Certifying Non-Negativity of Polynomials",
+            "speaker": "Professor Anand Louis, IISc",
+            "abstract": ""
+        },
+        {
+            "time": "12:30 - 14:00",
+            "title": "Lunch",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "14:00 - 15:15",
+            "title": "",
+            "speaker": "Professor Saket Saurabh, IMSc",
+            "abstract": ""
+        },
+        {
+            "time": "15:15 - 15:30",
+            "title": "Break",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "15:30 - 16:45",
+            "title": "Student Talk",
+            "speaker": "Sunaina Pati, CMI (BSc I)",
+            "abstract": ""
+        },
+        {
+            "time": "16:45 - 17:15",
+            "title": "Snack Break",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "17:15 - 18:30",
+            "title": "Option Pricing As Diffusion (Student Talk)",
+            "speaker": "Siddhant Shah, CMI (BSc III)",
+            "abstract": "We begin by introducing Options as a financial instrument and proceed to dicuss their use cases in building portfolios. We then use portfolio construction to derive the partial differential equation for Option Pricing and explore the similarities between this PDE and the Diffusion PDE."
+        }
+    ],
+    "sunday": [
+        {
+            "time": "9:30 - 10:45",
+            "title": "",
+            "speaker": "Professor B.V. Rao, CMI",
+            "abstract": ""
+        },
+        {
+            "time": "10:45 - 11:15",
+            "title": "Snack Break",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "11:15 - 12:30",
+            "title": "Computing With Quantum Bits",
+            "speaker": "Professor Prabha Mandayam, IMSc",
+            "abstract": ""
+        },
+        {
+            "time": "12:30 - 14:00",
+            "title": "Lunch",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "14:00 - 15:15",
+            "title": "Cryptography: The Art of The Paradox",
+            "speaker": "Professor Shweta Aggarwal, IIT Madras",
+            "abstract": ""
+        },
+        {
+            "time": "15:15 - 15:30",
+            "title": "Break",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "15:30 - 16:45",
+            "title": "Certificates Distribution",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "16:45 - 17:15",
+            "title": "Snack Break",
+            "speaker": "",
+            "abstract": ""
+        },
+        {
+            "time": "17:15 - 18:30",
+            "title": "Informal Discussion",
+            "speaker": "",
+            "abstract": ""
+        }
+    ]
+}
