@@ -4,7 +4,7 @@
             "time": "9:30 - 10:45",
             "title": "Application of Fundamental Algorithms in Computer Science in Biology",
             "speaker": "Professor Rahul Siddharthan, IMSc",
-            "abstract": ""
+            "abstract": "Computational biology refers to the use of data analysis, mathematical modeling and computational simulations to understand biological systems and relationships. We will explore how algorithms fundamental in computer science can also be applied to biology."
         },
         {
             "time": "10:45 - 11:15",
@@ -28,7 +28,7 @@
             "time": "14:00 - 15:15",
             "title": "Computing the Sum of kth Powers of the First n Positive Integers",
             "speaker": "Professor Amritanshu Prasad, IMSc",
-            "abstract": ""
+            "abstract": "How do we find nice formulas for sums of the form 1<sup>k</sup> + 2<sup>k</sup> + ... + n<sup>k</sup> for a general positive integer k? You are probably familiar with the formulas for k=1, 2, and maybe 3. In this talk we will look at some interesting mathematical ideas that arise from an exploration of these formulas for larger values of k."
         },
         {
             "time": "15:15 - 15:30",
@@ -40,7 +40,7 @@
             "time": "15:30 - 16:45",
             "title": "Euler Characteristic",
             "speaker": "Prof. Sushmita Venugopalan, IMSc",
-            "abstract": ""
+            "abstract": " Consider a planar graph with V vertices, E edges and F faces. Do you know the value of the expression V-E+F? What if the graph is drawn on a sphere? And what about a graph drawn on a coffee cup? Or on a trophy -- which is a cup with two handles? The answer to these questions leads us to define a quantity called Euler characteristic. We will see why this quantity is a topological invariant of surfaces. Time permitting, we will also see the statement of the Poincare-Hopf theorem for surfaces, which tells us how to read off the Euler characteristic of a surface from a vector field on the surface."
         },
         {
             "time": "16:45 - 17:15",
@@ -60,7 +60,7 @@
             "time": "9:30 - 10:45",
             "title": "Space, Time and Disorder",
             "speaker": "Professor Joseph Samuel, ICTS",
-            "abstract": ""
+            "abstract": "Einstein's theory  of relativity revolutionised our ideas of space and time. The theory predicts the existence of gravitational waves and led to the big bang model of an expanding Universe. The theory also predicts that sufficiently massive stars will collapse under their own weight into black holes. Astrophysicists have been able to confirm all these predictions. Black holes are known to exist in our Universe. This brings up serious conceptual questions which are at the forefront of current research. There are well established laws of thermodynamics governing the working of steam engines, which tell us that the Universe gets progressively more disordered. Do black holes break this law? This talk will try to bring out the excitement of the subject, using almost no mathematics. Instead, I will use simple physics demonstrations to bring out the main conceptual ideas. No background beyond high school physics is needed to follow the talk."
         },
         {
             "time": "10:45 - 11:15",
@@ -71,8 +71,8 @@
         {
             "time": "11:15 - 12:30",
             "title": "Certifying Non-Negativity of Polynomials",
-            "speaker": "Professor Anand Louis, IISc",
-            "abstract": ""
+            "speaker": "Professor Anand Louis, IISc Bangalore",
+            "abstract": "In 1900 Hilbert asked how can one \"certify\" that a non-negative polynomial is indeed non-negative? Though this question was answered in 1927 by Artin, the study of this and related questions and their computational aspects has lead to a rich theory and many new results in the study of algorithms, combinatorics, optimization, etc. In this talk I will talk about the history and some of the recent exciting developments related to these problems."
         },
         {
             "time": "12:30 - 14:00",
@@ -94,9 +94,9 @@
         },
         {
             "time": "15:30 - 16:45",
-            "title": "Student Talk",
+            "title": "On Calking-Wilf Tree (Student Talk)",
             "speaker": "Sunaina Pati, CMI (BSc I)",
-            "abstract": ""
+            "abstract": "We define a set as countable if it has a bijection to naturals. Are rationals countable? How about Reals? After discussing countability and uncountability of sets, we'll dive into recounting rationals using the Calkin Wilf tree. Our journey to prove rationals countable will lead us to discover a lot of calkin wilf tree properties!"
         },
         {
             "time": "16:45 - 17:15",
@@ -127,8 +127,8 @@
         {
             "time": "11:15 - 12:30",
             "title": "Computing With Quantum Bits",
-            "speaker": "Professor Prabha Mandayam, IMSc",
-            "abstract": ""
+            "speaker": "Professor Prabha Mandayam, IIT Madras",
+            "abstract": "Quantum computing is a rapidly-emerging field that harnesses the laws of quantum mechanics to solve problems too complex for classical computers. In this talk, we will get an introduction to quantum computing."
         },
         {
             "time": "12:30 - 14:00",
