@@ -53,6 +53,12 @@
             "title": "Introduction to Randomization (Student Talk)",
             "speaker": "Rohan Goyal, CMI (BSc III)",
             "abstract": "We will introduce the idea of randomized computation,  demonstrate some classical algorithms, analysis techniques and related inequalities!"
+        },
+        {
+            "time": "21:00 - 22:15",
+            "title": "Options 101 (Informal Session)",
+            "speaker": "Siddhant Shah, CMI (BSc III)",
+            "abstract": ""
         }
     ],
     "saturday": [
