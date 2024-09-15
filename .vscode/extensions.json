@@ -4,6 +4,10 @@
         "dbaeumer.vscode-eslint",
         "svelte.svelte-vscode",
         "bradlc.vscode-tailwindcss",
-        "KnisterPeter.vscode-commitizen"
+        "KnisterPeter.vscode-commitizen",
+        "formulahendry.auto-rename-tag",
+        "vunguyentuan.vscode-css-variables",
+        "Zignd.html-css-class-completion",
+        "christian-kohler.path-intellisense"
     ]
 }
