@@ -20,7 +20,22 @@
     var fooTimer = setInterval(() => {
         index = (index + 1) % bgCoolrs.length
     }, switchTime)
+
+    let y = 0
+    let innerHeight = 0
+
+    let opacities = 1
+
+    $: if (y <= 2 * innerHeight) {
+        opacities = 1
+    } else if (y <= 3 * innerHeight && y > 2 * innerHeight) {
+        opacities = 2
+    } else {
+        opacities = 3
+    }
 </script>
+
+<svelte:window bind:scrollY={y} bind:innerHeight />
 
 <!-- div for the whole screen -->
 <div class="flex h-screen w-full bg-gray-200">
@@ -62,6 +77,39 @@
                     {/if}
                 </div>
             {/each}
+        </div>
+    </div>
+</div>
+
+<!-- snippet for the scroll thing. Just prototype, will change styling later -->
+<div class="h-[300vh] w-full transition-all duration-300">
+    <div
+        class="sticky top-0 flex h-screen w-full transition-all duration-500 {bgCoolrs[
+            opacities - 1
+        ]} flex items-center justify-center"
+    >
+        <div class="relative">
+            <div
+                class="absolute inset-0 text-xl {opacities == 1
+                    ? 'opacity-100'
+                    : 'opacity-0'} size-40 transition-all duration-500"
+            >
+                This is the first one
+            </div>
+            <div
+                class="absolute inset-0 text-xl {opacities == 2
+                    ? 'opacity-100'
+                    : 'opacity-0'} size-40 transition-all duration-500"
+            >
+                This is the second one
+            </div>
+            <div
+                class="absolute inset-0 text-xl {opacities == 3
+                    ? 'opacity-100'
+                    : 'opacity-0'} size-40 transition-all duration-500"
+            >
+                This is the third one
+            </div>
         </div>
     </div>
 </div>
