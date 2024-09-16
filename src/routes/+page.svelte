@@ -82,7 +82,7 @@
 </div>
 
 <!-- snippet for the scroll thing. Just prototype, will change styling later -->
-<div class="h-[300vh] w-full transition-all duration-300">
+<div class="h-[400vh] w-full transition-all duration-300">
     <div
         class="sticky top-0 flex h-screen w-full transition-all duration-500 {bgCoolrs[
             opacities - 1
