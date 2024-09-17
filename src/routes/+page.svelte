@@ -1,7 +1,7 @@
 <script>
     // try to keep full names so that talwind actually compiles. dynamic strings dont compile
-    let bgCoolrs = ['bg-red-400', 'bg-cyan-400', 'bg-emerald-400', 'bg-purple-400']
-    let btnCoolrs = ['fill-red-400', 'fill-cyan-400', 'fill-emerald-400', 'fill-purple-400']
+    let bgCoolrs = ['bg-red-400', 'bg-cyan-400', 'bg-emerald-400', 'bg-purple-400', 'bg-indigo-500']
+    let btnCoolrs = ['fill-red-400', 'fill-cyan-400', 'fill-emerald-400', 'fill-purple-400', 'fill-indigo-500']
     let index = 0
     let switchTime = 4000
 
@@ -84,27 +84,29 @@
 <!-- snippet for the scroll thing. Just prototype, will change styling later -->
 <div class="h-[400vh] w-full transition-all duration-300">
     <div
-        class="sticky top-0 flex h-screen w-full transition-all duration-500 {bgCoolrs[
+    class="sticky top-0 flex h-screen w-full transition-all duration-500 {bgCoolrs[
             opacities - 1
-        ]} flex items-center justify-center"
+        ]} "
     >
-        <div class="relative">
+    <div class="relative flex h-screen w-full max-w-screen-lg m-auto">
+        <!-- example code -->
+        <!-- <div class="z-10 bg-black w-2/5"></div> -->
             <div
                 class="absolute inset-0 text-xl {opacities == 1
                     ? 'opacity-100'
                     : 'opacity-0'} size-40 transition-all duration-500"
             >
-                This is the first one
-            </div>
-            <div
-                class="absolute inset-0 text-xl {opacities == 2
+            This is the first one
+        </div>
+        <div
+        class="absolute inset-0 text-xl {opacities == 2
                     ? 'opacity-100'
                     : 'opacity-0'} size-40 transition-all duration-500"
             >
                 This is the second one
             </div>
             <div
-                class="absolute inset-0 text-xl {opacities == 3
+            class="absolute inset-0 text-xl {opacities == 3
                     ? 'opacity-100'
                     : 'opacity-0'} size-40 transition-all duration-500"
             >
