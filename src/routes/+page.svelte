@@ -1,4 +1,5 @@
 <script>
+    import About from '../components/abouts.svelte'
     // try to keep full names so that talwind actually compiles. dynamic strings dont compile
     let bgCoolrs = ['bg-red-400', 'bg-cyan-400', 'bg-emerald-400', 'bg-purple-400', 'bg-indigo-500']
     let btnCoolrs = [
@@ -36,9 +37,11 @@
         opacities = 1
     } else if (y <= 3 * innerHeight && y > 2 * innerHeight) {
         opacities = 2
-    } else {
+    } else if (y <= 4 * innerHeight && y > 3 * innerHeight) {
         opacities = 3
-    }
+    } else if (y <= 5 * innerHeight && y > 4 * innerHeight) {
+        opacities = 4
+    } else opacities = 5
 </script>
 
 <svelte:window bind:scrollY={y} bind:innerHeight />
@@ -88,7 +91,7 @@
 </div>
 
 <!-- snippet for the scroll thing. Just prototype, will change styling later -->
-<div class="h-[400vh] w-full transition-all duration-300">
+<div class="h-[600vh] w-full transition-all duration-300">
     <div
         class="sticky top-0 flex h-screen w-full transition-all duration-500 {bgCoolrs[
             opacities - 1
@@ -98,21 +101,23 @@
             <!-- example code -->
             <!-- <div class="z-10 bg-black w-2/5"></div> -->
             <div
-                class="absolute inset-0 text-xl {opacities == 1
+                class="absolute inset-0 w-full text-xl {opacities >= 1 && opacities <= 3
                     ? 'opacity-100'
                     : 'opacity-0'} size-40 transition-all duration-500"
             >
-                This is the first one
+                <!-- This is the first one -->
+                <!-- Hards -->
+                <About {opacities} {bgCoolrs} />
             </div>
             <div
-                class="absolute inset-0 text-xl {opacities == 2
+                class="absolute inset-0 text-xl {opacities == 4
                     ? 'opacity-100'
                     : 'opacity-0'} size-40 transition-all duration-500"
             >
                 This is the second one
             </div>
             <div
-                class="absolute inset-0 text-xl {opacities == 3
+                class="absolute inset-0 text-xl {opacities == 5
                     ? 'opacity-100'
                     : 'opacity-0'} size-40 transition-all duration-500"
             >
