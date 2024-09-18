@@ -14,8 +14,6 @@
         scrollY = innerHeight * (sectionNumber + 1)
     }
 
-    $: console.log(scrollY)
-
     export let bgCoolrs
 </script>
 
@@ -24,14 +22,14 @@
 <div class="h-[400vh] w-full transition-all duration-500">
     <div class="sticky top-0 flex h-screen w-full transition-all duration-500">
         <!-- example code -->
-        <div class="z-10 flex w-1/3 flex-col bg-off-white text-6xl font-medium">
+        <div class="bg-off-white z-10 flex w-1/3 flex-col text-6xl font-medium">
             <div
-                class="mx-auto mb-24 mt-12 font-heading text-8xl font-bold text-black transition-all duration-500"
+                class="font-heading mx-auto mb-24 mt-12 text-8xl font-bold text-black transition-all duration-500"
             >
                 ABOUT
             </div>
             <button
-                class="text-stroke-2 text-stroke-sea-green mx-auto mt-12 font-heading hover:text-sea-green
+                class="text-stroke-2 text-stroke-sea-green font-heading hover:text-sea-green mx-auto mt-12
                 {opacities == 1
                     ? 'text-sea-green'
                     : 'text-transparent'} transition-all duration-500"
@@ -40,7 +38,7 @@
                 TESSELLATE
             </button>
             <button
-                class="text-stroke-2 text-stroke-pista mx-auto mt-12 font-heading hover:text-pista {opacities ==
+                class="text-stroke-2 text-stroke-pista font-heading hover:text-pista mx-auto mt-12 {opacities ==
                 2
                     ? 'text-pista'
                     : 'text-transparent'} transition-all duration-500"
@@ -49,7 +47,7 @@
                 STEMS
             </button>
             <button
-                class="text-stroke-2 text-stroke-brick mx-auto mt-12 font-heading hover:text-brick {opacities ==
+                class="text-stroke-2 text-stroke-brick font-heading hover:text-brick mx-auto mt-12 {opacities ==
                 3
                     ? 'text-brick'
                     : 'text-transparent'} transition-all duration-500"
