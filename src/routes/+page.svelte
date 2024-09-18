@@ -1,14 +1,8 @@
 <script>
     import About from '../components/abouts.svelte'
     // try to keep full names so that talwind actually compiles. dynamic strings dont compile
-    let bgCoolrs = ['bg-red-400', 'bg-cyan-400', 'bg-emerald-400', 'bg-purple-400', 'bg-indigo-500']
-    let btnCoolrs = [
-        'fill-red-400',
-        'fill-cyan-400',
-        'fill-emerald-400',
-        'fill-purple-400',
-        'fill-indigo-500'
-    ]
+    let bgCoolrs = ['bg-sea-green', 'bg-pista', 'bg-brick', 'bg-butterscotch']
+    let btnCoolrs = ['fill-sea-green', 'fill-pista', 'fill-brick', 'fill-butterscotch']
     let index = 0
     let switchTime = 4000
 
@@ -28,23 +22,11 @@
         index = (index + 1) % bgCoolrs.length
     }, switchTime)
 
-    let y = 0
-    let innerHeight = 0
-
-    let opacities = 1
-
-    $: if (y <= 2 * innerHeight) {
-        opacities = 1
-    } else if (y <= 3 * innerHeight && y > 2 * innerHeight) {
-        opacities = 2
-    } else if (y <= 4 * innerHeight && y > 3 * innerHeight) {
-        opacities = 3
-    } else if (y <= 5 * innerHeight && y > 4 * innerHeight) {
-        opacities = 4
-    } else opacities = 5
+    // let y = 0
+    // let innerHeight = 0
 </script>
 
-<svelte:window bind:scrollY={y} bind:innerHeight />
+<!-- <svelte:window bind:scrollY={y} bind:innerHeight /> -->
 
 <!-- div for the whole screen -->
 <div class="flex h-screen w-full bg-gray-200">
@@ -90,39 +72,4 @@
     </div>
 </div>
 
-<!-- snippet for the scroll thing. Just prototype, will change styling later -->
-<div class="h-[600vh] w-full transition-all duration-300">
-    <div
-        class="sticky top-0 flex h-screen w-full transition-all duration-500 {bgCoolrs[
-            opacities - 1
-        ]} "
-    >
-        <div class="relative m-auto flex h-screen w-full max-w-screen-lg">
-            <!-- example code -->
-            <!-- <div class="z-10 bg-black w-2/5"></div> -->
-            <div
-                class="absolute inset-0 w-full text-xl {opacities >= 1 && opacities <= 3
-                    ? 'opacity-100'
-                    : 'opacity-0'} size-40 transition-all duration-500"
-            >
-                <!-- This is the first one -->
-                <!-- Hards -->
-                <About {opacities} {bgCoolrs} />
-            </div>
-            <div
-                class="absolute inset-0 text-xl {opacities == 4
-                    ? 'opacity-100'
-                    : 'opacity-0'} size-40 transition-all duration-500"
-            >
-                This is the second one
-            </div>
-            <div
-                class="absolute inset-0 text-xl {opacities == 5
-                    ? 'opacity-100'
-                    : 'opacity-0'} size-40 transition-all duration-500"
-            >
-                This is the third one
-            </div>
-        </div>
-    </div>
-</div>
+<About {bgCoolrs} />
