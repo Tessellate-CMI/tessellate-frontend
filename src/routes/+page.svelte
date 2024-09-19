@@ -2,7 +2,6 @@
     import About from '../lib/components/abouts.svelte'
     // try to keep full names so that talwind actually compiles. dynamic strings dont compile
     let bgCoolrs = ['bg-sea-green', 'bg-pista', 'bg-brick', 'bg-butterscotch']
-    let btnCoolrs = ['fill-sea-green', 'fill-pista', 'fill-brick', 'fill-butterscotch']
     let index = 0
     let switchTime = 4000
 
@@ -21,12 +20,7 @@
     var fooTimer = setInterval(() => {
         index = (index + 1) % bgCoolrs.length
     }, switchTime)
-
-    // let y = 0
-    // let innerHeight = 0
 </script>
-
-<!-- <svelte:window bind:scrollY={y} bind:innerHeight /> -->
 
 <!-- div for the whole screen -->
 <div class="flex h-screen w-full bg-gray-200">
@@ -39,32 +33,33 @@
         <!-- aligning buttons absolutely with negative bottom -->
         <div class="absolute -bottom-[47px] left-5 flex">
             <!-- looping over buttons -->
-            {#each btnCoolrs as clr, i}
+            {#each bgCoolrs as clr, i}
                 <div class="flex">
-                    <button on:click={() => changeIndex(i)}>
+                    <button class="cursor-default" on:click={() => changeIndex(i)}>
                         <!-- the triangle is a group, animated on hover
                                 a smaller white triangle grows from the bottom to top -->
-                        <div class="group relative -mx-3 size-20 cursor-pointer">
-                            <svg
-                                class="absolute z-10 origin-bottom scale-0 {clr} transition-all duration-500 ease-in-out group-hover:scale-100"
-                                viewBox="0 0 100 86.6"
+                        <div class="relative m-auto -mx-3 size-20">
+                            <div
+                                class="equi-triangle group w-full cursor-pointer bg-transparent transition-all duration-500 ease-in-out"
                             >
-                                <polygon points="50 86.6 100 0 0 0 50 86.6" />
-                            </svg>
-                            <svg
-                                class="absolute fill-transparent stroke-white stroke-2 transition-all duration-500 ease-in-out group-hover:stroke-0"
-                                viewBox="0 0 100 86.6"
-                            >
-                                <polygon points="50 86.6 100 0 0 0 50 86.6" />
-                            </svg>
+                                <svg
+                                    class="absolute z-10 fill-transparent stroke-white stroke-[4px] transition-all duration-500 ease-in-out group-hover:stroke-0"
+                                    viewBox="0 0 100 86.6"
+                                >
+                                    <polygon points="50 86.6 100 0 0 0 50 86.6" />
+                                </svg>
+                                <div
+                                    class="h-full w-full origin-bottom scale-0 {clr} transition-all duration-500 ease-in-out group-hover:scale-100"
+                                ></div>
+                            </div>
                         </div>
                     </button>
 
                     <!-- the upwards triangle -->
-                    {#if i != btnCoolrs.length - 1}
-                        <svg class="-mx-3 size-20 fill-white" viewBox="0 0 100 86.6">
-                            <polygon points="50 0 0 86.6 100 86.6 50 0" />
-                        </svg>
+                    {#if i != bgCoolrs.length - 1}
+                        <div class="-mx-3 size-20 pt-2">
+                            <div class="equi-triangle rotate-180 bg-white"></div>
+                        </div>
                     {/if}
                 </div>
             {/each}
@@ -73,3 +68,10 @@
 </div>
 
 <About {bgCoolrs} />
+
+<style>
+    .equi-triangle {
+        aspect-ratio: 1/0.866;
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+    }
+</style>
