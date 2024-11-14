@@ -4,7 +4,7 @@ export default {
     content: ['./src/**/*.{html,js,svelte,ts}'],
     theme: {
         fontFamily: {
-            heading: ['Ubuntu', 'sans-serif'],
+            heading: ['Bricolage Grotesque', 'sans-serif'],
             sans: ['Open Sans', 'sans-serif'],
             body: ['Open Sans']
         },
