@@ -1,3 +1,4 @@
+<!-- Fix spacings and fonts -->
 <!-- Hero Page, full width -->
 <div class="mx-auto flex h-screen w-full items-center justify-center">
     <p class="text-lg font-bold">Stems</p>
@@ -19,6 +20,7 @@
             >
                 About
             </div>
+            <!-- Fix spacing -->
             <div class="w-2/3 p-6 text-xl">
                 STEMS (Scholastic Test of Excellence in Mathematical Sciences) is an annual
                 first-of-its-kind open resource examination conducted for students from 8th grade to
@@ -32,6 +34,8 @@
 
         <!-- STEMS Camp -->
         <div class="flex h-[40vh] flex-row border-b-2 border-black">
+            <!-- add details here -->
+            <!-- Fix spacing -->
             <div class="w-2/3 border-r-2 border-black"></div>
             <div
                 class="flex w-1/3 items-center justify-center px-4 font-heading text-7xl font-semibold"
@@ -40,7 +44,7 @@
             </div>
         </div>
 
-        <!-- Camp pics -->
+        <!-- Camp pics, add them -->
         <div class="flex h-[60vh] w-full flex-row bg-gray-300"></div>
     </div>
 </div>
@@ -56,10 +60,14 @@
                 taken online from any location; and the top 30 performers will be invited to CMI to
                 attend a sponsored residential camp with guest lectures by leading experts.
             </div>
+
+            <!-- Add button -->
         </div>
         <!-- Resources -->
         <div class="h-[60vh] w-1/2 border-b-2 border-black">
             <div class="p-6 px-8 font-heading text-7xl font-semibold">Resources</div>
+            <!-- Add content -->
+            <!-- Add button -->
         </div>
 
         <!-- Register Button -->
@@ -67,7 +75,7 @@
     </div>
 </div>
 
-<!-- Past Speakers -->
+<!-- Past Speakers, add list -->
 <div class="mt-10 flex w-full">
     <div class="mx-auto w-full max-w-screen-lg shadow-md shadow-black">
         <div class="border-b-2 border-black p-6 font-heading text-7xl font-semibold">
@@ -81,5 +89,5 @@
     </div>
 </div>
 
-<!-- Footer -->
+<!-- Add Footer -->
 <div class="mt-10 flex w-full bg-gray-300 p-4">footer</div>
