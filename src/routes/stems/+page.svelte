@@ -1,4 +1,6 @@
+<script>
     import SpeakerPanel from '../../lib/components/SpeakerPanel.svelte'
+
     import { Splide, SplideSlide } from '@splidejs/svelte-splide'
     import '@splidejs/svelte-splide/css'
     const imageModules = import.meta.glob('../../../static/camp-images/*.jpg')
@@ -184,18 +186,7 @@
 </div>
 
 <!-- Past Speakers, add list -->
-<div class="mt-10 flex w-full">
-    <div class="mx-auto w-full max-w-screen-lg shadow-md shadow-black">
-        <div class="border-b-2 border-black p-6 font-heading text-7xl font-semibold">
-            Past Speakers
-        </div>
-        <div class="flex w-full flex-row flex-wrap place-content-center bg-blue-400 p-6">
-            {#each { length: 10 } as _, i}
-                <div class="m-5 h-[15rem] w-[11.5rem] border-2 border-black">{i}</div>
-            {/each}
-        </div>
-    </div>
-</div>
+<SpeakerPanel></SpeakerPanel>
 
 <!-- Add Footer -->
 <div class="mt-10 flex w-full bg-gray-300 p-4">footer</div>
