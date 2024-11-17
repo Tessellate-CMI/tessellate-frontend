@@ -3,6 +3,8 @@
 
     import { Splide, SplideSlide } from '@splidejs/svelte-splide'
     import '@splidejs/svelte-splide/css'
+    import Navbar from '$src/lib/components/Navbar.svelte'
+
     const imageModules = import.meta.glob('../../../static/camp-images/*.jpg')
 
     /**
@@ -26,8 +28,10 @@
 
     shuffleArray(images)
 </script>
+
 <!-- Fix spacings and fonts -->
 <!-- Hero Page, full width -->
+<Navbar></Navbar>
 <div class=" flex h-screen w-full items-center justify-center">
     <!-- <p class="text-lg font-bold">Stems</p> -->
     <div class="flex w-full flex-col items-center justify-center">
