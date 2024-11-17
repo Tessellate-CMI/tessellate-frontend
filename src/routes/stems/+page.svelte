@@ -1,3 +1,29 @@
+    import SpeakerPanel from '../../lib/components/SpeakerPanel.svelte'
+    import { Splide, SplideSlide } from '@splidejs/svelte-splide'
+    import '@splidejs/svelte-splide/css'
+    const imageModules = import.meta.glob('../../../static/camp-images/*.jpg')
+
+    /**
+     * @type {string[]}
+     */
+    let images = []
+
+    for (const imgPaths in imageModules) {
+        images.push(imgPaths.substring(28))
+    }
+
+    /**
+     * @param {string[]} array
+     */
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1))
+            ;[array[i], array[j]] = [array[j], array[i]]
+        }
+    }
+
+    shuffleArray(images)
+</script>
 <!-- Fix spacings and fonts -->
 <!-- Hero Page, full width -->
 <div class="mx-auto flex h-screen w-full items-center justify-center">
@@ -52,7 +78,44 @@
         </div>
 
         <!-- Camp pics, add them -->
-        <div class="flex h-[60vh] w-full flex-row bg-gray-300"></div>
+        <div class="flex flex-col lg:flex-row">
+            <div
+                class="flex w-full items-center justify-center border-black py-6 font-heading text-6xl font-semibold lg:w-1/3 lg:border-r-2 lg:px-4 lg:py-0 lg:text-7xl"
+            >
+                <div class="text-center">Previous <br class="md:hidden" />Camps</div>
+            </div>
+            <!-- Fix spacing -->
+            <div class="flex w-full bg-gray-300">
+                <Splide
+                    class="m-auto"
+                    aria-label="tessellate event images"
+                    options={{
+                        type: 'loop',
+                        perPage: 1,
+                        autoplay: true,
+                        setInterval: 500,
+                        autoHeight: true,
+                        arrows: false,
+                        drag: 'free',
+                        snap: true
+                    }}
+                >
+                    {#each images as img}
+                        <SplideSlide
+                            style="background-image: url({'/camp-images/' + img});
+                               background-size:cover"
+                        >
+                            <img
+                                style="backdrop-filter: blur(10px)"
+                                class="m-auto h-full max-h-[40vh] w-full object-contain md:max-h-[40vh]"
+                                src="/camp-images/{img}"
+                                alt={img}
+                            />
+                        </SplideSlide>
+                    {/each}
+                </Splide>
+            </div>
+        </div>
     </div>
 </div>
 
