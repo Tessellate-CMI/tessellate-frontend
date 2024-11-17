@@ -28,11 +28,22 @@
 </script>
 <!-- Fix spacings and fonts -->
 <!-- Hero Page, full width -->
-<div class="mx-auto flex h-screen w-full items-center justify-center">
-    <p class="text-lg font-bold">Stems</p>
-
+<div class=" flex h-screen w-full items-center justify-center">
+    <!-- <p class="text-lg font-bold">Stems</p> -->
+    <div class="flex w-full flex-col items-center justify-center">
+        <img
+            src="/logos/STEMS-black.svg"
+            alt="STEMS Logo"
+            class="my-4 mb-6 w-5/6 lg:my-2 lg:w-1/2"
+        />
+        <a
+            href="/"
+            class="border-2 border-black px-8 py-2 text-lg transition-all duration-200 hover:bg-black hover:text-white lg:px-14 lg:py-4 lg:text-xl"
+            >Click here to Register</a
+        >
+    </div>
     <!-- Announcements, sticky element -->
-    <div class="absolute bottom-0 flex h-[25%] w-full bg-blue-400">
+    <div class="absolute bottom-0 flex h-[20%] w-full bg-blue-400">
         <div class="mx-auto w-full max-w-screen-lg p-5">
             <p class="font-heading text-xl font-bold">Announcements</p>
         </div>
