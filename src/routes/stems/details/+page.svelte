@@ -1,5 +1,5 @@
 <div class="mt-5 flex w-full flex-col">
-    <div class="mx-auto w-full max-w-screen-lg shadow-md">
+    <div class="mx-auto w-full max-w-screen-lg bg-butterscotch shadow-md">
         <div class="w-full p-6 py-10 text-center font-heading text-6xl font-semibold lg:text-8xl">
             Details
         </div>

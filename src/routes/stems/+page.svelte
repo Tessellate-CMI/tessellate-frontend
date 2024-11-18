@@ -32,7 +32,10 @@
 <!-- Fix spacings and fonts -->
 <!-- Hero Page, full width -->
 <Navbar></Navbar>
-<div class=" flex h-screen w-full items-center justify-center">
+<div
+    class=" flex h-screen w-full items-center justify-center"
+    style="background:url('https://cdn.tessellate.cmi.ac.in/design/stems/STEMS-BG.png');background-size:cover"
+>
     <!-- <p class="text-lg font-bold">Stems</p> -->
     <div class="flex w-full flex-col items-center justify-center">
         <img
@@ -47,7 +50,10 @@
         >
     </div>
     <!-- Announcements, sticky element -->
-    <div class="absolute bottom-0 flex h-[20%] w-full bg-blue-400">
+    <div
+        class="absolute bottom-0 flex h-[20%] w-full"
+        style="background: linear-gradient(#fff0, #fff);"
+    >
         <div class="mx-auto w-full max-w-screen-lg p-5">
             <p class="font-heading text-xl font-bold">Announcements</p>
         </div>
@@ -57,14 +63,16 @@
 <div class="mt-10 flex w-full">
     <div class="mx-auto w-full max-w-screen-lg shadow-md">
         <!-- About -->
-        <div class="flex flex-col border-b-2 border-black lg:flex-row">
+        <div class="flex flex-col lg:flex-row">
             <div
-                class="flex w-full items-center justify-center border-black px-4 font-heading text-6xl font-semibold lg:w-1/3 lg:border-r-2 lg:text-7xl"
+                class="flex w-full items-center justify-center bg-sea-green px-4 font-heading text-6xl font-semibold text-white lg:w-1/3 lg:text-7xl"
             >
                 About
             </div>
             <!-- Fix spacing -->
-            <div class=" flex w-full flex-col justify-center p-6 md:text-lg lg:h-[40vh] lg:w-2/3">
+            <div
+                class=" flex w-full flex-col justify-center bg-pista bg-opacity-10 p-6 md:text-lg lg:h-[40vh] lg:w-2/3"
+            >
                 STEMS (Scholastic Test of Excellence in Mathematical Sciences) is an annual
                 first-of-its-kind open resource examination conducted for students from 8th grade to
                 undergraduates across India. <span class="mb-4" />The exam will be held in
@@ -76,11 +84,11 @@
         </div>
 
         <!-- STEMS Camp -->
-        <div class="flex flex-col-reverse border-b-2 border-black lg:flex-row">
+        <div class="mt-2 flex flex-col-reverse lg:flex-row">
             <!-- add details here -->
             <!-- Fix spacing -->
             <div
-                class=" flex w-full flex-col justify-center border-black p-6 md:text-lg lg:h-[40vh] lg:w-2/3 lg:border-r-2"
+                class=" flex w-full flex-col justify-center bg-pista bg-opacity-10 p-6 md:text-lg lg:h-[40vh] lg:w-2/3"
             >
                 About 30 of the best scorers across the three disclipines of STEMS will be selected
                 for a 3-day, fully-funded camp at CMI. Past students selected for this camp include
@@ -88,21 +96,21 @@
                 students across India.
             </div>
             <div
-                class="flex w-full items-center justify-center pt-6 font-heading text-6xl font-semibold lg:w-1/3 lg:px-4 lg:py-0 lg:text-7xl"
+                class="flex w-full items-center justify-center bg-sea-green pt-6 font-heading text-6xl font-semibold text-white lg:w-1/3 lg:px-4 lg:py-0 lg:text-7xl"
             >
                 <div class="text-center">STEMS <br class="md:hidden" />Camp</div>
             </div>
         </div>
 
         <!-- Camp pics, add them -->
-        <div class="flex flex-col lg:flex-row">
+        <div class="mt-2 flex flex-col lg:flex-row">
             <div
-                class="flex w-full items-center justify-center border-black py-6 font-heading text-6xl font-semibold lg:w-1/3 lg:border-r-2 lg:px-4 lg:py-0 lg:text-7xl"
+                class="flex w-full items-center justify-center bg-sea-green py-6 font-heading text-6xl font-semibold lg:w-1/3 lg:px-4 lg:py-0 lg:text-7xl"
             >
-                <div class="text-center">Previous <br class="md:hidden" />Camps</div>
+                <div class="text-center text-white">Previous <br class="md:hidden" />Camps</div>
             </div>
             <!-- Fix spacing -->
-            <div class="flex w-full bg-gray-300">
+            <div class="flex w-full">
                 <Splide
                     class="m-auto"
                     aria-label="tessellate event images"
@@ -118,12 +126,9 @@
                     }}
                 >
                     {#each images as img}
-                        <SplideSlide
-                            style="background-image: url({'/camp-images/' + img});
-                               background-size:cover"
-                        >
+                        <SplideSlide>
                             <img
-                                style="backdrop-filter: blur(10px)"
+                                style="background: #C7DBA18"
                                 class="m-auto h-full max-h-[40vh] w-full object-contain md:max-h-[40vh]"
                                 src="/camp-images/{img}"
                                 alt={img}
@@ -141,8 +146,10 @@
         class="mx-auto grid w-full max-w-screen-lg grid-cols-1 text-center shadow-md lg:grid-cols-2"
     >
         <!-- Details -->
-        <div class="border-y-2 border-black lg:border-y-0 lg:border-r-2">
-            <div class="p-6 font-heading text-6xl font-semibold lg:text-7xl">Details</div>
+        <div class="border-y-2 border-black bg-butterscotch bg-opacity-25 lg:border-y-0">
+            <div class="bg-butterscotch p-6 font-heading text-6xl font-semibold lg:text-7xl">
+                Details
+            </div>
             <div class="p-6 px-8 text-lg">
                 STEMS will be conducted on the <span class="font-semibold">16<sup>th</sup></span>
                 and <span class="font-semibold">17<sup>th</sup> of December</span>. The test can be
@@ -152,14 +159,18 @@
             <div class="flex py-6">
                 <a
                     href="details"
-                    class="m-auto border-2 border-black px-6 py-3 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
+                    class="m-auto border-2 border-black px-6 py-3 text-xl font-medium transition-all duration-300 hover:border-butterscotch hover:bg-butterscotch hover:text-white lg:hidden"
                     >Details</a
                 >
             </div>
         </div>
         <!-- Resources -->
-        <div class="border-b-2 border-black lg:border-b-0">
-            <div class="p-6 px-8 font-heading text-6xl font-semibold lg:text-7xl">Resources</div>
+        <div class="border-b-2 border-black bg-brick bg-opacity-10 lg:border-b-0">
+            <div
+                class="bg-brick bg-opacity-40 p-6 px-8 font-heading text-6xl font-semibold lg:text-7xl"
+            >
+                Resources
+            </div>
             <div class="p-6 px-8 text-lg">
                 The question papers from the previous editions of STEMS and sample papers can be
                 found on the resources page.
@@ -167,23 +178,23 @@
             <div class="flex py-6">
                 <a
                     href="resources"
-                    class="m-auto border-2 border-black px-6 py-3 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
+                    class="m-auto border-2 border-black px-6 py-3 text-xl font-medium transition-all duration-300 hover:border-brick hover:bg-brick lg:hidden"
                     >Resources</a
                 >
             </div>
         </div>
 
-        <div class="flex border-black py-6 lg:border-r-2">
+        <div class="flex border-black bg-butterscotch bg-opacity-25 py-6">
             <a
                 href="details"
-                class="m-auto hidden border-2 border-black px-6 py-3 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
+                class="m-auto hidden border-2 border-black px-6 py-3 text-xl font-medium transition-all duration-300 hover:border-butterscotch hover:bg-butterscotch lg:block"
                 >Details</a
             >
         </div>
-        <div class="flex py-6">
+        <div class="flex bg-brick bg-opacity-10 py-6">
             <a
                 href="resources"
-                class="m-auto hidden border-2 border-black px-6 py-3 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
+                class="m-auto hidden border-2 border-black px-6 py-3 text-xl font-medium transition-all duration-300 hover:border-brick hover:bg-brick hover:text-white lg:block"
                 >Resources</a
             >
         </div>
@@ -192,7 +203,7 @@
         <div class="h-[10vh] w-full lg:col-span-2">
             <a
                 href="/"
-                class="flex h-full w-full items-center justify-center border-2 border-gray-400 bg-white text-2xl transition-all duration-300 ease-in-out hover:bg-gray-600 hover:text-white"
+                class="flex h-full w-full items-center justify-center bg-sea-green bg-opacity-20 text-2xl font-semibold transition-all duration-300 ease-in-out hover:bg-opacity-100 hover:text-white"
             >
                 <span>Click to Register</span>
             </a>

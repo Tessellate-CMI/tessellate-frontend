@@ -3,8 +3,10 @@
 </script>
 
 <div class="mt-5 flex w-full flex-col">
-    <div class="mx-auto w-full max-w-screen-lg shadow-md">
-        <div class="w-full p-6 py-10 text-center font-heading text-7xl font-semibold md:text-8xl">
+    <div class="mx-auto w-full max-w-screen-lg bg-brick bg-opacity-10 shadow-md">
+        <div
+            class="w-full bg-brick bg-opacity-40 p-6 py-10 text-center font-heading text-7xl font-semibold md:text-8xl"
+        >
             Resources
         </div>
     </div>

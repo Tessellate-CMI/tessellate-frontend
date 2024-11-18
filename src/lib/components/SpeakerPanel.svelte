@@ -6,7 +6,7 @@
 <div class="mt-10 flex w-full">
     <div class="mx-auto w-full max-w-screen-lg shadow-md">
         <div
-            class="border-t-2 border-black p-6 font-heading text-6xl font-semibold lg:border-b-2 lg:border-t-2 lg:text-7xl"
+            class="border-black bg-sea-green p-6 font-heading text-6xl font-semibold text-white lg:text-7xl"
         >
             Past Speakers
         </div>
