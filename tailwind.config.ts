@@ -10,11 +10,11 @@ export default {
         },
         extend: {
             colors: {
-                brick: '#f36a46',
-                pista: '#c7dba8',
-                butterscotch: '#fff0ab',
+                brick: '#f46a48',
+                pista: '#c6dba8',
+                butterscotch: '#fef1ab',
                 skin: '#fbe6d5',
-                'sea-green': '#87b6ac',
+                'sea-green': '#87b5ad',
                 'off-white': '#fdfdff',
                 caramel: '#c99652'
             }
