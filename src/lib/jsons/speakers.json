@@ -5,7 +5,6 @@
         "image": "Akshay_Venkatesh.png",
         "link": "https://www.ias.edu/math/people/faculty/venkatesh"
     },
-
     {
         "name": "Abhay Ashtekar",
         "university": "Pennsylvania State University",
@@ -97,10 +96,52 @@
         "link": "https://www.viennot.org/"
     },
     {
+        "name": "Amritanshu Prasad",
+        "university": "Institute For Mathematical Science",
+        "image": "AmritanshuPrasad.png",
+        "link": "https://www.imsc.res.in/~amri/"
+    },
+    {
+        "name": "Anand Louis",
+        "university": "Indian Institute of Science",
+        "image": "AnandLouis.png",
+        "link": "https://www.csa.iisc.ac.in/~anandl/"
+    },
+    {
+        "name": "Joseph Samuel",
+        "university": "International Centre for Theoretical Sciences",
+        "image": "JosephSamuel.png",
+        "link": "https://wwws.rri.res.in/htmls/library/imprints_collection/bios/samuel.html"
+    },
+    {
         "name": "Samriddhi Sankar Ray",
         "university": "International Centre for Theoretical Sciences",
         "image": "samriddhi.png",
         "link": "https://icts.res.in/people/samriddhi-sankar-ray"
+    },
+    {
+        "name": "Shweta Agrawal",
+        "university": "Indian Institue of Technology Madras",
+        "image": "ShwetaAgrawal.png",
+        "link": "https://www.cse.iitm.ac.in/~shwetaag/"
+    },
+    {
+        "name": "Saket Saurabh",
+        "university": "Indian Institue of Technology Madras",
+        "image": "SaketSaurabh.png",
+        "link": "https://sites.google.com/view/sakethome"
+    },
+    {
+        "name": "Sushmita Venugopalan",
+        "university": "Institute For Mathematical Science",
+        "image": "SushmitaVenugopalan.png",
+        "link": "https://www.imsc.res.in/~sushmita/"
+    },
+    {
+        "name": "Anand Louis",
+        "university": "Indian Institute of Science",
+        "image": "AnandLouis.png",
+        "link": "https://www.csa.iisc.ac.in/~anandl/"
     },
     {
         "name": "Madhavan Mukund",
