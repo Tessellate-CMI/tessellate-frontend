@@ -1,5 +1,6 @@
 <script>
-    import SpeakerPanel from '../../lib/components/SpeakerPanel.svelte'
+    import Footer from '$lib/components/Footer.svelte'
+
 
     import { Splide, SplideSlide } from '@splidejs/svelte-splide'
     import '@splidejs/svelte-splide/css'
@@ -215,4 +216,4 @@
 <SpeakerPanel></SpeakerPanel>
 
 <!-- Add Footer -->
-<div class="mt-10 flex w-full bg-gray-300 p-4">footer</div>
+<Footer></Footer>
