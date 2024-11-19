@@ -28,6 +28,20 @@
     }
 
     shuffleArray(images)
+
+    /**
+     * @param {{ preventDefault: () => void; currentTarget: any; }} event
+     */
+    function handleAnchorClick(event) {
+        event.preventDefault()
+        const link = event.currentTarget
+        const anchorId = new URL(link.href).hash.replace('#', '')
+        const anchor = document.getElementById(anchorId)
+        window.scrollTo({
+            top: anchor.offsetTop,
+            behavior: 'smooth'
+        })
+    }
 </script>
 
 <!-- Fix spacings and fonts -->
@@ -52,11 +66,22 @@
     </div>
     <!-- Announcements, sticky element -->
     <div
-        class="absolute bottom-0 flex h-[20%] w-full"
-        style="background: linear-gradient(#fff0, #fff);"
+        class="absolute bottom-0 flex h-[25%] w-full md:h-[20%]"
+        style="background: linear-gradient( #ffffffe6 15%, rgba(255,255,255,40) 100%);"
     >
-        <div class="mx-auto w-full max-w-screen-lg p-5">
-            <p class="font-heading text-xl font-bold">Announcements</p>
+        <div class="mx-auto flex w-full max-w-screen-lg justify-center p-5">
+            <div class="flex flex-col">
+                <p class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl">
+                    Registration for STEMS 2025 has started!
+                </p>
+                <a
+                    href="#details"
+                    on:click={handleAnchorClick}
+                    class="my-2 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
+                >
+                    Click here to register</a
+                >
+            </div>
         </div>
     </div>
 </div>
@@ -201,9 +226,9 @@
         </div>
 
         <!-- Register Button -->
-        <div class="h-[10vh] w-full lg:col-span-2">
+        <div class="mt-5 h-[10vh] w-full lg:col-span-2">
             <a
-                href="/"
+                href="https://forms.gle/5dcpEYsyTcUHVUbx5"
                 class="flex h-full w-full items-center justify-center bg-sea-green bg-opacity-20 text-2xl font-semibold transition-all duration-300 ease-in-out hover:bg-opacity-100 hover:text-white"
             >
                 <span>Click to Register</span>
