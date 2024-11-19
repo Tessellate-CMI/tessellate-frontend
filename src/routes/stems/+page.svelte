@@ -33,21 +33,21 @@
 <!-- Hero Page, full width -->
 <Navbar></Navbar>
 <div
-    class=" flex h-screen w-full items-center justify-center"
-    style="background:url('https://cdn.tessellate.cmi.ac.in/design/stems/STEMS-BG.png');background-size:cover"
+    class="relative flex h-screen w-full items-center justify-center bg-stems-hero-phone md:bg-stems-hero"
+    style="background-size:cover"
 >
     <!-- <p class="text-lg font-bold">Stems</p> -->
     <div class="flex w-full flex-col items-center justify-center">
         <img
-            src="/logos/STEMS-black.svg"
+            src="/logos/STEMS-black-bold-bordered-2.svg"
             alt="STEMS Logo"
-            class="my-4 mb-6 w-5/6 lg:my-2 lg:w-1/2"
+            class="my-4 mb-6 hidden w-5/6 md:block lg:my-2 lg:w-1/2"
         />
-        <a
-            href="/"
-            class="border-2 border-black px-8 py-2 text-lg transition-all duration-200 hover:bg-black hover:text-white lg:px-14 lg:py-4 lg:text-xl"
-            >Click here to Register</a
-        >
+        <img
+            src="/logos/STEMS-black-bold-bordered.svg"
+            alt="STEMS Logo"
+            class="my-4 mb-6 w-5/6 md:hidden lg:my-2 lg:w-1/2"
+        />
     </div>
     <!-- Announcements, sticky element -->
     <div

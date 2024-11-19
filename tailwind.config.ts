@@ -17,6 +17,11 @@ export default {
                 'sea-green': '#87b5ad',
                 'off-white': '#fdfdff',
                 caramel: '#c99652'
+            },
+            backgroundImage: {
+                'stems-hero': "url('https://cdn.tessellate.cmi.ac.in/design/stems/STEMS-BG.png')",
+                'stems-hero-phone':
+                    "url('https://cdn.tessellate.cmi.ac.in/design/stems/STEMS-BG-phone.png')"
             }
         }
     },
