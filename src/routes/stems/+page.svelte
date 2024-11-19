@@ -1,10 +1,11 @@
 <script>
     import Footer from '$lib/components/Footer.svelte'
 
+    import SpeakerPanel from '$lib/components/SpeakerPanel.svelte'
 
-    import { Splide, SplideSlide } from '@splidejs/svelte-splide'
-    import '@splidejs/svelte-splide/css'
-    import Navbar from '$src/lib/components/Navbar.svelte'
+    // import { Splide, SplideSlide } from '@splidejs/svelte-splide'
+    // import '@splidejs/svelte-splide/css'
+    import Navbar from '$lib/components/Navbar.svelte'
 
     const imageModules = import.meta.glob('../../../static/camp-images/*.jpg')
 
@@ -91,7 +92,7 @@
         <!-- About -->
         <div class="flex flex-col lg:flex-row">
             <div
-                class="flex w-full items-center justify-center bg-sea-green px-4 font-heading text-6xl font-semibold text-white lg:w-1/3 lg:text-7xl"
+                class="flex w-full items-center justify-center bg-sea-green px-4 py-4 font-heading text-6xl font-semibold text-white lg:w-1/3 lg:text-7xl"
             >
                 About
             </div>
@@ -122,20 +123,19 @@
                 students across India.
             </div>
             <div
-                class="flex w-full items-center justify-center bg-sea-green pt-6 font-heading text-6xl font-semibold text-white lg:w-1/3 lg:px-4 lg:py-0 lg:text-7xl"
+                class="flex w-full items-center justify-center bg-sea-green py-4 font-heading text-6xl font-semibold text-white lg:w-1/3 lg:px-4 lg:py-0 lg:text-7xl"
             >
                 <div class="text-center">STEMS <br class="md:hidden" />Camp</div>
             </div>
         </div>
 
         <!-- Camp pics, add them -->
-        <div class="mt-2 flex flex-col lg:flex-row">
+        <!-- <div class="mt-2 flex flex-col lg:flex-row">
             <div
                 class="flex w-full items-center justify-center bg-sea-green py-6 font-heading text-6xl font-semibold lg:w-1/3 lg:px-4 lg:py-0 lg:text-7xl"
             >
                 <div class="text-center text-white">Previous <br class="md:hidden" />Camps</div>
             </div>
-            <!-- Fix spacing -->
             <div class="flex w-full">
                 <Splide
                     class="m-auto"
@@ -163,7 +163,7 @@
                     {/each}
                 </Splide>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 
@@ -172,7 +172,7 @@
         class="mx-auto grid w-full max-w-screen-lg grid-cols-1 text-center shadow-md lg:grid-cols-2"
     >
         <!-- Details -->
-        <div class="border-y-2 border-black bg-butterscotch bg-opacity-25 lg:border-y-0">
+        <div class=" bg-butterscotch bg-opacity-25">
             <div class="bg-butterscotch p-6 font-heading text-6xl font-semibold lg:text-7xl">
                 Details
             </div>
@@ -182,7 +182,7 @@
                 taken online from any location; and the top 30 performers will be invited to CMI to
                 attend a sponsored residential camp with guest lectures by leading experts.
             </div>
-            <div class="flex py-6">
+            <div class="flex py-6" id="details">
                 <a
                     href="details"
                     class="m-auto border-2 border-black px-6 py-3 text-xl font-medium transition-all duration-300 hover:border-butterscotch hover:bg-butterscotch hover:text-white lg:hidden"
@@ -191,7 +191,7 @@
             </div>
         </div>
         <!-- Resources -->
-        <div class="border-b-2 border-black bg-brick bg-opacity-10 lg:border-b-0">
+        <div class=" bg-brick bg-opacity-10">
             <div
                 class="bg-brick bg-opacity-40 p-6 px-8 font-heading text-6xl font-semibold lg:text-7xl"
             >
@@ -210,14 +210,14 @@
             </div>
         </div>
 
-        <div class="flex border-black bg-butterscotch bg-opacity-25 py-6">
+        <div class="hidden border-black bg-butterscotch bg-opacity-25 py-6 lg:flex">
             <a
                 href="details"
                 class="m-auto hidden border-2 border-black px-6 py-3 text-xl font-medium transition-all duration-300 hover:border-butterscotch hover:bg-butterscotch lg:block"
                 >Details</a
             >
         </div>
-        <div class="flex bg-brick bg-opacity-10 py-6">
+        <div class="hidden bg-brick bg-opacity-10 py-6 lg:flex">
             <a
                 href="resources"
                 class="m-auto hidden border-2 border-black px-6 py-3 text-xl font-medium transition-all duration-300 hover:border-brick hover:bg-brick hover:text-white lg:block"
