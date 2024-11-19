@@ -9,6 +9,7 @@
 
 <a
     href={link}
+    target="_blank"
     class="group h-[15rem] w-[10.4rem] cursor-pointer border-2 border-black bg-white text-black lg:h-[17rem] lg:w-[13rem]"
 >
     <div class="flex h-[77%] w-full items-center justify-center bg-white">
