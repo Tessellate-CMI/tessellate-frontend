@@ -26,6 +26,7 @@
                     <li>
                         <a
                             class="underline underline-offset-4 hover:no-underline"
+                            target="_blank"
                             href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-Maths-Category{category}.pdf"
                             >Category {category}</a
                         >
@@ -40,6 +41,7 @@
                     <li>
                         <a
                             class="underline underline-offset-4 hover:no-underline"
+                            target="_blank"
                             href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-Physics-Category{category}.pdf"
                             >Category {category}</a
                         >
@@ -54,6 +56,7 @@
                     <li>
                         <a
                             class="underline underline-offset-4 hover:no-underline"
+                            target="_blank"
                             href="https://cdn.tessellate.cmi.ac.in/stems/PastPapers/STEMS{year}-CS-Category{category}.pdf"
                             >Category {category}</a
                         >
