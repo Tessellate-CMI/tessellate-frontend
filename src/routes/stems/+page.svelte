@@ -4,14 +4,11 @@
     import Navbar from '$lib/components/Navbar.svelte'
 </script>
 
-<!-- Fix spacings and fonts -->
-<!-- Hero Page, full width -->
 <Navbar></Navbar>
 <div
     class="relative flex h-screen w-full items-center justify-center bg-stems-hero-phone md:bg-stems-hero"
     style="background-size:cover"
 >
-    <!-- <p class="text-lg font-bold">Stems</p> -->
     <div class="flex w-full flex-col items-center justify-center">
         <img
             src="/logos/STEMS-black-bold-bordered-2.svg"
@@ -36,7 +33,6 @@
                 </p>
                 <a
                     href="#details"
-                    on:click={handleAnchorClick}
                     class="my-2 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
                 >
                     Click here to register</a
@@ -69,10 +65,7 @@
             </div>
         </div>
 
-        <!-- STEMS Camp -->
         <div class="mt-2 flex flex-col-reverse lg:flex-row">
-            <!-- add details here -->
-            <!-- Fix spacing -->
             <div
                 class=" flex w-full flex-col justify-center bg-pista bg-opacity-10 p-6 md:text-lg lg:h-[40vh] lg:w-2/3"
             >
@@ -87,42 +80,6 @@
                 <div class="text-center">STEMS <br class="md:hidden" />Camp</div>
             </div>
         </div>
-
-        <!-- Camp pics, add them -->
-        <!-- <div class="mt-2 flex flex-col lg:flex-row">
-            <div
-                class="flex w-full items-center justify-center bg-sea-green py-6 font-heading text-6xl font-semibold lg:w-1/3 lg:px-4 lg:py-0 lg:text-7xl"
-            >
-                <div class="text-center text-white">Previous <br class="md:hidden" />Camps</div>
-            </div>
-            <div class="flex w-full">
-                <Splide
-                    class="m-auto"
-                    aria-label="tessellate event images"
-                    options={{
-                        type: 'loop',
-                        perPage: 1,
-                        autoplay: true,
-                        setInterval: 500,
-                        autoHeight: true,
-                        arrows: false,
-                        drag: 'free',
-                        snap: true
-                    }}
-                >
-                    {#each images as img}
-                        <SplideSlide>
-                            <img
-                                style="background: #C7DBA18"
-                                class="m-auto h-full max-h-[40vh] w-full object-contain md:max-h-[40vh]"
-                                src="/camp-images/{img}"
-                                alt={img}
-                            />
-                        </SplideSlide>
-                    {/each}
-                </Splide>
-            </div>
-        </div> -->
     </div>
 </div>
 
@@ -196,11 +153,10 @@
     </div>
 </div>
 
-<!-- Past Speakers, add list -->
 <SpeakerPanel></SpeakerPanel>
 
-<!-- Add Footer -->
 <Footer></Footer>
+
 <style>
     :global(html) {
         scroll-behavior: smooth;
