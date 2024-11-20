@@ -93,8 +93,8 @@
                 Details
             </div>
             <div class="p-6 px-8 text-lg">
-                STEMS will be conducted on the <span class="font-semibold">16<sup>th</sup></span>
-                and <span class="font-semibold">17<sup>th</sup> of December</span>. The test can be
+                STEMS will be conducted on the <span class="font-semibold">21<sup>st</sup></span>
+                and <span class="font-semibold">22<sup>nd</sup> of December</span>. The test can be
                 taken online from any location; and the top 30 performers will be invited to CMI to
                 attend a sponsored residential camp with guest lectures by leading experts.
             </div>

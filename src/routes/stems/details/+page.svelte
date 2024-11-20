@@ -18,9 +18,16 @@
                 </ul>
             </div>
             <div class="px-4 py-6 sm:px-8 md:py-6">
-                <div class="mb-6 w-full text-center font-heading text-5xl font-medium">Dates</div>
+                <div class="mb-6 w-full text-center font-heading text-5xl font-medium md:mb-12">
+                    Dates
+                </div>
                 <ul class="list-inside list-disc space-y-4 px-4">
-                    <li>TBA</li>
+                    <li>
+                        <span class="font-semibold">Physics & CS</span> <br /> 21st December, 2024 (Sat)
+                    </li>
+                    <li>
+                        <span class="font-semibold">Mathematics </span><br /> 22nd December, 2024 (Sun)
+                    </li>
                 </ul>
             </div>
         </div>
@@ -50,9 +57,9 @@
                 <div class="mt-16 text-center font-heading text-3xl font-medium lg:mt-0">
                     Physics
                 </div>
-                <p class="mt-8"><strong>Category A</strong><br />Grade 8, 9, 10, 11, 12</p>
+                <p class="mt-8"><strong>Category A</strong><br />Grade 8, 9, 10, 11</p>
                 <p class="mt-8">
-                    <strong>Category B</strong><br />Undergrad 1st to final year
+                    <strong>Category B</strong><br />Grade 12, Undergrad all years
                 </p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
@@ -69,7 +76,7 @@
                 </div>
                 <p class="mt-8"><strong>Category A</strong><br />Grade 8, 9, 10, 11, 12</p>
                 <p class="mt-8">
-                    <strong>Category B</strong><br />Undergrad 1st to final year
+                    <strong>Category B</strong><br />Undergrad all years
                 </p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
