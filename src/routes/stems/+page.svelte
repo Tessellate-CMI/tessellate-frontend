@@ -1,48 +1,7 @@
 <script>
     import Footer from '$lib/components/Footer.svelte'
-
     import SpeakerPanel from '$lib/components/SpeakerPanel.svelte'
-
-    // import { Splide, SplideSlide } from '@splidejs/svelte-splide'
-    // import '@splidejs/svelte-splide/css'
     import Navbar from '$lib/components/Navbar.svelte'
-
-    const imageModules = import.meta.glob('../../../static/camp-images/*.jpg')
-
-    /**
-     * @type {string[]}
-     */
-    let images = []
-
-    for (const imgPaths in imageModules) {
-        images.push(imgPaths.substring(28))
-    }
-
-    /**
-     * @param {string[]} array
-     */
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1))
-            ;[array[i], array[j]] = [array[j], array[i]]
-        }
-    }
-
-    shuffleArray(images)
-
-    /**
-     * @param {{ preventDefault: () => void; currentTarget: any; }} event
-     */
-    function handleAnchorClick(event) {
-        event.preventDefault()
-        const link = event.currentTarget
-        const anchorId = new URL(link.href).hash.replace('#', '')
-        const anchor = document.getElementById(anchorId)
-        window.scrollTo({
-            top: anchor.offsetTop,
-            behavior: 'smooth'
-        })
-    }
 </script>
 
 <!-- Fix spacings and fonts -->
@@ -242,3 +201,8 @@
 
 <!-- Add Footer -->
 <Footer></Footer>
+<style>
+    :global(html) {
+        scroll-behavior: smooth;
+    }
+</style>
