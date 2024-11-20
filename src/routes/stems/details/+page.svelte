@@ -50,11 +50,10 @@
                 <div class="mt-16 text-center font-heading text-3xl font-medium lg:mt-0">
                     Physics
                 </div>
-                <p class="mt-8"><strong>Category A</strong><br />Grade 8, 9, 10</p>
+                <p class="mt-8"><strong>Category A</strong><br />Grade 8, 9, 10, 11, 12</p>
                 <p class="mt-8">
-                    <strong>Category B</strong><br />Grade 11, 12, Undergrad 1st year
+                    <strong>Category B</strong><br />Undergrad 1st to final year
                 </p>
-                <p class="mt-8"><strong>Category C</strong><br />Undergrad 2nd to final year</p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
                         href="https://cdn.tessellate.cmi.ac.in/stems/Physics-Syllabus.pdf"
