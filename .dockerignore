@@ -1,10 +1,13 @@
 # IDE
-.vscode/**/*
-!.vscode/extensions.json
+.vscode/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Git
+.git/
+.gitignore
 
 # Node
 node_modules/
@@ -13,12 +16,17 @@ node_modules/
 .svelte-kit/
 build/
 
+# Prettier
+.prettierignore
+.prettierrc
+
 # Env
 .env
 .env.*
-!.env.example
-!.env.test
 
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Misc
+README.md
