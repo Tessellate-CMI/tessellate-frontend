@@ -23,10 +23,16 @@
                 </div>
                 <ul class="list-inside list-disc space-y-4 px-4">
                     <li>
-                        <span class="font-semibold">Physics & CS</span> <br /> 21st December, 2024 (Sat)
+                        <span class="font-semibold">Computer Science</span> <br /> 21st December,
+                        2024 (Sat)<br />9:00 AM - 12:00 PM
                     </li>
                     <li>
-                        <span class="font-semibold">Mathematics </span><br /> 22nd December, 2024 (Sun)
+                        <span class="font-semibold">Physics</span> <br /> 28th December, 2024 (Sat)<br
+                        />9:00 AM - 12:00 PM
+                    </li>
+                    <li>
+                        <span class="font-semibold">Mathematics</span> <br /> 29th December, 2024
+                        (Sat)<br />Objective : 11:00 AM - 12:30 PM<br />Subjective : 1:30PM - 5:30PM
                     </li>
                 </ul>
             </div>

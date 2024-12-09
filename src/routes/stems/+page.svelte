@@ -28,12 +28,15 @@
     >
         <div class="mx-auto flex w-full max-w-screen-lg justify-center p-5">
             <div class="flex flex-col">
+                <p class="text-center text-lg font-medium text-red-800 md:mt-1 md:text-xl">
+                    Physics and Maths exams have been postponed to 28th and 29th of December
+                </p>
                 <p class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl">
                     Registration for STEMS 2025 has started!
                 </p>
                 <a
                     href="#details"
-                    class="my-2 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
+                    class="my-0 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
                 >
                     Click here to register</a
                 >
@@ -93,10 +96,12 @@
                 Details
             </div>
             <div class="p-6 px-8 text-lg">
-                STEMS will be conducted on the <span class="font-semibold">21<sup>st</sup></span>
-                and <span class="font-semibold">22<sup>nd</sup> of December</span>. The test can be
-                taken online from any location; and the top 30 performers will be invited to CMI to
-                attend a sponsored residential camp with guest lectures by leading experts.
+                STEMS will be conducted on <span class="font-semibold">21<sup>st</sup></span> ( CS )
+                , <span class="font-semibold">28<sup>th</sup> </span> (Physics) and
+                <span class="font-semibold">29<sup>th</sup></span> (Maths)
+                <span class="font-semibold">of December</span>. The test can be taken online from
+                any location; and the top 30 performers will be invited to CMI to attend a sponsored
+                residential camp with guest lectures by leading experts.
             </div>
             <div class="flex py-6" id="details">
                 <a
