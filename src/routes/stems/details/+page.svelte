@@ -28,11 +28,11 @@
                     </li>
                     <li>
                         <span class="font-semibold">Physics</span> <br /> 28th December, 2024 (Sat)<br
-                        />9:00 AM - 12:00 PM
+                        />3:00 PM - 6:00 PM
                     </li>
                     <li>
                         <span class="font-semibold">Mathematics</span> <br /> 29th December, 2024
-                        (Sat)<br />Objective : 11:00 AM - 12:30 PM<br />Subjective : 1:30PM - 5:30PM
+                        (Sun)<br />Objective : 11:00 AM - 12:30 PM<br />Subjective : 1:30PM - 5:30PM
                     </li>
                 </ul>
             </div>
