@@ -28,12 +28,12 @@
     >
         <div class="mx-auto flex w-full max-w-screen-lg justify-center p-5">
             <div class="flex flex-col">
-                <p class="text-center text-lg font-medium text-red-800 md:mt-1 md:text-xl">
-                    Physics and Maths exams have been postponed to 28th and 29th of December
+                <p class="text-center text-xl font-medium text-red-800 md:mt-1 md:text-2xl">
+                    Registration deadline for Physics and Maths extended to 25th of December, 2024
                 </p>
-                <p class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl">
-                    Registration for STEMS 2025 has started!
-                </p>
+                <p
+                    class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl"
+                ></p>
                 <a
                     href="#details"
                     class="my-0 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
