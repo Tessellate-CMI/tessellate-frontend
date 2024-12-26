@@ -23,15 +23,15 @@
     </div>
     <!-- Announcements, sticky element -->
     <div
-        class="absolute bottom-0 flex h-[25%] w-full md:h-[20%]"
+        class="absolute bottom-0 flex h-[15%] w-full md:h-[10%]"
         style="background: linear-gradient( #ffffffe6 15%, rgba(255,255,255,40) 100%);"
     >
         <div class="mx-auto flex w-full max-w-screen-lg justify-center p-5">
             <div class="flex flex-col">
                 <p class="text-center text-xl font-medium text-red-800 md:mt-1 md:text-2xl">
-                    Registration deadline for Physics and Maths extended to 25th of December, 2024
+                    Registrations closed
                 </p>
-                <p
+                <!-- <p
                     class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl"
                 ></p>
                 <a
@@ -39,7 +39,7 @@
                     class="my-0 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
                 >
                     Click here to register</a
-                >
+                > -->
             </div>
         </div>
     </div>
@@ -148,12 +148,11 @@
 
         <!-- Register Button -->
         <div class="mt-5 h-[10vh] w-full lg:col-span-2">
-            <a
-                href="https://forms.gle/5dcpEYsyTcUHVUbx5"
+            <div
                 class="flex h-full w-full items-center justify-center bg-sea-green bg-opacity-20 text-2xl font-semibold transition-all duration-300 ease-in-out hover:bg-opacity-100 hover:text-white"
             >
-                <span>Click to Register</span>
-            </a>
+                <span>Registrations Closed</span>
+            </div>
         </div>
     </div>
 </div>
