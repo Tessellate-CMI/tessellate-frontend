@@ -1,5 +1,4 @@
 <script>
-    import Footer from '$lib/components/Footer.svelte'
     import SpeakerPanel from '$lib/components/SpeakerPanel.svelte'
     import Navbar from '$lib/components/Navbar.svelte'
 </script>
@@ -158,8 +157,6 @@
 </div>
 
 <SpeakerPanel></SpeakerPanel>
-
-<Footer></Footer>
 
 <style>
     :global(html) {

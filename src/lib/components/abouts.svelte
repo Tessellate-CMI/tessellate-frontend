@@ -30,40 +30,44 @@
             </div>
             <button
                 class="text-stroke-2 text-stroke-sea-green mx-auto mt-12 font-heading hover:text-sea-green
-                {opacities == 1
-                    ? 'text-sea-green'
-                    : 'text-transparent'} transition-all duration-500"
+                {opacities == 1 ? 'text-sea-green' : 'text-white'} transition-all duration-500"
                 on:click={() => changeScroll(1)}
             >
-                TESSELLATE
+                Tessellate
             </button>
             <button
                 class="text-stroke-2 text-stroke-pista mx-auto mt-12 font-heading hover:text-pista {opacities ==
                 2
                     ? 'text-pista'
-                    : 'text-transparent'} transition-all duration-500"
+                    : 'text-white'} transition-all duration-500"
                 on:click={() => changeScroll(2)}
             >
-                STEMS
+                Stems
             </button>
             <button
                 class="text-stroke-2 text-stroke-brick mx-auto mt-12 font-heading hover:text-brick {opacities ==
                 3
                     ? 'text-brick'
-                    : 'text-transparent'} transition-all duration-500"
+                    : 'text-white'} transition-all duration-500"
                 on:click={() => changeScroll(3)}
             >
                 CMI
             </button>
         </div>
         <div class="relative h-full w-2/3 {bgCoolrs[opacities - 1]}  transition-all duration-500">
+            <!-- TESSELLATE about -->
             <div
                 class=" absolute {opacities == 1
                     ? 'opacity-100'
-                    : 'opacity-0'} m-auto size-40 transition-all duration-500"
+                    : 'opacity-0'} m-auto size-40 w-full transition-all duration-500"
             >
-                About 1
+                <div
+                    class="mx-auto mb-24 mt-12 w-full text-center font-heading text-8xl font-bold text-black transition-all duration-500"
+                >
+                    Tessellate
+                </div>
             </div>
+            <!-- STEMS about -->
             <div
                 class="absolute {opacities == 2
                     ? 'opacity-100'
@@ -71,6 +75,8 @@
             >
                 About 2
             </div>
+
+            <!-- CMI about -->
             <div
                 class="absolute {opacities == 3
                     ? 'opacity-100'
