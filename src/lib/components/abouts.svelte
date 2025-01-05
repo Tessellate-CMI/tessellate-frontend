@@ -18,6 +18,12 @@
 </script>
 
 <svelte:window bind:scrollY bind:innerHeight />
+<svelte:head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap"
+        rel="stylesheet"
+    />
+</svelte:head>
 
 <div class="h-[400vh] w-full transition-all duration-500">
     <div class="sticky top-0 flex h-screen w-full transition-all duration-500">
@@ -66,23 +72,77 @@
                 >
                     Tessellate
                 </div>
+
+                <div class="quote my-8 w-full text-center text-3xl">
+                    Creativity, Competition, Culture
+                </div>
+
+                <div
+                    class="m-auto w-full p-20 text-justify text-2xl first-letter:float-left first-letter:mr-3 first-letter:text-6xl first-letter:font-bold first-letter:text-teal-700"
+                >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus
+                    dolore illo vitae non facilis suscipit unde aliquid, minus voluptates odit cum
+                    deserunt eveniet! Excepturi dolores vel perspiciatis laborum quia neque earum
+                    reiciendis odio quam obcaecati hic soluta id accusantium, quos accusamus quo
+                    voluptas eveniet odit quisquam in. Inventore, beatae obcaecati facere, excepturi
+                    sed magni aut voluptatum consequatur quasi quam eaque autem doloribus asperiores
+                    distinctio, aliquam fugiat. Repellat quidem excepturi cumque eius at rem, veniam
+                    ipsam alias ducimus modi cum temporibus dolor dicta tempora debitis deleniti
+                    neque? Debitis quaerat maiores corrupti obcaecati.
+                </div>
             </div>
             <!-- STEMS about -->
             <div
                 class="absolute {opacities == 2
                     ? 'opacity-100'
-                    : 'opacity-0'} m-auto size-40 transition-all duration-500"
+                    : 'opacity-0'} m-auto size-40 w-full transition-all duration-500"
             >
-                About 2
+                <div
+                    class="mx-auto mb-24 mt-12 w-full text-center font-heading text-8xl font-bold text-black transition-all duration-500"
+                >
+                    About
+                </div>
+
+                <div
+                    class="m-auto p-20 text-justify text-2xl first-letter:float-left first-letter:mr-3 first-letter:text-6xl first-letter:font-bold first-letter:text-lime-700"
+                >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus
+                    dolore illo vitae non facilis suscipit unde aliquid, minus voluptates odit cum
+                    deserunt eveniet! Excepturi dolores vel perspiciatis laborum quia neque earum
+                    reiciendis odio quam obcaecati hic soluta id accusantium, quos accusamus quo
+                    voluptas eveniet odit quisquam in. Inventore, beatae obcaecati facere, excepturi
+                    sed magni aut voluptatum consequatur quasi quam eaque autem doloribus asperiores
+                    distinctio, aliquam fugiat. Repellat quidem excepturi cumque eius at rem, veniam
+                    ipsam alias ducimus modi cum temporibus dolor dicta tempora debitis deleniti
+                    neque? Debitis quaerat maiores corrupti obcaecati.
+                </div>
             </div>
 
             <!-- CMI about -->
             <div
                 class="absolute {opacities == 3
                     ? 'opacity-100'
-                    : 'opacity-0'} m-auto size-40 transition-all duration-500"
+                    : 'opacity-0'} m-auto size-40 w-full transition-all duration-500"
             >
-                About 3
+                <div
+                    class="mx-auto mb-24 mt-12 w-full text-center font-heading text-8xl font-bold text-cmi transition-all duration-500"
+                >
+                    CMI
+                </div>
+
+                <div
+                    class="m-auto p-20 text-justify text-2xl first-letter:float-left first-letter:mr-3 first-letter:text-6xl first-letter:font-bold first-letter:text-orange-700"
+                >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus
+                    dolore illo vitae non facilis suscipit unde aliquid, minus voluptates odit cum
+                    deserunt eveniet! Excepturi dolores vel perspiciatis laborum quia neque earum
+                    reiciendis odio quam obcaecati hic soluta id accusantium, quos accusamus quo
+                    voluptas eveniet odit quisquam in. Inventore, beatae obcaecati facere, excepturi
+                    sed magni aut voluptatum consequatur quasi quam eaque autem doloribus asperiores
+                    distinctio, aliquam fugiat. Repellat quidem excepturi cumque eius at rem, veniam
+                    ipsam alias ducimus modi cum temporibus dolor dicta tempora debitis deleniti
+                    neque? Debitis quaerat maiores corrupti obcaecati.
+                </div>
             </div>
         </div>
     </div>
@@ -114,5 +174,9 @@
 
     .text-stroke-brick {
         -webkit-text-stroke-color: theme('colors.brick');
+    }
+
+    .quote {
+        font-family: 'HandJet';
     }
 </style>
