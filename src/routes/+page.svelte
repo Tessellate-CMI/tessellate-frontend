@@ -1,6 +1,6 @@
 <script>
     import About from '../lib/components/abouts.svelte'
-    // try to keep full names so that talwind actually compiles. dynamic strings dont compile
+    // keep full names so that talwind actually compiles. dynamic strings dont compile
     let bgCoolrs = ['bg-sea-green', 'bg-pista', 'bg-brick', 'bg-butterscotch']
     let index = 0
     let switchTime = 4000
@@ -23,13 +23,12 @@
 </script>
 
 <!-- div for the whole screen -->
-<div class="flex h-screen w-full bg-gray-200">
+<div
+    class="flex h-screen w-full {bgCoolrs[index]}  transition-all duration-500"
+    style="background-image: url(octagons-bg-desktop.png);background-size: cover;background-blend-mode: luminosity;"
+>
     <!-- internal div, with the bg color, changes on time or btn press -->
-    <div
-        class="relative mx-40 my-20 flex h-auto w-full {bgCoolrs[
-            index
-        ]} transition-all duration-500"
-    >
+    <div class="relative mx-40 my-20 flex h-auto w-full bg-gray-50 transition-all duration-500">
         <!-- aligning buttons absolutely with negative bottom -->
         <div class="absolute -bottom-[47px] left-5 flex">
             <!-- looping over buttons -->
