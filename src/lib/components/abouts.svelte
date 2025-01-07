@@ -68,9 +68,14 @@
                     : 'opacity-0'} m-auto size-40 w-full transition-all duration-500"
             >
                 <div
-                    class="mx-auto mb-24 mt-12 w-full text-center font-heading text-8xl font-bold text-black transition-all duration-500"
+                    class="mx-auto mb-24 mt-14 flex w-full justify-center py-4 text-center font-heading text-8xl font-bold text-black transition-all duration-500"
                 >
-                    Tessellate
+                    <img
+                        src="/logos/Tessellate-Transparent-NoText.svg"
+                        alt="Tesellate Logo"
+                        class="h-24 w-auto"
+                    />
+                    <span>Tessellate</span>
                 </div>
 
                 <div class="quote my-8 w-full text-center text-3xl">
@@ -78,7 +83,7 @@
                 </div>
 
                 <div
-                    class="m-auto w-full p-20 text-justify text-2xl first-letter:float-left first-letter:mr-3 first-letter:text-6xl first-letter:font-bold first-letter:text-teal-700"
+                    class="m-auto h-full w-full p-20 text-justify text-2xl first-letter:float-left first-letter:mr-3 first-letter:text-6xl first-letter:font-bold first-letter:text-teal-700"
                 >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus
                     dolore illo vitae non facilis suscipit unde aliquid, minus voluptates odit cum
@@ -98,9 +103,9 @@
                     : 'opacity-0'} m-auto size-40 w-full transition-all duration-500"
             >
                 <div
-                    class="mx-auto mb-24 mt-12 w-full text-center font-heading text-8xl font-bold text-black transition-all duration-500"
+                    class="mx-auto mb-24 mt-14 h-24 w-full text-center font-heading text-8xl font-bold text-black transition-all duration-500"
                 >
-                    About
+                    <img src="/logos/STEMS-black.svg" alt="STEMS" class="m-auto h-28 pt-3" />
                 </div>
 
                 <div
@@ -125,9 +130,9 @@
                     : 'opacity-0'} m-auto size-40 w-full transition-all duration-500"
             >
                 <div
-                    class="mx-auto mb-24 mt-12 w-full text-center font-heading text-8xl font-bold text-cmi transition-all duration-500"
+                    class="mx-auto mb-24 mt-14 h-24 w-full text-center font-heading text-8xl font-bold text-cmi transition-all duration-500"
                 >
-                    CMI
+                    <img src="/logos/cmi_large_logo.svg" alt="CMI" class="m-auto h-24 pt-3" />
                 </div>
 
                 <div
