@@ -1,6 +1,6 @@
 <script>
     import '../app.css'
-    import Footer from '$lib/components/Footer.svelte'
+    import Footer from '$src/lib/components/Footer.svelte'
 </script>
 
 <div class="font-body">
