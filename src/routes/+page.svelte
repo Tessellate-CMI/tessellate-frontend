@@ -1,7 +1,7 @@
 <script>
     import About from '../lib/components/abouts.svelte'
     // keep full names so that talwind actually compiles. dynamic strings dont compile
-    let bgCoolrs = ['bg-sea-green', 'bg-pista', 'bg-brick', 'bg-butterscotch']
+    let bgCoolrs = ['bg-sea-green', 'bg-butterscotch', 'bg-brick bg-opacity-65', 'bg-pista']
     let index = 0
     let switchTime = 4000
 
