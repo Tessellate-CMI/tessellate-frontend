@@ -5,5 +5,7 @@
 
 <div class="font-body">
     <slot />
+
+    <Footer></Footer>
 </div>
 <Footer></Footer>

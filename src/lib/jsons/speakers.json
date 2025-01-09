@@ -72,22 +72,22 @@
         "link": "https://vivo.brown.edu/display/kramanan"
     },
     {
-        "name": "Nutan Limaye",
-        "university": "IT University of Copenhagen",
-        "image": "NutanLimaye.png",
-        "link": "https://www.itu.dk/~nuli/"
-    },
-    {
         "name": "Ryan O'Donnell",
         "university": "Carnegie Mellon University",
         "image": "RyanoDonnell.png",
         "link": "https://simons.berkeley.edu/people/ryan-odonnell"
     },
     {
-        "name": "Sujatha Ramodari",
+        "name": "Sujatha Ramdaroi",
         "university": "University of British Columbia",
         "image": "SujathaRamodari.png",
         "link": "https://personal.math.ubc.ca/~sujatha/"
+    },
+    {
+        "name": "Apoorva Khare",
+        "university": "Indian Institute of Science",
+        "image": "Akhare.png",
+        "link": "https://math.iisc.ac.in/~khare/"
     },
     {
         "name": "Xavier Vinneot",
@@ -102,10 +102,22 @@
         "link": "https://www.imsc.res.in/~amri/"
     },
     {
+        "name": "Anand Louis",
+        "university": "Indian Institute of Science",
+        "image": "AnandLouis.png",
+        "link": "https://www.csa.iisc.ac.in/~anandl/"
+    },
+    {
         "name": "Joseph Samuel",
         "university": "International Centre for Theoretical Sciences",
         "image": "JosephSamuel.png",
         "link": "https://wwws.rri.res.in/htmls/library/imprints_collection/bios/samuel.html"
+    },
+    {
+        "name": "Nutan Limaye",
+        "university": "IT University of Copenhagen",
+        "image": "NutanLimaye.png",
+        "link": "https://www.itu.dk/~nuli/"
     },
     {
         "name": "Samriddhi Sankar Ray",

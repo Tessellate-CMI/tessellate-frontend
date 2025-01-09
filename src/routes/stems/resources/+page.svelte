@@ -10,13 +10,30 @@
             Resources
         </div>
     </div>
-    <PastYearStuff year={2024} physics={['A', 'B', 'C']} maths={['A', 'B', 'C']} cs={['A', 'B']} />
     <PastYearStuff
-        year={2023}
+        year={'2025-Solutions'}
+        physics={['A', 'B']}
+        maths={['A', 'B', 'C']}
+        cs={['A', 'B']}
+    />
+    <PastYearStuff year={'2025'} physics={['A', 'B']} maths={['A', 'B', 'C']} cs={['A', 'B']} />
+    <PastYearStuff
+        year={'2024'}
+        physics={['A', 'B', 'C']}
+        maths={['A', 'B', 'C']}
+        cs={['A', 'B']}
+    />
+    <PastYearStuff
+        year={'2023'}
         physics={['A', 'B', 'C']}
         maths={['A', 'A(2)', 'B', 'B(2)', 'C']}
         cs={['A', 'B']}
     />
-    <PastYearStuff year={2021} physics={['A', 'B', 'C']} maths={['A', 'B', 'C']} cs={['A', 'B']} />
-    <PastYearStuff year={2020} physics={['A', 'B']} maths={['A', 'B']} cs={['A', 'B']} />
+    <PastYearStuff
+        year={'2021'}
+        physics={['A', 'B', 'C']}
+        maths={['A', 'B', 'C']}
+        cs={['A', 'B']}
+    />
+    <PastYearStuff year={'2020'} physics={['A', 'B']} maths={['A', 'B']} cs={['A', 'B']} />
 </div>

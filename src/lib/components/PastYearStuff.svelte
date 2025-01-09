@@ -1,5 +1,5 @@
 <script>
-    export let year = 2024
+    export let year = '2024'
     /**
      * @type {string[]}
      */
@@ -16,7 +16,7 @@
 
 <div class="mx-auto mt-5 w-full max-w-screen-lg shadow-md">
     <div class="my-10 w-full text-center font-heading text-5xl font-medium">
-        STEMS {year}
+        STEMS {year.replace(/-/g, ' ')}
     </div>
     <div class="my-12 grid grid-cols-1 text-center text-xl md:grid-cols-3">
         <div class="mb-10 border-black px-8 md:mb-0 md:border-r-2">

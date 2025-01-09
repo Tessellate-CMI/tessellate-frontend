@@ -1,0 +1,22 @@
+{
+    "Maths": {
+        "Category A": [
+            "Euler KN subhramanyam chennai bangalore",
+            "Gauss",
+            "Noether",
+            "Turing",
+            "Shannon",
+            "Knuth"
+        ],
+        "Category B": ["Riemann", "Fourier", "Ramanujan"],
+        "Category C": ["Hilbert", "Cantor", "Grothendieck"]
+    },
+    "Physics": {
+        "Category A": ["Einstein", "Newton", "Maxwell"],
+        "Category B": ["Feynman", "Bohr", "Curie"]
+    },
+    "CS": {
+        "Category A": ["Turing", "Shannon", "Knuth"],
+        "Category B": ["Hopper", "Von Neumann", "Lamport"]
+    }
+}
