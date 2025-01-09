@@ -1,5 +1,4 @@
 <script>
-    import Footer from '$lib/components/Footer.svelte'
     import SpeakerPanel from '$lib/components/SpeakerPanel.svelte'
     import Navbar from '$lib/components/Navbar.svelte'
 </script>
@@ -23,23 +22,24 @@
     </div>
     <!-- Announcements, sticky element -->
     <div
-        class="absolute bottom-0 flex h-[15%] w-full md:h-[10%]"
+        class="absolute bottom-0 flex h-[25%] w-full lg:h-[20%]"
         style="background: linear-gradient( #ffffffe6 15%, rgba(255,255,255,40) 100%);"
     >
         <div class="mx-auto flex w-full max-w-screen-lg justify-center p-5">
             <div class="flex flex-col">
-                <p class="text-center text-xl font-medium text-red-800 md:mt-1 md:text-2xl">
-                    Registrations closed
+                <p class="text-center font-medium text-red-800 sm:text-lg md:mt-1 md:text-xl">
+                    Results for STEMS 2025 are out! <br />Solutions for STEMS 2025 papers can be
+                    found on the Resources Page.
                 </p>
                 <!-- <p
                     class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl"
-                ></p>
+                ></p>-->
                 <a
-                    href="#details"
+                    href="camp"
                     class="my-0 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
                 >
-                    Click here to register</a
-                > -->
+                    List of Selected Candidates</a
+                >
             </div>
         </div>
     </div>
@@ -148,18 +148,17 @@
 
         <!-- Register Button -->
         <div class="mt-5 h-[10vh] w-full lg:col-span-2">
-            <div
+            <a
+                href="camp"
                 class="flex h-full w-full items-center justify-center bg-sea-green bg-opacity-20 text-2xl font-semibold transition-all duration-300 ease-in-out hover:bg-opacity-100 hover:text-white"
             >
-                <span>Registrations Closed</span>
-            </div>
+                <span>List of Selected Candidates</span>
+            </a>
         </div>
     </div>
 </div>
 
 <SpeakerPanel></SpeakerPanel>
-
-<Footer></Footer>
 
 <style>
     :global(html) {
