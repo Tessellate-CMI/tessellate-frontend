@@ -3,6 +3,7 @@
 
     import selected from '$lib/jsons/STEMS_List.json'
     let bg_clrs = ['bg-brick', 'bg-butterscotch']
+    let bg_opacities = ['bg-opacity-15', 'bg-opacity-30']
 </script>
 
 <div class="mt-10 flex w-full">
@@ -33,16 +34,16 @@
                 <div
                     class="border-black {bg_clrs[
                         kdx % 2
-                    ]} bg-opacity-55 p-6 text-center font-heading text-4xl font-semibold lg:text-5xl"
+                    ]} bg-opacity-60 p-6 text-center font-heading text-4xl font-semibold lg:text-5xl"
                 >
                     {subject}
                 </div>
                 {#each Object.keys(selected[subject]) as category}
                     <div class="pb-5 text-lg md:text-xl">
                         <div
-                            class="content-center bg-opacity-10 pb-4 pt-5 text-center font-heading text-2xl md:text-3xl {bg_clrs[
+                            class="content-center pb-4 pt-5 text-center font-heading text-2xl md:text-3xl {bg_clrs[
                                 kdx % 2
-                            ]}"
+                            ]} {bg_opacities[kdx % 2]}"
                         >
                             {category}
                         </div>
