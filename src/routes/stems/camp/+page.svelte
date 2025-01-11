@@ -1,7 +1,7 @@
 <script>
     // @ts-nocheck
 
-    import selected from '$lib/jsons/selected_list.json'
+    import selected from '$lib/jsons/STEMS_List.json'
     let bg_clrs = ['bg-brick', 'bg-butterscotch']
 </script>
 
@@ -21,7 +21,7 @@
         <p class="p-6 md:text-lg">
             The list of selected candidates can be found here. The selected candidates to requested
             to check their registered emails (and spam folders) regularly as we will share further
-            details of the them camp over email.
+            details of the camp with them over email.
         </p>
     </div>
 </div>

@@ -1,0 +1,58 @@
+{
+    "Maths": {
+        "Category A": [
+            "Abel George Mathew",
+            "Shreya Mundhada",
+            "Raghav Jeyan Prabu",
+            "Mann Shah",
+            "Krishiv Khandelwal"
+        ],
+        "Category B": [
+            "Adhitya Mangudy Venkata Ganesh",
+            "Archit Manas",
+            "Shresth Suraiya",
+            "Kanav Talwar",
+            "Aharshi Roy",
+            "Debayu Chakrabarti",
+            "Abhinav Khetan",
+            "Om Anand Kutte",
+            "Arnav Nanal"
+        ],
+        "Category C": ["Maalav Mehta", "Krishna N Agaram"]
+    },
+    "Physics": {
+        "Category A": [
+            "Sai Dibyanshu Behera",
+            "Shresth Suraiya",
+            "Chayanika Mandal",
+            "Dakshya Mishra",
+            "Darshil"
+        ],
+        "Category B": [
+            "Om Dubey",
+            "Avik Das",
+            "Ujjwal Aditya",
+            "Subhanshu Yadav",
+            "Sriraj Chandra",
+            "Ishaan Gupta",
+            "Vedant Saraswat",
+            "Harshvardhan Patil",
+            "Mithilesh A"
+        ]
+    },
+    "CS": {
+        "Category A": [
+            "Kanav Talwar",
+            "Archit Manas",
+            "Abhinav Khetan",
+            "Shreya Mundhada",
+            "Abel George Mathew",
+            "Bairav Murugan",
+            "Agrim Agarwal",
+            "Om Kutte",
+            "Saee Patil",
+            "Mann Shah"
+        ],
+        "Category B": ["Shreyan Ray", "Arpan Jain", "SIddhant Attavar", "Shankhadeep Ghosh"]
+    }
+}
