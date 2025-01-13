@@ -2,57 +2,58 @@
     "Maths": {
         "Category A": [
             "Abel George Mathew",
-            "Shreya Mundhada",
-            "Raghav Jeyan Prabu",
+            "Krishiv Khandelwal",
             "Mann Shah",
-            "Krishiv Khandelwal"
+            "Raghav Jeyan Prabu",
+            "Shreya Mundhada"
         ],
         "Category B": [
-            "Adhitya Mangudy Venkata Ganesh",
-            "Archit Manas",
-            "Shresth Suraiya",
-            "Kanav Talwar",
-            "Aharshi Roy",
-            "Debayu Chakrabarti",
             "Abhinav Khetan",
+            "Adhitya Mangudy Venkata Ganesh",
+            "Aharshi Roy",
+            "Archit Manas",
+            "Arnav Nanal",
+            "Debayu Chakrabarti",
+            "Kanav Talwar",
             "Om Anand Kutte",
-            "Arnav Nanal"
+            "Shresth Suraiya"
         ],
-        "Category C": ["Maalav Mehta", "Krishna N Agaram"]
+        "Category C": ["Krishna N Agaram", "Maalav Mehta"]
     },
     "Physics": {
         "Category A": [
-            "Sai Dibyanshu Behera",
-            "Shresth Suraiya",
             "Chayanika Mandal",
             "Dakshya Mishra",
-            "Darshil Srivastava"
+            "Darshil Srivastava",
+            "Sai Dibyanshu Behera",
+            "Shresth Suraiya"
         ],
         "Category B": [
-            "Om Dubey",
             "Avik Das",
-            "Ujjwal Aditya",
-            "Subhanshu Yadav",
-            "Sriraj Chandra",
-            "Ishaan Gupta",
-            "Vedant Saraswat",
+            "Harshit Agrawal",
             "Harshvardhan Patil",
-            "Mithilesh A"
+            "Ishaan Gupta",
+            "Mithilesh A",
+            "Om Dubey",
+            "Sriraj Chandra",
+            "Subhanshu Yadav",
+            "Ujjwal Aditya",
+            "Vedant Saraswat"
         ]
     },
     "CS": {
         "Category A": [
-            "Kanav Talwar",
-            "Archit Manas",
-            "Abhinav Khetan",
-            "Shreya Mundhada",
             "Abel George Mathew",
-            "Bairav Murugan",
+            "Abhinav Khetan",
             "Agrim Agarwal",
+            "Archit Manas",
+            "Bairav Murugan",
+            "Kanav Talwar",
+            "Mann Shah",
             "Om Kutte",
             "Saee Patil",
-            "Mann Shah"
+            "Shreya Mundhada"
         ],
-        "Category B": ["Shreyan Ray", "Arpan Jain", "SIddhant Attavar", "Shankhadeep Ghosh"]
+        "Category B": ["Arpan Jain", "Shankhadeep Ghosh", "Shreyan Ray", "Siddhant Attavar"]
     }
 }
