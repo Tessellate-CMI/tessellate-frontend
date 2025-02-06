@@ -47,13 +47,13 @@
             },
             {
                 "presenter": "Prof. Jaikumar Radhakrishnan, ICTS Bangalore",
-                "title": "Mathematical and Computational modeling of turbulent oceans of our planet",
+                "title": "Side benefits of knowing an algorithm",
                 "time": "11:00 AM - 12:15 PM",
                 "description": " I was trying to help a group of school students discover a beautiful theorem in combinatorics. The theorem says: in any sequence of k^2+1 distinct numbers, there is either an increasing subsequence of k+1 numbers or a decreasing subsequence of k+1 numbers. The students eventually figured this out.  They also figured out why k^2 instead of k^2+1 would not do: there are sequences of k^2 numbers that have neither an increasing nor a decreasing subsequence of k+1 numbers. (Try to build one for k=3.) Just when I thought I had told them everything that I could about the theorem, one of them asked how many such sequences with numbers 1,2, ..., k^2 were there. I did not know. I did not want to google. I wanted to understand. I went back to an algorithm I had learnt years ago. It gave me the answer. I understood a little more. I want to tell you what I found, and why that made me happy"
             },
             {
                 "presenter": "Prof. Apoorva Khare, IISc",
-                "title": "The amazing power of divide-and-conquer algorithmic paradigm",
+                "title": "Divisibility tests and recurring decimals",
                 "time": "2:00 PM - 3:15 PM",
                 "description": ""
             },
