@@ -1,0 +1,98 @@
+[
+    {
+        "day": "Friday",
+        "date": "7th Feb, 2025",
+        "lectures": [
+            {
+                "presenter": "Prof. Ghanashyam Date, IMSc",
+                "title": "Where am I? (And What time is it?)",
+                "time": "9:30 AM - 10:45 AM",
+                "description": ""
+            },
+            {
+                "presenter": "Prof. Jim Thomas, ICTS Bangalore",
+                "title": "Mathematical and Computational modeling of turbulent oceans of our planet",
+                "time": "11:00 AM - 12:15 PM",
+                "description": "The world's oceans form a key component in setting the weather and climate of our planet. The plankton ecosystems in the oceans generating a dominant share of the earth's oxygen, carbondioxide dissolving in the oceans and thereby removing greenhouse gases from the atmosphere, and the enormous amount of heat from atmosphere going into the ocean are some examples illustrating the role the oceans play in coupling with atmospheric dynamics and thereby weather and climate. Due to these effects, predicting climatological changes of our planet requires a deeper understanding of the turbulent ocean dynamics and modeling it accurately. This talk will give an overview of turbulent flow structures in the oceans and examine various levels of mathematical models that can capture flow features and turbulent energy transfers across spatio-temporal scales. We will examine deterministic, stochastic, and machine-learning models that can resolve turbulent flow dynamics in different dynamic regimes in the world's oceans with an eye on improved long term predictions."
+            },
+            {
+                "presenter": "Prof. Prahladh Harsha, TIFR Mumbai",
+                "title": "The amazing power of divide-and-conquer algorithmic paradigm",
+                "time": "2:00 PM - 3:15 PM",
+                "description": "Divide-and-conquer is a very powerful algorithmic paradigm used to design efficient, in fact nearly-linear time, algorithms for several problems. Classic examples include merge sort, discrete Fourier transform (DFT), polynomial and integer multiplication, polynomial division, GCD computation, etc. In this talk, we will revisit this paradigm by going over some of the textbook examples such as merge-sort and polynomial division.  We will then see how the same method extends to obtain nearly nearly-linear time algorithms for solving high-order differential equations. More precisely,  given a (m+2)-variate polynomial Q(x,y_0,...,y_m) = A(x) + sum_{i = 0}^m B_i(x) * y_i$ we show how to obtain all low-degree polynomials f(x) that satisfy the following differential equation: Q (x, f(x), df/dx,...,d^m f/dx^m) equivalent to 0$."
+            },
+            {
+                "presenter": "Prof. C. Aiswarya, CMI",
+                "title": "Computing with Graphs and Machines",
+                "time": "3:30 PM - 4:45 PM",
+                "description": "We will have a hands-on introduction to the notion of computability. We will analyse some functions from natural numbers to natural numbers computed by some machines and graphs. Please come with a notepad and pen."
+            },
+            {
+                "presenter": "Ananya Ranade, CMI BSc 3",
+                "title": "Cake Cutting and Algorithms",
+                "time": "6:30 PM - 7:45 PM",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "day": "Saturday",
+        "date": "8th Feb, 2025",
+        "lectures": [
+            {
+                "presenter": "Prof. Sarang Sane, IITM",
+                "title": "TBA",
+                "time": "9:30 AM - 10:45 AM",
+                "description": ""
+            },
+            {
+                "presenter": "Prof. Jaikumar Radhakrishnan, ICTS Bangalore",
+                "title": "Mathematical and Computational modeling of turbulent oceans of our planet",
+                "time": "11:00 AM - 12:15 PM",
+                "description": " I was trying to help a group of school students discover a beautiful theorem in combinatorics. The theorem says: in any sequence of k^2+1 distinct numbers, there is either an increasing subsequence of k+1 numbers or a decreasing subsequence of k+1 numbers. The students eventually figured this out.  They also figured out why k^2 instead of k^2+1 would not do: there are sequences of k^2 numbers that have neither an increasing nor a decreasing subsequence of k+1 numbers. (Try to build one for k=3.) Just when I thought I had told them everything that I could about the theorem, one of them asked how many such sequences with numbers 1,2, ..., k^2 were there. I did not know. I did not want to google. I wanted to understand. I went back to an algorithm I had learnt years ago. It gave me the answer. I understood a little more. I want to tell you what I found, and why that made me happy"
+            },
+            {
+                "presenter": "Prof. Apoorva Khare, IISc",
+                "title": "The amazing power of divide-and-conquer algorithmic paradigm",
+                "time": "2:00 PM - 3:15 PM",
+                "description": ""
+            },
+            {
+                "presenter": "TBA",
+                "title": "TBA",
+                "time": "3:30 PM - 4:45 PM",
+                "description": ""
+            },
+            {
+                "presenter": "Sunaina Pati, CMI BSc 2",
+                "title": "'Not' Invariants",
+                "time": "6:30 PM - 7:45 PM",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "day": "Sunday",
+        "date": "9th Feb, 2025",
+        "lectures": [
+            {
+                "presenter": "Prof. Sitabhra Sinha, IMSc",
+                "title": "TBA",
+                "time": "9:30 AM - 10:45 AM",
+                "description": ""
+            },
+            {
+                "presenter": "Arjun Agarwal, CMI BSc 1",
+                "title": "Rational Roots of Irrational Markets: Game Theory and Financial Bubbles",
+                "time": "11:00 AM - 12:15 PM",
+                "description": ""
+            },
+            {
+                "presenter": "Gautham V, CMI BSc 1",
+                "title": "TBA",
+                "time": "6:30 PM - 7:45 PM",
+                "description": ""
+            }
+        ]
+    }
+]

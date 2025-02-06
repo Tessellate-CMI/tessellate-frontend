@@ -27,14 +27,19 @@
     >
         <div class="mx-auto flex w-full max-w-screen-lg justify-center p-5">
             <div class="flex flex-col">
-                <p class="text-center font-medium text-red-800 sm:text-lg md:mt-1 md:text-xl">
+                <!-- <p class="text-center font-medium text-red-800 sm:text-lg md:mt-1 md:text-xl">
                     Results for STEMS 2025 are out! <br />Solutions for STEMS 2025 papers can be
                     found on the Resources Page.
-                </p>
+                </p> -->
                 <!-- <p
                     class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl"
                 ></p>-->
                 <a
+                    href="camp-schedule"
+                    class="my-4 px-6 py-2 text-center text-lg font-bold text-red-800 underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
+                >
+                    STEMS 2025 camp schedule</a
+                ><a
                     href="camp"
                     class="my-0 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
                 >
