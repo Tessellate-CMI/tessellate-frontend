@@ -28,8 +28,8 @@
                 "description": "We will have a hands-on introduction to the notion of computability. We will analyse some functions from natural numbers to natural numbers computed by some machines and graphs. Please come with a notepad and pen."
             },
             {
-                "presenter": "Ananya Ranade, CMI BSc 3",
-                "title": "Cake Cutting and Algorithms",
+                "presenter": "Ananya Ranade & Vardhan Kumar Ray, CMI BSc 3",
+                "title": "Algorithms: The Journey so Far",
                 "time": "6:30 PM - 7:45 PM",
                 "description": ""
             }
@@ -47,7 +47,7 @@
             },
             {
                 "presenter": "Prof. Jaikumar Radhakrishnan, ICTS Bangalore",
-                "title": "Side benefits of knowing an algorithm",
+                "title": "The side benefits of knowing an algorithm",
                 "time": "11:00 AM - 12:15 PM",
                 "description": " I was trying to help a group of school students discover a beautiful theorem in combinatorics. The theorem says: in any sequence of k^2+1 distinct numbers, there is either an increasing subsequence of k+1 numbers or a decreasing subsequence of k+1 numbers. The students eventually figured this out.  They also figured out why k^2 instead of k^2+1 would not do: there are sequences of k^2 numbers that have neither an increasing nor a decreasing subsequence of k+1 numbers. (Try to build one for k=3.) Just when I thought I had told them everything that I could about the theorem, one of them asked how many such sequences with numbers 1,2, ..., k^2 were there. I did not know. I did not want to google. I wanted to understand. I went back to an algorithm I had learnt years ago. It gave me the answer. I understood a little more. I want to tell you what I found, and why that made me happy"
             },
@@ -58,8 +58,8 @@
                 "description": ""
             },
             {
-                "presenter": "TBA",
-                "title": "TBA",
+                "presenter": "Prof. Venkata Balaij T E, IITM",
+                "title": "Curvature from the viewpoints of Perception, Physics, Geometry, Analysis, Topology, Calculus...",
                 "time": "3:30 PM - 4:45 PM",
                 "description": ""
             },
@@ -89,7 +89,7 @@
             },
             {
                 "presenter": "Gautham V, CMI BSc 1",
-                "title": "TBA",
+                "title": "Running fast to my older twin",
                 "time": "6:30 PM - 7:45 PM",
                 "description": ""
             }
