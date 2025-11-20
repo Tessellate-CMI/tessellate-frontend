@@ -21,29 +21,24 @@
         />
     </div>
     <!-- Announcements, sticky element -->
+     <!-- Announcements, sticky element -->
     <div
-        class="absolute bottom-0 flex h-[25%] w-full lg:h-[20%]"
+        class="absolute bottom-0 flex h-[25%] w-full md:h-[20%]"
         style="background: linear-gradient( #ffffffe6 15%, rgba(255,255,255,40) 100%);"
     >
         <div class="mx-auto flex w-full max-w-screen-lg justify-center p-5">
             <div class="flex flex-col">
-                <!-- <p class="text-center font-medium text-red-800 sm:text-lg md:mt-1 md:text-xl">
-                    Results for STEMS 2025 are out! <br />Solutions for STEMS 2025 papers can be
-                    found on the Resources Page.
-                </p> -->
-                <!-- <p
-                    class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl"
-                ></p>-->
+
+
+
+                <p class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl">
+                    Registration for STEMS 2026 has started!
+                </p>
                 <a
-                    href="camp-schedule"
-                    class="my-4 px-6 py-2 text-center text-lg font-bold text-red-800 underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
+                    href="#details"
+                    class="my-2 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
                 >
-                    STEMS 2025 camp schedule</a
-                ><a
-                    href="camp"
-                    class="my-0 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
-                >
-                    List of Selected Candidates</a
+                    Click here to register</a
                 >
             </div>
         </div>
@@ -66,10 +61,7 @@
                 STEMS (Scholastic Test of Excellence in Mathematical Sciences) is an annual
                 first-of-its-kind open resource examination conducted for students from 8th grade to
                 undergraduates across India. <span class="mb-4" />The exam will be held in
-                Mathematics, Physics, and (theoretical) Computer Science in December. The relaxed
-                duration of the exam and original conceptual questions promote academic creativity
-                over rote learning and research interest, increasing the interest and awareness of
-                mathematical sciences amongst the students.
+                Mathematics, Probability-Statistics, Physics and (theoretical) Computer Science in December. The relaxed duration of the exam and original conceptual questions promote academic creativity over rote learning and research interest, increasing the interest and awareness of mathematical sciences amongst the students.
             </div>
         </div>
 
@@ -77,7 +69,7 @@
             <div
                 class=" flex w-full flex-col justify-center bg-pista bg-opacity-10 p-6 md:text-lg lg:h-[40vh] lg:w-2/3"
             >
-                About 30 of the best scorers across the three disclipines of STEMS will be selected
+                About 35-40 of the best scorers across the four disclipines of STEMS will be selected
                 for a 3-day, fully-funded camp at CMI. Past students selected for this camp include
                 various medalists at the IMO, IOI and few of the brightest school and college
                 students across India.
@@ -101,11 +93,11 @@
                 Details
             </div>
             <div class="p-6 px-8 text-lg">
-                STEMS will be conducted on <span class="font-semibold">21<sup>st</sup></span> ( CS )
-                , <span class="font-semibold">28<sup>th</sup> </span> (Physics) and
-                <span class="font-semibold">29<sup>th</sup></span> (Maths)
-                <span class="font-semibold">of December</span>. The test can be taken online from
-                any location; and the top 30 performers will be invited to CMI to attend a sponsored
+                STEMS will be conducted on <span class="font-semibold">9<sup>th</sup></span> (Probability-Statistics)
+                , <span class="font-semibold">10<sup>th</sup> Morning </span> (CS), <span class="font-semibold">10<sup>th</sup> Evening </span> (Physics) and
+                <span class="font-semibold">11<sup>th</sup></span> (Maths)
+                <span class="font-semibold">of January</span>. The test can be taken online from
+                any location; and the top 35-40 performers will be invited to CMI to attend a sponsored
                 residential camp with guest lectures by leading experts.
             </div>
             <div class="flex py-6" id="details">
@@ -154,10 +146,10 @@
         <!-- Register Button -->
         <div class="mt-5 h-[10vh] w-full lg:col-span-2">
             <a
-                href="camp"
+                href="https://forms.gle/5dcpEYsyTcUHVUbx5"
                 class="flex h-full w-full items-center justify-center bg-sea-green bg-opacity-20 text-2xl font-semibold transition-all duration-300 ease-in-out hover:bg-opacity-100 hover:text-white"
             >
-                <span>List of Selected Candidates</span>
+                <span>Click to Register</span>
             </a>
         </div>
     </div>
