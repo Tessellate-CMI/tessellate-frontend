@@ -11,18 +11,19 @@ export default {
         },
         extend: {
             colors: {
-                brick: '#ff3b9c',
-                pista: '#e7f',
-                butterscotch: '#ffbb33',
+                brick: '#fc3b99', 
+                // #FC3B99
+                pista: '#c99652',
+                butterscotch: '#ffbb34',
                 skin: '#fbe6d5',
                 'sea-green': '#09abbb',
                 'off-white': '#fdfdff',
                 caramel: '#c99652'
             },
             backgroundImage: {
-                'stems-hero': "url('https://cdn.tessellate.cmi.ac.in/design/stems/STEMS-BG.png')",
+                'stems-hero': "url('https://cdn.tessellate.cmi.ac.in/design/stems/test.jpeg')",
                 'stems-hero-phone':
-                    "url('https://cdn.tessellate.cmi.ac.in/design/stems/STEMS-BG-phone.png')"
+                    "url('https://cdn.tessellate.cmi.ac.in/design/stems/test.jpeg')"
             }
         }
     },

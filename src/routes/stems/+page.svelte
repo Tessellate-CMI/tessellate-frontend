@@ -21,7 +21,7 @@
         />
     </div>
     <!-- Announcements, sticky element -->
-     <!-- Announcements, sticky element -->
+    <!-- Announcements, sticky element -->
     <div
         class="absolute bottom-0 flex h-[25%] w-full md:h-[20%]"
         style="background: linear-gradient( #ffffffe6 15%, rgba(255,255,255,40) 100%);"
@@ -88,7 +88,7 @@
         class="mx-auto grid w-full max-w-screen-lg grid-cols-1 text-center shadow-md lg:grid-cols-2"
     >
         <!-- Details -->
-        <div class=" bg-butterscotch bg-opacity-25">
+        <div class=" bg-butterscotch bg-opacity-30">
             <div class="bg-butterscotch p-6 font-heading text-6xl font-semibold lg:text-7xl">
                 Details
             </div>
@@ -109,9 +109,9 @@
             </div>
         </div>
         <!-- Resources -->
-        <div class=" bg-brick bg-opacity-10">
+        <div class=" bg-brick bg-opacity-30">
             <div
-                class="bg-brick bg-opacity-40 p-6 px-8 font-heading text-6xl font-semibold lg:text-7xl"
+                class="bg-brick bg-opacity-100 p-6 px-8 font-heading text-6xl font-semibold lg:text-7xl"
             >
                 Resources
             </div>
@@ -128,14 +128,14 @@
             </div>
         </div>
 
-        <div class="hidden border-black bg-butterscotch bg-opacity-25 py-6 lg:flex">
+        <div class="hidden border-black bg-butterscotch bg-opacity-30 py-6 lg:flex">
             <a
                 href="details"
                 class="m-auto hidden border-2 border-black px-6 py-3 text-xl font-medium transition-all duration-300 hover:border-butterscotch hover:bg-butterscotch lg:block"
                 >Details</a
             >
         </div>
-        <div class="hidden bg-brick bg-opacity-10 py-6 lg:flex">
+        <div class="hidden bg-brick bg-opacity-30 py-6 lg:flex">
             <a
                 href="resources"
                 class="m-auto hidden border-2 border-black px-6 py-3 text-xl font-medium transition-all duration-300 hover:border-brick hover:bg-brick hover:text-white lg:block"
