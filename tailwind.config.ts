@@ -5,9 +5,9 @@ export default {
     content: ['./src/**/*.{html,js,svelte,ts}'],
     theme: {
         fontFamily: {
-            heading: ['Bricolage Grotesque', 'sans-serif'],
+            heading: ['"Jersey 20"','Bricolage Grotesque', 'sans-serif'],
             sans: ['Open Sans', 'sans-serif'],
-            body: ['Open Sans']
+            body: ['Lexend','Open Sans']
         },
         extend: {
             colors: {
