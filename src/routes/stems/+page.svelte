@@ -61,7 +61,7 @@
                 STEMS (Scholastic Test of Excellence in Mathematical Sciences) is an annual
                 first-of-its-kind open resource examination conducted for students from 8th grade to
                 undergraduates across India. <span class="mb-4" />The exam will be held in
-                Mathematics, Probability-Statistics, Physics and (theoretical) Computer Science in December. The relaxed duration of the exam and original conceptual questions promote academic creativity over rote learning and research interest, increasing the interest and awareness of mathematical sciences amongst the students.
+                Mathematics, Probability-Statistics, Physics and (theoretical) Computer Science in January. The relaxed duration of the exam and original conceptual questions promote academic creativity over rote learning and research interest, increasing the interest and awareness of mathematical sciences amongst the students.
             </div>
         </div>
 
