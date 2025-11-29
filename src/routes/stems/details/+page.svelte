@@ -68,9 +68,9 @@
                 <div class="mt-16 text-center font-heading text-3xl font-medium lg:mt-0">
                     Physics
                 </div>
-                <p class="mt-8"><strong>Category A</strong><br />Grade 8, 9, 10, 11</p>
+                <p class="mt-8"><strong>Category A</strong><br />Grade 8, 9, 10, 11, 12</p>
                 <p class="mt-8">
-                    <strong>Category B</strong><br />Grade 12, Undergrad all years
+                    <strong>Category B</strong><br />Undergrad all years
                 </p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
@@ -102,7 +102,7 @@
                 <div class="mt-16 text-center font-heading text-3xl font-medium lg:mt-0">
                     Probability-Statistics
                 </div>
-                <p class="mt-8"><strong>Category A</strong><br />Everyone upto undergraduate </p> <p>(Note: the paper will be set at the undergraduate level)</p>
+                <p class="mt-8"><strong>Category A</strong><br />Grade 8,9,10,11,12 and Undergrad all years </p> <p>(Note: the paper will be set at the undergraduate level)</p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
                         href="/src/assets/prob-stat.pdf"
