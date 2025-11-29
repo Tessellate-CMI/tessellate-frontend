@@ -57,7 +57,7 @@
                 <p class="mt-8"><strong>Category C</strong><br />Undergrad 2nd to final year</p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
-                        href="/src/assets/Math.pdf"
+                        href="/syllabus/Math.pdf"
                         target="_blank"
                         class=" m-auto mt-12 border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
                         >Syllabus</a
@@ -74,7 +74,7 @@
                 </p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
-                        href="/src/assets/Physics.pdf"
+                        href="/syllabus/Physics.pdf"
                         target="_blank"
                         class=" m-auto mt-12 border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
                         >Syllabus</a
@@ -91,7 +91,7 @@
                 </p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
-                        href="/src/assets/CS.pdf"
+                        href="/syllabus/CS.pdf"
                         target="_blank"
                         class=" m-auto mt-12 border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
                         >Syllabus</a
@@ -105,7 +105,7 @@
                 <p class="mt-8"><strong>Category A</strong><br />Grade 8,9,10,11,12 and Undergrad all years </p> <p>(Note: the paper will be set at the undergraduate level)</p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
-                        href="/src/assets/prob-stat.pdf"
+                        href="/syllabus/prob-stat.pdf"
                         target="_blank"
                         class=" m-auto mt-12 border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
                         >Syllabus</a
@@ -114,7 +114,7 @@
             </div>
             <div class="flex border-r-2 border-black px-6">
                 <a
-                    href="/src/assets/Math.pdf"
+                    href="/syllabus/Math.pdf"
                     target="_blank"
                     class=" m-auto mt-12 hidden border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
                     >Syllabus</a
@@ -122,7 +122,7 @@
             </div>
             <div class="flex border-r-2 border-black px-6">
                 <a
-                    href="/src/assets/Physics.pdf"
+                    href="/syllabus/Physics.pdf"
                     target="_blank"
                     class="m-auto mt-12 hidden border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
                     >Syllabus</a
@@ -130,7 +130,7 @@
             </div>
             <div class="flex border-r-2 border-black px-6">
                 <a
-                    href="/src/assets/CS.pdf"
+                    href="/syllabus/CS.pdf"
                     target="_blank"
                     class="m-auto mt-12 hidden border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
                     >Syllabus</a
@@ -138,7 +138,7 @@
             </div>
             <div class="flex px-6">
                 <a
-                    href="/src/assets/prob-stat.pdf"
+                    href="/syllabus/prob-stat.pdf"
                     target="_blank"
                     class="m-auto mt-12 hidden border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
                     >Syllabus</a
@@ -173,7 +173,7 @@
         </div>
         <div class="flex px-6">
             <a
-                href="/src/assets/Rules.pdf"
+                href="/syllabus/Rules.pdf"
                 target="_blank"
                 class="m-auto mb-12 border-2 border-black px-8 py-3 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white"
                 >Complete set of Rules</a
