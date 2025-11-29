@@ -47,7 +47,7 @@
         <div class="my-10 w-full text-center font-heading text-5xl font-medium">
             Subjects / Categories
         </div>
-        <div class="my-16 grid grid-cols-1 text-lg md:text-xl lg:grid-cols-3">
+        <div class="my-16 grid grid-cols-1 text-lg md:text-xl lg:grid-cols-4">
             <div class="border-black px-8 lg:border-r-2">
                 <div class="text-center font-heading text-3xl font-medium">Mathematics</div>
                 <p class="mt-8"><strong>Category A</strong><br />Grade 8, 9, 10</p>
@@ -57,7 +57,7 @@
                 <p class="mt-8"><strong>Category C</strong><br />Undergrad 2nd to final year</p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
-                        href="https://cdn.tessellate.cmi.ac.in/stems/Maths-Syllabus.pdf"
+                        href="/src/assets/Math.pdf"
                         target="_blank"
                         class=" m-auto mt-12 border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
                         >Syllabus</a
@@ -74,14 +74,14 @@
                 </p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
-                        href="https://cdn.tessellate.cmi.ac.in/stems/Physics-Syllabus.pdf"
+                        href="/src/assets/Physics.pdf"
                         target="_blank"
                         class=" m-auto mt-12 border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
                         >Syllabus</a
                     >
                 </div>
             </div>
-            <div class=" px-8">
+            <div class="border-black px-8 lg:border-r-2">
                 <div class="mt-16 text-center font-heading text-3xl font-medium lg:mt-0">
                     Computer Science
                 </div>
@@ -91,7 +91,21 @@
                 </p>
                 <div class="flex border-black px-6 lg:border-r-2">
                     <a
-                        href="https://cdn.tessellate.cmi.ac.in/stems/CS-Syllabus.pdf"
+                        href="/src/assets/CS.pdf"
+                        target="_blank"
+                        class=" m-auto mt-12 border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
+                        >Syllabus</a
+                    >
+                </div>
+            </div>
+            <div class=" px-8">
+                <div class="mt-16 text-center font-heading text-3xl font-medium lg:mt-0">
+                    Probability-Statistics
+                </div>
+                <p class="mt-8"><strong>Category A</strong><br />Everyone upto undergraduate </p> <p>(Note: the paper will be set at the undergraduate level)</p>
+                <div class="flex border-black px-6 lg:border-r-2">
+                    <a
+                        href="/src/assets/prob-stat.pdf"
                         target="_blank"
                         class=" m-auto mt-12 border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:hidden"
                         >Syllabus</a
@@ -100,7 +114,7 @@
             </div>
             <div class="flex border-r-2 border-black px-6">
                 <a
-                    href="https://cdn.tessellate.cmi.ac.in/stems/Maths-Syllabus.pdf"
+                    href="/src/assets/Math.pdf"
                     target="_blank"
                     class=" m-auto mt-12 hidden border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
                     >Syllabus</a
@@ -108,7 +122,15 @@
             </div>
             <div class="flex border-r-2 border-black px-6">
                 <a
-                    href="https://cdn.tessellate.cmi.ac.in/stems/Physics-Syllabus.pdf"
+                    href="/src/assets/Physics.pdf"
+                    target="_blank"
+                    class="m-auto mt-12 hidden border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
+                    >Syllabus</a
+                >
+            </div>
+            <div class="flex border-r-2 border-black px-6">
+                <a
+                    href="/src/assets/CS.pdf"
                     target="_blank"
                     class="m-auto mt-12 hidden border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
                     >Syllabus</a
@@ -116,7 +138,7 @@
             </div>
             <div class="flex px-6">
                 <a
-                    href="https://cdn.tessellate.cmi.ac.in/stems/CS-Syllabus.pdf"
+                    href="/src/assets/prob-stat.pdf"
                     target="_blank"
                     class="m-auto mt-12 hidden border-2 border-black px-6 py-2 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white lg:block"
                     >Syllabus</a
@@ -151,7 +173,7 @@
         </div>
         <div class="flex px-6">
             <a
-                href="https://cdn.tessellate.cmi.ac.in/stems/Rules.pdf"
+                href="/src/assets/Rules.pdf"
                 target="_blank"
                 class="m-auto mb-12 border-2 border-black px-8 py-3 text-xl transition-all duration-300 hover:border-gray-600 hover:bg-gray-600 hover:text-white"
                 >Complete set of Rules</a

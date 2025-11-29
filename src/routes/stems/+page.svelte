@@ -146,7 +146,7 @@
         <!-- Register Button -->
         <div class="mt-5 h-[10vh] w-full lg:col-span-2">
             <a
-                href="https://forms.gle/5dcpEYsyTcUHVUbx5"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfstM9pTUuwvkLJl5VCBjoSENaBYTH47iFwn_fqrn_S0nuvHA/viewform?usp=dialog"
                 class="flex h-full w-full items-center justify-center bg-sea-green bg-opacity-20 text-2xl font-semibold transition-all duration-300 ease-in-out hover:bg-opacity-100 hover:text-white"
             >
                 <span>Click to Register</span>
