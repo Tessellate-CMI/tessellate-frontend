@@ -23,6 +23,10 @@
                 </div>
                 <ul class="list-inside list-disc space-y-4 px-4">
                     <li>
+                        <span class="font-semibold">Mathematics</span> <br /> 4th January, 2026
+                        (Sun)<br />Objective : 11:00 AM - 12:30 PM<br />Subjective : 1:30PM - 4:30PM
+                    </li>
+                    <li>
                         <span class="font-semibold">Probability-Statistics</span> <br /> 9th January,
                         2026 (Fri)<br />Objective : 5:00 PM - 6:30 PM<br />Subjective : 7:00PM - 10:00PM
                     </li>
@@ -34,10 +38,6 @@
                         <span class="font-semibold">Physics</span> <br /> 10th January,
                         2026 (Sat)<br
                         />2:00 PM - 6:00 PM
-                    </li>
-                    <li>
-                        <span class="font-semibold">Mathematics</span> <br /> 11th January, 2026
-                        (Sun)<br />Objective : 11:00 AM - 12:30 PM<br />Subjective : 1:30PM - 4:30PM
                     </li>
                 </ul>
             </div>

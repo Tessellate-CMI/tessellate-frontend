@@ -31,6 +31,9 @@
 
 
 
+                <p class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl text-red-500">
+                    NOTE: The date for Math STEMS has been changed to 4th January 2026.
+                </p>
                 <p class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl">
                     Registration for STEMS 2026 has started!
                 </p>
@@ -93,9 +96,8 @@
                 Details
             </div>
             <div class="p-6 px-8 text-lg">
-                STEMS will be conducted on <span class="font-semibold">9<sup>th</sup></span> (Probability-Statistics)
-                , <span class="font-semibold">10<sup>th</sup> Morning </span> (CS), <span class="font-semibold">10<sup>th</sup> Evening </span> (Physics) and
-                <span class="font-semibold">11<sup>th</sup></span> (Maths)
+                STEMS will be conducted on <span class="font-semibold">4<sup>th</sup></span> (Maths), <span class="font-semibold">9<sup>th</sup></span> (Probability-Statistics)
+                , <span class="font-semibold">10<sup>th</sup> Morning </span> (CS) and <span class="font-semibold">10<sup>th</sup> Evening </span> (Physics)
                 <span class="font-semibold">of January</span>. The test can be taken online from
                 any location; and the top 35-40 performers will be invited to CMI to attend a sponsored
                 residential camp with guest lectures by leading experts.
