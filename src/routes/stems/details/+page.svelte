@@ -27,17 +27,17 @@
                         (Sun)<br />Objective : 11:00 AM - 12:30 PM<br />Subjective : 1:30PM - 4:30PM
                     </li>
                     <li>
+                        <span class="font-semibold">Computer Science</span> <br /> 9th January,
+                        2026 (Fri)<br />10:00 AM - 1:00 PM
+                    </li>
+                    <li>
                         <span class="font-semibold">Probability-Statistics</span> <br /> 9th January,
                         2026 (Fri)<br />Objective : 5:00 PM - 6:30 PM<br />Subjective : 7:00PM - 10:00PM
                     </li>
                     <li>
-                        <span class="font-semibold">Computer Science</span> <br /> 10th January,
-                        2026 (Sat)<br />10:00 AM - 1:00 PM
-                    </li>
-                    <li>
                         <span class="font-semibold">Physics</span> <br /> 10th January,
                         2026 (Sat)<br
-                        />2:00 PM - 6:00 PM
+                        />5:00 PM - 9:00 PM
                     </li>
                 </ul>
             </div>
