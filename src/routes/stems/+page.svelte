@@ -32,16 +32,13 @@
 
 
                 <p class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl text-red-500">
-                    NOTE: The dates for some STEMS papers have been changed!
-                </p>
-                <p class="mt-1 text-center font-heading text-xl font-medium md:mt-3 md:text-3xl">
-                    Registration for STEMS 2026 has started!
+                    NOTE: The STEMS results are out
                 </p>
                 <a
-                    href="#details"
+                    href="camp"
                     class="my-2 px-6 py-2 text-center text-lg font-bold underline underline-offset-4 transition duration-300 hover:bg-black hover:text-white md:text-xl"
                 >
-                    Click here to register</a
+                    Check them out here!</a
                 >
             </div>
         </div>
