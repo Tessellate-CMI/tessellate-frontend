@@ -3,7 +3,7 @@
 
     import selected from '$lib/jsons/STEMS_List.json'
     let bg_clrs = ['bg-brick', 'bg-butterscotch']
-    let bg_opacities = ['bg-opacity-15', 'bg-opacity-30']
+    let bg_opacities = ['bg-opacity-100', 'bg-opacity-100']
 </script>
 
 <div class="mt-10 flex w-full">
@@ -11,13 +11,13 @@
         <div
             class="border-black bg-sea-green p-6 font-heading text-6xl font-semibold text-white lg:text-7xl"
         >
-            STEMS Camp 2025
+            STEMS Camp 2026
         </div>
         <!-- <p class="p-6 pb-1 md:text-lg">
             STEMS Camp will be held from <span class="font-semibold"
-                >7<sup>th</sup> February 2025</span
+                >7<sup>th</sup> April 2026</span
             >
-            to <span class="font-semibold">9<sup>th</sup> February 2025</span>. <br />
+            to <span class="font-semibold">9<sup>th</sup> April 2026</span>. <br />
         </p> -->
         <p class="p-6 md:text-lg">
             The list of selected candidates can be found here. The selected candidates to requested
@@ -28,7 +28,7 @@
 </div>
 
 <div class="mt-10 flex w-full">
-    <div class="mx-auto grid w-full max-w-screen-lg grid-cols-1 shadow-md md:grid-cols-3">
+    <div class="mx-auto grid w-full max-w-screen-lg grid-cols-1 shadow-md md:grid-cols-4">
         {#each Object.keys(selected) as subject, kdx}
             <div>
                 <div

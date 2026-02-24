@@ -1,59 +1,64 @@
 {
-    "Maths": {
-        "Category A": [
-            "Abel George Mathew",
-            "Shreya Mundhada",
-            "Raghav Jeyan Prabu",
-            "Mann Shah",
-            "Krishiv Khandelwal"
-        ],
-        "Category B": [
-            "Adhitya Mangudy Venkata Ganesh",
-            "Archit Manas",
-            "Shresth Suraiya",
-            "Kanav Talwar",
-            "Aharshi Roy",
-            "Debayu Chakrabarti",
-            "Abhinav Khetan",
-            "Om Anand Kutte",
-            "Arnav Nanal"
-        ],
-        "Category C": ["Maalav Mehta", "Krishna N Agaram"]
-    },
-    "Physics": {
-        "Category A": [
-            "Sai Dibyanshu Behera",
-            "Shresth Suraiya",
-            "Chayanika Mandal",
-            "Dakshya Mishra",
-            "Darshil Srivastava"
-        ],
-        "Category B": [
-            "Om Dubey",
-            "Avik Das",
-            "Ujjwal Aditya",
-            "Subhanshu Yadav",
-            "Sriraj Chandra",
-            "Ishaan Gupta",
-            "Vedant Saraswat",
-            "Harshvardhan Patil",
-            "Harshit Agrawal",
-            "Mithilesh A"
-        ]
-    },
-    "CS": {
-        "Category A": [
-            "Kanav Talwar",
-            "Archit Manas",
-            "Abhinav Khetan",
-            "Shreya Mundhada",
-            "Abel George Mathew",
-            "Bairav Murugan",
-            "Agrim Agarwal",
-            "Om Kutte",
-            "Saee Patil",
-            "Mann Shah"
-        ],
-        "Category B": ["Shreyan Ray", "Arpan Jain", "SIddhant Attavar", "Shankhadeep Ghosh"]
-    }
+  "CS": {
+    "Category A": [
+      "Abel George Mathew",
+      "Bairav Murugan",
+      "Shreya Mundhada",
+      "Hridika Makkar",
+      "Darshan Banerjee",
+      "Soham Sen"
+    ],
+    "Category B": [
+      "Shreyan Jha",
+      "Aditya Agrawal",
+      "Maalav Mehta",
+      "Harpuneet Singh",
+      "Pulkit Jindal",
+      "Aaron Dominic"
+    ]
+  },
+  "Physics": {
+    "Category A": [
+      "Akshat Srivastava",
+      "Svarit Joshi",
+      "Surjendu Kar",
+      "Raghav Jeyan Prabu"
+    ],
+    "Category B": [
+      "Soumyadeep Das",
+      "Bijit Moish",
+      "Harpuneet Singh",
+      "Ankur Saha",
+      "Harshvardhan Patil"
+    ]
+  },
+  "Mathematics": {
+    "Category A": [
+      "Kamlesh Sarkar",
+      "Saswata Ghosh",
+      "Saransh Tyagi"
+    ],
+    "Category B": [
+      "Abel George Mathew",
+      "Surjendu Kar",
+      "Aritra Saha",
+      "Ahaan Dangi"
+    ],
+    "Category C": [
+      "Chaitanya Mahawar",
+      "Aditya Agrawal",
+      "Shivansh Bhatnagar",
+      "Maalav Mehta",
+      "Shubham Nahata",
+      "Mayank Sharma",
+      "Gauransh Kapur"
+    ]
+  },
+  "Stats": {"Category A" : [
+    "Chaitanya Mahawar",
+    "Shreya Mundhada",
+    "Nehal Bansal",
+    "Mayank",
+    "Samadrita Bhattacharya"
+  ]}
 }
